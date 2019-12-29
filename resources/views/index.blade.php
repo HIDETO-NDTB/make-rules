@@ -8,8 +8,8 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ asset('app/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('app/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
@@ -109,19 +109,19 @@
         <br>
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="img/p01.png" alt=""></a>
+            <a href="#"><img src="{{ asset('app/img/p01.png') }}" alt=""></a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="img/p03.png" alt=""></a>
+            <a href="#"><img src="{{ asset('app/img/p03.png') }}" alt=""></a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="img/p02.png" alt=""></a>
+            <a href="#"><img src="{{ asset('app/img/p02.png') }}" alt=""></a>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
       </div>
       <div class="col-lg-2"></div>
       <div class="col-lg-10 col-lg-offset-1">
-        <img class="img-responsive" src="img/munter.png" alt="">
+        <img class="img-responsive" src="{{ asset('app/img/munter.png') }}" alt="">
       </div>
     </div>
     <!-- row -->
@@ -155,19 +155,19 @@
       <div class="row centered">
         <h4>OUR AWESOME CLIENTS</h4>
         <div class="col-lg-2 col-lg-offset-1">
-          <img src="img/c01.gif" alt="">
+          <img src="{{ asset('app/img/c01.gif') }}" alt="">
         </div>
         <div class="col-lg-2">
-          <img src="img/c02.gif" alt="">
+          <img src="{{ asset('app/img/c02.gif') }}" alt="">
         </div>
         <div class="col-lg-2">
-          <img src="img/c03.gif" alt="">
+          <img src="{{ asset('app/img/c03.gif') }}" alt="">
         </div>
         <div class="col-lg-2">
-          <img src="img/c04.gif" alt="">
+          <img src="{{ asset('app/img/c04.gif') }}" alt="">
         </div>
         <div class="col-lg-2">
-          <img src="img/c05.gif" alt="">
+          <img src="{{ asset('app/img/c05.gif') }}" alt="">
         </div>
       </div>
       <!-- row -->
