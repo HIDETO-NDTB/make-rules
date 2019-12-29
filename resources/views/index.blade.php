@@ -4,7 +4,7 @@
 <div id="dg">
     <div class="container">
       <div class="row centered">
-        <h4>LATEST WORKS</h4>
+        <h4>LATEST RULES</h4>
         <br>
         <div class="col-lg-4">
           <div class="tilt">
