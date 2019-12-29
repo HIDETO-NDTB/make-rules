@@ -12,10 +12,10 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
           <li><a class="btn btn-primary" style="color:white;" href="#">国　自治体</a></li>
-          <li><a href="#">会社</a></li>
-          <li><a href="#">学校</a></li>
-          <li><a href="#">家族　親戚</a></li>
-          <li><a href="#">男女　恋愛</a></li>
+          <li><a class="btn btn-primary" style="color:white;" href="#">会社</a></li>
+          <li><a class="btn btn-primary" style="color:white;" href="#">学校</a></li>
+          <li><a class="btn btn-primary" style="color:white;" href="#">家族　親戚</a></li>
+          <li><a class="btn btn-primary" style="color:white;" href="#">男女　恋愛</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
