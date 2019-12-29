@@ -41,15 +41,15 @@
     <div class="row centered">
       <br><br>
       <div class="col-lg-4">
-        <i class="fa fa-heart"></i>
-        <h4>DESIGN</h4>
+        <i class="fas fa-gavel"></i>
+        <h4>投票間近</h4>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
       </div>
       <!-- col-lg-4 -->
 
       <div class="col-lg-4">
         <i class="fa fa-laptop"></i>
-        <h4>BOOTSTRAP</h4>
+        <h4>新・発議</h4>
         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
       </div>
       <!-- col-lg-4 -->
