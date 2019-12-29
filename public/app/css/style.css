@@ -32,7 +32,8 @@ p {
 }
 
 .centered {
-  text-align: center;
+  text-align: left;
+  margin-left: 5px;
 }
 
 /* Links */
