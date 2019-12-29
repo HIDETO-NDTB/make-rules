@@ -9,6 +9,7 @@
         <div class="col-lg-4">
           <div class="tilt">
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
+            <label>エアコンの温度設定は女性が決める</label>
           </div>
         </div>
 
