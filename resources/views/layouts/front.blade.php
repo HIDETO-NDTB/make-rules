@@ -41,9 +41,9 @@
     <div class="row centered">
       <br><br>
       <div class="col-lg-4">
-        <i class="fa fa-hammer"></i>
+        <i class="fas fa-hammer"></i>
         <h4>投票間近</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+        <a href="#">ベーシックインカム。全国民に毎月５万円を支給</a>
       </div>
       <!-- col-lg-4 -->
 
