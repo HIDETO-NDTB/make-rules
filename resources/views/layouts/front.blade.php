@@ -54,14 +54,18 @@
       <div class="col-lg-4">
         <i class="far fa-folder-open"></i>
         <h4>新 発議</h4>
-        <a href="#">学校制服廃止法案</a>
+        <ul>
+        <li><a href="#">学校制服廃止法案</a></ul>
+        </ul>
       </div>
       <!-- col-lg-4 -->
 
       <div class="col-lg-4">
         <i class="fas fa-search-location"></i>
         <h4>熱 注目</h4>
-        <a href="#">出産を免許制にしませんか？</a>
+        <ul>
+        <li><a href="#">出産を免許制にしませんか？</a></li>
+        </ul>
       </div>
       <!-- col-lg-4 -->
     </div>
