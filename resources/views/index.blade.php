@@ -35,14 +35,26 @@
     <div class="row centered">
       <br><br>
       <div class="col-lg-8 col-lg-offset-2">
-        <h4>WE CREATE FIRST CLASS DESIGN</h4>
-        <p>By being true to the brand we represent, we elevate the audiences’ relationship to it. Like becomes love becomes a passion. Passion becomes advocacy. And we see the brand blossom from within, creating a whole story the audience embraces. That’s
-          when the brand can truly flex its muscles.</p>
+        <h4>発議一覧</h4>
+        <p></p>
+        <ul>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
+        </ul>
         <p><br/><br/></p>
       </div>
       <div class="col-lg-2"></div>
       <div class="col-lg-10 col-lg-offset-1">
-        <img class="img-responsive" src="{{ asset('app/img/munter.png') }}" alt="">
+        <img class="img-responsive" src="" alt="">
       </div>
     </div>
 <!-- row -->

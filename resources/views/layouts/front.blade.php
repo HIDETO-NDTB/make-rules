@@ -55,7 +55,7 @@
         <i class="far fa-folder-open"></i>
         <h4>新 発議</h4>
         <ul>
-        <li><a href="#">学校制服廃止法案（２月３日発議）</a></ul>
+        <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
         </ul>
       </div>
       <!-- col-lg-4 -->
