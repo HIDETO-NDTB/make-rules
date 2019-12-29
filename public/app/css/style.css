@@ -68,7 +68,6 @@ hr {
   font-size: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-  color:darkred;
 }
 
 .navbar-inverse {
@@ -91,6 +90,10 @@ hr {
   color: #ff7878;
   font-size: 30px;
   letter-spacing: 1px;
+}
+
+.navbar a {
+    color: black;
 }
 
 /*TILT*/
