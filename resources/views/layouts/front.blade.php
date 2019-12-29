@@ -44,8 +44,10 @@
       <div class="col-lg-4">
         <i class="fas fa-hammer"></i>
         <h4>投票間近</h4>
-        <a href="#">ベーシックインカム。全国民に毎月５万円を支給</a>
-        <a href="#">毎年１回は海外旅行！</a>
+        <ul>
+            <li><a href="#">ベーシックインカム。全国民に毎月５万円を支給</a></li>
+            <li><a href="#">毎年１回は海外旅行！</a></li>
+        </ul>
       </div>
       <!-- col-lg-4 -->
 
