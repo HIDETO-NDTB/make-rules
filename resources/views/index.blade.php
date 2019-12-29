@@ -16,12 +16,14 @@
         <div class="col-lg-4">
           <div class="tilt">
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
+            <label>週に一度は私服通学DAY！</label>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
+            <label>義理チョコ廃止！！</label>
           </div>
         </div>
       </div>
