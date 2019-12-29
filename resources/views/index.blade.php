@@ -8,19 +8,19 @@
         <br>
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="{{ asset('app/img/p01.png') }}" alt=""></a>
+            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="{{ asset('app/img/p03.png') }}" alt=""></a>
+            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="{{ asset('app/img/p02.png') }}" alt=""></a>
+            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
           </div>
         </div>
       </div>
