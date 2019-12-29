@@ -45,20 +45,21 @@
         <i class="fas fa-hammer"></i>
         <h4>投票間近</h4>
         <a href="#">ベーシックインカム。全国民に毎月５万円を支給</a>
+        <a href="#">毎年１回は海外旅行！</a>
       </div>
       <!-- col-lg-4 -->
 
       <div class="col-lg-4">
-        <i class="fa fa-laptop"></i>
-        <h4>新・発議</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+        <i class="far fa-folder-open"></i>
+        <h4>新 発議</h4>
+        <a href="#">学校制服廃止法案</a>
       </div>
       <!-- col-lg-4 -->
 
       <div class="col-lg-4">
-        <i class="fa fa-trophy"></i>
-        <h4>SUPPORT</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.</p>
+        <i class="fas fa-search-location"></i>
+        <h4>熱 注目</h4>
+        <a href="#">出産を免許制にしませんか？</a>
       </div>
       <!-- col-lg-4 -->
     </div>
