@@ -39,13 +39,13 @@ p {
 /* Links */
 
 a {
-  color: #f85c37;
+  color: black;
   word-wrap: break-word;
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover, a:focus {
-  color: #7b7b7b;
+  color: #f85c37;
   text-decoration: none;
   outline: 0;
 }
@@ -71,7 +71,7 @@ hr {
 }
 
 .navbar-inverse {
-  background: #9b5b5b;
+  background: #8D3043;
   border-color: #744f4f;
 }
 
