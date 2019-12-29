@@ -65,13 +65,14 @@ hr {
 .navbar {
   font-weight: 800;
   font-size: 14px;
+  font-weight: bold;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-inverse {
-  background: #2d2d2d;
-  border-color: #2d2d2d;
+  background: #9b5b5b;
+  border-color: #744f4f;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
