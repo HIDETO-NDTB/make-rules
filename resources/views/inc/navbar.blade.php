@@ -7,15 +7,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-        <a class="navbar-brand" href="#">SP<i class="fa fa-circle"></i>T</a>
+        <a class="navbar-brand" href="#">Make Rules</a>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="services.html">SERVICES</a></li>
-          <li><a href="works.html">WORKS</a></li>
-          <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          <li><a href="#">国　自治体</a></li>
+          <li><a href="#">会社</a></li>
+          <li><a href="#">学校</a></li>
+          <li><a href="#">家族　親戚</a></li>
+          <li><a href="#">男女　恋愛</a></li>
         </ul>
       </div>
       <!--/.nav-collapse -->
