@@ -142,7 +142,7 @@
   <div id="copyrights">
     <div class="container">
       <p>
-        &copy; Copyrights <strong>Spot</strong>. All Rights Reserved
+        &copy; Copyrights <strong>Make Rules</strong>. All Rights Reserved
       </p>
       <div class="credits">
         <!--
