@@ -96,6 +96,10 @@ hr {
     color: black;
 }
 
+li {
+    list-style: none;
+}
+
 /*TILT*/
 
 .tilt {
