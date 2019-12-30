@@ -18,8 +18,8 @@
   <link href="{{ secure_asset('app/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="{{ secure_asset('app/lib/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 
   <!-- Main Stylesheet File -->
   <link href="{{ secure_asset('app/css/style.css') }}" rel="stylesheet">
