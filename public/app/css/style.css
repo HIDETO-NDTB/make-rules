@@ -83,6 +83,10 @@ hr {
   letter-spacing: 3px;
 }
 
+.navbar a {
+    margin-left: 50px;
+}
+
 li {
     list-style: none;
 }
