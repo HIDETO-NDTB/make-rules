@@ -40,7 +40,7 @@
       <br>
         <h4>規則討論会</h4>
       <br>
-        <div class="col-lg-6">
+        <div class="col-lg-5">
             <div class="card">
                 <div class="card-body">
               <h4 class="card-title">賛成派意見</h4>
@@ -48,7 +48,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-5">
             <div class="card">
               <h4 class="card-header">反対派意見</h4>
             </div>
