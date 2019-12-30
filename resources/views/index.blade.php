@@ -42,10 +42,10 @@
         <br>
         <div class="row">
             <div class="col-lg-6">
-                <div class="card border-primary">
-                    <div class="card-body border-primary">
-                        <h4 class="card-title">賛成派意見</h4>
-                        <p class="card-text">条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p>
+                <div class="samp border-primary">
+                    <div class="samp-body border-primary">
+                        <h4 class="samp-title">賛成派意見</h4>
+                        <p class="samp-text">条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p>
                     </div>
                 </div>
             </div>
