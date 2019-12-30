@@ -44,10 +44,10 @@
       <div class="col-lg-4">
         <i class="fas fa-hammer"></i>
         <h4><span>近</span> 投票</h4>
-        <ul>
+
             <li><a href="#">ベーシックインカム。全国民に毎月５万円を支給（あと３日で投票日）</a></li>
             <li><a href="#">毎年１回は海外旅行！（あと５日で投票日）</a></li>
-        </ul>
+
       </div>
       <!-- col-lg-4 -->
 
