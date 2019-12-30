@@ -167,6 +167,20 @@ li {
 
 /* Blue Wrap */
 
+#blue {
+  background: #3498db;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+#blue h4 {
+  color: white;
+  font-weight: 700;
+}
+
+#blue p {
+  color: white;
+}
 
 /* Footer Wrap */
 
@@ -494,4 +508,9 @@ li {
 
 .comments a {
     font-weight: bold;
+}
+
+.comments btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
