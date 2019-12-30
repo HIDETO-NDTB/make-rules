@@ -79,11 +79,15 @@ hr {
   background: #ff7878
 }
 
-.navbar-inverse .navbar-brand {
-  color: black;
+.navbar-inverse {
+  color: whitesmoke;
   font-weight: bolder;
   font-size: 36px;
   letter-spacing: 3px;
+}
+
+.navbar-brand {
+    color: black;
 }
 
 .navbar-inverse .navbar-brand i {
