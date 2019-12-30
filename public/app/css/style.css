@@ -528,7 +528,10 @@ hr {
   color: #999;
 }
 
-.comments a {
+.comments {
     text-align: center;
+}
+
+.comments a {
     font-weight: bold;
 }
