@@ -75,10 +75,6 @@ hr {
   border-color: #8D3043;
 }
 
-.navbar-inverse .navbar-nav>.active>a {
-  background: #ff7878
-}
-
 .navbar-header h1 {
   color: white;
   font-weight: bold;
