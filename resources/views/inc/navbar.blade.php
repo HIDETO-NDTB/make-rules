@@ -12,7 +12,7 @@
                     <h1>Make Rules</h1>
             </div>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-6">
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-left">
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 5px;" href="#">国　自治体</a></li>
@@ -22,6 +22,11 @@
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 5px;" href="#">男女　恋愛</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="col-lg-3">
+            <li class="nav-item navbar-right">
+                <a class="nav-link" style="width:120px; margin: 10px 5px;" href="">Login</a>
+            </li>
         </div>
     </div>
         <!--/.nav-collapse -->
