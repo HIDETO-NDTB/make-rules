@@ -256,6 +256,10 @@ hr {
   font-size: 30px;
 }
 
+.w span {
+    background-color: red;
+}
+
 .wb {
   padding-top: 35px;
   margin-bottom: 0px;
@@ -529,7 +533,7 @@ hr {
 }
 
 .comments {
-    text-align: center;
+    text-align: right;
 }
 
 .comments h4 {
