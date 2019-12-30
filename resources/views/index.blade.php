@@ -38,7 +38,6 @@
 <div class="container wb">
     <div class="row centered">
       <br><br>
-      <div class="col-lg-10 col-lg-offset-2">
         <h4>発議一覧</h4>
         <p></p>
         <ul>
