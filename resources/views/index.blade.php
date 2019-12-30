@@ -138,8 +138,11 @@
             <h4>管理者より</h4>
             <div class="col-lg-8 col-lg-offset-2">
                 <a href="">2020.1.28 Make Rulesリリースのお知らせ</a><br>
+                <br>
                 <a href="">2020.1.31 不具合修正のお知らせ</a><br>
+                <br>
                 <a href="">2020.2.2 当webサービスの利用方法に関するお知らせ</a><br>
+                <br>
             </div>
          <!-- row -->
         </div>
