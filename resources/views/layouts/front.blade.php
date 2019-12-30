@@ -43,7 +43,7 @@
       <br><br>
       <div class="col-lg-4">
         <i class="fas fa-hammer"></i>
-        <h4>近 投票</h4>
+        <h4><span>近</span> 投票</h4>
         <ul>
             <li><a href="#">ベーシックインカム。全国民に毎月５万円を支給（あと３日で投票日）</a></li>
             <li><a href="#">毎年１回は海外旅行！（あと５日で投票日）</a></li>
@@ -53,7 +53,7 @@
 
       <div class="col-lg-4">
         <i class="far fa-folder-open"></i>
-        <h4>新 発議</h4>
+        <h4><span>新</span> 発議</h4>
         <ul>
         <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
         </ul>
@@ -62,9 +62,10 @@
 
       <div class="col-lg-4">
         <i class="fas fa-search-location"></i>
-        <h4>熱 注目</h4>
+        <h4><span>熱</span> 注目</h4>
         <ul>
         <li><a href="#">出産を免許制にしませんか？（コメント数９７件）</a></li>
+        <li><a href="#">ベーシックインカム。全国民に毎月５万円を支給（コメント数７３件）</a></li>
         </ul>
       </div>
       <!-- col-lg-4 -->
