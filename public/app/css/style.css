@@ -64,6 +64,8 @@ hr {
 }
 
 .navbar {
+  font-weight: 800;
+  font-size: 30px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -71,10 +73,6 @@ hr {
 .navbar-inverse {
   background: #8D3043;
   border-color: #8D3043;
-}
-
-.navbar-inverse li {
-    color: black;
 }
 
 .navbar-inverse .navbar-nav>.active>a {
