@@ -82,6 +82,11 @@ hr {
   letter-spacing: 3px;
 }
 
+.category {
+    margin: auto;
+    color: black;
+}
+
 li {
     list-style: none;
 }
