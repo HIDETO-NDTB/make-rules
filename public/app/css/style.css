@@ -44,6 +44,12 @@ a {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+a:hover, a:focus {
+  color: #ff7878;
+  text-decoration: none;
+  outline: 0;
+}
+
 a:before, a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
