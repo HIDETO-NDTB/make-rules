@@ -5,7 +5,6 @@
     <div class="container">
       <div class="row centered">
         <h4>LATEST RULES</h4>
-        <br>
         <p>最近決議された規則です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
@@ -58,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <a class="btn btn-primary" style="width: 120px;" href="">詳しく見る</a>
+        <a class="btn btn-primary" style="width: 120px; margin: 0auto;" href="">詳しく見る</a>
 
         <p><br/><br/></p>
       </div>
