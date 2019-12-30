@@ -73,6 +73,10 @@ hr {
   border-color: #8D3043;
 }
 
+.navbar-inverse ul {
+    color: black;
+}
+
 .navbar-inverse .navbar-nav>.active>a {
   background: #ff7878
 }
