@@ -79,7 +79,7 @@ hr {
   background: #ff7878
 }
 
-.navbar-inverse .navbar-brand {
+.navbar-header h1 {
   color: white;
   font-weight: bolder;
   font-size: 36px;
