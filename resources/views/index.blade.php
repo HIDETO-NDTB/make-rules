@@ -56,8 +56,9 @@
                     </div>
                 </div>
             </div>
+            <a class="btn btn-primary" style="width: 120px;" href="">詳しく見る</a>
         </div>
-        <a class="btn btn-primary" style="width: 120px;" href="">詳しく見る</a>
+
 
         <p><br/><br/></p>
       </div>

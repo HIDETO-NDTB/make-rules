@@ -527,3 +527,8 @@ hr {
 .credits {
   color: #999;
 }
+
+.comments a {
+    text-align: center;
+    font-weight: bold;
+}
