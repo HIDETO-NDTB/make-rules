@@ -193,6 +193,10 @@ li {
   font-weight: 700;
 }
 
+#lg a {
+    margin-bottom: 10px;
+}
+
 /* Red Wrap */
 
 #r {
