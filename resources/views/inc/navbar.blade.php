@@ -2,6 +2,13 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">SP<i class="fa fa-circle"></i>T</a>
+          </div>
             <h1>Make Rules</h1>
         </div>
         <div class="navbar-collapse collapse">
