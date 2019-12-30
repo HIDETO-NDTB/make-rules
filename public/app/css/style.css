@@ -45,7 +45,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: black;
+  color: #8D3043;
   text-decoration: none;
   outline: 0;
 }
