@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <input class="btn btn-primary width:100px; text-align:center;" type="button" name="view" value="詳しく見る">
+            <input class="btn btn-primary" style="width: 120px; text-align:center;" type="button" name="view" value="詳しく見る">
         </div>
 
         <p><br/><br/></p>
