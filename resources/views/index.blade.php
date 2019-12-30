@@ -38,21 +38,18 @@
 <div class="container wb">
     <div class="row centered">
       <br><br>
-        <h4>発議一覧</h4>
-        <p></p>
-        <ul>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-            <li><a href="#">学校制服廃止法案（２月３日発議）</a></li>
-        </ul>
+        <h4>規則討論会</h4>
+        <div class="col-lg-6">
+            <h5>賛成派意見</h5>
+
+
+        </div>
+        <div class="col-lg-6">
+            <h5>反対派意見</h5>
+
+
+        </div>
+
         <p><br/><br/></p>
       </div>
       <div class="col-lg-2"></div>
