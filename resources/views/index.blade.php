@@ -8,14 +8,14 @@
         <p>最近決議された規則です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a><br>
+            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>エアコンの設定温度は女性が決める</label>
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a><br>
+            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>週に一度は私服通学DAY！</label>
           </div>
         </div>
