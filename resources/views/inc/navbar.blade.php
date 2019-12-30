@@ -25,7 +25,7 @@
         </div>
         <div class="col-lg-3">
             <li class="nav-item navbar-right">
-                <a class="nav-link" style="width:120px; margin: 10px 5px;" href="">Login</a>
+                <a class="btn btn-primary" style="width:120px; margin: 10px 5px;" href="">Login</a>
             </li>
         </div>
     </div>
