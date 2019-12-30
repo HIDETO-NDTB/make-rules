@@ -37,11 +37,12 @@
 <!-- FEATURE SECTION -->
 <div class="container wb">
     <div class="row centered">
-      <br><br>
+      <br>
         <h4>規則討論会</h4>
+      <br>
         <div class="col-lg-6">
             <div class="card">
-              <div class="card-header">賛成派意見</div>
+              <h4 class="card-header">賛成派意見</h4>
             </div>
             <div class="card-body">
               <p>条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p>
@@ -49,7 +50,7 @@
         </div>
         <div class="col-lg-6">
             <div class="card">
-              <div class="card-header">反対派意見</div>
+              <h4 class="card-header">反対派意見</h4>
             </div>
             <div class="card-body">
               <p>全面的に反対。少子高齢化が深刻な問題となっている日本でこのような規則を議論すること自体がおかしい。免許制にするばかりか、国がもっと適齢夫婦の出産・育児をサポートする法案が不可欠。それについては２週間以内にしっかりと考えて発議させて頂きます！！</p>
