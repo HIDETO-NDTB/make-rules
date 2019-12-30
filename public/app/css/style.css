@@ -141,22 +141,6 @@ li {
   background-size: cover;
 }
 
-#headerwrap h1 {
-  margin-top: 100px;
-  color: gray;
-  font-size: 70px;
-  font-weight: 300;
-  letter-spacing: 3px;
-}
-
-#headerwrap h2 {
-  color: gray;
-  font-size: 40px;
-  font-weight: 700;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
 @media (max-width: 768px ) {
   #headerwrap h1 {
     font-size: 50px;
