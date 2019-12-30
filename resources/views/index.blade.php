@@ -22,7 +22,7 @@
 
         <div class="col-lg-4">
           <div class="tilt">
-            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a><br>
+            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>義理チョコ廃止！！</label>
           </div>
         </div>
@@ -78,6 +78,7 @@
             </div>
             <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
         </div>
+        <br>
         <div class="comments">
             <div class="col-lg-6">
                 <div class="comment">
