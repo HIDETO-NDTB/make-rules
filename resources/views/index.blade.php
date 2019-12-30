@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-67">
+            <div class="col-lg-6">
                 <div class="card border-dark">
                     <div class="card-body text-dark">
                         <h4 class="card-title">反対派意見</h4>
@@ -57,6 +57,7 @@
                     </div>
                 </div>
             </div>
+            <input class="btn btn-primary" type="button" value="">
         </div>
 
         <p><br/><br/></p>
