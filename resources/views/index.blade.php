@@ -39,7 +39,7 @@
         <br>
         <h4>規則討論会</h4>
         <br>
-        <div class="row">
+        <div class="comments">
             <div class="col-lg-6">
                 <div class="samp border-primary">
                     <div class="samp-body border-primary">
