@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <input class="btn btn-primary" type="button" value="">
+            <input class="btn btn-primary" type="button" name="view" value="詳しく見る">
         </div>
 
         <p><br/><br/></p>
