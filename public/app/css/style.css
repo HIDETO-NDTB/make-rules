@@ -63,6 +63,11 @@ hr {
   padding: 0;
 }
 
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .navbar-inverse {
   background: #8D3043;
   border-color: #8D3043;
