@@ -532,6 +532,14 @@ hr {
     text-align: center;
 }
 
+.comments h4 {
+    text-align: left;
+}
+
+.comments p {
+    text-align: left;
+}
+
 .comments a {
     font-weight: bold;
 }
