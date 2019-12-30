@@ -134,25 +134,15 @@
 
 <div id="lg">
     <div class="container">
-      <div class="row centered">
-        <h4>OUR AWESOME CLIENTS</h4>
-        <div class="col-lg-2 col-lg-offset-1">
-          <img src="{{ asset('app/img/c01.gif') }}" alt="">
+        <div class="row centered">
+            <h4>管理者より</h4>
+            <div class="col-lg-8 col-lg-offset-2">
+                <a href="">2020.1.28 Make Rulesリリースのお知らせ</a><br>
+                <a href="">2020.1.31 不具合修正のお知らせ</a><br>
+                <a href="">2020.2.2 当webサービスの利用方法に関するお知らせ</a><br>
+            </div>
+         <!-- row -->
         </div>
-        <div class="col-lg-2">
-          <img src="{{ asset('app/img/c02.gif') }}" alt="">
-        </div>
-        <div class="col-lg-2">
-          <img src="{{ asset('app/img/c03.gif') }}" alt="">
-        </div>
-        <div class="col-lg-2">
-          <img src="{{ asset('app/img/c04.gif') }}" alt="">
-        </div>
-        <div class="col-lg-2">
-          <img src="{{ asset('app/img/c05.gif') }}" alt="">
-        </div>
-      </div>
-      <!-- row -->
     </div>
     <!-- container -->
 </div>
