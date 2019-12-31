@@ -43,7 +43,7 @@
 
   <!-- PORTFOLIO SECTION -->
 
-
+  @yield('page')
 
   @include('inc/footer')
 
@@ -52,8 +52,6 @@
   <!-- /.modal -->
 
   @include('inc/copyrights')
-
-  @yield('page')
 
   <!-- JavaScript Libraries -->
   <script src="{{ secure_asset('app/lib/jquery/jquery.min.js') }}"></script>
