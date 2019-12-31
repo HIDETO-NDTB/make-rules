@@ -10,4 +10,9 @@ class FrontEndController extends Controller
 
         return view('index');
     }
+
+    public function category(){
+
+        return view('category');
+    }
 }
