@@ -55,7 +55,7 @@
               <!-- START PRICING TABLE -->
                 <div class="pricing-option">
                     <div class="pricing-top">
-                        <span class="pricing-edition"></span>採用率</span>
+                        <span class="pricing-edition">採用率</span>
                         <span class="price">
                             <sup></sup>
                             <span class="price-amount">25</span>
