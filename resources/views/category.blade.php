@@ -7,7 +7,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h4>国　自治体</h4>
                 <br>
-                <div class="col-lg-4">
+                <div class="col-lg-12">
                     <!-- START PRICING TABLE -->
                     <div class="pricing-option">
                         <div class="pricing-top">
