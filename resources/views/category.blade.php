@@ -2,7 +2,7 @@
 @section('page')
 
   <!-- PRICING SECTION -->
-  <div id="dg">
+  <div id="dh">
     <div class="container">
         <div class="row centered">
             <h4>PRICING PLANS</h4>

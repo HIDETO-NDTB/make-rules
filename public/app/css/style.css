@@ -177,7 +177,17 @@ li {
 
 #dg h4 {
   font-weight: 700;
-  margin-top: 50px;
+}
+
+#dh {
+    background: #e0e0e0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#dh h4 {
+    margin-top: 50px;
 }
 
 /* Light Grey */
