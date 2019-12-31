@@ -114,6 +114,25 @@ li {
   transform: rotate(-10deg);
 }
 
+.comments {
+    text-align: right;
+    border: 1px solid gray;
+}
+
+.comments h4 {
+    text-align: left;
+}
+
+.comments p {
+    text-align: left;
+}
+
+.comments a {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
@@ -506,21 +525,8 @@ li {
   color: #999;
 }
 
-.comments {
-    text-align: right;
-    border: 1px solid gray;
+.card {
+    border: 1px solid black;
 }
 
-.comments h4 {
-    text-align: left;
-}
 
-.comments p {
-    text-align: left;
-}
-
-.comments a {
-    font-weight: bold;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
