@@ -342,7 +342,7 @@ li {
 
 .pricing-option .pricing-top {
   position: relative;
-  background: #1abc9c;
+  background: gray;
   color: white;
   text-align: center;
   font-weight: bold;
