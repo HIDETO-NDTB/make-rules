@@ -85,17 +85,11 @@ hr {
 
 .navbar a {
     margin-left: 50px;
-    color: black;
 }
 
 .nav-item a {
     font-size: 20px;
     margin: 10px 10px;
-    color: black;
-}
-
-.navbar-left a {
-    color: black;
 }
 
 li {
