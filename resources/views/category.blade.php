@@ -5,7 +5,6 @@
     <div class="container">
         <div class="row centered">
                 <div class="col-lg-6">
-                    <h4>国　自治体</h4>
                     <!-- START PRICING TABLE -->
                     <div class="pricing-option">
                         <div class="pricing-top">
