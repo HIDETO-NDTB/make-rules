@@ -1,72 +1,39 @@
 @extends('layouts/front')
 @section('page')
 
-  <!-- Fixed navbar -->
-
-
-
-  <!-- blue wrap -->
-
-  <div class="container w">
+<div class="container w">
     <div class="row centered">
-      <br><br>
-      <div class="col-lg-4">
-        <i class="fa fa-desktop"></i>
-        <h4>WEB DESIGN</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div>
-      <!-- col-lg-4 -->
-
-      <div class="col-lg-4">
-        <i class="fa fa-cogs"></i>
-        <h4>WEB DEVELOPMENT</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div>
-      <!-- col-lg-4 -->
-
-      <div class="col-lg-4">
-        <i class="fa fa-eye"></i>
-        <h4>SEO SERVICES</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div>
-      <!-- col-lg-4 -->
+        <br><br>
+        <div class="col-lg-12">
+            <table>
+                <tr>
+                    <th>発議名</th>
+                    <th>写真</th>
+                    <th>発案者</th>
+                    <th>内容</th>
+                </tr>
+                <tr>
+                    <td>ベーシックインカム。全国民に毎月５万円を支給</td>
+                    <td></td>
+                    <td>首藤英人</td>
+                    <td>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <!-- row -->
     <br>
-    <div class="row centered">
-      <br><br>
-      <div class="col-lg-4">
-        <i class="fa fa-heart"></i>
-        <h4>SOCIAL MEDIA</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div>
-      <!-- col-lg-4 -->
-
-      <div class="col-lg-4">
-        <i class="fa fa-shopping-cart"></i>
-        <h4>E-COMMERCE</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div>
-      <!-- col-lg-4 -->
-
-      <div class="col-lg-4">
-        <i class="fa fa-cloud"></i>
-        <h4>CLOUD SERVICES</h4>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-      </div>
-      <!-- col-lg-4 -->
-    </div>
     <!-- row -->
-  </div>
+</div>
   <!-- container -->
 
   <!-- PRICING SECTION -->
-  <div id="dg">
-    <div class="container">
-      <div class="row centered">
-        <h4>PRICING PLANS</h4>
-        <br>
-        <div class="col-lg-4">
+<div id="dg">
+<div class="container">
+    <div class="row centered">
+    <h4>PRICING PLANS</h4>
+    <br>
+    <div class="col-lg-4">
           <!-- START PRICING TABLE -->
           <div class="pricing-option">
             <div class="pricing-top">
