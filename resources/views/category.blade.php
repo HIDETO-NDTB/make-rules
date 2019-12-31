@@ -1,6 +1,18 @@
 @extends('layouts/front')
 @section('page')
 
+<div id="headerwrap">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-8 col-lg-offset-2">
+              <h1></h1>
+              <h2></h2>
+            </div>
+        </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+</div>
   <!-- PRICING SECTION -->
   <div id="dh">
     <div class="container">
