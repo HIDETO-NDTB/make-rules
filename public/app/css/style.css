@@ -530,7 +530,7 @@ li {
     border-bottom: 5px solid gray;
 }
 
-.card h5 {
+.card span {
     font-weight: bold;
 }
 
