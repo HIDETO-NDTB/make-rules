@@ -526,7 +526,8 @@ li {
 }
 
 .card {
-    border: 1px solid black;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
 }
 
 
