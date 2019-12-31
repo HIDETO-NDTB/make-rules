@@ -1,3 +1,8 @@
+@extends('layouts/front')
+@section('page')
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -327,3 +332,5 @@
 </body>
 
 </html>
+
+@endsection
