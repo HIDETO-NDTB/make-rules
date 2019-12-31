@@ -26,6 +26,7 @@
                         <li>発議日: 2020年1月30日</li>
                         <li>投票日: 2020年2月6日</li>
                         </div>
+                        <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                     </ul>
                 </div>
             </div>
