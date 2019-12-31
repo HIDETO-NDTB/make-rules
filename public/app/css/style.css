@@ -530,4 +530,8 @@ li {
     border-bottom: 5px solid gray;
 }
 
+.card h5 {
+    font-weight: bold;
+}
+
 
