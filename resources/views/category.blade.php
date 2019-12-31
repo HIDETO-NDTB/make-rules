@@ -1,5 +1,5 @@
-@extends('layouts.front')
-@section('page')
+@extends('layouts.app')
+@section('content')
 
 
 
@@ -11,8 +11,6 @@
   ======================================================= -->
 
 <body>
-  <!-- Fixed navbar -->
-  @include('inc/navbar')
 
   <div id="blue">
     <div class="container">
