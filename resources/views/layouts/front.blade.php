@@ -36,8 +36,6 @@
 
   @include('inc/navbar')
 
-  @yield('page')
-
   @include('inc/header')
 
   @include('inc/new')
@@ -45,7 +43,7 @@
 
   <!-- PORTFOLIO SECTION -->
 
-
+  @yield('page')
 
   @include('inc/footer')
 
