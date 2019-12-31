@@ -5,27 +5,24 @@
   <div id="dh">
     <div class="container">
         <div class="row centered">
-            <h4>PRICING PLANS</h4>
+            <h4>国　自治体</h4>
             <br>
             <div class="col-lg-4">
                 <!-- START PRICING TABLE -->
                 <div class="pricing-option">
                     <div class="pricing-top">
-                        <span class="pricing-edition">Starter</span>
+                        <span class="pricing-edition">全発議数</span>
                         <span class="price">
-                            <sup>$</sup>
-                            <span class="price-amount">19</span>
-                            <small>/mo</small>
+                            <sup></sup>
+                            <span class="price-amount">100</span>
+                            <small>案件</small>
                         </span>
                     </div>
                     <ul>
-                        <li><strong>10GB</strong> Storage</li>
-                        <li>Up to <strong>10</strong> Users</li>
-                        <li><strong>5</strong> Domains</li>
-                        <li><strong>Free</strong> Setup</li>
-                        <li><strong>1-year</strong> Free support *</li>
+                        <li>当月　<strong>10案件</strong></li>
+                        <li>前月 <strong>30案件</strong></li>
+                        <li>前々月　<strong>5案件</strong></li>
                     </ul>
-                    <a href="index.html#" class="pricing-signup">Sign up</a>
                 </div>
                 <!-- /pricing-option -->
                 <!-- END PRICING TABLE -->
@@ -36,21 +33,18 @@
                 <!-- START PRICING TABLE -->
                 <div class="pricing-option">
                     <div class="pricing-top">
-                        <span class="pricing-edition">Standard</span>
+                        <span class="pricing-edition">採用数</span>
                         <span class="price">
-                            <sup>$</sup>
-                            <span class="price-amount">29</span>
-                            <small>/mo</small>
+                            <sup></sup>
+                            <span class="price-amount">25</span>
+                            <small>案件</small>
                         </span>
                     </div>
                     <ul>
-                        <li><strong>20GB</strong> Storage</li>
-                        <li>Up to <strong>20</strong> Users</li>
-                        <li><strong>10</strong> Domains</li>
-                        <li><strong>Free</strong> Setup</li>
-                        <li><strong>2-year</strong> Free support *</li>
+                        <li>当月　<strong>2案件</strong></li>
+                        <li>前月　<strong>3案件</strong></li>
+                        <li>前々月　<strong>1案件</strong></li>
                     </ul>
-                    <a href="index.html#" class="pricing-signup">Sign up</a>
                 </div>
                 <!-- /pricing-option -->
                 <!-- END PRICING TABLE -->
@@ -61,22 +55,18 @@
               <!-- START PRICING TABLE -->
                 <div class="pricing-option">
                     <div class="pricing-top">
-                        <span class="special-label">OFFER!</span>
-                        <span class="pricing-edition">Ultimate</span>
+                        <span class="pricing-edition">％</span>
                         <span class="price">
-                            <sup>$</sup>
-                            <span class="price-amount">69</span>
-                            <small>/mo</small>
+                            <sup></sup>
+                            <span class="price-amount">25</span>
+                            <small>％</small>
                         </span>
                     </div>
                     <ul>
-                        <li><strong>150GB</strong> Storage</li>
-                        <li><strong>Unlimited</strong> Users</li>
-                        <li><strong>50</strong> Domains</li>
-                        <li><strong>Free</strong> Setup</li>
-                        <li><strong>5-year</strong> Free support *</li>
+                        <li>当月　<strong>20％</strong></li>
+                        <li>前月　<strong>10％</strong></li>
+                        <li>前々月　<strong>20％</strong></li>
                     </ul>
-                    <a href="index.html#" class="pricing-signup">Sign up</a>
                 </div>
                 <!-- /pricing-option -->
                 <!-- END PRICING TABLE -->
