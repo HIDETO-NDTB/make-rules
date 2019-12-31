@@ -8,17 +8,17 @@
                     <!-- START PRICING TABLE -->
                     <div class="pricing-option">
                         <div class="pricing-top">
-                            <span class="pricing-edition">全発議数</span>
+                            <span class="pricing-edition">未投票案件数</span>
                             <span class="price">
                                 <sup></sup>
-                                <span class="price-amount">100</span>
+                                <span class="price-amount">４</span>
                                 <small>案件</small>
                             </span>
                         </div>
                         <ul>
-                            <li>当月　<strong>10案件</strong></li>
-                            <li>前月 <strong>30案件</strong></li>
-                            <li>前々月　<strong>5案件</strong></li>
+                            <li>総発議数　<strong>９７案件</strong></li>
+                            <li>投票済数　<strong>９３案件</strong></li>
+                            <li>採用数　<strong>２０案件</strong></li>
                         </ul>
                     </div>
                     <!-- /pricing-option -->
