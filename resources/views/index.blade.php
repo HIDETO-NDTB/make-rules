@@ -143,9 +143,9 @@
                 <br>
                 <a href="">2020.2.2 当webサービスの利用方法に関するお知らせ</a><br>
                 <br>
-                <div class="right-contact">
-                    <a class="btn btn-info" style="width: 300px;" href="">各種お問い合わせはこちらから</a>
-                </div>
+            </div>
+            <div class="col-lg-2">
+                <a class="btn btn-info" style="width: 300px;" href="">各種お問い合わせはこちらから</a>
             </div>
          <!-- row -->
         </div>
