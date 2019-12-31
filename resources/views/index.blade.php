@@ -136,7 +136,7 @@
     <div class="container">
         <div class="row centered">
             <h4>管理者より</h4>
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-6 col-lg-offset-2">
                 <a href="">2020.1.28 Make Rulesリリースのお知らせ</a><br>
                 <br>
                 <a href="">2020.1.31 不具合修正のお知らせ</a><br>
@@ -144,7 +144,7 @@
                 <a href="">2020.2.2 当webサービスの利用方法に関するお知らせ</a><br>
                 <br>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-4">
                 <a class="btn btn-info" style="width: 300px;" href="">各種お問い合わせはこちらから</a>
             </div>
          <!-- row -->
