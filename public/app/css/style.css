@@ -92,6 +92,10 @@ hr {
     margin: 10px 10px;
 }
 
+.navbar-left {
+    color: black;
+}
+
 li {
     list-style: none;
 }
