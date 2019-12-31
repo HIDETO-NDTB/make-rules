@@ -67,7 +67,7 @@
     <!-- row -->
     <br>
     <br>
-    @yield('page')
+
   </div>
   <!-- container -->
 
