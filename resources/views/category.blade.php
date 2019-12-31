@@ -5,91 +5,34 @@
     <div class="container">
         <div class="row centered">
             <div class="col-lg-8 col-lg-offset-2">
-              <h1></h1>
-              <h2></h2>
+                <h4>国　自治体</h4>
+                <br>
+                <div class="col-lg-4">
+                    <!-- START PRICING TABLE -->
+                    <div class="pricing-option">
+                        <div class="pricing-top">
+                            <span class="pricing-edition">全発議数</span>
+                            <span class="price">
+                                <sup></sup>
+                                <span class="price-amount">100</span>
+                                <small>案件</small>
+                            </span>
+                        </div>
+                        <ul>
+                            <li>当月　<strong>10案件</strong></li>
+                            <li>前月 <strong>30案件</strong></li>
+                            <li>前々月　<strong>5案件</strong></li>
+                        </ul>
+                    </div>
+                    <!-- /pricing-option -->
+                    <!-- END PRICING TABLE -->
+                </div>
             </div>
         </div>
       <!-- row -->
     </div>
     <!-- container -->
 </div>
-  <!-- PRICING SECTION -->
-  <div id="dh">
-    <div class="container">
-        <div class="row centered">
-            <h4>国　自治体</h4>
-            <br>
-            <div class="col-lg-4">
-                <!-- START PRICING TABLE -->
-                <div class="pricing-option">
-                    <div class="pricing-top">
-                        <span class="pricing-edition">全発議数</span>
-                        <span class="price">
-                            <sup></sup>
-                            <span class="price-amount">100</span>
-                            <small>案件</small>
-                        </span>
-                    </div>
-                    <ul>
-                        <li>当月　<strong>10案件</strong></li>
-                        <li>前月 <strong>30案件</strong></li>
-                        <li>前々月　<strong>5案件</strong></li>
-                    </ul>
-                </div>
-                <!-- /pricing-option -->
-                <!-- END PRICING TABLE -->
-            </div>
-            <!-- /col -->
-
-            <div class="col-lg-4">
-                <!-- START PRICING TABLE -->
-                <div class="pricing-option">
-                    <div class="pricing-top">
-                        <span class="pricing-edition">採用数</span>
-                        <span class="price">
-                            <sup></sup>
-                            <span class="price-amount">25</span>
-                            <small>案件</small>
-                        </span>
-                    </div>
-                    <ul>
-                        <li>当月　<strong>2案件</strong></li>
-                        <li>前月　<strong>3案件</strong></li>
-                        <li>前々月　<strong>1案件</strong></li>
-                    </ul>
-                </div>
-                <!-- /pricing-option -->
-                <!-- END PRICING TABLE -->
-            </div>
-            <!-- /col -->
-
-            <div class="col-lg-4">
-              <!-- START PRICING TABLE -->
-                <div class="pricing-option">
-                    <div class="pricing-top">
-                        <span class="pricing-edition">採用率</span>
-                        <span class="price">
-                            <sup></sup>
-                            <span class="price-amount">25</span>
-                            <small>％</small>
-                        </span>
-                    </div>
-                    <ul>
-                        <li>当月　<strong>20％</strong></li>
-                        <li>前月　<strong>10％</strong></li>
-                        <li>前々月　<strong>20％</strong></li>
-                    </ul>
-                </div>
-                <!-- /pricing-option -->
-                <!-- END PRICING TABLE -->
-            </div>
-            <!-- /col -->
-        </div>
-        <!-- row -->
-    </div>
-    <!-- container -->
-</div>
-<!-- DG -->
 
 <div class="container x">
     <div class="row centered">
