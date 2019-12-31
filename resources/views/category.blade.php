@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <ul>
                         <li><h5>首藤英人</h5></li>
-                        <li><img src="url('../../app/img/pic3.jpg')" class="img-responsive img-circle" alt="avator"></li>
+                        <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" alt="avator"></li>
                         <li><p>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</p></li>
                         <li>発議日: 2020年1月30日</li>
                         <li>投票日: 2020年2月6日</li>
