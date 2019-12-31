@@ -123,7 +123,7 @@
         </div>
     </div>
 </div>
-
+<br>
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
@@ -158,7 +158,7 @@
         </div>
     </div>
 </div>
-
+<br>
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
@@ -193,6 +193,7 @@
         </div>
     </div>
 </div>
+<br>
   <!-- container -->
 
 
