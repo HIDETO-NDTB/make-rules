@@ -172,8 +172,9 @@ li {
   font-weight: 700;
 }
 
-.contact {
+.contact a {
     padding-top: 300px;
+    margin-top: 300px;
 }
 /* Red Wrap */
 
