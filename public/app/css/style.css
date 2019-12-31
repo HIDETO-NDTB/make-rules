@@ -262,6 +262,10 @@ li {
     color: white;
 }
 
+.x {
+    margin-top: 30px;
+}
+
 .x h4 {
     font-weight: 700;
 }
