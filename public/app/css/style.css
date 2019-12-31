@@ -173,8 +173,9 @@ li {
   font-weight: 700;
 }
 
-#lg btn {
+#lg a {
     text-align: right;
+    color: black;
 }
 
 /* Red Wrap */
