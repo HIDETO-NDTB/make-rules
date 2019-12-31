@@ -136,7 +136,7 @@
     <div class="container">
         <div class="row centered">
             <h4>管理者より</h4>
-            <div class="col-lg-6 col-lg-offset-2">
+            <div class="col-lg-8">
                 <a href="">2020.1.28 Make Rulesリリースのお知らせ</a><br>
                 <br>
                 <a href="">2020.1.31 不具合修正のお知らせ</a><br>
