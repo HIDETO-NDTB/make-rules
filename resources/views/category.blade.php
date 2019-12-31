@@ -3,16 +3,7 @@
 
 
 
-  <!-- =======================================================
-    Template Name: Spot
-    Template URL: https://templatemag.com/spot-bootstrap-freelance-template/
-    Author: TemplateMag.com
-    License: https://templatemag.com/license/
-  ======================================================= -->
 
-<body>
-  <!-- Fixed navbar -->
-  @include('inc/navbar')
 
   <div id="blue">
     <div class="container">
