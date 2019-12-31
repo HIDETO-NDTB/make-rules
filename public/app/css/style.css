@@ -173,6 +173,10 @@ li {
   font-weight: 700;
 }
 
+#lg a {
+    text-align: right;
+}
+
 /* Red Wrap */
 
 /* Blue Wrap */
