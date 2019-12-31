@@ -1,4 +1,4 @@
-@extends('layouts/front')
+@extends('layouts.front')
 @section('page')
 
 <div id="dg">
@@ -37,7 +37,7 @@
 <div class="container wb">
     <div class="row centered">
         <br>
-        <h4>規則討論会</h4>
+        <h4>傍聴席</h4>
         <br>
         <div class="comments">
             <div class="col-lg-6">
