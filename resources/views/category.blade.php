@@ -79,7 +79,7 @@
 </div>
 <!-- DG -->
 
-<div class="container w">
+<div class="container x">
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
