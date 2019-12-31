@@ -34,13 +34,15 @@
 
 <body>
 
+    @yield('page')
+
   @include('inc/navbar')
 
   <!-- container -->
 
   <!-- PORTFOLIO SECTION -->
 
-  @yield('page')
+
 
   @include('inc/footer')
 
