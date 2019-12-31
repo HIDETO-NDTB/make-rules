@@ -337,7 +337,7 @@ li {
    ========================================================================== */
 
 .pricing-option {
-  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .pricing-option .pricing-top {
@@ -356,7 +356,7 @@ li {
   display: block;
   width: 100%;
   position: absolute;
-  top: 100px;
+  top: 0;
   left: 0;
   background: #1abc9c;
   text-transform: uppercase;
