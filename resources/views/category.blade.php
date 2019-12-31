@@ -89,18 +89,39 @@
 </div>
 <!-- DG -->
 
-<div id="r">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h4>WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.</h4>
-                <p>We believe ideas come from everyone, everywhere. At BlackTie, everyone within our agency walls is a designer in their own right. And there are a few principles we believe—and we believe everyone should believe—about our design craft. These truths
-                drive us, motivate us, and ultimately help us redefine the power of design.</p>
+<div class="container w">
+    <div class="row centered">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header"><h4>ベーシックインカム。全国民に毎月５万円を支給</h4></div>
+                <div class="card-body">
+                    <ul>
+                        <div class="row">
+                            <div class="col-lg-1">
+                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                            </div>
+                            <div class="col-lg-1">
+                                <h5>首藤英人</h5>
+                            </div>
+                            <div class="col-lg-10"></div>
+                        </div>
+                        <div class="row">
+                            <li><p>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</p></li>
+                        </div>
+                        <div class="row">
+                            <li>発議日: 2020年1月30日</li>
+                            <li>投票日: 2020年2月6日</li>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8"></div>
+                            <div class="col-lg-4">
+                            <a class="btn btn-primary" style="width: 300px;" href="">コメントする</a>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </div>
-        <!-- row -->
     </div>
-    <!-- container -->
 </div>
 
 <div class="container w">
@@ -111,35 +132,66 @@
                 <div class="card-body">
                     <ul>
                         <div class="row">
-                        <div class="col-lg-1">
-                        <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
-                        </div>
-                        <div class="col-lg-1">
-                        <h5>首藤英人</h5>
-                        </div>
-                        <br>
-                        <div class="col-lg-10"></div>
-                        </div>
-                        <div class="row">
-                        <li><p>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</p></li>
+                            <div class="col-lg-1">
+                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                            </div>
+                            <div class="col-lg-1">
+                                <h5>首藤英人</h5>
+                            </div>
+                            <div class="col-lg-10"></div>
                         </div>
                         <div class="row">
-                        <li>発議日: 2020年1月30日</li>
-                        <li>投票日: 2020年2月6日</li>
+                            <li><p>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</p></li>
+                        </div>
+                        <div class="row">
+                            <li>発議日: 2020年1月30日</li>
+                            <li>投票日: 2020年2月6日</li>
                         </div>
                         <div class="row">
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
-                        <a class="btn btn-primary" style="width: 300px;" href="">コメントする</a>
+                            <a class="btn btn-primary" style="width: 300px;" href="">コメントする</a>
                         </div>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- row -->
-    <br>
-    <!-- row -->
+</div>
+
+<div class="container w">
+    <div class="row centered">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header"><h4>ベーシックインカム。全国民に毎月５万円を支給</h4></div>
+                <div class="card-body">
+                    <ul>
+                        <div class="row">
+                            <div class="col-lg-1">
+                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                            </div>
+                            <div class="col-lg-1">
+                                <h5>首藤英人</h5>
+                            </div>
+                            <div class="col-lg-10"></div>
+                        </div>
+                        <div class="row">
+                            <li><p>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</p></li>
+                        </div>
+                        <div class="row">
+                            <li>発議日: 2020年1月30日</li>
+                            <li>投票日: 2020年2月6日</li>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8"></div>
+                            <div class="col-lg-4">
+                            <a class="btn btn-primary" style="width: 300px;" href="">コメントする</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
   <!-- container -->
 
