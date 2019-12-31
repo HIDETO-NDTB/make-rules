@@ -36,9 +36,6 @@
 
   @include('inc/navbar')
 
-  @include('inc/header')
-
-  @include('inc/new')
   <!-- container -->
 
   <!-- PORTFOLIO SECTION -->
