@@ -8,7 +8,7 @@
                     <!-- START PRICING TABLE -->
                     <div class="pricing-option">
                         <div class="pricing-top">
-                            <span class="pricing-edition">国 自治体　未投票案件数</span>
+                            <span class="pricing-edition">国　自治体<br>未投票案件数</span>
                             <span class="price">
                                 <sup></sup>
                                 <span class="price-amount">４</span>
