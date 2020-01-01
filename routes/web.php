@@ -36,3 +36,8 @@ Route::get('vote',[
     'uses' => 'FrontEndController@vote',
     'as' => 'vote'
 ]);
+
+Route::get('result',[
+    'uses' => 'FrontEndController@result',
+    'as' => 'result'
+]);

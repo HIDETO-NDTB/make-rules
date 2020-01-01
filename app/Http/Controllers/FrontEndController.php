@@ -25,4 +25,9 @@ class FrontEndController extends Controller
 
         return view('vote');
     }
+
+    public function result(){
+
+        return view('result');
+    }
 }
