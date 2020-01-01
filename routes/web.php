@@ -27,7 +27,7 @@ Route::get('/category',[
     'as' => 'category'
 ]);
 
-Route::get('/rule_single',[
+Route::get('/rule-single',[
     'uses' => 'FrontEndController@rule_single',
     'as' => 'rule.single'
 ]);
