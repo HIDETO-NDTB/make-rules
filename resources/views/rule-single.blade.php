@@ -45,7 +45,10 @@
                 <form action="" method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="checkbox" name="agree" value="賛成　反対">
+                        <select name="agreement">
+                            <option value="agree">賛成</option>
+                            <option value="disagree">反対</option>
+                        </select>
                     </div>
                     <div class="form-group">
                         <textarea name="content" id="" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
