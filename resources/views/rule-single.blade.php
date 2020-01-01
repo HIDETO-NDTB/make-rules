@@ -45,7 +45,7 @@
                 <form action="" method="POST">
                     @csrf
                     <div class="form-group">
-                        <select name="agreement">
+                        <select name="agreement" style="font-size: 20px;">
                             <option value="agree">賛成</option>
                             <option value="disagree">反対</option>
                         </select>
