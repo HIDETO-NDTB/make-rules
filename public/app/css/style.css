@@ -553,6 +553,7 @@ li {
 }
 
 .card {
+    margin-top: 20px;
     border-top: 5px solid gray;
     border-bottom: 5px solid gray;
 }
