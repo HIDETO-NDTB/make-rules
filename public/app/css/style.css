@@ -114,7 +114,7 @@ li {
   transform: rotate(-10deg);
 }
 
-.comments {
+.comment {
     text-align: right;
     border: 1px solid gray;
 }
