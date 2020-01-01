@@ -570,4 +570,24 @@ li {
     margin-top: 10px;
 }
 
+/* comment.blade.php */
+
+#headerwrap {
+    background: url() no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: left;
+    background-attachment: relative;
+    background-position: top right;
+    min-height: 550px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
