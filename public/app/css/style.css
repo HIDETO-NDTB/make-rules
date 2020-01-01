@@ -598,3 +598,7 @@ select {
     margin-bottom: 100px;
     text-align: center;
 }
+
+.vote btn {
+    font-size: 30px;
+}
