@@ -95,10 +95,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="comment">
-
-                        <h4 class="comment-title">反対派意見</h4>
-                        <p class="comment-text">全面的に反対。少子高齢化が深刻な問題となっている日本でこのような規則を議論すること自体がおかしい。免許制にするばかりか、国がもっと適齢夫婦の出産・育児をサポートする法案が不可欠。それについては２週間以内にしっかりと考えて発議させて頂きます！！</p>
-
+                    <h4 class="comment-title">反対派意見</h4>
+                    <p class="comment-text">全面的に反対。少子高齢化が深刻な問題となっている日本でこのような規則を議論すること自体がおかしい。免許制にするばかりか、国がもっと適齢夫婦の出産・育児をサポートする法案が不可欠。それについては２週間以内にしっかりと考えて発議させて頂きます！！</p>
                 </div>
             </div>
             <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
@@ -107,18 +105,14 @@
         <div class="comments">
             <div class="col-lg-6">
                 <div class="comment">
-                    <div class="comment-body">
-                        <h4 class="comment-title">賛成派意見</h4>
-                        <p class="comment-text">日本国民であれば無条件で国が毎月お金をくれるというのに断る理由がありますか？貰える物は何でも貰うのが私の主義です。本気で要らない人は一度貰った上でユニセフにでも寄付すれば良いのではないでしょうか？</p>
-                    </div>
+                    <h4 class="comment-title">賛成派意見</h4>
+                    <p class="comment-text">日本国民であれば無条件で国が毎月お金をくれるというのに断る理由がありますか？貰える物は何でも貰うのが私の主義です。本気で要らない人は一度貰った上でユニセフにでも寄付すれば良いのではないでしょうか？</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
-                    <div class="comment-body">
-                        <h4 class="comment-title">反対派意見</h4>
-                        <p class="comment-text">過剰に期待している方も多いですが、国民全員にお金を配るということは、国のマネーサプライが増えるということ。国にお金が増えるとインフレになり物価が上がります。毎月５万円もらっても全体の物価が上がることから生活レベルは一緒です。結局は日本の借金が増えるだけ</p>
-                    </div>
+                    <h4 class="comment-title">反対派意見</h4>
+                    <p class="comment-text">過剰に期待している方も多いですが、国民全員にお金を配るということは、国のマネーサプライが増えるということ。国にお金が増えるとインフレになり物価が上がります。毎月５万円もらっても全体の物価が上がることから生活レベルは一緒です。結局は日本の借金が増えるだけ</p>
                 </div>
             </div>
             <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
@@ -127,18 +121,14 @@
         <div class="comments">
             <div class="col-lg-6">
                 <div class="comment">
-                    <div class="comment-body">
-                        <h4 class="comment-title">賛成派意見</h4>
-                        <p class="comment-text">いまや日本は世界においてかれています。１人あたりGDPも確かに一つの指標ですが、生産力×人口がいわゆる成長力です。いい加減働き方改革などやめて、国民全残業の勢いで仕事しないと日本は浮上しないよ。</p>
-                    </div>
+                    <h4 class="comment-title">賛成派意見</h4>
+                    <p class="comment-text">いまや日本は世界においてかれています。１人あたりGDPも確かに一つの指標ですが、生産力×人口がいわゆる成長力です。いい加減働き方改革などやめて、国民全残業の勢いで仕事しないと日本は浮上しないよ。</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
-                    <div class="comment-body">
-                        <h4 class="comment-title">反対派意見</h4>
-                        <p class="comment-text">正に時代に逆行する考え方。せっかく定時帰宅、有給休暇取得など普通のことが普通にできるようになったのに、また昭和に戻るつもりですか？失礼ながらおじさんの意見を押し付けるのは会社だけにして欲しい！</p>
-                    </div>
+                    <h4 class="comment-title">反対派意見</h4>
+                    <p class="comment-text">正に時代に逆行する考え方。せっかく定時帰宅、有給休暇取得など普通のことが普通にできるようになったのに、また昭和に戻るつもりですか？失礼ながらおじさんの意見を押し付けるのは会社だけにして欲しい！</p>
                 </div>
             </div>
             <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
@@ -147,18 +137,14 @@
         <div class="comments">
             <div class="col-lg-6">
                 <div class="comment">
-                    <div class="comment-body">
-                        <h4 class="comment-title">賛成派意見</h4>
-                        <p class="comment-text">男女・恋人カテゴリはエロかおのろけかしかないかと思ってましたが、ようやくまともな発議がきましたね。日本人女性の社会的地位が低いことはニュースでご存知のことと思いますが、地位向上もまずは家庭からです。女性は今こそ立ち上がり、権利を主張すべきです。</p>
-                    </div>
+                    <h4 class="comment-title">賛成派意見</h4>
+                    <p class="comment-text">男女・恋人カテゴリはエロかおのろけかしかないかと思ってましたが、ようやくまともな発議がきましたね。日本人女性の社会的地位が低いことはニュースでご存知のことと思いますが、地位向上もまずは家庭からです。女性は今こそ立ち上がり、権利を主張すべきです。</p>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
-                    <div class="comment-body">
-                        <h4 class="comment-title">反対派意見</h4>
-                        <p class="comment-text">いやいや、もはや女性の方が強いでしょ（笑）。普段はめちゃくちゃ強いくせして、重い荷物が目の前に現れた途端、「持てなーい」みたいな空気を出して男を見てくる。もはや日本人女性は地上最強です。い</p>
-                    </div>
+                    <h4 class="comment-title">反対派意見</h4>
+                    <p class="comment-text">いやいや、もはや女性の方が強いでしょ（笑）。普段はめちゃくちゃ強いくせして、重い荷物が目の前に現れた途端、「持てなーい」みたいな空気を出して男を見てくる。もはや日本人女性は地上最強です。い</p>
                 </div>
             </div>
             <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
