@@ -14,7 +14,7 @@
         </div>
         <div class="col-lg-6">
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-left">
+                <ul class="nav navbar-nav">
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category') }}">国　自治体</a></li>
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">会社</a></li>
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">学校</a></li>
