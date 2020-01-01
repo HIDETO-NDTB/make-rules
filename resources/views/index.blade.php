@@ -152,11 +152,6 @@
             </div>
         </div>
         <br>
-      </div>
-      <div class="col-lg-2"></div>
-      <div class="col-lg-10 col-lg-offset-1">
-        <img class="img-responsive" src="" alt="">
-      </div>
     </div>
     <!-- row -->
 </div>
