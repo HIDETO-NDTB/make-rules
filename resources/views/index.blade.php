@@ -123,15 +123,17 @@
                 <div class="comment">
                     <h4 class="comment-title">賛成派意見</h4>
                     <p class="comment-text">いまや日本は世界においてかれています。１人あたりGDPも確かに一つの指標ですが、生産力×人口がいわゆる成長力です。いい加減働き方改革などやめて、国民全残業の勢いで仕事しないと日本は浮上しないよ。</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">正に時代に逆行する考え方。せっかく定時帰宅、有給休暇取得など普通のことが普通にできるようになったのに、また昭和に戻るつもりですか？失礼ながらおじさんの意見を押し付けるのは会社だけにして欲しい！</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
-            <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
+
         </div>
         <br>
         <div class="comments">
