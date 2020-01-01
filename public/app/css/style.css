@@ -582,6 +582,6 @@ li {
 }
 
 select {
-    border: 1px solid #999;
-    font-size: 30px;
+    border: 1px solid white;
+    font-size: 20px;
 }
