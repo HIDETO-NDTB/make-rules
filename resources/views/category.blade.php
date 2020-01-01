@@ -92,7 +92,7 @@
                         <div class="row">
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
-                            <a class="btn btn-primary" style="width: 300px;" href="">コメントする</a>
+                            <a class="btn btn-danger" style="width: 300px;" href="">投票に行く</a>
                         </div>
                     </ul>
                 </div>
