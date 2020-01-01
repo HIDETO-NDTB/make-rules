@@ -573,3 +573,6 @@ li {
 }
 
 /* comment.blade.php */
+.commentform {
+    background-color: white;
+}
