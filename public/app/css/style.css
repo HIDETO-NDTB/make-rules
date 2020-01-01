@@ -117,7 +117,8 @@ li {
 .comment {
     text-align: right;
     border: 1px solid gray;
-    padding-bottom: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .comments h4 {
