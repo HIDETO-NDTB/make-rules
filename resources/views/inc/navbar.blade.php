@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                    <a href="#">Make Rules</a>
+                    <a class="title" href="#">Make Rules</a>
             </div>
         </div>
         <div class="col-lg-6">
