@@ -51,7 +51,7 @@
                         <textarea name="content" id="" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
                     </div>
                     <div class="form-group">
-                        <button class="submit" class="btn btn-block btn-success"></button>
+                        <button type="submit" class="btn btn-block btn-success">コメントする</button>
                     </div>
                 </form>
             </div>
