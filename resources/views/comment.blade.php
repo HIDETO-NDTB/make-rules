@@ -25,7 +25,7 @@
                 <!-- END PRICING TABLE -->
             </div>
             <div class="col-lg-8">
-                <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width: 50%; height: 50%;">
+                <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width: 80%; height: 80%;">
             </div>
         </div>
       <!-- row -->
