@@ -77,9 +77,10 @@ hr {
 }
 
 .title {
+  margin-top: 20px;
   color: white;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 42px;
   letter-spacing: 3px;
 }
 
