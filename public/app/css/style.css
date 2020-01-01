@@ -579,9 +579,8 @@ li {
 
 .form-group {
     margin-top: 30px;
-    font-size: 30px;
 }
 
-.agreement {
-    font-size: 20px;
+.form-group agreement {
+    font-size: 30px;
 }
