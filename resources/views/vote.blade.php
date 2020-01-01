@@ -42,10 +42,10 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-6">
-                <button class="btn btn-primary">賛成</button>
+                <button class="btn btn-primary" style="width: 300px; height: 300px;">賛成</button>
             </div>
             <div class="col-lg-6">
-                <button class="btn btn-danger">反対</button>
+                <button class="btn btn-danger" style="width: 300px; height: 300px;">反対</button>
             </div>
         </div>
     </div>
