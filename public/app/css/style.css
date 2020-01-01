@@ -575,5 +575,8 @@ li {
 /* comment.blade.php */
 #commentform {
     background-color: white;
-    margin-top: 100px;
+}
+
+.form-group {
+    margin-top: 30px;
 }
