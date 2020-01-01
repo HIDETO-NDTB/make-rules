@@ -4,7 +4,7 @@
 <div id="commentwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header"><h4>ベーシックインカム。全国民に毎月５万円を支給</h4></div>
                     <div class="card-body">
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-6">
                 <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
