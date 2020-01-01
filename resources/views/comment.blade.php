@@ -6,7 +6,7 @@
         <div class="row centered">
             <div class="col-lg-6">
                 <div class="card">
-                    <div class="card-header"><h4>ベーシックインカム。全国民に毎月５万円を支給</h4></div>
+                    <div class="card-header"><h4><b>ベーシックインカム。全国民に毎月５万円を支給</b></h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
