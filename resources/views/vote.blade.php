@@ -11,7 +11,7 @@
                         <ul>
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <li><img src="{{ asset('app/img/images.jpeg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                                    <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                 </div>
                                 <div class="col-lg-2">
                                     <h5>首藤英人</h5>
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width:100%; height:100%;">
+                <img src="{{ asset('app/img/images.jpeg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
       <!-- row -->
