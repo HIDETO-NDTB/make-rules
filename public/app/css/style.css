@@ -117,10 +117,6 @@ li {
 .comment {
     text-align: right;
     border: 1px solid gray;
-    padding: 10px;
-}
-
-.comments {
     padding-bottom: 20px;
 }
 
