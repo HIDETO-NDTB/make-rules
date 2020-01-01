@@ -20,4 +20,9 @@ class FrontEndController extends Controller
 
         return view('rule-single');
     }
+
+    public function vote(){
+
+        return view('vote');
+    }
 }
