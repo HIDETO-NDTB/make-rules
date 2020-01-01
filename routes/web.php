@@ -27,7 +27,7 @@ Route::get('/category',[
     'as' => 'category'
 ]);
 
-Route::get('/comment',[
-    'uses' => 'FrontEndController@comment',
-    'as' => 'comment'
+Route::get('/rule_single',[
+    'uses' => 'FrontEndController@rule_single',
+    'as' => 'rule.single'
 ]);

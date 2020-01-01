@@ -16,8 +16,8 @@ class FrontEndController extends Controller
         return view('category');
     }
 
-    public function comment(){
+    public function rule_single(){
 
-        return view('comment');
+        return view('rule-single');
     }
 }
