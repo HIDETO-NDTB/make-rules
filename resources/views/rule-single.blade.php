@@ -66,7 +66,7 @@
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
-                <div class="card-header"><h4>ベーシックインカム。全国民に毎月５万円を支給</h4></div>
+                <div class="card-header"><h4>賛成派意見</h4></div>
                 <div class="card-body">
                     <ul>
                         <div class="row">
@@ -79,16 +79,10 @@
                             <div class="col-lg-10"></div>
                         </div>
                         <div class="row">
-                            <li><p>全日本国民に毎月５万円ずつ無条件で国が支給。目的は日本人がより人間らしく生きること。今までより仕事の時間を減らし趣味や芸術に打ち込むことで日本のサブカルチャー育成にも一役買うことに繋がると思われる。支給対象は日本人のみで、永住権があろうと外国人は対象とはせず。</p></li>
+                            <li><p>条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p></li>
                         </div>
                         <div class="row">
-                            <li>発議日: 2020年1月30日</li>
-                            <li>投票日: 2020年2月6日</li>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8"></div>
-                            <div class="col-lg-4">
-                            <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single') }}">コメントする</a>
+                            <li>発言日: 2020年2月3日</li>
                         </div>
                     </ul>
                 </div>
