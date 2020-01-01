@@ -2,7 +2,7 @@
 @section('page')
 
 <div id="commentwrap">
-    <div class="container">
+    <div class="container-flued">
         <div class="row centered">
                 <div class="col-lg-6">
                     <!-- START PRICING TABLE -->
@@ -24,6 +24,8 @@
                     <!-- /pricing-option -->
                     <!-- END PRICING TABLE -->
                 </div>
+                <div class="col-lg-6">
+                    <img src="{{ asset('app/image/header-bg.jpg') }}"
 
         </div>
       <!-- row -->
