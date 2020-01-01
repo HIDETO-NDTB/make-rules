@@ -2,7 +2,7 @@
 @section('page')
 
 <div id="commentwrap">
-    <div class="container-flued">
+    <div class="container">
         <div class="row centered">
                 <div class="col-lg-4">
                     <!-- START PRICING TABLE -->
