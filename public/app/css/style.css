@@ -575,13 +575,9 @@ li {
 /* comment.blade.php */
 #commentform {
     background-color: white;
+    font-size: 30px;
 }
 
 .form-group {
     margin-top: 30px;
-    font-size: 30px;
-}
-
-select {
-    font-size: 30px;
 }
