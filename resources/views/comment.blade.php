@@ -4,7 +4,7 @@
 <div id="commentwrap">
     <div class="container-flued">
         <div class="row centered">
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <!-- START PRICING TABLE -->
                     <div class="pricing-option">
                         <div class="pricing-top">
@@ -24,8 +24,8 @@
                     <!-- /pricing-option -->
                     <!-- END PRICING TABLE -->
                 </div>
-                <div class="col-lg-6">
-                    <img src="{{ asset('app/image/header-bg.jpg') }}"
+                <div class="col-lg-8">
+                    <img src="{{ asset('app/image/header-bg.jpg') }}">
 
         </div>
       <!-- row -->
