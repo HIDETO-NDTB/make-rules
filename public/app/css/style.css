@@ -593,11 +593,11 @@ select {
 }
 
 .vote {
-    margin-top: 100px;
-    margin-bottom: 100px;
     text-align: center;
 }
 
 .vote button {
+    margin-top: 100px;
+    margin-bottom: 100px;
     font-size: 30px;
 }
