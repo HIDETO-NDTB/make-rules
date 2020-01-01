@@ -26,3 +26,8 @@ Route::get('/category',[
     'uses' => 'FrontEndController@category',
     'as' => 'category'
 ]);
+
+Route::get('/comment',[
+    'uses' => 'FrontEndController@comment',
+    'as' => 'comment'
+]);

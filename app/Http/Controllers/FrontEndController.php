@@ -15,4 +15,9 @@ class FrontEndController extends Controller
 
         return view('category');
     }
+
+    public function comment(){
+
+        return view('comment');
+    }
 }
