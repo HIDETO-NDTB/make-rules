@@ -45,7 +45,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: blue;
+  color: #BE0E05;
   text-decoration: none;
   outline: 0;
 }
@@ -78,7 +78,7 @@ hr {
 
 .title {
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 42px;
   letter-spacing: 3px;
 }
