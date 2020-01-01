@@ -38,6 +38,26 @@
     <!-- container -->
 </div>
 
+<div id="commentform">
+    <div class="container">
+        <div class="row centerd">
+            <div class="col-lg-12">
+                <form action="" method="POST">
+                    @csrf
+                    <div class="form-group">
+                        <input type="checkbox" name="agree" value="賛成　反対">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="content" id="" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="submit" class="btn btn-block btn-success"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 @endsection
