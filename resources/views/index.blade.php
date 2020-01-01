@@ -87,19 +87,18 @@
         <div class="comments">
             <div class="col-lg-6">
                 <div class="comment">
-
-                        <h4 class="comment-title">賛成派意見</h4>
-                        <p class="comment-text">条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p>
-
+                    <h4 class="comment-title">賛成派意見</h4>
+                    <p class="comment-text">条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">全面的に反対。少子高齢化が深刻な問題となっている日本でこのような規則を議論すること自体がおかしい。免許制にするばかりか、国がもっと適齢夫婦の出産・育児をサポートする法案が不可欠。それについては２週間以内にしっかりと考えて発議させて頂きます！！</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
-            <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
         </div>
         <br>
         <div class="comments">
@@ -107,15 +106,16 @@
                 <div class="comment">
                     <h4 class="comment-title">賛成派意見</h4>
                     <p class="comment-text">日本国民であれば無条件で国が毎月お金をくれるというのに断る理由がありますか？貰える物は何でも貰うのが私の主義です。本気で要らない人は一度貰った上でユニセフにでも寄付すれば良いのではないでしょうか？</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">過剰に期待している方も多いですが、国民全員にお金を配るということは、国のマネーサプライが増えるということ。国にお金が増えるとインフレになり物価が上がります。毎月５万円もらっても全体の物価が上がることから生活レベルは一緒です。結局は日本の借金が増えるだけ</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
-            <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
         </div>
         <br>
         <div class="comments">
@@ -133,7 +133,6 @@
                     <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
-
         </div>
         <br>
         <div class="comments">
@@ -141,20 +140,18 @@
                 <div class="comment">
                     <h4 class="comment-title">賛成派意見</h4>
                     <p class="comment-text">男女・恋人カテゴリはエロかおのろけかしかないかと思ってましたが、ようやくまともな発議がきましたね。日本人女性の社会的地位が低いことはニュースでご存知のことと思いますが、地位向上もまずは家庭からです。女性は今こそ立ち上がり、権利を主張すべきです。</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="comment">
                     <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">いやいや、もはや女性の方が強いでしょ（笑）。普段はめちゃくちゃ強いくせして、重い荷物が目の前に現れた途端、「持てなーい」みたいな空気を出して男を見てくる。もはや日本人女性は地上最強です。い</p>
+                    <p class="comment-text">いやいや、もはや女性の方が強いでしょ（笑）。普段はめちゃくちゃ強いくせして、重い荷物が目の前に現れた途端、「持てなーい」みたいな空気を出して男を見てくる。もはや日本人女性は地上最強です。</p>
+                    <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
-            <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
         </div>
-
-
-
-        <p><br/><br/></p>
+        <br>
       </div>
       <div class="col-lg-2"></div>
       <div class="col-lg-10 col-lg-offset-1">
