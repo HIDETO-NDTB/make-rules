@@ -25,7 +25,7 @@
                     <!-- END PRICING TABLE -->
                 </div>
                 <div class="col-lg-8">
-                    <img src="{{ asset('app/image/header-bg.jpg') }}">
+                    <img src="{{ asset('app/img/header-bg.jpg') }}">
 
         </div>
       <!-- row -->
