@@ -585,3 +585,10 @@ select {
     border-bottom: 5px solid gray;
     margin-bottom: 10px;
 }
+
+/* vote.blade */
+
+#voteform {
+    margin-top: 20px;
+    text-align: center;
+}
