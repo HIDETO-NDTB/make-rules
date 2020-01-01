@@ -585,3 +585,7 @@ select {
     border: 1px solid white;
     font-size: 20px;
 }
+
+textarea {
+    font-size: 16px;
+}
