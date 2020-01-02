@@ -70,10 +70,11 @@
                 <div class="bar" style="height: 165px; margin-top: 122px;"></div>
                 <div class="bar" style="height: 82px; margin-top: 203px;"></div>
             </div>
-        <div class="label-horizontal">
-            <div class="label">賛成</div>
-            <div class="label">反対</div>
-          </div>
+            <div class="label-horizontal">
+                <div class="label">賛成</div>
+                <div class="label">反対</div>
+              </div>
+            </div>
         </div>
     </div>
 </div>
