@@ -46,9 +46,9 @@
             </div>
             <div class="col-lg-6">
                 <!-- START PRICING TABLE -->
-                <div class="pricing-option">
-                    <div class="pricing-top">
-                        <span class="price-amount">可決</span>
+                <div class="result-option">
+                    <div class="result-top">
+                        <span class="result-amount">可決</span>
                     </div>
                     <ul>
                         <li>総投票数　<strong>９７票</strong></li>
