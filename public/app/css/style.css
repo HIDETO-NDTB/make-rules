@@ -608,6 +608,20 @@ select {
 
 /* result.blade */
 
+.resulttitle {
+    background-color: white;
+    text-align: center;
+}
+
+.resulttitle h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resulttitle p {
+    font-size: 14px;
+}
+
 #resultform {
     background-color: white;
 }
