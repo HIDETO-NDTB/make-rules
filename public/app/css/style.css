@@ -623,6 +623,9 @@ select {
     text-align: center;
 }
 
-
+.result-option {
+    height: 50px;
+    border: 1px solid black;
+}
 
 
