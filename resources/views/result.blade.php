@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="{{ asset('app/img/image01.jpeg') }}"  style="width:100%; height:100%;">
+                <img src="{{ asset('app/img/approved-min.jpg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
       <!-- row -->
@@ -45,7 +45,6 @@
 
             </div>
             <div class="col-lg-6">
-                <!-- START PRICING TABLE -->
                 <div class="result-option">
                     <div class="result-top">
                         <span class="result-amount">可 決</span>
@@ -56,8 +55,6 @@
                         <li>反対　<strong>４０票</strong></li>
                     </ul>
                 </div>
-                    <!-- /pricing-option -->
-                    <!-- END PRICING TABLE -->
             </div>
 
         </div>
