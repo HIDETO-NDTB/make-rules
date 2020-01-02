@@ -614,6 +614,11 @@ select {
     padding-bottom: 20px;
 }
 
+.result-top {
+    background-color: black;
+    color: white;
+}
+
 
 
 
