@@ -625,7 +625,7 @@ select {
 .result-option li {
     height: 50px;
     width: 100%;
-    font-size: 50px;
+    font-size: 30px;
     border: 1px solid gray;
     text-align: center;
 }
