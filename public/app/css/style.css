@@ -612,6 +612,10 @@ select {
     background-color: white;
 }
 
+.result-option {
+    border: 1px solid gray;
+}
+
 .result-top {
     background-color: gray;
     margin-top: 30px;
@@ -627,7 +631,7 @@ select {
     height: 70px;
     width: 100%;
     font-size: 30px;
-    border: 1px solid gray;
+
     text-align: center;
 }
 
