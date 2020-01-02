@@ -622,12 +622,7 @@ select {
     text-align: center;
 }
 
-.result-content {
-    text-align: center;
-}
-
 .result-content li {
-    margin-right: 10px;
     padding: 15px 100px;
     height: 70px;
     width: 100%;
