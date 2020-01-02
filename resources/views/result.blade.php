@@ -71,8 +71,8 @@
                 <div class="bar" style="height: 82px; margin-top: 203px;"></div>
             </div>
         <div class="label-horizontal">
-            <div class="label">10代</div>
-            <div class="label">20代</div>
+            <div class="label">賛成</div>
+            <div class="label">反対</div>
           </div>
         </div>
     </div>
