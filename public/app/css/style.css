@@ -617,6 +617,9 @@ select {
 .result-top {
     background-color: black;
     color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
