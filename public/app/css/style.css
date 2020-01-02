@@ -627,7 +627,7 @@ select {
     height: 70px;
     width: 100%;
     font-size: 30px;
-
+    border: 1px solid gray;
     text-align: center;
 }
 
