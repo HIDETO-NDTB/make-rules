@@ -608,9 +608,10 @@ select {
 
 /* result.blade */
 
-.container {
+.resultform {
     display: flex;
   }
+
   .label-vertical .label{
     font-size: 12px;
     line-height: 26px;
