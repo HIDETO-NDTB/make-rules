@@ -39,9 +39,27 @@
 </div>
 
 <div id="resultform">
-    <div class="container">
+        <div class="container">
+            <div class="row centered">
+                    <div class="col-lg-6">
+                        <!-- START PRICING TABLE -->
+                        <div class="pricing-option">
+                            <div class="pricing-top">
+                                    <span class="price-amount">可決</span>
+                            </div>
+                            <ul>
+                                <li>総投票数　<strong>９７票</strong></li>
+                                <li>賛成　<strong>５７案件</strong></li>
+                                <li>反対　<strong>４０案件</strong></li>
+                            </ul>
+                        </div>
+                        <!-- /pricing-option -->
+                        <!-- END PRICING TABLE -->
+                    </div>
 
-    </div>
+            </div>
+          <!-- row -->
+        </div>
 </div>
 
 <div class="container w">
