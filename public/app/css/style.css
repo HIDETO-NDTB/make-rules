@@ -608,6 +608,16 @@ select {
 
 /* result.blade */
 
+.container {
+    height: 160px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    flex-wrap:wrap;
+    background-color: #c5d1d8;
+  }
+
 .item {
     box-sizing: border-box;
     background-color: limegreen;

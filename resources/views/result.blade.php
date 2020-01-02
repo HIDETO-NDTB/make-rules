@@ -39,7 +39,7 @@
 </div>
 
 <div id="commentform">
-    <div class="container">
+    <div class="container2">
         <div class="row centerd">
             <div class="col-lg-12">
                 <div class="item" style="height:50px">
