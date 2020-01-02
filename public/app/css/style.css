@@ -647,10 +647,10 @@ select {
   }
   .label-horizontal {
     display: flex;
-    color: gray;
   }
   .label-horizontal .label{
-    font-size: 12px;
+    font-size: 16px;
+    color: gray;
     margin-left: 60px;
     width: 25px;
     text-align: center;
