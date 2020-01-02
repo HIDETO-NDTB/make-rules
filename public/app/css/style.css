@@ -623,6 +623,7 @@ select {
 }
 
 .result-option li {
+    margin-right: 10px;
     height: 70px;
     width: 100%;
     font-size: 30px;
