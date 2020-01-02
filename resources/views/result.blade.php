@@ -48,7 +48,7 @@
                 <!-- START PRICING TABLE -->
                 <div class="result-option">
                     <div class="result-top">
-                        <span class="result-amount">可決</span>
+                        <span class="result-amount">可 決</span>
                     </div>
                     <ul>
                         <li>総投票数　<strong>９７票</strong></li>

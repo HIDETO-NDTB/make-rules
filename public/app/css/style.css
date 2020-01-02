@@ -612,10 +612,11 @@ select {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 1px solid black;
 }
 
 .result-top {
-    background-color: black;
+    background-color: gray;
     color: white;
     font-size: 100px;
     font-weight: bold;
