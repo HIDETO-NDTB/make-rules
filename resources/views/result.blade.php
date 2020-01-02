@@ -41,17 +41,17 @@
 <div id="resultform">
     <div class="container">
         <div class="label-vertical">
-            <div class="label">（人数）</div>
-            <div class="label">1000</div>
-            <div class="label">900</div>
-            <div class="label">800</div>
-            <div class="label">700</div>
-            <div class="label">600</div>
-            <div class="label">500</div>
-            <div class="label">400</div>
-            <div class="label">300</div>
-            <div class="label">200</div>
+            <div class="label">（得票率）</div>
             <div class="label">100</div>
+            <div class="label">90</div>
+            <div class="label">80</div>
+            <div class="label">70</div>
+            <div class="label">60</div>
+            <div class="label">50</div>
+            <div class="label">40</div>
+            <div class="label">30</div>
+            <div class="label">20</div>
+            <div class="label">10</div>
             <div class="label">0</div>
         </div>
         <div class="inner">
@@ -69,18 +69,10 @@
                 <hr style="top: 286px;">
                 <div class="bar" style="height: 165px; margin-top: 122px;"></div>
                 <div class="bar" style="height: 82px; margin-top: 203px;"></div>
-                <div class="bar" style="height: 200px; margin-top: 87px;"></div>
-                <div class="bar" style="height: 166px; margin-top: 121px;"></div>
             </div>
         <div class="label-horizontal">
             <div class="label">10代</div>
             <div class="label">20代</div>
-            <div class="label">30代</div>
-            <div class="label">40代</div>
-            <div class="label">50代</div>
-            <div class="label">60代</div>
-            <div class="label">70代</div>
-            <div class="label">80代</div>
           </div>
         </div>
     </div>
