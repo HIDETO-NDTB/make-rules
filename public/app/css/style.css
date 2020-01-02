@@ -612,7 +612,6 @@ select {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid black;
 }
 
 .result-top {
@@ -625,7 +624,10 @@ select {
 
 .result-option li {
     height: 50px;
-    border: 1px solid black;
+    width: 100%;
+    font-size: 50px;
+    border: 1px solid gray;
+    text-align: center;
 }
 
 
