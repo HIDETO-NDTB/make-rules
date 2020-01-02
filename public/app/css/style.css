@@ -605,3 +605,14 @@ select {
     margin-bottom: 100px;
     font-size: 30px;
 }
+
+/* result.blade */
+
+.item {
+    box-sizing: border-box;
+    background-color: limegreen;
+    padding: 4px;
+      width: 20px;
+    margin-left:10px;
+    margin-right:10px;
+  }

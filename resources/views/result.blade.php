@@ -42,21 +42,10 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
-                <form action="" method="POST">
-                    @csrf
-                    <div class="form-group">
-                        <select name="agreement" style="width: 200px;">
-                            <option value="agree">賛成</option>
-                            <option value="disagree">反対</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="content" id="" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-success" style="width: 300px;">コメントする</button>
-                    </div>
-                </form>
+                <div class="item" style="height:50px">
+                </div>
+                <div class="item" style="height:30px">
+                </div>
             </div>
         </div>
     </div>
