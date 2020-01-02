@@ -50,11 +50,10 @@
                         <span class="result-amount">可 決</span>
                     </div>
                     <div class="result-content">
-                        <ul>
+
                             <li>総投票数　<strong>９７票</strong></li>
                             <li>賛成　<strong>５７票</strong></li>
                             <li>反対　<strong>４０票</strong></li>
-                        </ul>
                     </div>
                 </div>
             </div>
