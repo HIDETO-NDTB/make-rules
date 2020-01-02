@@ -38,15 +38,50 @@
     <!-- container -->
 </div>
 
-<div id="commentform">
-    <div class="container2">
-        <div class="row centerd">
-            <div class="col-lg-12">
-                <div class="item" style="height:50px">
-                </div>
-                <div class="item" style="height:30px">
-                </div>
+<div id="resultform">
+    <div class="container">
+        <div class="label-vertical">
+            <div class="label">（人数）</div>
+            <div class="label">1000</div>
+            <div class="label">900</div>
+            <div class="label">800</div>
+            <div class="label">700</div>
+            <div class="label">600</div>
+            <div class="label">500</div>
+            <div class="label">400</div>
+            <div class="label">300</div>
+            <div class="label">200</div>
+            <div class="label">100</div>
+            <div class="label">0</div>
+        </div>
+        <div class="inner">
+            <div class="graph">
+                <hr style="top: 26px;">
+                <hr style="top: 52px;">
+                <hr style="top: 78px;">
+                <hr style="top: 104px;">
+                <hr style="top: 130px;">
+                <hr style="top: 156px;">
+                <hr style="top: 182px;">
+                <hr style="top: 208px;">
+                <hr style="top: 234px;">
+                <hr style="top: 260px;">
+                <hr style="top: 286px;">
+                <div class="bar" style="height: 165px; margin-top: 122px;"></div>
+                <div class="bar" style="height: 82px; margin-top: 203px;"></div>
+                <div class="bar" style="height: 200px; margin-top: 87px;"></div>
+                <div class="bar" style="height: 166px; margin-top: 121px;"></div>
             </div>
+        <div class="label-horizontal">
+            <div class="label">10代</div>
+            <div class="label">20代</div>
+            <div class="label">30代</div>
+            <div class="label">40代</div>
+            <div class="label">50代</div>
+            <div class="label">60代</div>
+            <div class="label">70代</div>
+            <div class="label">80代</div>
+          </div>
         </div>
     </div>
 </div>
