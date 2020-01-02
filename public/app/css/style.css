@@ -613,7 +613,7 @@ select {
 }
 
 .result-top {
-    background-color: gray;
+    background-color: blue;
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;

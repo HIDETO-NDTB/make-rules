@@ -38,6 +38,15 @@
     <!-- container -->
 </div>
 
+<div class="resulttitle">
+    <div class="container">
+        <div class="col-lg-12">
+            <h4>開票結果</h4>
+            <p>投票日　２０２０年２月１日</p>
+        </div>
+    </div>
+</div>
+
 <div id="resultform">
     <div class="container">
         <div class="row centered">
