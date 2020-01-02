@@ -647,6 +647,7 @@ select {
   }
   .label-horizontal {
     display: flex;
+    color: gray;
   }
   .label-horizontal .label{
     font-size: 12px;
