@@ -612,10 +612,6 @@ select {
     background-color: white;
 }
 
-.result-option {
-    border: 1px solid gray;
-}
-
 .result-top {
     background-color: gray;
     margin-top: 30px;
