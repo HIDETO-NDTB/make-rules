@@ -610,6 +610,7 @@ select {
 
 .resultform {
     display: flex;
+    color: black;
   }
 
   .label-vertical .label{
