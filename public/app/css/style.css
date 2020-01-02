@@ -614,12 +614,13 @@ select {
 }
 
 .resulttitle h4 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .resulttitle p {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 #resultform {

@@ -39,7 +39,7 @@
 </div>
 
 <div class="resulttitle">
-    <div class="container">
+    <div class="container-flued">
         <div class="col-lg-12">
             <h4>開票結果</h4>
             <p>投票日　２０２０年２月１日</p>
