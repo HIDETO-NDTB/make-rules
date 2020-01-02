@@ -623,7 +623,7 @@ select {
     text-align: center;
 }
 
-.result-option {
+.result-option li {
     height: 50px;
     border: 1px solid black;
 }
