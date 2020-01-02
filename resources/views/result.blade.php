@@ -40,42 +40,7 @@
 
 <div id="resultform">
     <div class="container">
-        <div class="label-vertical">
-            <div class="label">（得票率）</div>
-            <div class="label">100</div>
-            <div class="label">90</div>
-            <div class="label">80</div>
-            <div class="label">70</div>
-            <div class="label">60</div>
-            <div class="label">50</div>
-            <div class="label">40</div>
-            <div class="label">30</div>
-            <div class="label">20</div>
-            <div class="label">10</div>
-            <div class="label">0</div>
-        </div>
-        <div class="inner">
-            <div class="graph">
-                <hr style="top: 26px;">
-                <hr style="top: 52px;">
-                <hr style="top: 78px;">
-                <hr style="top: 104px;">
-                <hr style="top: 130px;">
-                <hr style="top: 156px;">
-                <hr style="top: 182px;">
-                <hr style="top: 208px;">
-                <hr style="top: 234px;">
-                <hr style="top: 260px;">
-                <hr style="top: 286px;">
-                <div class="bar" style="height: 165px; margin-top: 122px;"></div>
-                <div class="bar" style="height: 82px; margin-top: 203px;"></div>
-            </div>
-            <div class="label-horizontal">
-                <div class="label">賛成</div>
-                <div class="label">反対</div>
-              </div>
-            </div>
-        </div>
+
     </div>
 </div>
 
