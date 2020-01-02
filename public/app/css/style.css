@@ -610,7 +610,7 @@ select {
 
 .resulttitle {
     background-color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .resulttitle h4 {
