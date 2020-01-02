@@ -15,17 +15,17 @@
         <div class="col-lg-6">
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category') }}">国　自治体</a></li>
-                    <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">会社</a></li>
-                    <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">学校</a></li>
-                    <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">家族　親戚</a></li>
-                    <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">男女　恋愛</a></li>
+                    <li><a class="btn btn-default" style="width:100px; margin: 10px 2px;" href="{{ route('category') }}">国　自治体</a></li>
+                    <li><a class="btn btn-default" style="width:100px; margin: 10px 2px;" href="#">会社</a></li>
+                    <li><a class="btn btn-default" style="width:100px; margin: 10px 2px;" href="#">学校</a></li>
+                    <li><a class="btn btn-default" style="width:100px; margin: 10px 2px;" href="#">家族　親戚</a></li>
+                    <li><a class="btn btn-default" style="width:100px; margin: 10px 2px;" href="#">男女　恋愛</a></li>
                 </ul>
             </div>
         </div>
         <div class="col-lg-3">
             <li class="nav-item navbar-right">
-                <a class="btn btn-primary" style="width:120px; height:50px; margin: 10px 30px;" href="">Login</a>
+                <a class="btn btn-primary" style="width:100px; height:50px; margin: 10px 30px;" href="">Login</a>
             </li>
         </div>
     </div>
