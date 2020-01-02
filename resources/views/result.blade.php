@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row centered">
             <div class="col-lg-6">
-                <img src="{{ asset('app/img/approved-min.jpg') }}"  style="width:100%; height:100%;">
+                <img src="{{ asset('app/img/approved-min.jpg') }}"  style="width:80%; height:80%;">
             </div>
             <div class="col-lg-6">
                 <div class="result-option">
