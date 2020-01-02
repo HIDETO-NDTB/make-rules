@@ -623,8 +623,8 @@ select {
 }
 
 .result-option li {
-    height: 50px;
-    width: 100%;
+    height: 70px;
+    width: 120%;
     font-size: 30px;
     border: 1px solid gray;
     text-align: center;
