@@ -676,7 +676,7 @@ select {
 
 @media (max-width: 768px ) {
     .result-content li {
-        font-size: 20px;
+        font-size: 10px;
         font-weight: normal;
     }
 }
