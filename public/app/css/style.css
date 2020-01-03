@@ -176,12 +176,11 @@ li {
 }
 
 .initiative-option {
-    padding-top: 40px;
+    padding-top: 400px;
   }
 
 .initiative-option btn-danger {
-    position: absolute;
-    top: 300px;
+    position: relative;
     text-align: center;
     font-weight: bold;
     padding: 40px 20px 30px 20px;
