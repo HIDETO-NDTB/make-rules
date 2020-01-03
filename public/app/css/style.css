@@ -102,6 +102,15 @@ li {
     list-style: none;
 }
 
+@media (max-width: 768px ) {
+    .title {
+        font-size:20px;
+        font-weight: normal;
+    }
+}
+
+
+
 /*TILT*/
 
 .tilt {
@@ -176,13 +185,6 @@ li {
     font-size: 30px;
   }
 }
-
-@media (max-width: 768px ) {
-    .title {
-        font-size:24px;
-    }
-}
-
 
 .initiative-option {
     padding-top: 400px;
@@ -676,8 +678,7 @@ select {
 
 @media (max-width: 768px ) {
     .result-content li {
-        font-size: 30px;
-        font-weight: normal;
+        font-size: 20px;
     }
 }
 
