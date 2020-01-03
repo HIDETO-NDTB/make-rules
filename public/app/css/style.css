@@ -176,9 +176,14 @@ li {
 }
 
 .initiative-form {
-    margin-top: 50px;
+
     background-color: white;
     padding: 100px 50px;
+}
+
+.initiative-form h4 {
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 /* Dark Grey Wrap */
