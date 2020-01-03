@@ -106,6 +106,7 @@ li {
     .title {
         font-size:22px;
         font-weight: normal;
+        text-align: left;
     }
 }
 
