@@ -671,6 +671,6 @@ select {
     font-size: 20px;
 }
 
-#commentform btn-danger {
+#commentform a {
     font-size: 20px;
 }
