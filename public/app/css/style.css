@@ -675,3 +675,10 @@ select {
 #commentform button {
     font-size: 20px;
 }
+
+#commentform h4 {
+    font-size: 30px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+
+}
