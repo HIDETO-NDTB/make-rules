@@ -669,8 +669,9 @@ select {
 
 #commentform label {
     font-size: 20px;
+    font-weight: normal;
 }
 
-#commentform a {
+#commentform button {
     font-size: 20px;
 }
