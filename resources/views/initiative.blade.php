@@ -49,7 +49,7 @@
                         <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい">
                     </div>
                     <div class="form-group">
-                        <p>カテゴリ</p>
+                        <label>カテゴリ</label>
                         <select name="category" style="width: 200px;">
                             <option value="country">国 自治体</option>
                             <option value="company">会社</option>
@@ -59,7 +59,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <p>内容（●文字以内）</p>
+                        <label>内容（●文字以内）</label>
                         <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                     </div>
                     <div class="form-group">
