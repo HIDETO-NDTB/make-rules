@@ -14,7 +14,7 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-3">
             <li class="nav-item navbar-right">
-                <a class="btn btn-primary" style="width:100px; height:50px;" href="">Login</a>
+                <a class="btn btn-primary" style="width:100px;" href="">Login</a>
             </li>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-9">
