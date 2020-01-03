@@ -278,7 +278,7 @@ li {
 }
 
 #f i {
-  color: black;
+  color: #bdbdbd;
   font-size: 30px;
   padding: 20px;
 }
@@ -347,7 +347,7 @@ li {
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: black;
 }
 
 .modal-footer {
