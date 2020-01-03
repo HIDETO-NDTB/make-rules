@@ -182,12 +182,12 @@ li {
 .initiative-option btn-danger {
     position: relative;
     text-align: center;
+    top: auto;
     font-weight: bold;
     padding: 40px 20px 30px 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-
   }
 
   .initiative-option a {
