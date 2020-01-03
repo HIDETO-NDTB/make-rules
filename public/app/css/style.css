@@ -736,3 +736,7 @@ select {
 #contactform span {
     color: red;
 }
+
+#contactform input {
+    font-size: 20px;
+}
