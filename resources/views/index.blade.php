@@ -4,9 +4,11 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-8 col-lg-offset-2">
-              <h1></h1>
-              <h2></h2>
+            <div class="col-lg-6">
+                <div class="initiative-form">
+                    <h4>新法案を発議する</h4>
+                    <a class="btn btn-primary" style="width: 300px;" href="">発議する</a>
+                </div>
             </div>
         </div>
       <!-- row -->
