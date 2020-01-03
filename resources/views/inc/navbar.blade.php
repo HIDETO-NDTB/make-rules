@@ -12,6 +12,11 @@
                     <a class="title" href="{{ route('index') }}">Make Rules</a>
             </div>
         </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <li class="nav-item navbar-right">
+                <a class="btn btn-primary" style="width:100px; height:50px; margin: 10px 30px;" href="">Login</a>
+            </li>
+        </div>
         <div class="col-lg-6 col-md-9 col-sm-9 col-xs-6">
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -22,11 +27,6 @@
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="#">男女　恋愛</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
-            <li class="nav-item navbar-right">
-                <a class="btn btn-primary" style="width:100px; height:50px; margin: 10px 30px;" href="">Login</a>
-            </li>
         </div>
     </div>
         <!--/.nav-collapse -->
