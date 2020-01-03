@@ -16,6 +16,7 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
+                <h4>新法案の発議</h4>
                 <form action="" method="POST">
                     @csrf
                     <div class="form-group">
