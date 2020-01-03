@@ -710,3 +710,27 @@ select {
     border-top: 3px solid gray;
     border-bottom: 3px solid gray;
 }
+
+/* contact.blade */
+
+#contactform label {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#contactform button {
+    font-size: 20px;
+}
+
+#contactform h4 {
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+#contactform span {
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+

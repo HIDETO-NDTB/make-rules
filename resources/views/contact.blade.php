@@ -12,7 +12,7 @@
     <!-- container -->
 </div>
 
-<div id="commentform">
+<div id="contactform">
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
