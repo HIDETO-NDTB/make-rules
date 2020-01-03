@@ -50,19 +50,18 @@
 <div id="resultform">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-xs-12">
                 <img src="{{ asset('app/img/approved-min.jpg') }}"  style="width:80%; height:80%;">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-xs-12">
                 <div class="result-option">
                     <div class="result-top">
                         <span class="result-amount">可 決</span>
                     </div>
                     <div class="result-content">
-
-                            <li>総投票数　<strong>９７票</strong></li>
-                            <li>賛成　<strong>５７票</strong></li>
-                            <li>反対　<strong>４０票</strong></li>
+                        <li>総投票数　<strong>９７票</strong></li>
+                        <li>賛成　<strong>５７票</strong></li>
+                        <li>反対　<strong>４０票</strong></li>
                     </div>
                 </div>
             </div>
