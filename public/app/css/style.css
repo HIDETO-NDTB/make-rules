@@ -94,6 +94,10 @@ hr {
     margin: 10px 10px;
 }
 
+.top-right btn-primary {
+    font-size: 20px;
+}
+
 .btn-default li {
     color: black;
 }

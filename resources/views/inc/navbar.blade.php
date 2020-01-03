@@ -20,9 +20,6 @@
                         <a class="btn btn-primary" style="width:100px;" href="{{ url('/home') }}">Home</a>
                         @else
                         <a class="btn btn-primary" style="width:100px;" href="{{ route('login') }}">ログイン</a>
-                        @if (Route::has('register'))
-                            <a class="btn btn-success" style="width:100px;" href="{{ route('register') }}">新規登録</a>
-                        @endif
                         @endauth
                     </div>
                 @endif
