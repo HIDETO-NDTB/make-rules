@@ -14,7 +14,18 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-3">
             <li class="nav-item navbar-right">
-                <a class="btn btn-primary" style="width:100px;" href="">Login</a>
+                @if (Route::has('login'))
+                    <div class="top-right links">
+                        @auth
+                        <a class="btn btn-primary" style="width:100px;" href="{{ url('/home') }}">Home</a>
+                        @else
+                        <a class="btn btn-primary" style="width:100px;" href="{{ route('login') }}">Login</a>
+                        @if (Route::has('register'))
+                            <a class="btn btn-primary" style="width:100px;" href="{{ route('register') }}">Register</a>
+                        @endif
+                        @endauth
+                    </div>
+                @endif
             </li>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
