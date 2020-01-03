@@ -3,12 +3,9 @@
 
 <div id="commentwrap">
     <div class="container-fluid">
-        <div class="row centered">
-            <div class="col-lg-12">
-                <img src="{{ asset('app/img/initiative-min.jpg') }}"  style="width:100%; height:100%;">
-            </div>
+        <div class="col-lg-12">
+            <img src="{{ asset('app/img/initiative-min.jpg') }}"  style="width:100%; height:100%;">
         </div>
-      <!-- row -->
     </div>
     <!-- container -->
 </div>
