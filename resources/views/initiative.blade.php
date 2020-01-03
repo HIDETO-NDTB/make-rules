@@ -4,7 +4,7 @@
 <div id="commentwrap">
     <div class="container-fluid">
         <div class="col-lg-12">
-            <img src="{{ asset('app/img/initiative-min.jpg') }}"  style="width:100%; height:100%;">
+            <img src="{{ asset('app/img/initiative-min.jpg') }}"  style="width:120%; height:80%;">
         </div>
     </div>
     <!-- container -->
