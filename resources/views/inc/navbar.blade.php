@@ -1,7 +1,7 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-3">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
             <div class="navbar-header">
 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -17,7 +17,7 @@
                 <a class="btn btn-primary" style="width:100px; height:50px; margin: 10px 30px;" href="">Login</a>
             </li>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-3">
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category') }}">国　自治体</a></li>
