@@ -670,6 +670,13 @@ select {
     text-align: center;
 }
 
+@media (max-width: 768px ) {
+    .result-content li {
+        font-size: 20px;
+    }
+}
+
+
 /* initiative.blade */
 
 #commentform label {
