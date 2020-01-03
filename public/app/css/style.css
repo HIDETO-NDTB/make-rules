@@ -170,19 +170,15 @@ li {
     font-size: 50px;
   }
 
-  #headerwrap h4 {
+  #headerwrap h2 {
     font-size: 30px;
-    padding-top: 200px;
   }
 }
 
-.initiativeform {
-    background-color: white;
-    padding: 100px 50px;
-    margin-top: 200px;
+.initiative-form a {
+    height: 70px;
+    padding-bottom: -20px;
 }
-
-
 
 /* Dark Grey Wrap */
 
