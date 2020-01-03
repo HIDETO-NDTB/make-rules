@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                    <a class="title" href="{{ route('index') }}">Make Rules</a>
+                <a class="title" href="{{ route('index') }}">Make Rules</a>
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-3">
