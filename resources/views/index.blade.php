@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row centered">
             <div class="col-lg-6">
-                <div class="initiative-form">
+                <div class="initiativeform">
                     <h4>新法案を発議する</h4>
                     <a class="btn btn-primary" style="width: 300px;" href="">発議する</a>
                 </div>
