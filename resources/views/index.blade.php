@@ -7,12 +7,7 @@
             <div class="col-lg-6">
                 <div class="pricing-option">
                     <div class="pricing-top">
-                        <span class="pricing-edition">国　自治体<br>未投票案件数</span>
-                        <span class="price">
-                            <sup></sup>
-                            <span class="price-amount">４</span>
-                            <small>案件</small>
-                        </span>
+                        <a class="btn btn-danger" style="width: 300px;" href="">新法案を発議する</a>
                     </div>
                 </div>
             </div>
