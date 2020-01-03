@@ -170,8 +170,9 @@ li {
     font-size: 50px;
   }
 
-  #headerwrap h2 {
+  #headerwrap h4 {
     font-size: 30px;
+    margin-top: 50px;
   }
 }
 
@@ -181,10 +182,7 @@ li {
     padding: 100px 50px;
 }
 
-.initiative-form h4 {
-    margin-top: 50px;
-    font-size: 20px;
-}
+
 
 /* Dark Grey Wrap */
 
