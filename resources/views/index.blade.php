@@ -7,7 +7,7 @@
             <div class="col-lg-6">
                 <div class="initiative-option">
                     <div class="initiative-top">
-                        <a class="btn btn-danger" style="width: 300px;" href="">新法案を発議する</a>
+                        <a class="btn btn-danger" style="width: 300px;" href="{{ route('initiative') }}">新法案を発議する</a>
                     </div>
                 </div>
             </div>

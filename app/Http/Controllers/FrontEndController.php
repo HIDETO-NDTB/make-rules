@@ -30,4 +30,9 @@ class FrontEndController extends Controller
 
         return view('result');
     }
+
+    public function initiative(){
+
+        return view('initiative');
+    }
 }

@@ -32,12 +32,17 @@ Route::get('/rule-single',[
     'as' => 'rule.single'
 ]);
 
-Route::get('vote',[
+Route::get('/vote',[
     'uses' => 'FrontEndController@vote',
     'as' => 'vote'
 ]);
 
-Route::get('result',[
+Route::get('/result',[
     'uses' => 'FrontEndController@result',
     'as' => 'result'
+]);
+
+Route::get('/initiative',[
+    'uses' => 'FrontEndController@initiative',
+    'as' => 'initiative'
 ]);
