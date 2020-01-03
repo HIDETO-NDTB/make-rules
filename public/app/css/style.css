@@ -175,6 +175,21 @@ li {
   }
 }
 
+.initiative-option {
+    padding-top: 40px;
+  }
+
+  .initiative-option .initiative {
+    position: relative;
+    background: gray;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px 20px 30px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
 
 /* Dark Grey Wrap */
