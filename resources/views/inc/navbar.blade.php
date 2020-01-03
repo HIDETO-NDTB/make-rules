@@ -12,7 +12,7 @@
                 <a class="title" href="{{ route('index') }}">Make Rules</a>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-3">
+        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
             <li class="nav-item navbar-right">
                 <a class="btn btn-primary" style="width:100px;" href="">Login</a>
             </li>
