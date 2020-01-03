@@ -179,7 +179,7 @@ li {
     padding-top: 40px;
   }
 
-.initiative-option a {
+.initiative-option .btn-default {
     position: relative;
     text-align: center;
     font-weight: bold;
