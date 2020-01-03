@@ -46,3 +46,8 @@ Route::get('/initiative',[
     'uses' => 'FrontEndController@initiative',
     'as' => 'initiative'
 ]);
+
+Route::get('/contact',[
+    'uses' => 'FrontEndController@contact',
+    'as' => 'contact'
+]);

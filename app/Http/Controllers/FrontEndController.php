@@ -35,4 +35,9 @@ class FrontEndController extends Controller
 
         return view('initiative');
     }
+
+    public function contact(){
+
+        return view('contact');
+    }
 }
