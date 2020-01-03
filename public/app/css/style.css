@@ -179,10 +179,8 @@ li {
     padding-top: 40px;
   }
 
-  .initiative-option .initiative-top {
+.initiative-top {
     position: relative;
-    background: gray;
-    color: white;
     text-align: center;
     font-weight: bold;
     padding: 40px 20px 30px 20px;
