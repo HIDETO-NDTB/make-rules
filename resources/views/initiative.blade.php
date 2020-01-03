@@ -45,7 +45,12 @@
                 <form action="" method="POST">
                     @csrf
                     <div class="form-group">
-                        <select name="agreement" style="width: 200px;">
+                        <p>タイトル（●文字以内）</p>
+                        <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい">
+                    </div>
+                    <div class="form-group">
+                        <p>カテゴリ</p>
+                        <select name="category" style="width: 200px;">
                             <option value="country">国 自治体</option>
                             <option value="company">会社</option>
                             <option value="school">学校</option>
@@ -54,10 +59,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <textarea name="content" id="" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
+                        <p>内容（●文字以内）</p>
+                        <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-success" style="width: 300px;">コメントする</button>
+                        <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
                     </div>
                 </form>
             </div>
