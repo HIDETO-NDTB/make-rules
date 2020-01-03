@@ -45,7 +45,7 @@
                 <form action="" method="POST">
                     @csrf
                     <div class="form-group">
-                        <p>タイトル（●文字以内）</p>
+                        <label>タイトル（●文字以内）</label>
                         <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい">
                     </div>
                     <div class="form-group">
