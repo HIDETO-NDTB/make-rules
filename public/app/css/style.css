@@ -175,9 +175,9 @@ li {
   }
 }
 
-.initiative-form a {
-    height: 70px;
+.initiative-form {
     margin-top: 300px;
+    background-color: white;
 }
 
 /* Dark Grey Wrap */
