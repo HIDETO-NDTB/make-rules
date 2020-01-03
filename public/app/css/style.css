@@ -670,3 +670,7 @@ select {
 #commentform label {
     font-size: 20px;
 }
+
+#commentform btn-danger {
+    font-size: 20px;
+}
