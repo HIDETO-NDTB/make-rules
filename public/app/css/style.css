@@ -164,6 +164,10 @@ li {
 }
 
 @media (max-width: 768px ) {
+  #headerwrap {
+      background-size: 50%;
+  }
+
   #headerwrap h1 {
     font-size: 50px;
   }
