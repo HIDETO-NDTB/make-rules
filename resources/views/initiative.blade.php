@@ -2,9 +2,11 @@
 @section('page')
 
 <div id="commentwrap">
-    <div class="container-fluid">
-        <div class="col-lg-12">
-            <img src="{{ asset('app/img/initiative-min.jpg') }}"  style="width:100%; height:50%;">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-lg-12">
+                <img src="{{ asset('app/img/initiative-min.jpg') }}"  style="width:100%; height:50%;">
+            </div>
         </div>
     </div>
     <!-- container -->
