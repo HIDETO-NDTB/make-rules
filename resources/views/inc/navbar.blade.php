@@ -17,9 +17,9 @@
                 @if (Route::has('login'))
                     <div class="top-right links">
                         @auth
-                        <a class="btn btn-primary" style="width:100px;" href="{{ url('/home') }}">Home</a>
+                        <a class="btn btn-primary" style="width:100px;" href="{{ route('index') }}">Home</a>
                         @else
-                        <a class="btn btn-primary" style="width:100px;" href="{{ route('login') }}">ログイン</a>
+                        <a class="btn btn-primary" style="width:100px;" href="{{ route('login') }}">Login</a>
                         @endauth
                     </div>
                 @endif
