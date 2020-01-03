@@ -1,7 +1,7 @@
 @extends('layouts/front')
 @section('page')
 
-<div id="commentwrap">
+<div id="initiativewrap">
     <div class="container">
         <div class="row centered">
             <div class="col-lg-12">
