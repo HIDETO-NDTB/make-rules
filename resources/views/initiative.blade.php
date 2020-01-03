@@ -49,7 +49,7 @@
                         <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい">
                     </div>
                     <div class="form-group">
-                        <label>カテゴリ</label>
+                        <label>カテゴリ</label><br>
                         <select name="category" style="width: 200px;">
                             <option value="country">国 自治体</option>
                             <option value="company">会社</option>

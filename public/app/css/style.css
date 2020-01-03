@@ -665,4 +665,8 @@ select {
     text-align: center;
 }
 
+/* initiative.blade */
 
+#commentform label {
+    font-size: 20px;
+}
