@@ -22,7 +22,7 @@
                     @csrf
                     <div class="form-group">
                         <label>カテゴリ</label><br>
-                        <select name="category" style="width: 200px;">
+                        <select name="category" style="width: 400px;">
                             <option value="country">Make Rules に関するお問い合わせ</option>
                             <option value="company">不具合報告</option>
                             <option value="school">広告に関するお問い合わせ</option>
