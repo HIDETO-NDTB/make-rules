@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-group">
                         <label>氏名<span>(*必須）</span></label><br>
-                        <input type="text" name="name" stile="width: 300px" placeholder="氏名">
+                        <input type="text" name="name" stile="width: 400px" placeholder="氏名">
                     </div>
                     <div class="form-group">
                         <label>Email<span>(*必須）</span></label>
