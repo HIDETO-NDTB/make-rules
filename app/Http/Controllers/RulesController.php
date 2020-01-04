@@ -13,7 +13,7 @@ class RulesController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
