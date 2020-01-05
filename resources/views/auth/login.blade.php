@@ -74,9 +74,9 @@
                                     </a>
                                 @endif
 
-                                <button type="submit" class="btn btn-success" style="width: 200px">
+                                <a class="btn btn-success" href="" style="width: 200px">
                                     {{ __('新規登録はコチラ') }}
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </form>
