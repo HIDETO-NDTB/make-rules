@@ -89,8 +89,8 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
+                                <button type="submit" class="btn btn-success" style="width: 200px">
+                                    {{ __('新規登録') }}
                                 </button>
                             </div>
                         </div>
