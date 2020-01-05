@@ -17,6 +17,8 @@ Route::get('/', [
     'as' => 'index'
 ]);
 
+Route::resource('rules','RulesController');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
