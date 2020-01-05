@@ -16,7 +16,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                <div class="card-header">{{ __('新規登録') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -38,6 +38,9 @@
 
                         <div class="form-group row">
                             <label for="age" class="col-md-4 col-form-label text-md-right">{{ __('年齢') }}</label>
+                            <div class="col-md-6">
+                                <input id="age" type="text" class="form-control" name="age" value="" autofocus>
+                            </div>
                         </div>
 
                         <div class="form-group row">
