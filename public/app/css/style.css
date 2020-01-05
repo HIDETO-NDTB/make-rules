@@ -752,3 +752,9 @@ select {
 .btn-success {
     margin-top: 10px;
 }
+
+/* register.blade */
+
+#gender {
+    margin-right: 20px;
+}
