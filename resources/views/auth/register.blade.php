@@ -44,6 +44,14 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="gender" class="col-md-4 col-form-label text-md-right">{{ __('性別') }}</label>
+                            <div class="col-md-6">
+                                <input id="gender" type="radio" name="gender" value="male">男
+                                <input id="gender" type="radio" name="gender" value="female">女
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
 
                             <div class="col-md-6">
