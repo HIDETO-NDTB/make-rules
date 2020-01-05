@@ -74,7 +74,7 @@
                                     </a>
                                 @endif
 
-                                <a class="btn btn-success" href="" style="width: 200px">
+                                <a class="btn btn-success" href="{{ route('register') }}" style="width: 200px">
                                     {{ __('新規登録はコチラ') }}
                                 </a>
                             </div>
