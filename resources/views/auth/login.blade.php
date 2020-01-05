@@ -73,6 +73,10 @@
                                         {{ __('パスワードを忘れた方はコチラ') }}
                                     </a>
                                 @endif
+
+                                <button type="submit" class="btn btn-success" style="width: 200px">
+                                    {{ __('新規登録はコチラ') }}
+                                </button>
                             </div>
                         </div>
                     </form>
