@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-group">
                         <label>氏名</label><br>
-                        <input type="text" name="name" stile="width: 400px" placeholder="氏名">
+                        <input type="text" name="name" stile="width: 400px">
                     </div>
                     <div class="form-group">
                         <label>Email</label>
