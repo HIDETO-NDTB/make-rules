@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
-                <h4> お問い合わせフォーム </h4>
+                <h4><span> お問い合わせフォーム </span></h4>
                 <p>Make Rulesをご利用頂き、誠にありがとうございます。<br>皆様より頂戴した貴重なご意見は今後の運営に活かして参ります。</p>
                 <form action="" method="POST">
                     @csrf
@@ -31,11 +31,11 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>氏名<span>(*必須）</span></label><br>
+                        <label>氏名</label><br>
                         <input type="text" name="name" stile="width: 400px" placeholder="氏名">
                     </div>
                     <div class="form-group">
-                        <label>Email<span>(*必須）</span></label>
+                        <label>Email</label>
                         <input type="email" name="email" class="form-control">
                     </div>
                     <div class="form-group">

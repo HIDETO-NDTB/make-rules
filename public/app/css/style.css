@@ -734,7 +734,8 @@ select {
 }
 
 #contactform span {
-    color: red;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
 }
 
 #contactform input {
