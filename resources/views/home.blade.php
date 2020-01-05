@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.front')
+@section('page')
 
-@section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    ようこそ！　ユーザー様
                 </div>
             </div>
         </div>
