@@ -54,7 +54,7 @@
     <div class="container">
       <div class="row centered">
         <h4>LATEST RULES</h4>
-        <p>最近決議された規則です。（妄想の中で）遵守しましょう。</p>
+        <p>最近可決された法案です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
             <a href="{{ route('result') }}"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
