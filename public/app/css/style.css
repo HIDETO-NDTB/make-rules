@@ -747,3 +747,7 @@ select {
     font-size: 28px;
     font-weight: bold;
 }
+
+.btn-success {
+    margin-top: 10px;
+}
