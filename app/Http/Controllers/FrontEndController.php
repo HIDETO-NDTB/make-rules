@@ -48,6 +48,6 @@ class FrontEndController extends Controller
 
     public function contact(){
 
-        return view('contact');
+        return view('contact')->with('categories',Category::all());
     }
 }
