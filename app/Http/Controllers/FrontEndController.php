@@ -28,8 +28,7 @@ class FrontEndController extends Controller
 
     public function rule_single(){
 
-        return view('rule-single')->with('rule',$rule)
-                                  ->with('categories',Category::all());
+        return view('rule-single');
     }
 
     public function vote(){
@@ -44,7 +43,7 @@ class FrontEndController extends Controller
 
     public function initiative(){
 
-        return view('initiative');
+        return view('initiative')->with('categories',Category::all());
     }
 
     public function contact(){
