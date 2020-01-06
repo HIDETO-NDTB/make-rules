@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Rule;
+use App\Category;
 
 class FrontEndController extends Controller
 {
@@ -11,10 +12,12 @@ class FrontEndController extends Controller
         $first_initiative = Rule::orderBy('initiative_date','desc')->first();
         $second_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(1)->get()->first();
         $third_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(2)->get()->first();
+        $categories = Category::all();
 
         return view('index')->with('first_initiative',$first_initiative)
                             ->with('second_initiative',$second_initiative)
-                            ->with('third_initiative',$third_initiative);
+                            ->with('third_initiative',$third_initiative)
+                            ->with('categories',$categories);
     }
 
     public function category(){
