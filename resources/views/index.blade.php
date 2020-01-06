@@ -30,7 +30,7 @@
         <div class="col-lg-4">
             <h4><i class="far fa-folder-open"></i><span>新</span>  発議</h4>
             <br>
-            <li><a href="#">{{ $first_initiative->title }}<br>{{ $first_initiative->initiative_date }}</a></li><br>
+            <li><a href="#">{{ $first_initiative->title }}<br>."(".{{ $first_initiative->initiative_date }}."発議"</a></li><br>
             <li><a href="#">サラリーマンお小遣い制廃止<br>（２月３日発議）</a></li><br>
             <li><a href="#">テレビは1日2時間まで<br>（２月３日発議）</a></li><br>
         </div>
