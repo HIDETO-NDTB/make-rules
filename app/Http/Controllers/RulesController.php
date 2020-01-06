@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Category;
 
 class RulesController extends Controller
 {
@@ -23,7 +24,8 @@ class RulesController extends Controller
      */
     public function create()
     {
-        //
+        $ategories = Category::all();
+        return view('rules.create')->with('categories',$categories);
     }
 
     /**
