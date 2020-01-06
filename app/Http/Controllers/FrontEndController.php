@@ -7,8 +7,13 @@ use Illuminate\Http\Request;
 class FrontEndController extends Controller
 {
     public function index(){
+        $first_initiative = Rule::orderBy('initiative_date','desc')->first();
+        $second_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(1)->get()->first();
+        $third_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(2)->get()->first();
 
-        return view('index');
+        return view('index')->with('first_post',$first_post)
+                            ->with('second_post',$second_post)
+                            ->with('third_post',$third_post);
     }
 
     public function category(){
