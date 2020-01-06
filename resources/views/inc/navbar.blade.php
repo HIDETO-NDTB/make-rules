@@ -18,7 +18,7 @@
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
-                        <a class="btn btn-primary" style="width: 120px" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="btn btn-primary" style="width: 100px color:black;" href="{{ route('login') }}">{{ __('Login') }}</a>
                     </li>
                 @else
                     <li class="nav-item dropdown">
