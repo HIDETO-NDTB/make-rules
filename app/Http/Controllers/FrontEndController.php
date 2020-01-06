@@ -28,12 +28,12 @@ class FrontEndController extends Controller
 
     public function rule_single(){
 
-        return view('rule-single');
+        return view('rule-single')->with('categories',Category::all());
     }
 
     public function vote(){
 
-        return view('vote');
+        return view('vote')->with('categories',Category::all());
     }
 
     public function result(){
