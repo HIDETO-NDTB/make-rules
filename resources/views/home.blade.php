@@ -16,7 +16,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">ようこそ！{{ $user->name }}様</div>
+                <div class="card-header">ようこそ！{{ $users->name }}さん</div>
 
                 <div class="card-body">
                     @if (session('status'))
