@@ -38,7 +38,7 @@ class FrontEndController extends Controller
 
     public function result(){
 
-        return view('result');
+        return view('result')->with('categories',Category::all());
     }
 
     public function initiative(){
