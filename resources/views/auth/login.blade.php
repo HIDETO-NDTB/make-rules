@@ -1,5 +1,5 @@
-@extends('layouts.front')
-@section('page')
+@extends('layouts.app')
+@section('content')
 
 <div id="initiativewrap">
     <div class="container">
