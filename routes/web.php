@@ -17,10 +17,6 @@ Route::get('/', [
     'as' => 'index'
 ]);
 
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('/category',[
     'uses' => 'FrontEndController@category',
     'as' => 'category'
@@ -50,3 +46,9 @@ Route::get('/contact',[
     'uses' => 'FrontEndController@contact',
     'as' => 'contact'
 ]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
