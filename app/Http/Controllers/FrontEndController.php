@@ -22,7 +22,8 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
-        return view('category')->with('category',$category);
+        return view('category')->with('category',$category)
+                               ->with('categories',Category::all());
     }
 
     public function rule_single(){
