@@ -12,9 +12,9 @@ class FrontEndController extends Controller
         $second_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(1)->get()->first();
         $third_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(2)->get()->first();
 
-        return view('index')->with('first_post',$first_post)
-                            ->with('second_post',$second_post)
-                            ->with('third_post',$third_post);
+        return view('index')->with('first_post',$first_initiative)
+                            ->with('second_post',$second_initiative)
+                            ->with('third_post',$third_initiative);
     }
 
     public function category(){
