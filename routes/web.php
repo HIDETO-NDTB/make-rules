@@ -18,8 +18,8 @@ Route::get('/', [
 ]);
 
 Route::get('/category',[
-    'uses' => 'FrontEndController@category',
-    'as' => 'category'
+    'uses' => 'FrontEndController@category_single',
+    'as' => 'category.single'
 ]);
 
 Route::get('/rule-single',[

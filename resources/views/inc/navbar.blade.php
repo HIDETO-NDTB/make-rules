@@ -16,7 +16,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     @foreach ($categories as $category)
-                        <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
+                        <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                     @endforeach
                 </ul>
             </div>

@@ -20,7 +20,7 @@ class FrontEndController extends Controller
                             ->with('categories',$categories);
     }
 
-    public function category(Category $category){
+    public function category_single(Category $category){
 
         return view('category')->with('category',$category);
     }
