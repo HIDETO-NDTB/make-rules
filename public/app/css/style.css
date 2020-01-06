@@ -107,6 +107,11 @@ li {
     list-style: none;
 }
 
+#navbarDropdown {
+    font-size: 10px;
+    color: white;
+}
+
 @media (max-width: 768px ) {
     .title {
         font-size:26px;
