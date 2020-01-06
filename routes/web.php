@@ -17,7 +17,7 @@ Route::get('/', [
     'as' => 'index'
 ]);
 
-Route::get('/category',[
+Route::get('/category_single/{category}',[
     'uses' => 'FrontEndController@category_single',
     'as' => 'category.single'
 ]);
