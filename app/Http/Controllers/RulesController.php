@@ -24,7 +24,7 @@ class RulesController extends Controller
      */
     public function create()
     {
-        $ategories = Category::all();
+        $categories = Category::all();
         return view('rules.create')->with('categories',$categories);
     }
 
