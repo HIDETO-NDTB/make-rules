@@ -294,8 +294,8 @@ li {
 
 /****** SECTIONS *****/
 .w .col-lg-4 {
-  border-left: 3px solid gray;
-  border-right: 3px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
 }
 
 .w h4 {
