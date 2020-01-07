@@ -35,7 +35,6 @@
 <body>
 
 
-
   @include('inc/navbar')
 
   <!-- container -->
@@ -52,8 +51,6 @@
   <!-- /.modal -->
 
   @include('inc/copyrights')
-
-
 
   <!-- JavaScript Libraries -->
   <script src="{{ secure_asset('app/lib/jquery/jquery.min.js') }}"></script>
