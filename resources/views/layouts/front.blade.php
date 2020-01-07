@@ -34,7 +34,7 @@
 
 <body>
 
-    @yield('page')
+
 
   @include('inc/navbar')
 
@@ -51,6 +51,8 @@
   <!-- /.modal -->
 
   @include('inc/copyrights')
+
+  @yield('page')
 
   <!-- JavaScript Libraries -->
   <script src="{{ secure_asset('app/lib/jquery/jquery.min.js') }}"></script>
