@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Category;
 use App\Rule;
 use App\User;
+use Illuminate\Support\Facades\Auth;
 
 class RulesController extends Controller
 {
