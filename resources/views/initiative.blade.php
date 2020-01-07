@@ -26,11 +26,11 @@
                     <div class="form-group">
                         <label>カテゴリ</label><br>
                         <select name="category" style="width: 200px;">
-                            <option value="country">国 自治体</option>
-                            <option value="company">会社</option>
-                            <option value="school">学校</option>
-                            <option value="family">家族 親戚</option>
-                            <option value="love">男女 恋愛</option>
+                            <option value="1">国 自治体</option>
+                            <option value="2">会社</option>
+                            <option value="3">学校</option>
+                            <option value="4">家族 親戚</option>
+                            <option value="5">男女 恋愛</option>
                         </select>
                     </div>
                     <div class="form-group">
