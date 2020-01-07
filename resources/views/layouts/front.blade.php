@@ -36,6 +36,7 @@
 
     @yield('page')
 
+  @include('inc/navbar')
 
   <!-- container -->
 
