@@ -293,6 +293,10 @@ li {
 }
 
 /****** SECTIONS *****/
+.w {
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+}
 
 .w h4 {
   font-weight: 700;
