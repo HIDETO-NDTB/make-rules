@@ -11,7 +11,7 @@
                             <span class="pricing-edition">{{ $category->name }}<br>未投票案件数</span>
                             <span class="price">
                                 <sup></sup>
-                                <span class="price-amount">４</span>
+                                <span class="price-amount">{{ count($rule->category_id == currentPage->id) }}</span>
                                 <small>案件</small>
                             </span>
                         </div>
