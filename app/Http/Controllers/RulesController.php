@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Category;
+use App\Rule;
+use App\User;
 
 class RulesController extends Controller
 {
