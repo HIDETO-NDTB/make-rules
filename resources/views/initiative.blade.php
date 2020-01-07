@@ -17,7 +17,6 @@
         <div class="row centerd">
             <div class="col-lg-12">
                 <h4><span> 新法案の発議 </span></h4>
-                @if(Auth::check())
                     <form action="{{ route('rules.store') }}" method="POST">
                         @csrf
                         <div class="form-group">
@@ -38,12 +37,13 @@
                             <label>内容（●文字以内）</label>
                             <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                         </div>
-                        <div class="form-group">
-                        <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
-                        </div>
+                        @if(Auth::check())
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
+                            </div>
                     </form>
                 @else
-                    <h5>申し訳ございません。ログインの上で発議下さい。</h5>
+                    <h5>申し訳ありません。ログインの上で発議下さい。</h5>
                 @endif
             </div>
         </div>
