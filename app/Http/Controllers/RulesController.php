@@ -49,7 +49,7 @@ class RulesController extends Controller
             'title' => $request->title,
             'content' => $request->content,
             'status' => "0",
-            'initiativ_date' => date(Y-m-d),
+            'initiativ_date' => date(y-m-d),
             'vote_date' => strtotime("+ 7 day"),
             'category_id' => $request->category_id,
             'user_id' => Auth::user()->id
