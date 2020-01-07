@@ -20,7 +20,7 @@
 </div>
 
 <div class="container w">
-    <div class="row">
+    <div class="row centered">
         <br><br>
         <div class="col-lg-4">
             <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
