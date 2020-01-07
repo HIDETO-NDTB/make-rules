@@ -17,10 +17,10 @@
         <div class="row centerd">
             <div class="col-lg-12">
                 <h4><span> 新法案の発議 </span></h4>
-                <form action="" method="POST">
+                <form action="{{ route('rules.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <label>タイトル（●文字以内）</label>
+                        <label>タイトル（20文字以内）</label>
                         <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい">
                     </div>
                     <div class="form-group">

@@ -36,7 +36,26 @@ class RulesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // validation
+        $this->validate($request,[
+            'title' => 'required|unique:rules|max:20',
+            'content' => 'required',
+        ]);
+
+        // Mass Assignment
+        $rule = Rule::create([
+            'title' => $request->title,
+            'content' => $request->content,
+            'status' => "0",
+            'initiativ_date' => date(Y-m-d),
+            'vote_date' => strtotime("+ 7 day"),
+            'category_id' => $request->category_id,
+            'user_id' => Auth::user()->id
+        ]);
+
+        $rule->save();
+
+        return redirect()->route('initiative');
     }
 
     /**
