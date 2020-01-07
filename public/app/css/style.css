@@ -293,7 +293,7 @@ li {
 }
 
 /****** SECTIONS *****/
-.w {
+.w .col-lg-4 {
   border-left: 3px solid gray;
   border-right: 3px solid gray;
 }
