@@ -296,6 +296,7 @@ li {
 
 .w h4 {
   font-weight: 700;
+  text-align: center;
 }
 
 .w i {
@@ -316,7 +317,6 @@ li {
 
 .wb h4 {
   font-weight: 700;
-  text-align: center;
 }
 
 .desc {
