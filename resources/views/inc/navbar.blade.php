@@ -14,9 +14,11 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <div class="navbar-collapse collapse">
+                @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                 </ul>
+                @endforeach
             </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
