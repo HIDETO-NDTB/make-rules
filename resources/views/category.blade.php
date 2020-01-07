@@ -32,10 +32,11 @@
 </div>
 
 <div class="container w">
+    @foreach($rules as $rule)
     @if($rule->category_id->count() > 0)
     <div class="row centered">
         <div class="col-lg-12">
-            @foreach($rules as $rule)
+
             <div class="card">
                 <div class="card-header"><h4>{{ $rule->name }}</h4></div>
                 <div class="card-body">
@@ -56,7 +57,7 @@
                             <li>発議日: {{ $rule->initiative_date }}</li>
                             <li>投票日: {{ $rule->vote_date }}</li>
                         </div>
-                        @endforeach
+
                         <div class="row">
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
@@ -66,6 +67,7 @@
                 </div>
             </div>
             @endif
+            @endforeach
         </div>
     </div>
 </div>
