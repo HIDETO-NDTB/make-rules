@@ -24,7 +24,7 @@ class FrontEndController extends Controller
 
         return view('category')->with('category',$category)
                                ->with('categories',Category::all())
-                               ->with('rules',Rules::all());
+                               ->with('rules',Rule::take(5)->get());
     }
 
     public function rule_single(){
