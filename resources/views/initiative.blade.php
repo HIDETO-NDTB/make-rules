@@ -42,6 +42,8 @@
                         <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
                         </div>
                     </form>
+                @else
+                    <h4>申し訳ございません。ログインの上で発議下さい。</h4>
                 @endif
             </div>
         </div>
