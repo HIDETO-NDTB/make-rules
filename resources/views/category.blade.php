@@ -32,12 +32,12 @@
 </div>
 
 <div class="container w">
-    @if($categories->count() > 0)
+    @if($rule->category_id->count() > 0)
     <div class="row centered">
         <div class="col-lg-12">
-            @foreach($categories as $category)
+            @foreach($rules as $rule)
             <div class="card">
-                <div class="card-header"><h4>{{ $category->name }}</h4></div>
+                <div class="card-header"><h4>{{ $rule->name }}</h4></div>
                 <div class="card-body">
                     <ul>
                         <div class="row">
@@ -50,11 +50,11 @@
                             <div class="col-lg-10"></div>
                         </div>
                         <div class="row">
-                            <li><p>{{ $category->content }}</p></li>
+                            <li><p>{{ $rule->content }}</p></li>
                         </div>
                         <div class="row">
-                            <li>発議日: {{ $category->initiative_date }}</li>
-                            <li>投票日: {{ $category->vote_date }}</li>
+                            <li>発議日: {{ $rule->initiative_date }}</li>
+                            <li>投票日: {{ $rule->vote_date }}</li>
                         </div>
                         @endforeach
                         <div class="row">
