@@ -51,7 +51,7 @@ class RulesController extends Controller
             'content' => $request->content,
             'status' => "0",
             'initiative_date' => date("Y-m-d"),
-            'vote_date' => strtotime("+7day"),
+            'vote_date' => date("Y-m-d",strtotime("+7 day")),
             'category_id' => $request->category_id,
             'user_id' => Auth::user()->id
         ]);
