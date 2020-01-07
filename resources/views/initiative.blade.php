@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group">
                         <label>カテゴリ</label><br>
-                        <select name="category" style="width: 200px;">
+                        <select name="category_id" style="width: 200px;">
                             <option value="1">国 自治体</option>
                             <option value="2">会社</option>
                             <option value="3">学校</option>
