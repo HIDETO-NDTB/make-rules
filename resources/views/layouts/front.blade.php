@@ -20,9 +20,11 @@
   <!-- Libraries CSS Files -->
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
   <!-- Main Stylesheet File -->
   <link href="{{ secure_asset('app/css/style.css') }}" rel="stylesheet">
+
 
   <!-- =======================================================
     Template Name: Spot
@@ -60,6 +62,16 @@
 
   <!-- Template Main Javascript File -->
   <script src="{{ secure_asset('app/js/main.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <script>
+    @if (Session::has('success'))
+        toastr.success("{{ Session::get('success')}}")
+    @endif
+    @if (Session::has('info'))
+        toastr.info("{{ Session::get('info')}}")
+    @endif
+  </script>
 
 </body>
 </html>

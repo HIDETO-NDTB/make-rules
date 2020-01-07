@@ -7,6 +7,7 @@ use App\Category;
 use App\Rule;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class RulesController extends Controller
 {
@@ -58,6 +59,7 @@ class RulesController extends Controller
 
         $rule->save();
 
+        Session::flash('success','新法案が発議されました');
         return redirect()->route('initiative');
     }
 

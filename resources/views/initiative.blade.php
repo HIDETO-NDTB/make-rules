@@ -42,7 +42,7 @@
                             <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
                         </div>
                     @else
-                        <h5>申し訳ありません。ログインの上で発議下さい。</h5>
+                        <h5>法案発議はユーザー限定です。ログインの上で発議下さい。</h5>
                     @endif
                 </form>
             </div>
