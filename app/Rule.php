@@ -14,6 +14,7 @@ class Rule extends Model
     }
 
     public function user(){
-        return $this->belongsTo(User::class,'user_id');
+        return $this->belongsTo('App\User');
+        return $this->belongsToMany('App\User');
     }
 }
