@@ -313,31 +313,6 @@ li {
       text-align: center;
   }
 
-.wa .col-lg-4 {
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-}
-
-.wa h4 {
-  font-weight: 700;
-  text-align: center;
-}
-
-.wa i {
-  color: #ff7878;
-  font-size: 30px;
-  margin-right: 10px;
-}
-
-.wa span {
-    background-color: red;
-    color: white;
-}
-
-.wa li {
-    text-align: center;
-}
-
 .wb {
   padding-top: 35px;
   margin-bottom: 0px;
