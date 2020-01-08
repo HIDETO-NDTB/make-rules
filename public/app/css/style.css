@@ -313,28 +313,28 @@ li {
       text-align: center;
   }
 
-.w1 .col-lg-4 {
+.wa .col-lg-4 {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
 
-.w1 h4 {
+.wa h4 {
   font-weight: 700;
   text-align: center;
 }
 
-.w1 i {
+.wa i {
   color: #ff7878;
   font-size: 30px;
   margin-right: 10px;
 }
 
-.w1 span {
+.wa span {
     background-color: red;
     color: white;
 }
 
-.w1 li {
+.wa li {
     text-align: center;
 }
 
