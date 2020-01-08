@@ -293,28 +293,48 @@ li {
 }
 
 /****** SECTIONS *****/
-.w .col-lg-4 {
+.w h4 {
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .w i {
+    color: #ff7878;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .w span {
+      background-color: red;
+      color: white;
+  }
+
+  .w li {
+      text-align: center;
+  }
+
+.w1 .col-lg-4 {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
 }
 
-.w h4 {
+.w1 h4 {
   font-weight: 700;
   text-align: center;
 }
 
-.w i {
+.w1 i {
   color: #ff7878;
   font-size: 30px;
   margin-right: 10px;
 }
 
-.w span {
+.w1 span {
     background-color: red;
     color: white;
 }
 
-.w li {
+.w1 li {
     text-align: center;
 }
 
