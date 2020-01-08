@@ -609,7 +609,7 @@ li {
 /* index.blade */
 .x h4 {
     font-weight: 700;
-    text-align: left;
+    text-align: center;
   }
 
 .x i {
@@ -624,8 +624,13 @@ li {
   }
 
 .x li {
-      text-align: left;
+      text-align: center;
   }
+
+.x col-lg-4 {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
 
 /* comment.blade.php */
 #commentform {
