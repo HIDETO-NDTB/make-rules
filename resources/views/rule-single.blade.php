@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row centered">
             <div class="col-lg-6">
-                @foreach ($rules as $rule)
+
                 <div class="card2">
                     <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
                     <div class="card-body">
@@ -29,7 +29,7 @@
                         </ul>
                     </div>
                 </div>
-                @endforeach
+
             </div>
             <div class="col-lg-6">
                 <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width:100%; height:100%;">
