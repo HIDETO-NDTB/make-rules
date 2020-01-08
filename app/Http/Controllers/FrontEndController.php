@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Rule;
 use App\Category;
+use App\User;
 
 class FrontEndController extends Controller
 {
@@ -23,7 +24,8 @@ class FrontEndController extends Controller
     public function category_single(Category $category){
 
         return view('category')->with('category',$category)
-                               ->with('categories',Category::all());
+                               ->with('categories',Category::all())
+                               ->with('users',User::all());
     }
 
     public function rule_single(){
