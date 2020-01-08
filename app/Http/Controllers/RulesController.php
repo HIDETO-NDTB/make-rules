@@ -58,7 +58,7 @@ class RulesController extends Controller
         ]);
 
         $rule->save();
-        $rule->users()->attach($user->id);
+        $rule->users()->attach('user_id');
 
         Session::flash('success','新法案が発議されました');
         return redirect()->route('initiative');
