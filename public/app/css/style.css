@@ -615,15 +615,13 @@ li {
 }
 
 .comment-a {
-    border-top: 3px solid skyblue;
-    border-bottom: 3px solid skyblue;
+    border: 3px solid skyblue;
     padding: 15px;
     margin-bottom: 20px;
 }
 
 .comment-d {
-    border-top: 3px solid rosybrown;
-    border-bottom: 3px solid rosybrown;
+    border: 3px solid pink;
     padding: 15px;
     margin-bottom: 20px;
 }
