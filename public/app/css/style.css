@@ -627,7 +627,7 @@ li {
       text-align: center;
   }
 
-.x col-lg-4 {
+.x .col-lg-4 {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
