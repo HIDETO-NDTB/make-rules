@@ -28,9 +28,10 @@ class FrontEndController extends Controller
 
     }
 
-    public function rule_single(){
+    public function rule_single(Rule $rule){
 
-        return view('rule-single')->with('categories',Category::all());
+        return view('rule-single')->with('categories',Category::all())
+                                    ->with('rule',$rule);
     }
 
     public function vote(){
