@@ -293,14 +293,10 @@ li {
 }
 
 /****** SECTIONS *****/
-.w .col-lg-4 {
-  border-left: 1px solid gray;
-  border-right: 1px solid gray;
-}
 
 .w h4 {
   font-weight: 700;
-  text-align: center;
+  text-align: left;
 }
 
 .w i {
@@ -315,7 +311,7 @@ li {
 }
 
 .w li {
-    text-align: center;
+    text-align: left;
 }
 
 .wb {
