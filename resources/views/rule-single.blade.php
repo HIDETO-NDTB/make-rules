@@ -10,13 +10,13 @@
                     <div class="card-body">
                         <ul>
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lg-1">
                                     <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                 </div>
                                 <div class="col-lg-2">
                                     <h5>{{ $rule->user->name }}</h5>
                                 </div>
-                                <div class="col-lg-8"></div>
+                                <div class="col-lg-9"></div>
                             </div>
                             <div class="row">
                                 <li><p>{{ $rule->content }}</p></li>
