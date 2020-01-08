@@ -139,25 +139,7 @@ li {
   transform: rotate(-10deg);
 }
 
-.comment {
-    border-top: 3px solid rgb(204, 202, 202);
-    border-bottom: 3px solid rgb(204, 202, 202);
-    padding: 15px;
-    margin-bottom: 20px;
-}
 
-.comments h4 {
-    text-align: left;
-}
-
-.comments p {
-    text-align: left;
-}
-
-.comments a {
-    font-weight: bold;
-    margin-right: 10px;
-}
 
 /* ==========================================================================
    Wrap Sections
@@ -630,6 +612,26 @@ li {
 .x .col-lg-4 {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
+}
+
+.comment {
+    border-top: 3px solid rgb(204, 202, 202);
+    border-bottom: 3px solid rgb(204, 202, 202);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.comments h4 {
+    text-align: left;
+}
+
+.comments p {
+    text-align: left;
+}
+
+.comments a {
+    font-weight: bold;
+    margin-right: 10px;
 }
 
 /* comment.blade.php */
