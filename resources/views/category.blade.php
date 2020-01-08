@@ -31,7 +31,7 @@
     <!-- container -->
 </div>
 
-<div class="container w">
+<div class="container wc">
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
