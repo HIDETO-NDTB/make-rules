@@ -607,11 +607,11 @@ li {
 }
 
 /* category.blade */
-.wc h4 {
+.c h4 {
     font-weight: 700;
   }
 
-.wc li {
+.c li {
     text-align: center;
   }
 
