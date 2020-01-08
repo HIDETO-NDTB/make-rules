@@ -5,8 +5,9 @@
     <div class="container">
         <div class="row centered">
             <div class="col-lg-6">
+                @foreach ($rules as $rule)
                 <div class="card2">
-                    <div class="card-header"><h4><b>ベーシックインカム。全国民に毎月５万円を支給</b></h4></div>
+                    <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
@@ -28,6 +29,7 @@
                         </ul>
                     </div>
                 </div>
+                @endforeach
             </div>
             <div class="col-lg-6">
                 <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width:100%; height:100%;">
