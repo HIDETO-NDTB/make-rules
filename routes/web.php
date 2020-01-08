@@ -22,7 +22,7 @@ Route::get('/category_single/{category}',[
     'as' => 'category.single'
 ]);
 
-Route::get('/rule-single/{rule}',[
+Route::get('/rule-single/{id}',[
     'uses' => 'FrontEndController@rule_single',
     'as' => 'rule.single'
 ]);
