@@ -606,6 +606,15 @@ li {
     margin-top: 10px;
 }
 
+/* category.blade */
+.wc h4 {
+    font-weight: 700;
+  }
+
+.w li {
+    text-align: center;
+  }
+
 /* comment.blade.php */
 #commentform {
     background-color: white;
