@@ -30,7 +30,7 @@ class FrontEndController extends Controller
 
     public function rule_single($id){
 
-        return view('rule-single')
+        return view('rule-single')->with('rules',Rule::all())
                                   ->with('categories',Category::all());
 
     }
