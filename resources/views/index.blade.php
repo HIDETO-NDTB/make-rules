@@ -25,7 +25,7 @@
         <div class="col-lg-4">
             <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
             <br>
-            <li><a href="{{ route('rule.single',['id' =>$rule->id]) }}">ベーシックインカム。全国民に月５万円支給<br>（あと３日で投票日）</a></li><br>
+            <li><a href="#">ベーシックインカム。全国民に月５万円支給<br>（あと３日で投票日）</a></li><br>
             <li><a href="#">毎年１回は海外旅行！<br>（あと５日で投票日）</a></li><br>
             <li><a href="#">毎日1回は大笑いすること<br>（あと5日で投票日）</a></li><br>
         </div>
