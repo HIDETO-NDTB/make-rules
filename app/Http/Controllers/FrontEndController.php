@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Rule;
 use App\Category;
-use App\Rule;
 
 
 class FrontEndController extends Controller
