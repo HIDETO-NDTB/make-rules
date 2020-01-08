@@ -602,14 +602,6 @@ li {
 }
 
 /* category.blade */
-.c h4 {
-    font-weight: 700;
-    font-size: 20px;
-  }
-
-.c li {
-    text-align: center;
-  }
 
 /* comment.blade.php */
 #commentform {

@@ -31,7 +31,7 @@
     <!-- container -->
 </div>
 
-<div class="container c">
+<div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
@@ -66,7 +66,7 @@
     </div>
 </div>
 <br>
-<div class="container c">
+<div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
@@ -101,7 +101,7 @@
     </div>
 </div>
 <br>
-<div class="container c">
+<div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
@@ -136,7 +136,7 @@
     </div>
 </div>
 <br>
-<div class="container c">
+<div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
