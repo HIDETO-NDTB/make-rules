@@ -62,7 +62,7 @@
         <div class="col-lg-4">
           <div class="tilt">
             <a href="{{ route('result') }}"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
-            <label>エアコンの設定温度は女性が決める</label>
+            <label>{{ $first_result->title }}</label>
           </div>
         </div>
 
