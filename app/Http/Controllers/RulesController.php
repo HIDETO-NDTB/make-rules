@@ -54,7 +54,12 @@ class RulesController extends Controller
             'initiative_date' => date("Y-m-d"),
             'vote_date' => date("Y-m-d",strtotime("+7 day")),
             'category_id' => $request->category_id,
-            'user_id' => Auth::user()->id
+            'user_id' => Auth::user()->id,
+            'opinion' => "null",
+            'comment' => "null",
+            'comment_date' => "null",
+            'vote' => "null",
+            'vote_date' => "null"
         ]);
 
         $rule->save();
