@@ -61,16 +61,21 @@
         <p>最近可決された法案です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
-
+            @isset($first_result)
             <a href="{{ route('result') }}"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>{{ $first_result->title }}</label>
+            @else
+            <p>最近可決された法案はありません。</p>
+            @endisset
           </div>
         </div>
 
         <div class="col-lg-4">
           <div class="tilt">
+            @isset($second_result)
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>{{ $second_result->title }}</label>
+            @endisset
           </div>
         </div>
 
