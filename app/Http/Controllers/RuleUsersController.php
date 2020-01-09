@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Rule_user;
+use RuleUser;
 use Illuminate\Support\Facades\Session;
 
-class RuleUserController extends Controller
+class RuleUsersController extends Controller
 {
     /**
      * Display a listing of the resource.
