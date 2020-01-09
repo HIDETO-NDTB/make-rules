@@ -20,7 +20,7 @@ class FrontEndController extends Controller
         return view('index')->with('first_initiative',$first_initiative)
                             ->with('second_initiative',$second_initiative)
                             ->with('third_initiative',$third_initiative)
-                            ->with('$first_result',$$first_result)
+                            ->with('first_result',$$first_result)
                             ->with('categories',$categories);
     }
 
