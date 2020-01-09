@@ -34,9 +34,17 @@
         <div class="col-lg-4">
             <h4><i class="far fa-folder-open"></i><span>新</span>  発議</h4>
             <br>
+            @isset($first_initiative)
             <li><a href="{{ route('rule.single',['id' =>$first_initiative->id]) }}">{{ $first_initiative->title }}<br>( {{ $first_initiative->initiative_date }} 発議 )</a></li><br>
+            @else
+            <p>最近発議された法案はありません。</p>
+            @endisset
+            @isset($second_initiative)
             <li><a href="{{ route('rule.single',['id' =>$second_initiative->id]) }}">{{ $second_initiative->title }}<br>( {{ $second_initiative->initiative_date }} 発議 )</a></li><br>
+            @endisset
+            @isset($third_initiative)
             <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->title }}<br>( {{ $third_initiative->initiative_date }} 発議 )</a></li><br>
+            @endisset
         </div>
       <!-- col-lg-4 -->
 
