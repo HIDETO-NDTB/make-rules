@@ -9,7 +9,7 @@ use App\Category;
 
 class FrontEndController extends Controller
 {
-    public function index(){
+    public function index($id){
 
         $rule = Rule::where('id',$id)->first();
 
