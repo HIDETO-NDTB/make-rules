@@ -9,9 +9,7 @@ use App\Category;
 
 class FrontEndController extends Controller
 {
-    public function index($id){
-
-        $rule = Rule::where('id',$id)->first();
+    public function index(){
 
         $first_initiative = Rule::orderBy('initiative_date','desc')->first();
         $second_initiative = Rule::orderBy('initiative_date','desc')->take(1)->skip(1)->get()->first();
