@@ -19,7 +19,7 @@
     </div>
 </div>
 
-<div class="container x">
+<div class="container z">
     <div class="row centered">
         <br><br>
         <div class="col-lg-4">

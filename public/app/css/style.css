@@ -589,27 +589,27 @@ li {
 }
 
 /* index.blade */
-.x h4 {
+.z h4 {
     font-weight: 700;
     text-align: center;
   }
 
-.x i {
+.z i {
     color: #ff7878;
     font-size: 30px;
     margin-right: 10px;
   }
 
-.x span {
+.z span {
       background-color: red;
       color: white;
   }
 
-.x li {
+.z li {
       text-align: center;
   }
 
-.x .col-lg-4 {
+.z .col-lg-4 {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
