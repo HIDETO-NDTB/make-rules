@@ -59,7 +59,7 @@ class RulesController extends Controller
             'comment' => " ",
             'comment_date' => " ",
             'vote' => " ",
-            'vote_date' => " "
+            'voting_date' => " "
         ]);
 
         $rule->save();
