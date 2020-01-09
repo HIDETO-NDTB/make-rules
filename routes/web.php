@@ -32,7 +32,7 @@ Route::get('/vote',[
     'as' => 'vote'
 ]);
 
-Route::get('/result',[
+Route::get('/result/{id}',[
     'uses' => 'FrontEndController@result',
     'as' => 'result'
 ]);
