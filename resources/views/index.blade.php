@@ -76,7 +76,7 @@
 
         <div class="col-lg-4">
           <div class="tilt">
-            @if(isset('$third_result')
+            @if(isset($third_result)
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>{{ $third_result->title }}</label>
             @else
