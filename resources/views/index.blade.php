@@ -79,8 +79,6 @@
             @isset($third_result)
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>{{ $third_result->title }}</label>
-            @else
-            <p>最近可決された法案はありません。</p>
             @endisset
           </div>
         </div>
