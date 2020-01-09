@@ -43,7 +43,7 @@ class RuleUserController extends Controller
         ]);
 
         // Mass Assignment
-        $comment = RuleUser::create([
+        $ruleuser = RuleUser::create([
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
@@ -51,7 +51,7 @@ class RuleUserController extends Controller
             'voting_date' => " "
         ]);
 
-        $comment->save();
+        $ruleuser->save();
 
         Session::flash('success','コメントされました');
         return redirect()->route('rule-single');
