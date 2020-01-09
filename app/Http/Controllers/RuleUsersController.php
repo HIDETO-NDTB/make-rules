@@ -43,7 +43,7 @@ class RuleUsersController extends Controller
         ]);
 
         // Mass Assignment
-        $ruleuser = RuleUsers::create([
+        $ruleuser = RuleUser::create([
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
