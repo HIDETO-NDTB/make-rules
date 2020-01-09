@@ -61,6 +61,7 @@
         <p>最近可決された法案です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
+
             <a href="{{ route('result') }}"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>{{ $first_result->title }}</label>
           </div>
@@ -75,8 +76,12 @@
 
         <div class="col-lg-4">
           <div class="tilt">
+            @if($third_result->count() > 0)
             <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
             <label>{{ $third_result->title }}</label>
+            @else
+            <p>最近可決された法案はありません。</p>
+            @endif
           </div>
         </div>
       </div>
