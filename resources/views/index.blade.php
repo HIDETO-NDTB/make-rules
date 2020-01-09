@@ -25,9 +25,9 @@
         <div class="col-lg-4">
             <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
             <br>
-            <li><a href="#">{{ $first_vote->title }}<br>({{ $first_vote->vote_date }} 投票)</a></li><br>
-            <li><a href="#">{{ $second_vote->title }}<br>({{ $second_vote->vote_date }} 投票)</a></li><br>
-            <li><a href="#">{{ $third_vote->title }}<br>({{ $third_vote->vote_date }} 投票)</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$first_vote->id]) }}">{{ $first_vote->title }}<br>({{ $first_vote->vote_date }} 投票)</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$second_vote->id]) }}">{{ $second_vote->title }}<br>({{ $second_vote->vote_date }} 投票)</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$third_vote->id]) }}">{{ $third_vote->title }}<br>({{ $third_vote->vote_date }} 投票)</a></li><br>
         </div>
         <!-- col-lg-4 -->
 
