@@ -80,7 +80,7 @@
 
             <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
             @isset($first_result)
-            <a href="{{ route('result') }}">{{ $first_result->title }}</a>
+            <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
             @else
             <p>最近可決された法案はありません。</p>
             @endisset
@@ -90,20 +90,20 @@
         <div class="col-lg-4">
           <div class="tilt">
             @isset($second_result)
-            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
-            <label>{{ $second_result->title }}</label>
+            <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
+            <a href="{{ route('result',['id' =>$second_result->id]) }}">{{ $second_result->title }}</a>
             @endisset
           </div>
         </div>
 
         <div class="col-lg-4">
-          <div class="tilt">
-            @isset($third_result)
-            <a href="#"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
-            <label>{{ $third_result->title }}</label>
-            @endisset
+            <div class="tilt">
+              @isset($third_result)
+              <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
+              <a href="{{ route('result',['id' =>$third_result->id]) }}">{{ $third_result->title }}</a>
+              @endisset
+            </div>
           </div>
-        </div>
       </div>
       <!-- row -->
     </div>
