@@ -13,6 +13,8 @@ class FrontEndController extends Controller
     public function index(){
 
         $first_vote = Rule::orderBy('vote_date','asc')->where('status',0)->first();
+        $second_vote = Rule::orderBy('vote_date','asc')->where('status',0)->take(1)->skip(1)->get()->first();
+        $third_vote = Rule::orderBy('vote_date','asc')->where('status',0)->take(1)->skip(2)->get()->first();
         $first_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->first();
         $second_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->take(1)->skip(1)->get()->first();
         $third_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->take(1)->skip(2)->get()->first();
@@ -22,6 +24,8 @@ class FrontEndController extends Controller
         $categories = Category::all();
 
         return view('index')->with('first_vote',$first_vote)
+                            ->with('second_vote',$second_vote)
+                            ->with('third_vote',$third_vote)
                             ->with('first_initiative',$first_initiative)
                             ->with('second_initiative',$second_initiative)
                             ->with('third_initiative',$third_initiative)
