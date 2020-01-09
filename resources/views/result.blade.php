@@ -6,7 +6,7 @@
         <div class="row centered">
             <div class="col-lg-6">
                 <div class="card2">
-                    <div class="card-header"><h4><b>エアコンの設定温度は女性が決める</b></h4></div>
+                    <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
@@ -14,16 +14,16 @@
                                     <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                 </div>
                                 <div class="col-lg-2">
-                                    <h5>首藤英人</h5>
+                                    <h5>{{ $rule->user->name }}</h5>
                                 </div>
                                 <div class="col-lg-8"></div>
                             </div>
                             <div class="row">
-                                <li><p>長く議論されてきた男女の温度差に決着をつけませんか？ 私は男ですが、やはり温度管理は女性に任せた方が世の中うまくいくと思います。</p></li>
+                                <li><p>{{ $rule->content }}</p></li>
                             </div>
                             <div class="row">
-                                <li>発議日: 2020年1月25日</li>
-                                <li>投票日: 2020年2月1日</li>
+                                <li>発議日: {{ $rule->initiative_date }}</li>
+                                <li>投票日: {{ $rule->vote_date }}</li>
                             </div>
                         </ul>
                     </div>

@@ -57,9 +57,12 @@ class FrontEndController extends Controller
         return view('vote')->with('categories',Category::all());
     }
 
-    public function result(){
+    public function result($id){
 
-        return view('result')->with('categories',Category::all());
+        $rule = Rule::where('id',$id)->first();
+
+        return view('result')->with('rule',$rule)
+                             ->with('categories',Category::all());
     }
 
     public function initiative(){
