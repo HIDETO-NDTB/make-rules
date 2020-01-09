@@ -25,7 +25,7 @@
         <div class="col-lg-4">
             <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
             <br>
-            <li><a href="#">{{ $first_vote->title }}<br>（あと{{ date_diff($first_vote->vote_date,now()) }} 日で投票日）</a></li><br>
+            <li><a href="#">{{ $first_vote->title }}<br>（あと{{ date_diff($first_vote->vote_date,strtotime("now")) }} 日で投票日）</a></li><br>
             <li><a href="#">毎年１回は海外旅行！<br>（あと５日で投票日）</a></li><br>
             <li><a href="#">毎日1回は大笑いすること<br>（あと5日で投票日）</a></li><br>
         </div>
