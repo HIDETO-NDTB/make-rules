@@ -78,9 +78,9 @@
         <div class="col-lg-4">
           <div class="tilt">
 
-            <a href="{{ route('result') }}"><img src="{{ asset('app/img/image01.jpeg') }}" alt=""></a>
+            <img src="{{ asset('app/img/image01.jpeg') }}" alt="image">
             @isset($first_result)
-            <label>{{ $first_result->title }}</label>
+            <a href="{{ route('result') }}">{{ $first_result->title }}</a>
             @else
             <p>最近可決された法案はありません。</p>
             @endisset
