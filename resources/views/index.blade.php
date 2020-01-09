@@ -34,7 +34,7 @@
         <div class="col-lg-4">
             <h4><i class="far fa-folder-open"></i><span>新</span>  発議</h4>
             <br>
-            @foreach($rules as $rule)
+            @foreach($category->rules as $rule)
             @if($rule->status == 0)
             <li><a href="{{ route('rule.single',['id' =>$first_initiative->id]) }}">{{ $first_initiative->title }}<br>( {{ $first_initiative->initiative_date }} 発議 )</a></li><br>
             <li><a href="{{ route('rule.single',['id' =>$second_initiative->id]) }}">{{ $second_initiative->title }}<br>( {{ $second_initiative->initiative_date }} 発議 )</a></li><br>
