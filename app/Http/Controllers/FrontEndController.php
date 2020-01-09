@@ -11,6 +11,7 @@ class FrontEndController extends Controller
 {
     public function index(){
 
+        $first_vote = Rule::min(abs(UNIX_TIMESTAMP(NOW()) - 'vote_date'))->where('status',0)->first();
         $first_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->first();
         $second_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->take(1)->skip(1)->get()->first();
         $third_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->take(1)->skip(2)->get()->first();
@@ -19,7 +20,8 @@ class FrontEndController extends Controller
         $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
         $categories = Category::all();
 
-        return view('index')->with('first_initiative',$first_initiative)
+        return view('index')->with('first_vote',$first_vote)
+                            ->with('first_initiative',$first_initiative)
                             ->with('second_initiative',$second_initiative)
                             ->with('third_initiative',$third_initiative)
                             ->with('first_result',$first_result)
