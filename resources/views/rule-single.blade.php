@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
-                <form action="" method="POST">
+                <form action="{{ route('comment.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <select name="agreement" style="width: 200px;">
