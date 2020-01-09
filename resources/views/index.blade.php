@@ -78,7 +78,7 @@
         <div class="col-lg-4">
           <div class="tilt">
 
-            <img src="{{ asset('app/img/image01.jpeg') }}" alt="image">
+            <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
             @isset($first_result)
             <a href="{{ route('result') }}">{{ $first_result->title }}</a>
             @else
