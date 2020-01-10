@@ -55,15 +55,9 @@ class RulesController extends Controller
             'vote_date' => date("Y-m-d",strtotime("+7 day")),
             'category_id' => $request->category_id,
             'user_id' => Auth::user()->id,
-            'opinion' => " ",
-            'comment' => " ",
-            'comment_date' => " ",
-            'vote' => " ",
-            'voting_date' => " "
         ]);
 
         $rule->save();
-        $rule->users()->attach($rule->user_id);
 
         Session::flash('success','新法案が発議されました');
         return redirect()->route('initiative');
