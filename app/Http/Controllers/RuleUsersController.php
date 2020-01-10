@@ -42,8 +42,6 @@ class RuleUsersController extends Controller
             'comment' => 'required',
         ]);
 
-        $ruleuser = new RuleUser();
-
         // Mass Assignment
         $ruleuser = RuleUser::create([
             'opinion' => $request->opinion,
