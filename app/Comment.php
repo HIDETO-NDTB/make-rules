@@ -11,7 +11,7 @@ class Comment extends Model
     protected $fillable = ['rule_id','user_id','opinion','comment','comment_id','vote','voting_id'];
 
     public function users(){
-        return $this->belongsToMany('App\User')
+        return $this->belongsToMany(User::class)
            ->withPivot('opinion', 'comment','comment_date','vote','voting_date');
     }
 

@@ -56,7 +56,7 @@ class CommentsController extends Controller
 
         $comment->save();
 
-        $comment->rules()->attach($request->rules);
+        $comment->rules()->attach($rule->id);
 
         Session::flash('success','コメントされました');
         return redirect()->route('rule-single');
