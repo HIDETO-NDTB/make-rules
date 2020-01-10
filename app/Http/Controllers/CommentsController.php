@@ -46,7 +46,6 @@ class CommentsController extends Controller
         // Mass Assignment
         $comment = Comment::create([
             'user_id' => Auth::user()->id,
-            'rule_id' => $comment->rule->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
@@ -56,7 +55,7 @@ class CommentsController extends Controller
 
         $comment->save();
 
-
+        $comment->rules()->attach($comment->rule);
 
         Session::flash('success','コメントされました');
         return redirect()->route('initiative');
