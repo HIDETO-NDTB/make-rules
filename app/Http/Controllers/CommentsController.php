@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Comment;
 use Illuminate\Support\Facades\Session;
-use Illuminate\Support\Facades\Auth;
 
 class CommentsController extends Controller
 {
@@ -45,7 +44,6 @@ class CommentsController extends Controller
 
         // Mass Assignment
         $comment = Comment::create([
-            'user_id' => Auth::user()->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
@@ -56,6 +54,7 @@ class CommentsController extends Controller
         $comment->save();
 
         $comment->rules()->attach($rule_id);
+        $comment->users()->attach($user_id);
 
         Session::flash('success','コメントされました');
         return redirect()->route('initiative');
