@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use RuleUser;
+use App\RuleUser;
 use Illuminate\Support\Facades\Session;
 
 class RuleUsersController extends Controller
