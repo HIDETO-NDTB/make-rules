@@ -46,7 +46,7 @@ class CommentsController extends Controller
         // Mass Assignment
         $comment = Comment::create([
             'user_id' => Auth::user()->id,
-            'rule_id' => $rule->id,
+            'rule_id' => $comment->rule->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
