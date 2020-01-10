@@ -44,6 +44,7 @@ class RuleUsersController extends Controller
 
         // Mass Assignment
         $ruleuser = RuleUser::create([
+            'user_id' => Auth::user()->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
@@ -52,6 +53,8 @@ class RuleUsersController extends Controller
         ]);
 
         $ruleuser->save();
+
+        $ruleuser->rule_id()->attach($rule->id);
 
         Session::flash('success','コメントされました');
         return redirect()->route('rule-single');
