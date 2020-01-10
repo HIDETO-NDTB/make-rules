@@ -53,8 +53,8 @@ class CommentsController extends Controller
 
         $comment->save();
 
-        $comment->rules()->attach($rule_id);
-        $comment->users()->attach($user_id);
+        $comment->rules()->attach($request->rule_id);
+        $comment->users()->attach($request->user_id);
 
         Session::flash('success','コメントされました');
         return redirect()->route('initiative');
