@@ -18,8 +18,7 @@ class Rule extends Model
     }
 
     public function users(){
-        return $this->belongsToMany('App\User')
-           ->withPivot('opinion', 'comment','comment_date');
+        return $this->belongsToMany('App\User');
     }
 
 }
