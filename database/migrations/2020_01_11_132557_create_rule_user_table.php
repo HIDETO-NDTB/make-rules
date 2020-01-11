@@ -15,8 +15,12 @@ class CreateRuleUserTable extends Migration
     {
         Schema::create('rule_user', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('rule_id');
-            $table->integer('user_id');
+            $table->unsignedInteger('rule_id');
+            $table->unsignedInteger('user_id');
+            $table->primary(['rule_id','user_id']);
+            $table->string('opinion');
+            $table->text('comment');
+            $table->date('comment_date');
             $table->timestamps();
         });
     }
