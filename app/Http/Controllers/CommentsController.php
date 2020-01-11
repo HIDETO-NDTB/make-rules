@@ -53,9 +53,11 @@ class CommentsController extends Controller
             'comment_date' => date("Y-m-d"),
         ]);
 
+        $rule_user->rule_id()->attach($rule->id);
+
         $rule_user->save();
 
-        $rule_user->rule_id()->attach($rule->id);
+
 
         Session::flash('success','コメントされました');
         return redirect()->route('rule-single');
