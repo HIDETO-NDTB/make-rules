@@ -38,8 +38,8 @@ class User extends Authenticatable
     ];
 
     public function rules() {
-        //return $this->hasMany('App\Rule');
-        return $this->belongsToMany(Rule::class)
+        return $this->hasMany('App\Rule');
+        return $this->belongsToMany('App\Rule')
             ->withPivot('opinion', 'comment','comment_date');
     }
 
