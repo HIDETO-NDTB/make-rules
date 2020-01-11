@@ -17,7 +17,6 @@ class CreateRuleUserTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedInteger('rule_id');
             $table->unsignedInteger('user_id');
-            $table->primary(['rule_id','user_id']);
             $table->string('opinion');
             $table->text('comment');
             $table->date('comment_date');
