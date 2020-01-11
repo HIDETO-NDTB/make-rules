@@ -17,4 +17,9 @@ class Rule extends Model
         return $this->belongsTo('App\User');
     }
 
+    public function users(){
+        return $this->belongsToMany(User::class)
+           ->withPivot('opinion', 'comment','comment_date');
+    }
+
 }

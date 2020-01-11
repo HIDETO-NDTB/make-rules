@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Comment;
 use App\Rule;
+use App\User;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Auth;
 
@@ -50,13 +51,11 @@ class CommentsController extends Controller
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
-            'vote' => " ",
-            'voting_date' => " ",
         ]);
 
         $comment->save();
 
-        $comment->rules()->attach($rule->id);
+        $user->rules()->attach($rule->id);
 
         Session::flash('success','コメントされました');
         return redirect()->route('rule-single');
