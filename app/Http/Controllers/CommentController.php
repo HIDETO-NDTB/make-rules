@@ -50,7 +50,7 @@ class CommentController extends Controller
         ]);
 
         $comment->save();
-        $comment->rules()->attach($comment->rule_id);
+        $comment->rule_id->attach($rule->id);
         $comment->users()->attach(Auth::user()->id);
 
         Session::flash('success','コメントされました');
