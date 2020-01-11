@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Comment;
-use App\Http\Requests\CreatePostRequest;
+use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {
@@ -34,7 +34,7 @@ class CommentController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(CreatePostRequest $request)
+    public function store(Request $request)
     {
         // validation
         $this->validate($request,[
@@ -50,7 +50,7 @@ class CommentController extends Controller
         ]);
 
         $comment->save();
-        $comment->users()->attach($comment->use_id);
+        $comment->users()->attach(Auth::user()->id);
 
         Session::flash('success','コメントされました');
         return redirect()->route('rule-single');
