@@ -52,7 +52,7 @@ class CommentController extends Controller
         ]);
 
         $comment->save();
-        $comment->rules()->attach('rule_id');
+        $comment->rule()->attach('rule_id');
 
         //['id' =>$rule->id]
 
