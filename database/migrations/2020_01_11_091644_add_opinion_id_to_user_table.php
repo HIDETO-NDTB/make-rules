@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddOpinionIdToUsersTable extends Migration
+class AddOpinionIdToUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class AddOpinionIdToUsersTable extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
+        Schema::table('user', function (Blueprint $table) {
             $table->BIGINT('opinion_id')->after('password');
         });
     }
@@ -25,7 +25,7 @@ class AddOpinionIdToUsersTable extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
+        Schema::table('user', function (Blueprint $table) {
             //
         });
     }
