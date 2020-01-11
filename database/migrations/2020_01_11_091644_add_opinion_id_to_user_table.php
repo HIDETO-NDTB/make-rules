@@ -14,7 +14,7 @@ class AddOpinionIdToUserTable extends Migration
     public function up()
     {
         Schema::table('user', function (Blueprint $table) {
-            $table->int('opinion_id')->after('password');
+            $table->integer('opinion_id')->after('password');
         });
     }
 
