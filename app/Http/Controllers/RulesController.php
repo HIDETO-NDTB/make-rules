@@ -63,6 +63,29 @@ class RulesController extends Controller
         return redirect()->route('initiative');
     }
 
+    public function comment(Request $request)
+    {
+        // validation
+        $this->validate($request,[
+            'opinion' => 'required',
+            'comment' => 'required',
+        ]);
+
+        // Mass Assignment
+        $rule = Rule::create([
+            'opinion' => $request->opinion,
+            'comment' => $request->comment,
+            'comment_date' => date("Y-m-d"),
+        ]);
+
+        $rule->save();
+        $rule->users()->attach($rule->use_id);
+
+        Session::flash('success','コメントされました');
+        return redirect()->route('rule-single');
+
+    }
+
     /**
      * Display the specified resource.
      *
