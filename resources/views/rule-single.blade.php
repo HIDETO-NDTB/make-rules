@@ -47,8 +47,8 @@
                     <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
                     <div class="form-group">
                         <select name="opinion" style="width: 200px;">
-                            <option value="agree">賛成</option>
-                            <option value="disagree">反対</option>
+                            <option value="賛成">賛成</option>
+                            <option value="反対">反対</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -69,7 +69,7 @@
             @foreach ($comments as $comment)
             @if($comment->rule_id == $rule->id)
             <div class="card">
-                <div class="card-header"><h4>{{ $comment->opinion }} 派意見</h4></div>
+                <div class="card-header"><h4>{{ $comment->opinion }}派意見</h4></div>
                 <div class="card-body">
                     <ul>
                         <div class="row">
