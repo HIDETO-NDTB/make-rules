@@ -45,7 +45,7 @@
                 <form action="{{ route('comment.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <p type="hidden" name="rule_id">rule_id : {{ $rule->id }}</p>
+                        <p class="hidden" name="rule_id">rule_id : {{ $rule->id }}</p>
                     </div>
                     <div class="form-group">
                         <select name="opinion" style="width: 200px;">
