@@ -10,9 +10,4 @@ class Comment extends Model
 
     protected $table = 'rule_user';
 
-    public function users(){
-        return $this->belongsToMany('App\User')
-        ->withPivot('opinion','comment','comment_date');
-    }
-
 }
