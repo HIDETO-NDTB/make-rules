@@ -39,6 +39,7 @@ class User extends Authenticatable
 
     public function rules() {
         return $this->hasMany('App\Rule');
+        return $this->belongsToMany('App\Rule');
     }
 
 }
