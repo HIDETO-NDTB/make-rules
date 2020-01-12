@@ -67,7 +67,7 @@
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
-                @foreach ($comments as $comment)
+                @foreach ($rule->comments as $comment)
                 <div class="card-header"><h4>{{ $comment->pivot->opinion }} 派意見</h4></div>
                 <div class="card-body">
                     <ul>
