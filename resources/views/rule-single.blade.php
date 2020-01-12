@@ -76,10 +76,10 @@
                             <div class="col-lg-1">
                                 <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                             </div>
-                        <div class="col-lg-1">
+                        <div class="col-lg-2">
                             <h5>首藤　英人</h5>
                         </div>
-                        <div class="col-lg-10"></div>
+                        <div class="col-lg-9"></div>
                         </div>
                         <div class="row">
                             <li><p>{{ $comment->comment }}</p></li>
