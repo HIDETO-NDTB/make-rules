@@ -66,9 +66,10 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
-            <div class="card">
+
                 @foreach ($comments as $comment)
                 @if($comment->rule_id == $rule->id)
+                <div class="card">
                 <div class="card-header"><h4>{{ $comment->opinion }} 派意見</h4></div>
                 <div class="card-body">
                     <ul>
@@ -89,9 +90,10 @@
                         </div>
                     </ul>
                 </div>
+            </div>
                 @endif
                 @endforeach
-            </div>
+
             <br>
         </div>
     </div>
