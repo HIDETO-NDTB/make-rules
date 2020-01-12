@@ -67,7 +67,8 @@
     <div class="row centered">
         <div class="col-lg-12">
             <div class="card">
-                @foreach ($rule->comments as $comment)
+                @foreach ($comments as $comment)
+                @if($comment->rule_id == $rule->id)
                 <div class="card-header"><h4>{{ $comment->pivot->opinion }} 派意見</h4></div>
                 <div class="card-body">
                     <ul>
@@ -88,6 +89,7 @@
                         </div>
                     </ul>
                 </div>
+                @endif
                 @endforeach
             </div>
             <br>
