@@ -39,7 +39,7 @@ class CommentsController extends Controller
     {
         // validation
         $this->validate($request,[
-            'rule_id' => 'required|exists:rules,id',
+            'rule_id' => 'required|exists:rule,id',
             'opinion' => 'required',
             'comment' => 'required',
         ]);
