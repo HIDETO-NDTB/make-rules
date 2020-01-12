@@ -59,7 +59,7 @@ class CommentsController extends Controller
         $comment->users()->attach($comment->use_id);
 
         Session::flash('success','コメントされました');
-        return redirect()->route('initiative');
+        return redirect()->route('rule.single',['id' =>$rule->id]);
     }
 
     /**
