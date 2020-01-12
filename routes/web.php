@@ -55,9 +55,4 @@ Route::resource('rules','RulesController');
 
 Route::resource('users','UsersController');
 
-Route::post('/comment',[
-    'uses' => 'CommentsController@store',
-    'as' => 'comment.store'
-]);
-
 
