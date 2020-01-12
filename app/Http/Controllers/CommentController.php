@@ -55,7 +55,7 @@ class CommentController extends Controller
         ]);
 
         $comment->save();
-        $comment->pivot->rules()->attach($comment->rule_id);
+        $comment->rules()->attach($comment->rules);
 
         //['id' =>$rule->id]
 
