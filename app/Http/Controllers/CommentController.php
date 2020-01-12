@@ -55,7 +55,8 @@ class CommentController extends Controller
         ]);
 
         $comment->save();
-        $comment->rules()->attach($comment->pivot->rule_id);
+        $comment = App\Comment::find(1);
+        $comment->rules()->attach($comment->rules);
 
         //['id' =>$rule->id]
 
