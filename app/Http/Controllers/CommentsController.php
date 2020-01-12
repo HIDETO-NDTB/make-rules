@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Comment;
 use App\Rule;
+use App\Category;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
@@ -46,7 +47,7 @@ class CommentsController extends Controller
 
         // Mass Assignment
         $comment = Comment::create([
-            'rule_id' => $rule->id,
+            'rule_id' => $category->rule->id,
             'user_id' => Auth::user()->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
