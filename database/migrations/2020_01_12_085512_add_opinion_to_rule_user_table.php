@@ -14,11 +14,9 @@ class AddOpinionToRuleUserTable extends Migration
     public function up()
     {
         Schema::table('rule_user', function (Blueprint $table) {
-            $table->string('opinion')->after('user_id');
-            $table->text('comment')->after('opinion');
-            $table->date('comment_date')->after('comment');
-            $table->string('vote')->after('comment_date');
-            $table->date('vote_date')->after('vote');
+            $table->string('opinion');
+            $table->text('comment');
+            $table->date('comment_date');
         });
     }
 

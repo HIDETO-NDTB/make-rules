@@ -3,13 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Category;
-use App\Rule;
-use App\User;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Session;
 
-class RulesController extends Controller
+class CommentsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -18,7 +13,7 @@ class RulesController extends Controller
      */
     public function index()
     {
-
+        //
     }
 
     /**
@@ -28,8 +23,7 @@ class RulesController extends Controller
      */
     public function create()
     {
-        $categories = Category::all();
-        return view('rules.create')->with('categories',$categories);
+        //
     }
 
     /**
@@ -40,30 +34,8 @@ class RulesController extends Controller
      */
     public function store(Request $request)
     {
-        // validation
-        $this->validate($request,[
-            'title' => 'required|unique:rules|max:20',
-            'content' => 'required',
-        ]);
-
-        // Mass Assignment
-        $rule = Rule::create([
-            'title' => $request->title,
-            'content' => $request->content,
-            'status' => "0",
-            'initiative_date' => date("Y-m-d"),
-            'vote_date' => date("Y-m-d",strtotime("+7 day")),
-            'category_id' => $request->category_id,
-            'user_id' => Auth::user()->id,
-        ]);
-
-        $rule->save();
-
-        Session::flash('success','新法案が発議されました');
-        return redirect()->route('initiative');
+        //
     }
-
-
 
     /**
      * Display the specified resource.
