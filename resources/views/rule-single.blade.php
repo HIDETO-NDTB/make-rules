@@ -77,7 +77,7 @@
                                 <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                             </div>
                         <div class="col-lg-2">
-                            <h5>{{ $comment->pivot->users->name }}</h5>
+                            <h5>{{ $comment->users }}</h5>
                         </div>
                         <div class="col-lg-9"></div>
                         </div>
