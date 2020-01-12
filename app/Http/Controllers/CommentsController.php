@@ -42,6 +42,7 @@ class CommentsController extends Controller
         $this->validate($request,[
             'opinion' => 'required',
             'comment' => 'required',
+            'rule_id' => 'required',
         ]);
 
         // Mass Assignment
@@ -49,6 +50,7 @@ class CommentsController extends Controller
             'opinion' => $request->opinion,
             'comment' => $request->comment,
             'comment_date' => date("Y-m-d"),
+            'rule_id' => $request->rule_id,
             'user_id' => Auth::user()->id,
         ]);
 
