@@ -52,7 +52,7 @@ class CommentsController extends Controller
             'comment_date' => date("Y-m-d"),
         ]);
 
-        $coment->save();
+        $comment->save();
         $comment->users()->attach($comment->use_id);
 
         Session::flash('success','コメントされました');
