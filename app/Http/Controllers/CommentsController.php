@@ -39,13 +39,13 @@ class CommentsController extends Controller
     {
         // validation
         $this->validate($request,[
+            'rule_id' => 'required|exists:rules,id',
             'opinion' => 'required',
             'comment' => 'required',
         ]);
 
         // Mass Assignment
         $comment = Comment::create([
-            'rule_id' => $request->rule_id,
             'user_id' => Auth::user()->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
