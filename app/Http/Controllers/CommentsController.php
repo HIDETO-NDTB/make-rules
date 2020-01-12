@@ -54,7 +54,7 @@ class CommentsController extends Controller
         $comment->save();
 
         Session::flash('success','コメントされました');
-        return redirect()->route('/rule-single');
+        return redirect()->back();
     }
 
     /**
