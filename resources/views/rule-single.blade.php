@@ -45,9 +45,6 @@
                 <form action="{{ route('comment.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
-                        <p class="hidden" name="rule_id" value="{{ $rule->id }}">rule_id : {{ $rule->id }}</p>
-                    </div>
-                    <div class="form-group">
                         <select name="opinion" style="width: 200px;">
                             <option value="agree">賛成</option>
                             <option value="disagree">反対</option>
