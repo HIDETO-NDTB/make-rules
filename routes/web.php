@@ -55,6 +55,6 @@ Route::resource('rules','RulesController');
 
 Route::resource('users','UsersController');
 
-Route::resource('comments','CommentsController');
+
 
 
