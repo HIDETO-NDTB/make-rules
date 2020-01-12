@@ -69,7 +69,7 @@
             <div class="card">
                 @foreach ($comments as $comment)
                 @if($comment->rule_id == $rule->id)
-                <div class="card-header"><h4>{{ $comment->pivot->opinion }} 派意見</h4></div>
+                <div class="card-header"><h4>{{ $comment->opinion }} 派意見</h4></div>
                 <div class="card-body">
                     <ul>
                         <div class="row">
@@ -82,10 +82,10 @@
                             <div class="col-lg-10"></div>
                         </div>
                         <div class="row">
-                            <li><p>{{ $comment->pivot->comment }}</p></li>
+                            <li><p>{{ $comment->comment }}</p></li>
                         </div>
                         <div class="row">
-                            <li>{{ $comment->pivot->comment_date }}</li>
+                            <li>{{ $comment->comment_date }}</li>
                         </div>
                     </ul>
                 </div>
