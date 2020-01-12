@@ -66,10 +66,9 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
-
-                @foreach ($comments as $comment)
-                @if($comment->rule_id == $rule->id)
-                <div class="card">
+            @foreach ($comments as $comment)
+            @if($comment->rule_id == $rule->id)
+            <div class="card">
                 <div class="card-header"><h4>{{ $comment->opinion }} 派意見</h4></div>
                 <div class="card-body">
                     <ul>
@@ -77,10 +76,10 @@
                             <div class="col-lg-1">
                                 <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                             </div>
-                            <div class="col-lg-1">
-                                <h5>首藤　英人</h5>
-                            </div>
-                            <div class="col-lg-10"></div>
+                        <div class="col-lg-1">
+                            <h5>首藤　英人</h5>
+                        </div>
+                        <div class="col-lg-10"></div>
                         </div>
                         <div class="row">
                             <li><p>{{ $comment->comment }}</p></li>
@@ -91,10 +90,9 @@
                     </ul>
                 </div>
             </div>
-                @endif
-                @endforeach
-
             <br>
+            @endif
+            @endforeach
         </div>
     </div>
 </div>
