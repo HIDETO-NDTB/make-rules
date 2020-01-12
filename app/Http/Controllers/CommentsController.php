@@ -56,7 +56,7 @@ class CommentsController extends Controller
         ]);
 
         $comment->save();
-        $comment->user->attach($user->id);
+        $comment->user->attach($request->users);
 
         Session::flash('success','コメントされました');
         return redirect()->back();
