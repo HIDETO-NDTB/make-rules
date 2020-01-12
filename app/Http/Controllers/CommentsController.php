@@ -47,7 +47,8 @@ class CommentsController extends Controller
 
         // Mass Assignment
         $comment = Comment::create([
-            'rule_id' => $category->rule->id,
+
+            'rule_id' => $rule->id,
             'user_id' => Auth::user()->id,
             'opinion' => $request->opinion,
             'comment' => $request->comment,
