@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Comment;
 use App\Rule;
+use App\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
@@ -55,7 +56,7 @@ class CommentsController extends Controller
         ]);
 
         $comment->save();
-        $comment->users()->attach($request->users);
+        $comment->user->attach($user->id);
 
         Session::flash('success','コメントされました');
         return redirect()->back();
