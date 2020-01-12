@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Comment;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class CommentsController extends Controller
 {
@@ -34,7 +37,24 @@ class CommentsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // validation
+        $this->validate($request,[
+            'opinion' => 'required',
+            'comment' => 'required',
+        ]);
+
+        // Mass Assignment
+        $comment = Comment::create([
+            'opinion' => $request->opinion,
+            'comment' => $request->comment,
+            'comment_date' => date("Y-m-d"),
+            'user_id' => Auth::user()->id,
+        ]);
+
+        $rule->save();
+
+        Session::flash('success','コメントされました');
+        return redirect()->route('rule-single');
     }
 
     /**

@@ -18,7 +18,6 @@ class CreateCommentsTable extends Migration
             $table->string('opinion');
             $table->text('comment');
             $table->date('comment_date');
-            $table->integer('rule_id');
             $table->integer('user_id');
             $table->timestamps();
         });
