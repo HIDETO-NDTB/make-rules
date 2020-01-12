@@ -8,7 +8,4 @@ class Comment extends Model
 {
     protected $fillable = ['opinion','comment','comment_date','user_id','rule_id'];
 
-    public function rules(){
-        return $this->belongsToMany('App\Rule');
-    }
 }

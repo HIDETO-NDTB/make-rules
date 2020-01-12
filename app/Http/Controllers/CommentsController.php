@@ -53,7 +53,6 @@ class CommentsController extends Controller
         ]);
 
         $comment->save();
-        $comment->rules()->attach($comment->rule_id);
 
         Session::flash('success','コメントされました');
         return redirect()->back();
