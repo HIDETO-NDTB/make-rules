@@ -615,7 +615,8 @@ li {
 }
 
 .commentsBox {
-    border: 2px solid gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 .comment-a {
