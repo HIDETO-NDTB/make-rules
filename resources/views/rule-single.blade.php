@@ -66,7 +66,7 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
-            @if($comments->count() != 0)
+            @if($comments->count() =! 0)
             @foreach ($comments as $comment)
             @if($comment->rule_id == $rule->id)
             <div class="card">
