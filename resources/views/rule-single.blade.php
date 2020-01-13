@@ -95,12 +95,10 @@
                 </div>
             </div>
             <br>
-            @endif
-            @endforeach
-
-            @if($comments->count() == 0)
+            @else
             <p>当案件に対するコメントはありません。</p>
             @endif
+            @endforeach
         </div>
     </div>
 </div>
