@@ -117,6 +117,7 @@
         <br>
         <h4>傍聴席</h4>
         <br>
+        <div class="row">
         <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="comment-a">
@@ -132,6 +133,7 @@
                     <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
                 </div>
             </div>
+        </div>
         </div>
         <br>
     </div>
