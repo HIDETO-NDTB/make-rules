@@ -634,9 +634,10 @@ li {
     text-align: left;
 }
 
-.comments a {
+.commentsBox a {
     font-weight: bold;
     margin-right: 10px;
+    text-align: center;
 }
 
 /* comment.blade.php */
