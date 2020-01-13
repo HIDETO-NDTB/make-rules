@@ -614,8 +614,8 @@ li {
     border-right: 1px solid gray;
 }
 
-.comment-a {
-    background-color: #F2FCF9;
+.ruleBox {
+    border: 3px solid gray;
     padding: 15px;
     margin-bottom: 20px;
 }
