@@ -126,11 +126,9 @@
             </div>
             <div class="col-lg-6">
                 <div class="comment-d">
-                    @foreach ($comments as $comment)
 
-                    <h4 class="comment-title">{{ $comment->opinion }}派意見</h4>
-                    <p class="comment-text">{{ $comment->comment }}</p>
-                    @endforeach
+                    <h4 class="comment-title">{{ $first_comment->opinion }}派意見</h4>
+                    <p class="comment-text">{{ $first_comment->comment }}</p>
                 </div>
             </div>
             <div class="commentButton">
