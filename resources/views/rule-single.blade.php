@@ -66,6 +66,7 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
+            @if($commens->count() > 0)
             @foreach ($comments as $comment)
             @if($comment->rule_id == $rule->id)
             <div class="card">
@@ -97,6 +98,9 @@
             <br>
             @endif
             @endforeach
+            @else
+            <p>当案件に対するコメントはありません。</p>
+            @endif
         </div>
     </div>
 </div>
