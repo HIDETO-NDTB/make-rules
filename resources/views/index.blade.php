@@ -135,6 +135,12 @@
                     <h4 class="comment-title">{{ $first_disagree_comment->opinion }}派意見</h4>
                     <p class="comment-text">{{ $first_disagree_comment->comment }}</p>
                 </div>
+                <div class="comment-a">
+                    @if($first_disagree_comment->id == $first_agree_comment->id)
+                    <h4 class="comment-title">賛成派意見</h4>
+                    <p class="comment-text">{{ $first_agree_comment->comment }}</p>
+                    @endif
+                </div>
             </div>
             <div class="commentButton">
                 <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
