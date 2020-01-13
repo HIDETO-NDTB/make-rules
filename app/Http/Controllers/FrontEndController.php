@@ -52,7 +52,7 @@ class FrontEndController extends Controller
 
         return view('rule-single')->with('rule',$rule)
                                   ->with('categories',Category::all())
-                                  ->with('comments',Comment::all())
+                                  ->with('comments',$comments)
                                   ->with('users',User::all());
 
     }
