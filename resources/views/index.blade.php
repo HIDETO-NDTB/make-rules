@@ -120,7 +120,7 @@
         <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="comment-a">
-                    <h4 class="comment-title">{{ $first_comment->pivot->rule->title }}</h4>
+                    <h4 class="comment-title">{{ $first_comment->rule->title }}</h4>
                     <p class="comment-text">条件付きですが賛成です。おかしな事件が増えているのを親のしつけの悪さが原因だとして、子供が子供を産んで育てている現状を変えた方が良いと常々思っていました。親になるからには必要最低限の経験と礼儀、そして現実を考えるとお金が必要です。</p>
                 </div>
             </div>
