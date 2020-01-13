@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Rule;
 use App\Category;
 use App\Comment;
+use App\User;
 
 
 class FrontEndController extends Controller
@@ -47,10 +48,12 @@ class FrontEndController extends Controller
 
         $rule = Rule::where('id',$id)->first();
         $comments = Comment::all();
+        $users = User::all();
 
         return view('rule-single')->with('rule',$rule)
                                   ->with('categories',Category::all())
-                                  ->with('comments',Comment::all());
+                                  ->with('comments',Comment::all())
+                                  ->with('users',User::all());
 
     }
 
