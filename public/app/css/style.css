@@ -631,9 +631,10 @@ li {
 }
 
 .commentsBox {
-    border: 2px solid gray;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* comment.blade.php */
