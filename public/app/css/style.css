@@ -632,6 +632,8 @@ li {
 
 .commentsBox {
     border: 2px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* comment.blade.php */
