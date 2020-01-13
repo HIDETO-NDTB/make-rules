@@ -136,7 +136,7 @@
                     <p class="comment-text">{{ $first_disagree_comment->comment }}</p>
                 </div>
                 <div class="comment-a">
-                    @if($first_disagree_comment->id == $first_agree_comment->id)
+                    @if($first_agree_comment->rule_id == $first_disagree_comment->rule_id)
                     <h4 class="comment-title">賛成派意見</h4>
                     <p class="comment-text">{{ $first_agree_comment->comment }}</p>
                     @endif
