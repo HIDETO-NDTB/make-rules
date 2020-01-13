@@ -23,7 +23,7 @@ class FrontEndController extends Controller
         $second_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(1)->get()->first();
         $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
         $categories = Category::all();
-        $first_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion',反対)->first();
+        $first_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->first();
         $rules = Rule::all();
 
         return view('index')->with('first_vote',$first_vote)
