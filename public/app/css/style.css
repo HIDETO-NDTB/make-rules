@@ -626,17 +626,7 @@ li {
     margin-bottom: 20px;
 }
 
-.comments h4 {
-    text-align: left;
-}
-
-.comments p {
-    text-align: left;
-}
-
-.commentsBox a {
-    font-weight: bold;
-    margin-right: 10px;
+.commentsBox btn-primary {
     text-align: center;
 }
 
