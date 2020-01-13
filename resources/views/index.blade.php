@@ -134,7 +134,7 @@
             </div>
         </div>
         <br>
-        <div class="comments">
+        <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="comment">
                     <h4 class="comment-title">賛成派意見</h4>
