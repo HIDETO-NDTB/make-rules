@@ -137,9 +137,11 @@
                 </div>
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
-
+                    @isset($first_agree_comment)
                     <p class="comment-text">{{ $first_agree_comment->comment }}</p>
-
+                    @else
+                    <p>当法案に対する賛成意見はありません。</p>
+                    @endisset
                 </div>
             </div>
             <div class="commentButton">
@@ -169,6 +171,38 @@
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($second_agree_comment)
                     <p class="comment-text">{{ $second_agree_comment->comment }}</p>
+                    @else
+                    <p>当法案に対する賛成意見はありません。</p>
+                    @endisset
+                </div>
+            </div>
+            <div class="commentButton">
+                <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
+            </div>
+        </div>
+        <br>
+        <div class="commentsBox">
+            <div class="col-lg-6">
+                <div class="ruleBox">
+                    @foreach ($rules as $rule)
+                    @if($third_disagree_comment->rule_id == $rule->id)
+                    <h4 class="comment-title">{{ $rule->title }}</h4>
+                    <p class="comment-text">{{ $rule->content }}</p>
+                    <li>発議日: {{ $rule->initiative_date }}</li>
+                    <li>投票日: {{ $rule->vote_date }}</li>
+                    @endif
+                    @endforeach
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="comment-d">
+                    <h4 class="comment-title">反対派意見</h4>
+                    <p class="comment-text">{{ $third_disagree_comment->comment }}</p>
+                </div>
+                <div class="comment-a">
+                    <h4 class="comment-title">賛成派意見</h4>
+                    @isset($third_agree_comment)
+                    <p class="comment-text">{{ $third_agree_comment->comment }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
