@@ -24,7 +24,9 @@ class FrontEndController extends Controller
         $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
         $categories = Category::all();
         $first_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->first();
+        $second_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(1)->skip(1)->get()->first();
         $first_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$first_disagree_comment->rule_id)->where('opinion','賛成')->first();
+        $second_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$second_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $rules = Rule::all();
 
         return view('index')->with('first_vote',$first_vote)
@@ -38,7 +40,9 @@ class FrontEndController extends Controller
                             ->with('third_result',$third_result)
                             ->with('categories',$categories)
                             ->with('first_disagree_comment',$first_disagree_comment)
+                            ->with('second_disagree_comment',$second_disagree_comment)
                             ->with('first_agree_comment',$first_agree_comment)
+                            ->with('second_agree_comment',$second_agree_comment)
                             ->with('rules',$rules);
     }
 
