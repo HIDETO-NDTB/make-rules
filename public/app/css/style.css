@@ -626,10 +626,6 @@ li {
     margin-bottom: 20px;
 }
 
-.commentsBox btn {
-    text-align: center;
-}
-
 /* comment.blade.php */
 #commentform {
     background-color: white;
