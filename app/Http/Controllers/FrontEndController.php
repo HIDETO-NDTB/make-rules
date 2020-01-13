@@ -47,11 +47,11 @@ class FrontEndController extends Controller
     public function rule_single($id){
 
         $rule = Rule::where('id',$id)->first();
-        $comments = Comment::all();
+        $comments = Comment::orderBy('comment_date','desc')->take(10);
         $users = User::all();
 
         return view('rule-single')->with('rule',$rule)
-                                  ->with('categories',Category::all())
+                                  ->with('categories',$comments)
                                   ->with('comments',Comment::all())
                                   ->with('users',User::all());
 
