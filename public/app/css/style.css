@@ -614,6 +614,10 @@ li {
     border-right: 1px solid gray;
 }
 
+.comments {
+    border: 2px solid gray;
+}
+
 .comment-a {
     background-color: #BBFDFC;
     padding: 15px;
