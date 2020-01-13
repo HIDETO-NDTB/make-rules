@@ -130,7 +130,9 @@
                     <p class="comment-text">全面的に反対。少子高齢化が深刻な問題となっている日本でこのような規則を議論すること自体がおかしい。免許制にするばかりか、国がもっと適齢夫婦の出産・育児をサポートする法案が不可欠。それについては２週間以内にしっかりと考えて発議させて頂きます！！</p>
                 </div>
             </div>
-            <a class="btn btn-primary" style="width: 300px; text-align: center;" href="">詳しく見る</a>
+            <div class="commentButton">
+                <a class="btn btn-primary" style="width: 300px;" href="">詳しく見る</a>
+            </div>
         </div>
         <br>
     </div>
