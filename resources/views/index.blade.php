@@ -117,7 +117,7 @@
         <br>
         <h4>傍聴席</h4>
         <br>
-        <div class="comments">
+        <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
@@ -134,7 +134,7 @@
             </div>
         </div>
         <br>
-        <div class="commentsBox">
+        <div class="comments">
             <div class="col-lg-6">
                 <div class="comment">
                     <h4 class="comment-title">賛成派意見</h4>
