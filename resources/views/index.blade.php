@@ -121,7 +121,7 @@
             <div class="col-lg-6">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
-                    @if($first_comment->rule_id == $rule->id)
+                    @if($first_disagree_comment->rule_id == $rule->id)
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
@@ -132,9 +132,8 @@
             </div>
             <div class="col-lg-6">
                 <div class="comment-d">
-
-                    <h4 class="comment-title">{{ $first_comment->opinion }}派意見</h4>
-                    <p class="comment-text">{{ $first_comment->comment }}</p>
+                    <h4 class="comment-title">{{ $first_disagree_comment->opinion }}派意見</h4>
+                    <p class="comment-text">{{ $first_disagree_comment->comment }}</p>
                 </div>
             </div>
             <div class="commentButton">
