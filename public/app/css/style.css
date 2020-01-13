@@ -626,7 +626,7 @@ li {
     margin-bottom: 20px;
 }
 
-.commentButton a {
+.commentButton .btn-primary {
     text-align: center;
 }
 
