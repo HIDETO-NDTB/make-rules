@@ -23,7 +23,7 @@ class FrontEndController extends Controller
         $second_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(1)->get()->first();
         $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
         $categories = Category::all();
-        $comments = Comment::orderBy('str_len','desc')->get();
+        $comments = Comment::select('comment')->from('rule_user')->orderBy('str_len','desc')->get();
 
         return view('index')->with('first_vote',$first_vote)
                             ->with('second_vote',$second_vote)
