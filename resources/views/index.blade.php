@@ -167,9 +167,11 @@
                 </div>
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
-
+                    @isset($second_agree_comment)
                     <p class="comment-text">{{ $second_agree_comment->comment }}</p>
-
+                    @else
+                    <p>当法案に対する賛成意見はありません。</p>
+                    @endisset
                 </div>
             </div>
             <div class="commentButton">
