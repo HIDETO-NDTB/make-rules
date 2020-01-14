@@ -64,8 +64,8 @@ class FrontEndController extends Controller
         $category->rules = Rule::orderBy('initiative_date','desc')->get();
 
         return view('category')->with('category',$category)
-                               ->with('categories',Category::all())
-                               ->with('rules',$rules);
+                               ->with('categories',Category::all());
+
 
     }
 
