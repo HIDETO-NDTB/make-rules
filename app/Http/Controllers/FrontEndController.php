@@ -62,7 +62,9 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
-        $today = Carbon::today();
+        $commentdates = Category::find($category->id)->rules->sortByDesc('initiative_date')
+                            ->whereRaw('initiative_date > NOW() - INTERVAL 7 DAY')
+                            ->get();
 
 
         $rules = Category::find($category->id)->rules->sortByDesc('initiative_date');
