@@ -180,7 +180,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endisset
@@ -214,7 +214,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endisset
@@ -248,7 +248,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$fourth_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endisset
@@ -282,7 +282,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$fifth_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endisset
