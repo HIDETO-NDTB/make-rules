@@ -14,12 +14,13 @@ class FrontEndController extends Controller
 {
     public function index(){
 
+        $first_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->first();
         $first_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->first();
         $second_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->take(1)->skip(1)->get()->first();
         $third_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->take(1)->skip(2)->get()->first();
-        $first_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->first();
-        $second_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->take(1)->skip(1)->get()->first();
-        $third_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->take(1)->skip(2)->get()->first();
+        $first_initiative = Rule::orderBy('initiative_date','desc')->where('vote_date','>',today())->first();
+        $second_initiative = Rule::orderBy('initiative_date','desc')->where('vote_date','>',today())->take(1)->skip(1)->get()->first();
+        $third_initiative = Rule::orderBy('initiative_date','desc')->where('vote_date','>',today())->take(1)->skip(2)->get()->first();
         $first_result = Rule::orderBy('vote_date','desc')->where('status',1)->first();
         $second_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(1)->get()->first();
         $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
@@ -36,7 +37,8 @@ class FrontEndController extends Controller
         $fifth_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$fifth_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $rules = Rule::all();
 
-        return view('index')->with('first_vote',$first_vote)
+        return view('index')->with('$first_now_vote',$$first_now_vote)
+                            ->with('first_vote',$first_vote)
                             ->with('second_vote',$second_vote)
                             ->with('third_vote',$third_vote)
                             ->with('first_initiative',$first_initiative)

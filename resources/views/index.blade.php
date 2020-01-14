@@ -25,7 +25,11 @@
         <div class="col-lg-4">
             <h4><i class="fas fa-search-location"></i> 投票 <span>中</span></h4>
             <br>
-            <li><a href="#">出産を免許制にしませんか？<br>（コメント数９７件）</a></li><br>
+            @isset($first_now_vote)
+            <li><a href="#">{{ $first_now_vote->title }}<br>（{{ $first_now_vote->finish_date }} 投票終了)</a></li><br>
+            @else
+            <p>未投票の法案はありません。</p>
+            @endisset
             <li><a href="#">ベーシックインカム。全国民に月５万円支給<br>（コメント数７３件）</a></li><br>
             <li><a href="#">周国家主席は国賓として迎えましょう<br>（コメント数５６件）</a></li><br>
         </div>
