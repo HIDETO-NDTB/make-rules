@@ -27,7 +27,7 @@ Route::get('/rule-single/{id}',[
     'as' => 'rule.single'
 ]);
 
-Route::get('/vote',[
+Route::get('/vote/{id}',[
     'uses' => 'FrontEndController@vote',
     'as' => 'vote'
 ]);
