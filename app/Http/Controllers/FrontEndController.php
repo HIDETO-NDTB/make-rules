@@ -87,9 +87,13 @@ class FrontEndController extends Controller
     public function vote($id){
 
         $rule = Rule::where('id',$id)->first();
+        $comments = Comment::orderBy('comment_date','desc')->get();
+        $users = User::all();
 
         return view('vote')->with('rule',$rule)
-                           ->with('categories',Category::all());
+                           ->with('categories',Category::all())
+                           ->with('comments',$comments)
+                           ->with('users',User::all());
     }
 
     public function result($id){
