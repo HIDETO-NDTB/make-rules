@@ -442,7 +442,7 @@ li {
   background: #ff7878;
 }
 
-.price-amount {
+.price-amount small {
     margin-left: 30px;
 }
 
