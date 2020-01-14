@@ -62,8 +62,8 @@
 
                                 @if($rule->vote_date > today())
                                 <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
-
-
+                                @elseif($rule->vote_date < today() && today() < $rule->vote_date->add($rule->vote_date('P7D')))
+                                <a class="btn btn-danger" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">投票に行く</a>
                                 @endif
                         </div>
                     </ul>
