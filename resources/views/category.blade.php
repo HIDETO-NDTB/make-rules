@@ -59,7 +59,11 @@
                         <div class="row">
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
-                            <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                @if(var_dump(Carbin::today()->between(Carbon::parse($rule->initiative_date), Carbon::parse($rule->vote_date)));)
+                                <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                @elseif(var_dump(Carbin::today()->between(Carbon::parse($rule->vote_date), Carbon::parse($rule->vote_date(strtotime("+7 day"))));)
+                                <a class="btn btn-danger" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">投票に行く</a>
+                                @endif
                         </div>
                     </ul>
                 </div>
