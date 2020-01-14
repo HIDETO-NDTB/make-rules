@@ -62,7 +62,7 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
-        $rules = Category::find($category->id)->rules->sortByAsc('initiative_date');
+        $rules = Category::find($category->id)->rules->sortBy('initiative_date');
 
         return view('category')->with('category',$category)
                                 ->with('rules',$rules)
