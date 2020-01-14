@@ -23,7 +23,7 @@
     <div class="row centered">
         <br><br>
         <div class="col-lg-4">
-            <h4><i class="fas fa-search-location"></i> 投票<span>中</span></h4>
+            <h4><i class="fas fa-search-location"></i> 投票 <span>中</span></h4>
             <br>
             <li><a href="#">出産を免許制にしませんか？<br>（コメント数９７件）</a></li><br>
             <li><a href="#">ベーシックインカム。全国民に月５万円支給<br>（コメント数７３件）</a></li><br>
