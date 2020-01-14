@@ -16,7 +16,7 @@
                             </span>
                         </div>
                         <ul>
-                            <li>総発議数　<strong>９７案件</strong></li>
+                            <li>総発議数　<strong>{{count($category->rules)}}案件</strong></li>
                             <li>投票済数　<strong>９３案件</strong></li>
                             <li>採用数　<strong>２０案件</strong></li>
                         </ul>
