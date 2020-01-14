@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Rule extends Model
 {
 
-    protected $fillable = ['title','content','status','initiative_date','vote_date','category_id','user_id'];
+    protected $fillable = ['title','content','status','initiative_date','vote_date','finish_date','category_id','user_id'];
 
     public function category(){
         return $this->belongsTo('App\Category');
