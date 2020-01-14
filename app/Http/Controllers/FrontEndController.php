@@ -37,7 +37,7 @@ class FrontEndController extends Controller
         $fifth_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$fifth_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $rules = Rule::all();
 
-        return view('index')->with('first_now_vote',$$first_now_vote)
+        return view('index')->with('first_now_vote',$first_now_vote)
                             ->with('first_vote',$first_vote)
                             ->with('second_vote',$second_vote)
                             ->with('third_vote',$third_vote)
