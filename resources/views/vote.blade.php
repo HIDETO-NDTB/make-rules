@@ -14,7 +14,7 @@
                                     <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                 </div>
                                 <div class="col-lg-2">
-                                    <h5>首藤英人</h5>
+                                    <h5>{{ $rule->user->name }}</h5>
                                 </div>
                                 <div class="col-lg-8"></div>
                             </div>
@@ -22,7 +22,7 @@
                                 <li><p>{{ $rule->content }}</p></li>
                             </div>
                             <div class="row">
-                                <li>発議日: {{ $rule->initiative }}</li>
+                                <li>発議日: {{ $rule->initiative_date }}</li>
                                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                             </div>
                         </ul>
