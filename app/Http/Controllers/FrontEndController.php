@@ -15,6 +15,8 @@ class FrontEndController extends Controller
     public function index(){
 
         $first_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->first();
+        $second_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->take(1)->skip(1)->get()->first();
+        $third_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->take(1)->skip(2)->get()->first();
         $first_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->first();
         $second_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->take(1)->skip(1)->get()->first();
         $third_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->take(1)->skip(2)->get()->first();
@@ -38,6 +40,8 @@ class FrontEndController extends Controller
         $rules = Rule::all();
 
         return view('index')->with('first_now_vote',$first_now_vote)
+                            ->with('second_now_vote',$second_now_vote)
+                            ->with('third_now_vote',$third_now_vote)
                             ->with('first_vote',$first_vote)
                             ->with('second_vote',$second_vote)
                             ->with('third_vote',$third_vote)
