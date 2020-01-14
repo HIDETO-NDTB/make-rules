@@ -117,7 +117,7 @@
         <br>
         <h4>傍聴席</h4>
         <br>
-        @foreach ($irst_disagree_comments as $first_disagree_comment)
+        @foreach ($first_disagree_comments as $first_disagree_comment)
         @isset($first_disagree_comment)
         <div class="commentsBox">
             <div class="col-lg-6">
