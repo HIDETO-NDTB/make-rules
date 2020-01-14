@@ -23,10 +23,10 @@ class FrontEndController extends Controller
         $second_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(1)->get()->first();
         $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
         $categories = Category::all();
-        $first_disagree_comments = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(10)->get();
+        $first_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->first();
         $second_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(1)->skip(1)->get()->first();
         $third_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(1)->skip(2)->get()->first();
-        $first_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$first_disagree_comments->rule_id)->where('opinion','賛成')->first();
+        $first_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$first_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $second_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$second_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $third_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$third_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $rules = Rule::all();
@@ -41,7 +41,7 @@ class FrontEndController extends Controller
                             ->with('second_result',$second_result)
                             ->with('third_result',$third_result)
                             ->with('categories',$categories)
-                            ->with('first_disagree_comments',$first_disagree_comments)
+                            ->with('first_disagree_comment',$first_disagree_comment)
                             ->with('second_disagree_comment',$second_disagree_comment)
                             ->with('third_disagree_comment',$third_disagree_comment)
                             ->with('first_agree_comment',$first_agree_comment)

@@ -117,8 +117,6 @@
         <br>
         <h4>傍聴席</h4>
         <br>
-        @foreach ($first_disagree_comments as $first_disagree_comment)
-        @isset($first_disagree_comment)
         <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="ruleBox">
@@ -150,10 +148,6 @@
                 <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
             </div>
         </div>
-        @else
-        <p>現在、コメントはありません</p>
-        @endisset
-        @endforeach
         <br>
         <div class="commentsBox">
             <div class="col-lg-6">
