@@ -60,7 +60,7 @@
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
 
-                                @if($rule->initiative_date->date("Y-m-d",strtotime("+7 day")) < today())
+                                @if($rule->initiative_date->strtotime("+7 day")) < today())
                                 <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
 
 
