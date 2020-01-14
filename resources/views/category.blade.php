@@ -35,7 +35,7 @@
     <div class="row centered">
         <div class="col-lg-12">
             @if($category->rules->count() > 0)
-            @foreach ($category->rules as $rule)
+            @foreach ($rules as $rule)
             <div class="card">
                 <div class="card-header"><h4>{{ $rule->title }}</h4></div>
                 <div class="card-body">
