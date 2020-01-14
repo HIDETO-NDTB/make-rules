@@ -34,8 +34,8 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
-            @if($rules->count() > 0)
-            @foreach ($rules as $rule)
+            @if($category->rules->count() > 0)
+            @foreach ($category->rules as $rule)
             <div class="card">
                 <div class="card-header"><h4>{{ $rule->title }}</h4></div>
                 <div class="card-body">
