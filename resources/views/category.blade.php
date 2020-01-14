@@ -60,7 +60,7 @@
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
 
-                                @if(Carbon::now() <= Carbon::parse($rule->initiative_date)->addDays(7))
+                                @if($rule->vote_date < today())
                                 <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
 
 
