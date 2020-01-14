@@ -61,8 +61,11 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
+        $rules = Rule::orderBy('initiative_date','desc');
+
         return view('category')->with('category',$category)
-                               ->with('categories',Category::all());
+                               ->with('categories',Category::all())
+                               ->with('rules',$rules);
 
     }
 
