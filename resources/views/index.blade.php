@@ -146,7 +146,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">詳しく見る</a>
             </div>
         </div>
         @endisset
