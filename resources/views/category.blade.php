@@ -34,7 +34,7 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
-            @if($category->rules->count() > 0 && $rule->finish_date > today())
+            @if($category->rules->count() > 0 && $category->rule->finish_date > today())
             @foreach ($rules as $rule)
             <div class="card">
                 <div class="card-header"><h4>{{ $rule->title }}</h4></div>
