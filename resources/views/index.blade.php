@@ -117,6 +117,7 @@
         <br>
         <h4>傍聴席</h4>
         <br>
+        @isset($first_disagree_comment)
         <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="ruleBox">
@@ -148,7 +149,9 @@
                 <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
             </div>
         </div>
+        @endisset
         <br>
+        @isset($second_disagree_comment)
         <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="ruleBox">
@@ -180,7 +183,9 @@
                 <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
             </div>
         </div>
+        @endisset
         <br>
+        @isset($third_disagree_comment)
         <div class="commentsBox">
             <div class="col-lg-6">
                 <div class="ruleBox">
@@ -212,6 +217,7 @@
                 <a class="btn btn-success" style="width: 300px;" href="">詳しく見る</a>
             </div>
         </div>
+        @endisset
     </div>
     <!-- row -->
 </div>
