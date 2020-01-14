@@ -26,15 +26,15 @@
             <h4><i class="fas fa-search-location"></i> 投票 <span>中</span></h4>
             <br>
             @isset($first_now_vote)
-            <li><a href="#">{{ $first_now_vote->title }}<br>({{ $first_now_vote->finish_date }} 投票終了)</a></li><br>
+            <li><a href="{{ route('vote',['id' =>$first_now_vote->id]) }}">{{ $first_now_vote->title }}<br>({{ $first_now_vote->finish_date }} 投票終了)</a></li><br>
             @else
             <p>未投票の法案はありません。</p>
             @endisset
             @isset($second_now_vote)
-            <li><a href="#">{{ $second_now_vote->title }}<br>({{ $second_now_vote->finish_date }} 投票終了)</a></li><br>
+            <li><a href="{{ route('vote',['id' =>$second_now_vote->id]) }}">{{ $second_now_vote->title }}<br>({{ $second_now_vote->finish_date }} 投票終了)</a></li><br>
             @endisset
             @isset($third_now_vote)
-            <li><a href="#">{{ $third_now_vote->title }}<br>({{ $third_now_vote->finish_date }} 投票終了)</a></li><br>
+            <li><a href="{{ route('vote',['id' =>$third_now_vote->id]) }}">{{ $third_now_vote->title }}<br>({{ $third_now_vote->finish_date }} 投票終了)</a></li><br>
             @endisset
         </div>
       <!-- col-lg-4 -->
