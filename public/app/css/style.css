@@ -442,8 +442,8 @@ li {
   background: #ff7878;
 }
 
-.pricing-amount {
-    padding-left: 5px;
+.pricing-amount small {
+    margin-left: 10px;
 }
 
 /* Contact Form */
