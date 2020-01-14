@@ -26,7 +26,7 @@ class FrontEndController extends Controller
         $first_disagree_comments = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(10)->get();
         $second_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(1)->skip(1)->get()->first();
         $third_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(1)->skip(2)->get()->first();
-        $first_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$first_disagree_comment->rule_id)->where('opinion','賛成')->first();
+        $first_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$first_disagree_comments->rule_id)->where('opinion','賛成')->first();
         $second_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$second_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $third_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$third_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $rules = Rule::all();
