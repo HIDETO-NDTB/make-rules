@@ -61,6 +61,8 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
+        $today = new DateTime();
+
 
         $rules = Category::find($category->id)->rules->sortByDesc('initiative_date');
         return view('category')->with('category',$category)
