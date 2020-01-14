@@ -14,7 +14,7 @@ class FrontEndController extends Controller
 {
     public function index(){
 
-        $first_vote = Rule::orderBy('vote_date','asc')->where('status',0)->first();
+        $first_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->first();
         $second_vote = Rule::orderBy('vote_date','asc')->where('status',0)->take(1)->skip(1)->get()->first();
         $third_vote = Rule::orderBy('vote_date','asc')->where('status',0)->take(1)->skip(2)->get()->first();
         $first_initiative = Rule::orderBy('initiative_date','desc')->where('status',0)->first();
