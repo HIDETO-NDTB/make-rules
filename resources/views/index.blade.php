@@ -23,6 +23,14 @@
     <div class="row centered">
         <br><br>
         <div class="col-lg-4">
+            <h4><i class="fas fa-search-location"></i><span>熱</span>  注目</h4>
+            <br>
+            <li><a href="#">出産を免許制にしませんか？<br>（コメント数９７件）</a></li><br>
+            <li><a href="#">ベーシックインカム。全国民に月５万円支給<br>（コメント数７３件）</a></li><br>
+            <li><a href="#">周国家主席は国賓として迎えましょう<br>（コメント数５６件）</a></li><br>
+        </div>
+      <!-- col-lg-4 -->
+        <div class="col-lg-4">
             <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
             <br>
             @isset($first_vote)
@@ -53,15 +61,6 @@
             @isset($third_initiative)
             <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->title }}<br>( {{ $third_initiative->initiative_date }} 発議 )</a></li><br>
             @endisset
-        </div>
-      <!-- col-lg-4 -->
-
-        <div class="col-lg-4">
-            <h4><i class="fas fa-search-location"></i><span>熱</span>  注目</h4>
-            <br>
-            <li><a href="#">出産を免許制にしませんか？<br>（コメント数９７件）</a></li><br>
-            <li><a href="#">ベーシックインカム。全国民に月５万円支給<br>（コメント数７３件）</a></li><br>
-            <li><a href="#">周国家主席は国賓として迎えましょう<br>（コメント数５６件）</a></li><br>
         </div>
       <!-- col-lg-4 -->
     </div>
