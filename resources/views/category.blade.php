@@ -59,7 +59,8 @@
                         <div class="row">
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
-                                @if($today->format('Y-m-d')->between($rule->initiative_date, $rule->vote_date))
+                                $today=date("Y-m-d")
+                                @if($today->between($rule->initiative_date, $rule->vote_date))
                                 <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
                                 @else
                                 <a class="btn btn-danger" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">投票に行く</a>
