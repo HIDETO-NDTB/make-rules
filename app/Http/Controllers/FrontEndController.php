@@ -7,7 +7,6 @@ use App\Rule;
 use App\Category;
 use App\Comment;
 use App\User;
-use Carbon\Carbon;
 
 
 class FrontEndController extends Controller
@@ -61,8 +60,6 @@ class FrontEndController extends Controller
 
 
     public function category_single(Category $category){
-
-        $today = Carbon::today();
 
 
         $rules = Category::find($category->id)->rules->sortByDesc('initiative_date');
