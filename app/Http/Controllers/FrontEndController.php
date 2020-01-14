@@ -61,7 +61,7 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
-        $today=date("Y-m-d");
+        $today = new Carbon('today');
 
 
         $rules = Category::find($category->id)->rules->sortByDesc('initiative_date');
