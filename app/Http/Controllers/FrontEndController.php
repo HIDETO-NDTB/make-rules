@@ -62,6 +62,7 @@ class FrontEndController extends Controller
     public function category_single(Category $category){
 
         $count = Rule::where('category_id',$category->id)->count();
+        $count = $category->rules()->count();
 
         return view('category')->with('category',$category)
                                ->with('categories',Category::all());
