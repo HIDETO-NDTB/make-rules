@@ -62,8 +62,8 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
-        $carbon = new Carbon();
-        var_dump($carbon);
+        $carbon = new Carbon('today');
+
 
         $rules = Category::find($category->id)->rules->sortByDesc('initiative_date');
         return view('category')->with('category',$category)
