@@ -49,10 +49,10 @@
                     </div>
                     <div class="vote">
                         <div class="col-lg-6">
-                            <button type="submit" class="btn btn-primary" name="vote" style="width: 300px; height: 100px;" value="agree">賛成</button>
+                            <input type="submit" class="btn btn-primary" name="vote" style="width: 300px; height: 100px;" value="agree">
                         </div>
                         <div class="col-lg-6">
-                            <button type="submit" class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="disagree">反対</button>
+                            <input type="submit" class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="disagree">
                         </div>
                     </div>
                 </form>
