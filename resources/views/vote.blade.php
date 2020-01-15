@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
-                <form action="{{ route('votes.store') }}" method="POST">
+                <form action="" method="POST">
                     @csrf
 
                     <div class="vote-group">
