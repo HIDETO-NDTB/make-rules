@@ -53,7 +53,7 @@
                             <input class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="反対">
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
