@@ -44,7 +44,9 @@
             <form class="col-lg-12">
                 <form action="" method="POST">
                     @csrf
-                    <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
+                    <div class="vote">
+                        <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
+                    </div>
                     <div class="vote">
                         <div class="col-lg-6">
                             <button type="submit" class="btn btn-primary" name="vote" style="width: 300px; height: 100px;" value="agree">賛成</button>
