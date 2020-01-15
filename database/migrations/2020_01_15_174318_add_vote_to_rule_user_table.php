@@ -16,7 +16,7 @@ class AddVoteToRuleUserTable extends Migration
         Schema::table('rule_user', function (Blueprint $table) {
             $table->string('vote')->after('comment_date');
             $table->boolean('vote_check')->after('vote');
-            $table->date('voting_date')->after('voting_check');
+            $table->date('voting_date')->after('vote_check');
         });
     }
 
