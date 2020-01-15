@@ -41,7 +41,7 @@
 <div id="voteform">
     <div class="container">
         <div class="row centerd">
-            <div class="col-lg-12">
+            <form class="col-lg-12">
                 <form action="" method="POST">
                     @csrf
                     <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
@@ -50,10 +50,10 @@
                             <input class="btn btn-primary" name="vote" style="width: 300px; height: 100px;" value="賛成">
                         </div>
                         <div class="col-lg-6">
-                            <div class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="反対">
+                            <input class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="反対">
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
