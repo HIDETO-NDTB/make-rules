@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Vote;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class VotesController extends Controller
 {
@@ -34,7 +37,25 @@ class VotesController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // validation
+        $this->validate($request,[
+            'opinion' => 'required',
+            'comment' => 'required',
+
+        ]);
+
+        // Mass Assignment
+        $vote = Vote::create([
+            'vote' => $request->vote,
+            'vote_check' => "true",
+            'voting_date' => date("Y-m-d"),
+
+        ]);
+
+        $vote->save();
+
+        Session::flash('success','投票ありがとうございます');
+        return redirect()->back();
     }
 
     /**

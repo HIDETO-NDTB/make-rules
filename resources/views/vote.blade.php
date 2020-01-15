@@ -44,7 +44,7 @@
             <div class="col-lg-12">
                 <form action="{{ route('votes.store') }}" method="POST">
                     @csrf
-                    <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
+
                     <div class="vote-group">
                         <select name="vote" style="width: 200px;">
                             <option value="agree">賛成</option>
