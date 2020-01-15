@@ -7,6 +7,7 @@ use App\Rule;
 use App\Category;
 use App\Comment;
 use App\User;
+use App\Vote;
 use Carbon\Carbon;
 
 
@@ -95,11 +96,13 @@ class FrontEndController extends Controller
         $rule = Rule::where('id',$id)->first();
         $comments = Comment::orderBy('comment_date','desc')->get();
         $users = User::all();
+        $votes = Vote::all();
 
         return view('vote')->with('rule',$rule)
                            ->with('categories',Category::all())
                            ->with('comments',$comments)
-                           ->with('users',User::all());
+                           ->with('users',User::all())
+                           ->with('votes',Vote::all());
     }
 
     public function result($id){
