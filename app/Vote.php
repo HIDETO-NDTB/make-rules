@@ -8,5 +8,5 @@ class Vote extends Model
 {
     protected $fillable = ['vote','voting_date'];
 
-    protected $table = 'votes';
+
 }
