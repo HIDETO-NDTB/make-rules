@@ -43,9 +43,4 @@ class User extends Authenticatable
             ->withPivot('opinion','comment','comment_date');
     }
 
-    public function vote() {
-
-        return $this->belongsTo('App\Vote');
-    }
-
 }

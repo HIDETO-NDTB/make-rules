@@ -7,7 +7,6 @@ use App\Rule;
 use App\Category;
 use App\Comment;
 use App\User;
-use App\Vote;
 use Carbon\Carbon;
 
 
@@ -101,8 +100,8 @@ class FrontEndController extends Controller
         return view('vote')->with('rule',$rule)
                            ->with('categories',Category::all())
                            ->with('comments',$comments)
-                           ->with('users',User::all())
-                           ->with('votes',Vote::all());
+                           ->with('users',User::all());
+
     }
 
     public function result($id){
