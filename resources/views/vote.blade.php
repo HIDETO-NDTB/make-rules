@@ -47,10 +47,10 @@
                     <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
                     <div class="vote">
                         <div class="col-lg-6">
-                            <input class="btn btn-primary" style="width: 300px; height: 100px;" value="賛成">
+                            <input class="btn btn-primary" type="submit" style="width: 300px; height: 100px;" value="賛成">
                         </div>
                         <div class="col-lg-6">
-                            <input class="btn btn-danger" style="width: 300px; height: 100px;" value="反対">
+                            <input class="btn btn-danger" type="submit" style="width: 300px; height: 100px;" value="反対">
                         </div>
                     </div>
                 </div>
