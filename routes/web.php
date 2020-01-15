@@ -57,9 +57,6 @@ Route::resource('users','UsersController');
 
 Route::resource('comments','CommentsController');
 
-Route::post('/votes',[
-    'uses' => 'VotesController@store',
-    'as' => 'votes.store'
-]);
+Route::resource('votes','VotesController');
 
 
