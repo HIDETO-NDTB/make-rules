@@ -685,7 +685,7 @@ select {
     text-align: center;
 }
 
-.vote .btn-primary .btn-danger {
+.vote button {
     margin-top: 100px;
     margin-bottom: 100px;
     font-size: 30px;
