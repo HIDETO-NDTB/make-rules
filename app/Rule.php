@@ -22,4 +22,6 @@ class Rule extends Model
         ->withPivot('opinion','comment','comment_date');
     }
 
+
+
 }
