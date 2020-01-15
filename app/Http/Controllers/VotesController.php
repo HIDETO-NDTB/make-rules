@@ -39,8 +39,8 @@ class VotesController extends Controller
     {
         // validation
         $this->validate($request,[
-            'opinion' => 'required',
-            'comment' => 'required',
+            'vote' => 'required',
+            'voting_date' => 'required',
 
         ]);
 
