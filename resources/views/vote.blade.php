@@ -79,7 +79,7 @@
                             <li><p>{{ $comment->comment }}</p></li>
                         </div>
                         <div class="row">
-                            <li>発言日: {{ $comment->comment_date }}</li>
+                            <li>コメント日: {{ $comment->comment_date }}</li>
                         </div>
                     </ul>
                 </div>
