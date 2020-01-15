@@ -44,7 +44,6 @@ class VotesController extends Controller
             'rule_id' => 'required',
             'vote' => 'required',
             'vote_check' => 'required',
-            'voting_date' => 'required',
         ]);
 
         // Mass Assignment
