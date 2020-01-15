@@ -11,5 +11,9 @@ class Vote extends Model
     public function rules(){
         return $this->hasMany('App\Rule');
     }
+
+    public function users(){
+        return $this->hasMany('App\User');
+    }
 }
 
