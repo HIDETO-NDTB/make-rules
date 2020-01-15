@@ -41,7 +41,7 @@
 <div id="voteform">
     <div class="container">
         <div class="row centerd">
-            <form class="col-lg-12">
+            <div class="col-lg-12">
                 <form action="{{ route('votes.store') }}" method="POST">
                     @csrf
                     <div class="vote">

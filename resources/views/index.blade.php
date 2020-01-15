@@ -28,7 +28,7 @@
             @isset($first_now_vote)
             <li><a href="{{ route('vote',['id' =>$first_now_vote->id]) }}">{{ $first_now_vote->title }}<br>({{ $first_now_vote->finish_date }} 投票終了)</a></li><br>
             @else
-            <p>未投票の法案はありません。</p>
+            <p>投票中の法案はありません。</p>
             @endisset
             @isset($second_now_vote)
             <li><a href="{{ route('vote',['id' =>$second_now_vote->id]) }}">{{ $second_now_vote->title }}<br>({{ $second_now_vote->finish_date }} 投票終了)</a></li><br>
