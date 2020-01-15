@@ -46,12 +46,13 @@
                     @csrf
                     <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
                     <div class="vote">
-                        <div class="col-lg-6">
-                            <input class="btn btn-primary" type="submit" name="vote" style="width: 300px; height: 100px;" value="agree" alt="賛成">
-                        </div>
-                        <div class="col-lg-6">
-                            <input class="btn btn-danger" type="submit" name="vote" style="width: 300px; height: 100px;" value="disagree" alt="反対">
-                        </div>
+                        <select name="vote" style="width: 200px;">
+                            <option value="agree">賛成</option>
+                            <option value="disagree">反対</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success" style="width: 300px;">投票する</button>
                     </div>
                 </form>
             </div>
