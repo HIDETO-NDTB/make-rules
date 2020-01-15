@@ -47,7 +47,6 @@ class VotesController extends Controller
         // Mass Assignment
         $vote = Vote::create([
             'vote' => $request->vote,
-            'vote_check' => "true",
             'voting_date' => date("Y-m-d"),
 
         ]);
