@@ -48,10 +48,9 @@ class VotesController extends Controller
 
         // Mass Assignment
         $vote = Vote::create([
-            'rule_id' => $request->rule_id,
-            'user_id' => Auth::user()->id,
-            'vote' => $request->vote,
 
+            'vote' => $request->vote,
+            'vote_check' => "true",
             'voting_date' => date("Y-m-d"),
         ]);
 
