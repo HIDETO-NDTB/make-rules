@@ -44,13 +44,13 @@
             <div class="col-lg-12">
                 <form action="{{ route('votes.store') }}" method="POST">
                     @csrf
-                    <input type="" name="rule_id"  value="{{ $rule->id }}">
+                    <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
                     <div class="vote">
                         <div class="col-lg-6">
-                            <button class="btn btn-primary" name="vote" style="width: 300px; height: 100px;" value="agree">賛成</button>
+                            <input class="btn btn-primary" name="vote" style="width: 300px; height: 100px;" value="賛成">
                         </div>
                         <div class="col-lg-6">
-                            <button class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="disagree">反対</button>
+                            <input class="btn btn-danger" name="vote" style="width: 300px; height: 100px;" value="反対">
                         </div>
                     </div>
                 </div>
