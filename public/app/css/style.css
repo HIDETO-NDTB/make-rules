@@ -358,7 +358,7 @@ li {
 .pricing-option .pricing-top {
   position: relative;
   background: gray;
-  color: #8D3043;
+  color: red;
   text-align: center;
   font-weight: bold;
   padding: 40px 20px 30px 20px;
