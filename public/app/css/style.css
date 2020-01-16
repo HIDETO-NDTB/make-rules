@@ -650,6 +650,10 @@ li {
     font-weight: bold;
 }
 
+.result-group {
+    text-align: center;
+}
+
 .index-result-blue {
     background-color: blue;
     margin-top: 20px;
