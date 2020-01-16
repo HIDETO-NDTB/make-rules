@@ -80,8 +80,10 @@
 <div class="container x">
     <div class="row centered">
         <div class="col-lg-12">
+            @foreach ($comments as $comment)
+            @if($comment->rule_id == $rule->id)
             <div class="card">
-                <div class="card-header"><h4>賛成派意見</h4></div>
+                <div class="card-header"><h4>{{ $comment->opinion }}派意見</h4></div>
                 <div class="card-body">
                     <ul>
                         <div class="row">
@@ -94,107 +96,17 @@
                             <div class="col-lg-10"></div>
                         </div>
                         <div class="row">
-                            <li><p>賛成です。男性は暑ければ上着を脱ぐなりできますが、女性は着る服によってはそれができないこともありますし・・・。レディファストの精神ですね。</p></li>
+                            <li><p>{{ $comment->comment }}</p></li>
                         </div>
                         <div class="row">
-                            <li>発言日: 2020年1月31日</li>
+                            <li>コメント日: {{ $comment->comment_date }}</li>
                         </div>
                     </ul>
                 </div>
             </div>
             <br>
-            <div class="card">
-                <div class="card-header"><h4>反対派意見</h4></div>
-                <div class="card-body">
-                    <ul>
-                        <div class="row">
-                            <div class="col-lg-1">
-                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
-                            </div>
-                            <div class="col-lg-1">
-                                <h5>首藤英人</h5>
-                            </div>
-                            <div class="col-lg-10"></div>
-                        </div>
-                        <div class="row">
-                            <li><p>どっちでも良いとの立場ですが、強いて言えば反対。そもそもそこを規則化する必要ありますか？</p></li>
-                        </div>
-                        <div class="row">
-                            <li>発言日: 2020年1月31日</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-header"><h4>反対派意見</h4></div>
-                <div class="card-body">
-                    <ul>
-                        <div class="row">
-                            <div class="col-lg-1">
-                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
-                            </div>
-                            <div class="col-lg-1">
-                                <h5>首藤英人</h5>
-                            </div>
-                            <div class="col-lg-10"></div>
-                        </div>
-                        <div class="row">
-                            <li><p>どっちでも良いとの立場ですが、強いて言えば反対。そもそもそこを規則化する必要ありますか？</p></li>
-                        </div>
-                        <div class="row">
-                            <li>発言日: 2020年2月1日</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-header"><h4>反対派意見</h4></div>
-                <div class="card-body">
-                    <ul>
-                        <div class="row">
-                            <div class="col-lg-1">
-                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
-                            </div>
-                            <div class="col-lg-1">
-                                <h5>首藤英人</h5>
-                            </div>
-                            <div class="col-lg-10"></div>
-                        </div>
-                        <div class="row">
-                            <li><p>どっちでも良いとの立場ですが、強いて言えば反対。そもそもそこを規則化する必要ありますか？</p></li>
-                        </div>
-                        <div class="row">
-                            <li>発言日: 2020年2月1日</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-header"><h4>賛成派意見</h4></div>
-                <div class="card-body">
-                    <ul>
-                        <div class="row">
-                            <div class="col-lg-1">
-                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
-                            </div>
-                            <div class="col-lg-1">
-                                <h5>首藤英人</h5>
-                            </div>
-                            <div class="col-lg-10"></div>
-                        </div>
-                        <div class="row">
-                            <li><p>賛成です。男性は暑ければ上着を脱ぐなりできますが、女性は着る服によってはそれができないこともありますし・・・。レディファストの精神ですね。</p></li>
-                        </div>
-                        <div class="row">
-                            <li>発言日: 2020年2月1日</li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <br>
+            @endif
+            @endforeach
         </div>
     </div>
 </div>
