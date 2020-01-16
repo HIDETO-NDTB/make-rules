@@ -96,7 +96,7 @@ class FrontEndController extends Controller
         $rule = Rule::where('id',$id)->first();
         $comments = Comment::orderBy('comment_date','desc')->get();
         $users = User::all();
-        $votes = Vote::where('vote',"!=","")->get();
+        $votes = Vote::where('vote','!=',"")->get();
 
         return view('vote')->with('rule',$rule)
                            ->with('categories',Category::all())
