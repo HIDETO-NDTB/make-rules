@@ -51,7 +51,7 @@ class VotesController extends Controller
             'rule_id' => $request->rule_id,
             'user_id' => Auth::user()->id,
             'vote' => $request->vote,
-            'vote_check' => "true",
+            'vote_check' => $request->vote_check,
             'voting_date' => date("Y-m-d"),
         ]);
 
