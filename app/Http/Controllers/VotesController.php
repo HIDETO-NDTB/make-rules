@@ -43,7 +43,7 @@ class VotesController extends Controller
         $this->validate($request,[
             'rule_id' => 'required',
             'vote' => 'required',
-            'vote_check' => 'required',
+            'vote_check' => 'required'|'same:1',
         ]);
 
         // Mass Assignment
@@ -54,6 +54,8 @@ class VotesController extends Controller
             'vote_check' => $request->vote_check,
             'voting_date' => date("Y-m-d"),
         ]);
+
+
 
         $vote->save();
 
