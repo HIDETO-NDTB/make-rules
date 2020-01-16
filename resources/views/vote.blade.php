@@ -60,8 +60,8 @@
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
                     <div class="vote">
-                        <button type="submit" name="vote" class="btn btn-primary" style="width: 300px;" value="agree">賛成</button>
-                        <button type="submit" name="vote" class="btn btn-danger" style="width: 300px;" value="disagree">反対</button>
+                        <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
+                        <button type="submit" name="vote" class="btn btn-danger" style="width: 300px; height: 100px;" value="disagree">反対</button>
                     </div>
                 </form>
             </div>
