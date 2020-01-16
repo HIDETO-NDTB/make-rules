@@ -112,12 +112,14 @@ class FrontEndController extends Controller
         $total_vote = Vote::where('rule_id',$id)->where('opinion',"")->count();
         $total_agree = Vote::where('rule_id',$id)->where('vote','agree')->count();
         $total_disagree = Vote::where('rule_id',$id)->where('vote','disagree')->count();
+        $comments = Comment::orderBy('comment_date','desc')->get();
 
         return view('result')->with('rule',$rule)
                              ->with('categories',Category::all())
                              ->with('total_vote',$total_vote)
                              ->with('total_agree',$total_agree)
-                             ->with('total_disagree',$total_disagree);
+                             ->with('total_disagree',$total_disagree)
+                             ->with('comments',$comments);
     }
 
     public function initiative(){
