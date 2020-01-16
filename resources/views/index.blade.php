@@ -81,7 +81,7 @@
     <div class="container">
       <div class="row centered">
         <h4>開票速報</h4>
-        <p>最近開票sされた法案です。（妄想の中で）遵守しましょう。</p>
+        <p>最近開票された法案です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
 
