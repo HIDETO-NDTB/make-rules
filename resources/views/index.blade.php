@@ -94,6 +94,10 @@
                 <div class="index-result-red">
                     <span class="result-amount">否　決</span>
                 </div>
+                <div class="result-content">
+                    <li>賛成　<strong>{{ $total_agree }}票</strong></li>
+                    <li>反対　<strong>{{ $total_disagree }}票</strong></li>
+                </div>
             @endif
             @else
             <p>最近可決された法案はありません。</p>
