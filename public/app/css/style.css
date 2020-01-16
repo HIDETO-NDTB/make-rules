@@ -398,9 +398,9 @@ li {
 
 .pricing-option .price small {
   position: absolute;
-  top: 50px;
-  left: -10px;
-  font-size: 24px;
+  top: 0px;
+  left: 50px;
+  font-size: 30px;
 }
 
 .pricing-option .price .price-amount {
