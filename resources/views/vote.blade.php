@@ -60,7 +60,7 @@
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
                     <div class="vote">
-                        @if($comment->vote_check != "1")
+                        @if($vote->vote_check != "1")
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
