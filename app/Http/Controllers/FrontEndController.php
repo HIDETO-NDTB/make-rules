@@ -109,11 +109,15 @@ class FrontEndController extends Controller
     public function result($id){
 
         $rule = Rule::where('id',$id)->first();
-        $total_vote = Vote::where('rule_id',$id)->count();
+        $total_vote = Vote::where('rule_id',$id)->where('opinion',"")->count();
+        $total_agree = Vote::where('rule_id',$id)->where('vote','agree')->count();
+        $total_disagree = Vote::where('rule_id',$id)->where('vote','disagree')->count();
 
         return view('result')->with('rule',$rule)
                              ->with('categories',Category::all())
-                             ->with('total_vote',$total_vote);
+                             ->with('total_vote',$total_vote)
+                             ->with('total_agree',$total_agree)
+                             ->with('total_disagree',$total_disagree);
     }
 
     public function initiative(){
