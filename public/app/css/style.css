@@ -650,6 +650,8 @@ li {
     background-color: blue;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 200px;
+    height: 80px;
     color: white;
     font-size: 20px;
     font-weight: bold;
@@ -660,6 +662,8 @@ li {
     background-color: red;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 200px;
+    height: 80px;
     color: white;
     font-size: 20px;
     font-weight: bold;
