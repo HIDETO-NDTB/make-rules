@@ -81,7 +81,7 @@
     <div class="row centered">
         <div class="col-lg-12">
             @foreach ($comments as $comment)
-            @if($comment->rule_id == $rule->id)
+            @if($comment->rule_id == $rule->id AND $comment->opinion != "")
             <div class="card">
                 <div class="card-header"><h4>{{ $comment->opinion }}派意見</h4></div>
                 <div class="card-body">
