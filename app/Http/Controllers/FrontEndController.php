@@ -72,7 +72,7 @@ class FrontEndController extends Controller
         $rules = Category::find($category->id)->rules->sortBy('initiative_date');
         $just_vote  = Rule::where('category_id',$category->id)->whereDate('vote_date','<=',today())->whereDate('finish_date','>',today())->count();
         $total_rule  = Rule::where('category_id',$category->id)->count();
-        $comment_rule = Rule::where('category_id',$category->id)->whereDate('vote_date','>=',today())->count();
+        $comment_rule = Rule::where('category_id',$category->id)->whereDate('vote_date','>',today())->count();
 
         return view('category')->with('category',$category)
                                 ->with('rules',$rules)
