@@ -42,7 +42,7 @@
     <div class="container">
         <div class="col-lg-12">
             <h4>開票結果</h4>
-            <p>開票日　{{ $rule->finish_date }}</p>
+            <p>開票日　{{ $rule->finish_date->addDay() }}</p>
         </div>
     </div>
 </div>
