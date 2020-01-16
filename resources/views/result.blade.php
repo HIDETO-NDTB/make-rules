@@ -23,7 +23,7 @@
                             </div>
                             <div class="row">
                                 <li>発議日: {{ $rule->initiative_date }}</li>
-                                <li>投票日: {{ $rule->vote_date }}</li>
+                                <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                             </div>
                         </ul>
                     </div>
