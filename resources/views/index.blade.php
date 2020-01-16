@@ -86,7 +86,7 @@
           <div class="tilt">
             @isset($first_result)
             <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
-            @if($total_agree > $total_disagree)
+            @if($first_agree > $first_disagree)
                 <div class="result-top-blue">
                     <span class="result-amount">可　決</span>
                 </div>
