@@ -646,8 +646,8 @@ li {
     padding-bottom: 40px;
 }
 
-.result span {
-    text-align: center;
+.result a {
+    font-weight: bold;
 }
 
 .index-result-blue {
