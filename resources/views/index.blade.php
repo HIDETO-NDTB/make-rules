@@ -83,15 +83,15 @@
         <h4>開票速報</h4>
         <p>最近開票された法案です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
-          <div class="tilt">
+          <div class="result">
             @isset($first_result)
             <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
             @if($first_agree > $first_disagree)
-                <div class="result-top-blue">
+                <div class="index-result-blue">
                     <span class="result-amount">可　決</span>
                 </div>
             @else
-                <div class="result-top-red">
+                <div class="index-result-red">
                     <span class="result-amount">否　決</span>
                 </div>
             @endif

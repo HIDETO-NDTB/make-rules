@@ -646,6 +646,26 @@ li {
     padding-bottom: 40px;
 }
 
+.index-result-blue {
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.index-result-red {
+    background-color: red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* comment.blade.php */
 #commentform {
     background-color: white;
