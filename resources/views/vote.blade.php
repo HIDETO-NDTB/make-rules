@@ -55,6 +55,8 @@
                 @if($vote->vote_check != "1")
                 <form action="{{ route('votes.store') }}" method="POST">
                     @csrf
+                    @else
+                        <p>投票は１つの法案に対し１回までです。</p>
                     @endif
                     @endforeach
                     <div class="vote">
@@ -71,8 +73,7 @@
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-danger" style="width: 300px; height: 100px;" value="disagree">反対</button>
                         </div>
-                        @else
-                        <p>投票は１つの法案に対し１回までです。</p>
+
 
                     </div>
                 </form>
