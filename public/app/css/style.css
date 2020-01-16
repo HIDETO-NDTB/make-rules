@@ -766,6 +766,7 @@ select {
     font-size: 20px;
     margin-top: 30px;
     color: red;
+    margin-bottom: 30px;
 }
 
 #commentform span {
