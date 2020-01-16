@@ -691,6 +691,13 @@ select {
     font-size: 30px;
 }
 
+.vote h5 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
 /* result.blade */
 
 .resulttitle {
