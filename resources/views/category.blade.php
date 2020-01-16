@@ -8,16 +8,16 @@
                     <!-- START PRICING TABLE -->
                     <div class="pricing-option">
                         <div class="pricing-top">
-                            <span class="pricing-edition">{{ $category->name }}<br>投票中案件</span>
+                            <span class="pricing-edition">{{ $category->name }}<br>投票中</span>
                             <span class="price">
                                 <span class="price-amount">{{ $just_vote }}</span>
                                 <small>案件</small>
                             </span>
                         </div>
                         <ul>
-                            <li>総発議数　<strong>{{count($category->rules)}}案件</strong></li>
-                            <li>投票済数　<strong>９３案件</strong></li>
-                            <li>採用数　<strong>２０案件</strong></li>
+                            <li>総発議　<strong>{{ $total_rule }}案件</strong></li>
+                            <li>コメント可能　<strong>９３案件</strong></li>
+                            <li>開票済　<strong>２０案件</strong></li>
                         </ul>
                     </div>
                     <!-- /pricing-option -->
