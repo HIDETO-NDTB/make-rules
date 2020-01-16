@@ -60,8 +60,8 @@
                     </div>
                     <div class="result-content">
                         <li>総投票数　<strong>{{ $total_vote }}票</strong></li>
-                        <li>賛成　<strong>５７票</strong></li>
-                        <li>反対　<strong>４０票</strong></li>
+                        <li>賛成　<strong>{{ $total_agree }}票</strong></li>
+                        <li>反対　<strong>{{ $total_disagree }}票</strong></li>
                     </div>
                 </div>
             </div>
