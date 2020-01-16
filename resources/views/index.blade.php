@@ -84,8 +84,6 @@
         <p>最近開票された法案です。（妄想の中で）遵守しましょう。</p>
         <div class="col-lg-4">
           <div class="tilt">
-
-            <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
             @isset($first_result)
             <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
             @else
@@ -97,7 +95,6 @@
         <div class="col-lg-4">
           <div class="tilt">
             @isset($second_result)
-            <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
             <a href="{{ route('result',['id' =>$second_result->id]) }}">{{ $second_result->title }}</a>
             @endisset
           </div>
@@ -106,7 +103,6 @@
         <div class="col-lg-4">
             <div class="tilt">
               @isset($third_result)
-              <img src="{{ asset('app/img/image01.jpeg') }}" alt="image"><br>
               <a href="{{ route('result',['id' =>$third_result->id]) }}">{{ $third_result->title }}</a>
               @endisset
             </div>
