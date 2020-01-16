@@ -54,6 +54,7 @@ class RulesController extends Controller
             'initiative_date' => date("Y-m-d"),
             'vote_date' => date("Y-m-d",strtotime("+7 day")),
             'finish_date' => date("Y-m-d",strtotime("+14 day")),
+            'result_date' => date("Y-m-d",strtotime("+15 day")),
             'category_id' => $request->category_id,
             'user_id' => Auth::user()->id,
         ]);
