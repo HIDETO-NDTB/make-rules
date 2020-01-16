@@ -102,7 +102,7 @@ class FrontEndController extends Controller
                            ->with('categories',Category::all())
                            ->with('comments',$comments)
                            ->with('users',User::all())
-                           ->with('vote',$votes);
+                           ->with('votes',$votes);
 
     }
 
