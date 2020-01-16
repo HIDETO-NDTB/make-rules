@@ -719,7 +719,8 @@ select {
     background-color: white;
 }
 
-.result-top {
+.result-top-blue {
+    background-color: blue;
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -728,13 +729,14 @@ select {
     text-align: center;
 }
 
-.result-amount-blue {
-    background-color: blue;
-    padding: 50px 200px;
-}
-
-.result-amount-red {
+.result-top-red {
     background-color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .result-content li {
