@@ -730,7 +730,7 @@ select {
 
 .result-amount-blue {
     background-color: blue;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .result-amount-red {
