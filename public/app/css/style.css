@@ -396,11 +396,11 @@ li {
   position: relative;
 }
 
-.pricing-option .price small {
+.pricing-option .price sup {
   position: absolute;
-  top: 100px;
-  left: 50px;
-  font-size: 100px;
+  top: 50px;
+  left: -10px;
+  font-size: 24px;
 }
 
 .pricing-option .price .price-amount {
@@ -411,7 +411,7 @@ li {
 .pricing-option .price small {
   position: relative;
   left: -10px;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .pricing-option ul {
