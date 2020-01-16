@@ -15,18 +15,18 @@ class FrontEndController extends Controller
 {
     public function index(){
 
-        $first_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->first();
-        $second_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->take(1)->skip(1)->get()->first();
-        $third_now_vote = Rule::orderBy('vote_date','asc')->where('vote_date','<',today())->where('finish_date','>',today())->take(1)->skip(2)->get()->first();
-        $first_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->first();
-        $second_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->take(1)->skip(1)->get()->first();
-        $third_vote = Rule::orderBy('vote_date','asc')->where('vote_date','>',today())->take(1)->skip(2)->get()->first();
-        $first_initiative = Rule::orderBy('initiative_date','desc')->where('vote_date','>',today())->first();
-        $second_initiative = Rule::orderBy('initiative_date','desc')->where('vote_date','>',today())->take(1)->skip(1)->get()->first();
-        $third_initiative = Rule::orderBy('initiative_date','desc')->where('vote_date','>',today())->take(1)->skip(2)->get()->first();
-        $first_result = Rule::orderBy('vote_date','desc')->where('status',1)->first();
-        $second_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(1)->get()->first();
-        $third_result = Rule::orderBy('vote_date','desc')->where('status',1)->take(1)->skip(2)->get()->first();
+        $first_now_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->first();
+        $second_now_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->take(1)->skip(1)->get()->first();
+        $third_now_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->take(1)->skip(2)->get()->first();
+        $first_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','>',today())->first();
+        $second_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','>',today())->take(1)->skip(1)->get()->first();
+        $third_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','>',today())->take(1)->skip(2)->get()->first();
+        $first_initiative = Rule::orderBy('initiative_date','desc')->whereDate('vote_date','>',today())->first();
+        $second_initiative = Rule::orderBy('initiative_date','desc')->whereDate('vote_date','>',today())->take(1)->skip(1)->get()->first();
+        $third_initiative = Rule::orderBy('initiative_date','desc')->whereDate('vote_date','>',today())->take(1)->skip(2)->get()->first();
+        $first_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->first();
+        $second_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->take(1)->skip(1)->get()->first();
+        $third_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->take(1)->skip(2)->get()->first();
         $categories = Category::all();
         $first_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->first();
         $second_disagree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('opinion','反対')->take(1)->skip(1)->get()->first();
