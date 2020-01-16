@@ -65,8 +65,8 @@ class FrontEndController extends Controller
                             ->with('third_agree_comment',$third_agree_comment)
                             ->with('fourth_agree_comment',$fourth_agree_comment)
                             ->with('fifth_agree_comment',$fifth_agree_comment)
-                            ->with('first_agree',$total_agree)
-                            ->with('first_disagree',$total_disagree)
+                            ->with('first_agree',$first_agree)
+                            ->with('first_disagree',$first_disagree)
                             ->with('rules',$rules);
     }
 
