@@ -56,7 +56,11 @@
             <div class="col-lg-6 col-xs-12">
                 <div class="result-option">
                     <div class="result-top">
-                        <span class="result-amount">可 決</span>
+                        @if($total_agree > $total_disagree)
+                        <span class="result-amount-blue">可　決</span>
+                        @else
+                        <span class="result-amount-red">否　決</span>
+                        @endif
                     </div>
                     <div class="result-content">
                         <li>総投票数　<strong>{{ $total_vote }}票</strong></li>
