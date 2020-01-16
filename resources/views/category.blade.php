@@ -11,7 +11,7 @@
                             <span class="pricing-edition">{{ $category->name }}<br>投票中案件</span>
                             <span class="price">
                                 <span class="price-amount">{{ $just_vote }}</span>
-                                <p>案件</p>
+                                <small>案件</small>
                             </span>
                         </div>
                         <ul>
