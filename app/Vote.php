@@ -8,5 +8,5 @@ class Vote extends Model
 {
     protected $fillable = ['rule_id','user_id','vote','vote_check','voting_date'];
 
-    protected $table = 'votes';
+    protected $table = 'rule_user';
 }
