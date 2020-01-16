@@ -38,6 +38,9 @@ class FrontEndController extends Controller
         $third_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$third_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $fourth_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$fourth_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $fifth_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$fifth_disagree_comment->rule_id)->where('opinion','賛成')->first();
+        $total_vote = Vote::where('rule_id',$id)->where('opinion',"")->count();
+        $total_agree = Vote::where('rule_id',$id)->where('vote','agree')->count();
+        $total_disagree = Vote::where('rule_id',$id)->where('vote','disagree')->count();
         $rules = Rule::all();
 
         return view('index')->with('first_now_vote',$first_now_vote)
@@ -63,6 +66,9 @@ class FrontEndController extends Controller
                             ->with('third_agree_comment',$third_agree_comment)
                             ->with('fourth_agree_comment',$fourth_agree_comment)
                             ->with('fifth_agree_comment',$fifth_agree_comment)
+                            ->with('total_vote',$total_vote)
+                            ->with('total_agree',$total_agree)
+                            ->with('total_disagree',$total_disagree)
                             ->with('rules',$rules);
     }
 
