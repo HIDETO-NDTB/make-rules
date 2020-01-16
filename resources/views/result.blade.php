@@ -42,7 +42,7 @@
     <div class="container">
         <div class="col-lg-12">
             <h4>開票結果</h4>
-            <p>開票日　{{ $rule->finish_date->addDay(1) }}</p>
+            <p>開票日　{{ $rule->finish_date->strtotime("+1 day") }}</p>
         </div>
     </div>
 </div>
