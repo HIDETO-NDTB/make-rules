@@ -17,7 +17,7 @@
                         <ul>
                             <li>総発議　<strong>{{ $total_rule }} 案件</strong></li>
                             <li>コメント可能　<strong>{{ $comment_rule }} 案件</strong></li>
-                            <li>開票済　<strong>２０案件</strong></li>
+                            <li>開票済　<strong>{{ $finish_vote }} 案件</strong></li>
                         </ul>
                     </div>
                     <!-- /pricing-option -->
