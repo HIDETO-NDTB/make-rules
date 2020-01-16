@@ -410,8 +410,8 @@ li {
 
 .pricing-option .price small {
   position: relative;
-  left: -10px;
-  font-size: 30px;
+  left: 10px;
+  font-size: 24px;
 }
 
 .pricing-option ul {
