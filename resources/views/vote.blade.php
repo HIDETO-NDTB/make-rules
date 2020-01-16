@@ -63,7 +63,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="hidden" name="vote_check"  value="true">
+                        <input type="hidden" name="vote_check"  value="1">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-success" style="width: 300px;">投票する</button>
