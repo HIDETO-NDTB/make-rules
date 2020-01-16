@@ -54,9 +54,13 @@
                     <div class="form-group">
                         <textarea name="comment" id="comment" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
                     </div>
+                    @if(Auth::check())
                     <div class="form-group">
                         <button type="submit" class="btn btn-success" style="width: 300px;">コメントする</button>
                     </div>
+                    @else
+                        <h5>コメントはユーザー限定です。ログインの上でコメントして下さい。</h5>
+                    @endif
                 </form>
             </div>
         </div>
