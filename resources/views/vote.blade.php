@@ -68,7 +68,7 @@
                             <button type="submit" name="vote" class="btn btn-danger" style="width: 300px; height: 100px;" value="disagree">反対</button>
                         </div>
                         @else
-                            <h5>投票はユーザー限定です。ログインの上で発議下さい。</h5>
+                            <h5>投票はユーザー限定です。ログインの上で投票して下さい。</h5>
                         @endif
                     </div>
                 </form>
