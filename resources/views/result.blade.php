@@ -91,7 +91,11 @@
                                 <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                             </div>
                             <div class="col-lg-1">
-                                <h5>{{ $comment->user->name }}</h5>
+                                @foreach ($users as $user)
+                                @if($comment->user_id == $user->id)
+                                    <h5>{{ $user->name }}</h5>
+                                @endif
+                                @endforeach
                             </div>
                             <div class="col-lg-10"></div>
                         </div>
