@@ -394,10 +394,9 @@ li {
 .pricing-option .price {
   display: inline-block;
   position: relative;
-  left: 100px;
 }
 
-.pricing-option .price sup {
+.pricing-option .price small {
   position: absolute;
   top: 50px;
   left: -10px;
