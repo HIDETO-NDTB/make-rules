@@ -112,15 +112,15 @@
                     @isset($second_result)
                         <a href="{{ route('result',['id' =>$second_result->id]) }}">{{ $second_result->title }}</a>
                         @if($second_agree > $second_disagree)
-                            <div class="index-result-blue">
-                                <span class="result-amount">可　決</span>
+                            <div class="resultGroup">
+                                <h4 class="result-end-blue">可　決</h4>
                             </div>
                         @else
-                            <div class="index-result-red">
-                                <span class="result-amount">否　決</span>
+                            <div class="resultGroup">
+                                <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <div class="index-result-content">
+                        <div class="resultGroup">
                             <li>賛成　<strong>{{ $second_agree }}票</strong></li>
                             <li>反対　<strong>{{ $second_disagree }}票</strong></li>
                         </div>
@@ -135,21 +135,23 @@
                     @isset($third_result)
                         <a href="{{ route('result',['id' =>$third_result->id]) }}">{{ $third_result->title }}</a>
                         @if($third_agree > $third_disagree)
-                            <div class="index-result-blue">
-                                <span class="result-amount">可　決</span>
+                            <div class="resultGroup">
+                                <h4 class="result-end-blue">可　決</h4>
                             </div>
                         @else
-                            <div class="index-result-red">
-                                <span class="result-amount">否　決</span>
+                            <div class="resultGroup">
+                                <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <div class="index-result-content">
+                        <div class="resultGroup">
                             <li>賛成　<strong>{{ $third_agree }}票</strong></li>
                             <li>反対　<strong>{{ $third_disagree }}票</strong></li>
                         </div>
                         <div class="resultButton">
                             <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$third_result->id]) }}">詳しく見る</a>
                         </div>
+                    @else
+                        <p>最近可決された法案はありません。</p>
                     @endisset
                 </div>
             </div>

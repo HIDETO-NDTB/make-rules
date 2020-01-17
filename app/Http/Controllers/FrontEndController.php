@@ -40,10 +40,10 @@ class FrontEndController extends Controller
         $fifth_agree_comment = Comment::orderByRaw('CHAR_LENGTH(comment) desc')->where('rule_id',$fifth_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $first_agree = Vote::where('rule_id',$first_result->id)->where('vote','agree')->count();
         $first_disagree = Vote::where('rule_id',$first_result->id)->where('vote','disagree')->count();
-        $second_agree = Vote::where('rule_id',$second_result)->where('vote','agree')->count();
-        $second_disagree = Vote::where('rule_id',$second_result)->where('vote','disagree')->count();
-        $third_agree = Vote::where('rule_id',$third_result)->where('vote','agree')->count();
-        $third_disagree = Vote::where('rule_id',$third_result)->where('vote','disagree')->count();
+        $second_agree = Vote::where('rule_id',$second_result->id)->where('vote','agree')->count();
+        $second_disagree = Vote::where('rule_id',$second_result->id)->where('vote','disagree')->count();
+        $third_agree = Vote::where('rule_id',$third_result->id)->where('vote','agree')->count();
+        $third_disagree = Vote::where('rule_id',$third_result->id)->where('vote','disagree')->count();
         $rules = Rule::all();
 
         return view('index')->with('first_now_vote',$first_now_vote)
