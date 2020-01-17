@@ -44,6 +44,7 @@ class FrontEndController extends Controller
         $second_disagree = Vote::where('rule_id',$second_result->id)->where('vote','disagree')->count();
         $third_agree = Vote::where('rule_id',$third_result->id)->where('vote','agree')->count();
         $third_disagree = Vote::where('rule_id',$third_result->id)->where('vote','disagree')->count();
+        $users = User::all();
         $rules = Rule::all();
 
         return view('index')->with('first_now_vote',$first_now_vote)
@@ -75,6 +76,7 @@ class FrontEndController extends Controller
                             ->with('second_disagree',$second_disagree)
                             ->with('third_agree',$third_agree)
                             ->with('third_disagree',$third_disagree)
+                            ->with('users',$users)
                             ->with('rules',$rules);
     }
 
