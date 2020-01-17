@@ -646,7 +646,7 @@ li {
     padding-bottom: 40px;
 }
 
-.result {
+.result .result-amount {
     text-align: center;
 }
 
