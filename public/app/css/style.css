@@ -648,9 +648,10 @@ li {
 
 .result a {
     font-weight: bold;
+    text-align: left;
 }
 
-.index-result-content {
+.result {
     text-align: center;
 }
 
