@@ -79,74 +79,73 @@
 
 <div id="dg">
     <div class="container">
-      <div class="row centered">
-        <h4>開票速報</h4>
-        <p>最近開票された法案です。（妄想の中で）遵守しましょう。</p>
-        <div class="col-lg-4">
-          <div class="result">
-            @isset($first_result)
-            <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
-            @if($first_agree > $first_disagree)
-                <div class="index-result-blue">
-                    <span class="result-amount">可　決</span>
+        <div class="row centered">
+            <h4>開票速報</h4>
+            <p>最近開票された法案です。（妄想の中で）遵守しましょう。</p>
+            <div class="col-lg-4">
+                <div class="result">
+                    @isset($first_result)
+                        <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
+                        @if($first_agree > $first_disagree)
+                            <div class="index-result-blue">
+                                <span class="result-amount">可　決</span>
+                            </div>
+                        @else
+                            <div class="index-result-red">
+                                <span class="result-amount">否　決</span>
+                            </div>
+                        @endif
+                        <div class="index-result-content">
+                            <li>賛成　<strong>{{ $first_agree }}票</strong></li>
+                            <li>反対　<strong>{{ $first_disagree }}票</strong></li>
+                        </div>
+                    @else
+                        <p>最近可決された法案はありません。</p>
+                    @endisset
                 </div>
-            @else
-                <div class="index-result-red">
-                    <span class="result-amount">否　決</span>
+            </div>
+            <div class="col-lg-4">
+                <div class="result">
+                    @isset($second_result)
+                        <a href="{{ route('result',['id' =>$second_result->id]) }}">{{ $second_result->title }}</a>
+                        @if($second_agree > $second_disagree)
+                            <div class="index-result-blue">
+                                <span class="result-amount">可　決</span>
+                            </div>
+                        @else
+                            <div class="index-result-red">
+                                <span class="result-amount">否　決</span>
+                            </div>
+                        @endif
+                        <div class="index-result-content">
+                            <li>賛成　<strong>{{ $second_agree }}票</strong></li>
+                            <li>反対　<strong>{{ $second_disagree }}票</strong></li>
+                        </div>
+                    @endisset
                 </div>
-            @endif
-                <div class="index-result-content">
-                    <li>賛成　<strong>{{ $first_agree }}票</strong></li>
-                    <li>反対　<strong>{{ $first_disagree }}票</strong></li>
+            </div>
+            <div class="col-lg-4">
+                <div class="result">
+                    @isset($third_result)
+                        <a href="{{ route('result',['id' =>$third_result->id]) }}">{{ $third_result->title }}</a>
+                        @if($third_agree > $third_disagree)
+                            <div class="index-result-blue">
+                                <span class="result-amount">可　決</span>
+                            </div>
+                        @else
+                            <div class="index-result-red">
+                                <span class="result-amount">否　決</span>
+                            </div>
+                        @endif
+                        <div class="index-result-content">
+                            <li>賛成　<strong>{{ $third_agree }}票</strong></li>
+                            <li>反対　<strong>{{ $third_disagree }}票</strong></li>
+                        </div>
+                    @endisset
                 </div>
-            @else
-            <p>最近可決された法案はありません。</p>
-            @endisset
-          </div>
+            </div>
         </div>
-        <div class="col-lg-4">
-            <div class="result">
-              @isset($second_result)
-              <a href="{{ route('result',['id' =>$second_result->id]) }}">{{ $second_result->title }}</a>
-              @if($second_agree > $second_disagree)
-                  <div class="index-result-blue">
-                      <span class="result-amount">可　決</span>
-                  </div>
-              @else
-                  <div class="index-result-red">
-                      <span class="result-amount">否　決</span>
-                  </div>
-              @endif
-                  <div class="index-result-content">
-                      <li>賛成　<strong>{{ $second_agree }}票</strong></li>
-                      <li>反対　<strong>{{ $second_disagree }}票</strong></li>
-                  </div>
-              @endisset
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="result">
-              @isset($third_result)
-              <a href="{{ route('result',['id' =>$third_result->id]) }}">{{ $third_result->title }}</a>
-              @if($third_agree > $third_disagree)
-                  <div class="index-result-blue">
-                      <span class="result-amount">可　決</span>
-                  </div>
-              @else
-                  <div class="index-result-red">
-                      <span class="result-amount">否　決</span>
-                  </div>
-              @endif
-                  <div class="index-result-content">
-                      <li>賛成　<strong>{{ $third_agree }}票</strong></li>
-                      <li>反対　<strong>{{ $third_disagree }}票</strong></li>
-                  </div>
-              @endisset
-            </div>
-          </div>
-
-
-      <!-- row -->
+    <!-- row -->
     </div>
     <!-- container -->
 </div>
