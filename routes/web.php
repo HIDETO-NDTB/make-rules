@@ -47,7 +47,7 @@ Route::get('/contact',[
     'as' => 'contact'
 ]);
 
-Route::get('/profile',[
+Route::get('/profile/{id}',[
     'uses' => 'FrontEndController@profile',
     'as' => 'profile'
 ]);
