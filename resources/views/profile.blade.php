@@ -75,19 +75,17 @@
                     <form action="" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                            <label for="username">Username</label>
+                            <label for="username">氏名</label>
                             <input type="text" class="form-control" name="name" value="{{ $user->name }}">
                         </div>
                         <div class="form-group">
-                            <label for="age">年齢</label>
+                            <label for="age">年齢</label><br>
                             <input type="number" name="age" value="{{ $user->age }}">
                         </div>
                         <div class="form-group">
                             <label for="gender">性別</label>
-                            <div class="col-md-6">
-                                <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">男
-                                <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">女
-                            </div>
+                            <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">男
+                            <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">女
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
@@ -102,7 +100,7 @@
                             <input type="file" name="avatar">
                         </div>
                         <div class="form-group">
-                                <button type="submit" class="btn btn-success btn-block">プロフィール更新</button>
+                                <button type="submit" class="btn btn-success" style="width: 300px;">プロフィール更新</button>
                         </div>
                     </form>
                 </div>
