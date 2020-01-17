@@ -650,7 +650,11 @@ li {
 
 .result a {
     font-weight: bold;
+}
 
+.result p {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .index-result-blue {
