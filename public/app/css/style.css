@@ -646,13 +646,11 @@ li {
     padding-bottom: 40px;
 }
 
-#dg {
-    text-align: center;
-}
+
 
 .result a {
     font-weight: bold;
-    text-align: left;
+
 }
 
 .index-result-blue {
@@ -668,7 +666,7 @@ li {
     text-align: center;
 }
 
-.index-result-blue span {
+.result-amount {
     text-align: center;
 }
 
@@ -685,9 +683,7 @@ li {
     text-align: center;
 }
 
-.index-result-red span {
-    text-align: center;
-}
+
 
 .index-result-content {
     text-align: center;
