@@ -94,11 +94,11 @@
                 <div class="index-result-red">
                     <span class="result-amount">否　決</span>
                 </div>
+            @endif
                 <div class="index-result-content">
                     <li>賛成　<strong>{{ $first_agree }}票</strong></li>
                     <li>反対　<strong>{{ $first_disagree }}票</strong></li>
                 </div>
-            @endif
             @else
             <p>最近可決された法案はありません。</p>
             @endisset
@@ -116,11 +116,11 @@
                   <div class="index-result-red">
                       <span class="result-amount">否　決</span>
                   </div>
+              @endif
                   <div class="index-result-content">
                       <li>賛成　<strong>{{ $second_agree }}票</strong></li>
                       <li>反対　<strong>{{ $second_disagree }}票</strong></li>
                   </div>
-              @endif
               @endisset
             </div>
           </div>
@@ -136,11 +136,11 @@
                   <div class="index-result-red">
                       <span class="result-amount">否　決</span>
                   </div>
+              @endif
                   <div class="index-result-content">
                       <li>賛成　<strong>{{ $third_agree }}票</strong></li>
                       <li>反対　<strong>{{ $third_disagree }}票</strong></li>
                   </div>
-              @endif
               @endisset
             </div>
           </div>
