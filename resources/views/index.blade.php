@@ -89,11 +89,11 @@
 
                             @if($first_agree > $first_disagree)
                                 <div class="index-result-blue">
-                                    <div class="result-amount">可　決</div>
+                                    <div class="result-end">可　決</div>
                                 </div>
                             @else
                                 <div class="index-result-red">
-                                    <div class="result-amount">否　決</div>
+                                    <div class="result-end">否　決</div>
                                 </div>
                             @endif
                             <div class="index-result-content">
