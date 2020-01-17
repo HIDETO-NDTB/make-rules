@@ -88,11 +88,11 @@
                         <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
                         @if($first_agree > $first_disagree)
                             <div class="result-group">
-                                <div class="result-end-blue">可　決</div>
+                                <h4 class="result-end-blue">可　決</h4>
                             </div>
                         @else
                             <div class="result-group">
-                                <div class="result-end-red">否　決</div>
+                                <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
                         <div class="result-group">
