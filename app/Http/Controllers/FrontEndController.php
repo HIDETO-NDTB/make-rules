@@ -156,6 +156,7 @@ class FrontEndController extends Controller
 
     public function profile(){
 
-        return view('profile')->with('users',User::all());
+        return view('profile')->with('categories',Category::all())
+                              ->with('users',User::all());
     }
 }
