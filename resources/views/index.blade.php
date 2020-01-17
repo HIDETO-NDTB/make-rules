@@ -101,7 +101,7 @@
                                 <li>反対　<strong>{{ $first_disagree }}票</strong></li>
                             </div>
                             <div class="commentButton">
-                                <a class="btn btn-success" style="width: 200px;" href="">詳しく見る</a>
+                                <a class="btn btn-success" style="width: 80%;" href="">詳しく見る</a>
                             </div>
                         </div>
                     @else
