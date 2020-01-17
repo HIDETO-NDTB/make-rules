@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
 
 class ProfilesController extends Controller
 {
@@ -66,9 +69,43 @@ class ProfilesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+        //validation
+        $this->validate($request,[
+            'name' => 'required',
+            'email' => 'required',
+
+        ]);
+
+        //update data into database
+        $user = Auth::user();
+        if($request->hasFile('avatar')){
+            $avatar = $request->avatar;
+            $avatar_new_name = time().$avatar->getClientOriginalName();
+            Storage::disk('public')->put($avatar_new_name,file_get_contents($avatar));
+            $user->profile->avatar = 'Storage/'.$avatar_new_name;
+            $user->profile->save();
+        }
+
+        $user->name = $request->name;
+        $user->age = $request->age;
+        $user->gender = $request->gender;
+        $user->email = $request->email;
+
+        $user->save();
+        $user->profile->save();
+
+        if($request->has('password')){
+            $user->password = bcrypt($request->password);
+            $user->save();
+
+        }
+
+        //return redirect back
+        Session::flash('success','プロフィールを更新しました');
+        return redirect()->back();
+
     }
 
     /**

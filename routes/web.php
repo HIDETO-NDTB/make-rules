@@ -67,4 +67,7 @@ Route::post('/votes',[
     'as' => 'votes.store'
 ]);
 
-
+Route::post('/profile/update',[
+    'uses' => 'ProfilesController@update',
+    'as' => 'profile.update'
+]);
