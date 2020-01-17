@@ -100,6 +100,9 @@
                                 <li>賛成　<strong>{{ $first_agree }}票</strong></li>
                                 <li>反対　<strong>{{ $first_disagree }}票</strong></li>
                             </div>
+                            <div class="commentButton">
+                                <a class="btn btn-success" style="width: 200px;" href="">詳しく見る</a>
+                            </div>
                         </div>
                     @else
                         <p>最近可決された法案はありません。</p>
@@ -123,6 +126,9 @@
                             <li>賛成　<strong>{{ $second_agree }}票</strong></li>
                             <li>反対　<strong>{{ $second_disagree }}票</strong></li>
                         </div>
+                        <div class="commentButton">
+                            <a class="btn btn-success" style="width: 200px;" href="">詳しく見る</a>
+                        </div>
                     @endisset
                 </div>
             </div>
@@ -142,6 +148,9 @@
                         <div class="index-result-content">
                             <li>賛成　<strong>{{ $third_agree }}票</strong></li>
                             <li>反対　<strong>{{ $third_disagree }}票</strong></li>
+                        </div>
+                        <div class="commentButton">
+                            <a class="btn btn-success" style="width: 200px;" href="">詳しく見る</a>
                         </div>
                     @endisset
                 </div>
