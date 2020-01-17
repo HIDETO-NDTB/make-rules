@@ -704,6 +704,10 @@ li {
     text-align: center;
 }
 
+.index-result-content {
+    text-align: center;
+}
+
 .index-result-content li {
     padding: 15px 30px;
     height: 70px;
