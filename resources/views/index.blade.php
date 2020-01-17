@@ -97,8 +97,8 @@
                         @endif
                         <div class="result-group">
                             <div class="index-result-content">
-                            <li>賛成　<strong>{{ $first_agree }}票</strong></li>
-                            <li>反対　<strong>{{ $first_disagree }}票</strong></li>
+                                <li>賛成　<strong>{{ $first_agree }}票</strong></li>
+                                <li>反対　<strong>{{ $first_disagree }}票</strong></li>
                             </div>
                         </div>
                         <div class="resultButton">
