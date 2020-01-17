@@ -699,7 +699,7 @@ li {
     width: 80%;
     font-size: 24px;
     border: 1px solid gray;
-    text-align: center;
+
 }
 
 .resultButton {
@@ -708,6 +708,7 @@ li {
 
 .resultButton a {
     text-align: center;
+    font-weight: normal;
 }
 
 /* comment.blade.php */
