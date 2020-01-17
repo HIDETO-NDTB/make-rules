@@ -34,6 +34,7 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="" style="font-size: 14px; color:black;">マイページ</a>
                             <a class="dropdown-item" href="{{ route('logout') }}" style="font-size: 14px; color:red;"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
@@ -42,7 +43,6 @@
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
-                            <a href="" style="font-size: 14px; color:red;">マイページ</a>
                         </div>
                     </li>
                 @endguest
