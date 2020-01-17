@@ -574,6 +574,7 @@ li {
 
 .card {
     margin-top: 20px;
+    margin-left: 300px;
     border-top: 5px solid gray;
     border-bottom: 5px solid gray;
     margin-bottom: 10px;
