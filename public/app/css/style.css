@@ -654,7 +654,7 @@ li {
 
 .result p {
     font-weight: bold;
-    font-size: 20px;
+    color: red;
 }
 
 .index-result-blue {
