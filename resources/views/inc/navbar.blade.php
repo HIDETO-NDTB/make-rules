@@ -3,7 +3,6 @@
     <div class="container-fluid">
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
             <div class="navbar-header">
-
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -40,10 +39,10 @@
                                              document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
-
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
+                            <a class="dropdown-item" href="" style="font-size: 14px; color:red;">マイページ</a>
                         </div>
                     </li>
                 @endguest
