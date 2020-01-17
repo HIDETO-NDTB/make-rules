@@ -42,7 +42,7 @@
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
-                            <a class="dropdown-item" href="" style="font-size: 14px; color:red;">マイページ</a>
+                            <a href="" style="font-size: 14px; color:red;">マイページ</a>
                         </div>
                     </li>
                 @endguest
