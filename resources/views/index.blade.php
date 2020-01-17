@@ -77,7 +77,7 @@
     <br>
 </div>
 
-<div id="dg">
+<div id="dgg">
     <div class="container">
         <div class="row centered">
             <h4>開票速報</h4>
