@@ -86,18 +86,22 @@
                 <div class="result">
                     @isset($first_result)
                         <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
-                            @if($first_agree > $first_disagree)
+                        @if($first_agree > $first_disagree)
+                            <div class="result-group">
                                 <div class="result-end-blue">可　決</div>
-                            @else
+                            </div>
+                        @else
+                            <div class="result-group">
                                 <div class="result-end-red">否　決</div>
-                            @endif
-                            <div class="index-result-content">
-                                <li>賛成　<strong>{{ $first_agree }}票</strong></li>
-                                <li>反対　<strong>{{ $first_disagree }}票</strong></li>
                             </div>
-                            <div class="resultButton">
-                                <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$first_result->id]) }}">詳しく見る</a>
-                            </div>
+                        @endif
+                        <div class="result-group">
+                            <li>賛成　<strong>{{ $first_agree }}票</strong></li>
+                            <li>反対　<strong>{{ $first_disagree }}票</strong></li>
+                        </div>
+                        <div class="resultButton">
+                            <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$first_result->id]) }}">詳しく見る</a>
+                        </div>
                     @else
                         <p>最近可決された法案はありません。</p>
                     @endisset
