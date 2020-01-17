@@ -650,7 +650,7 @@ li {
     font-weight: bold;
 }
 
-.result-group {
+.result-group .index-result-content {
     text-align: center;
 }
 
