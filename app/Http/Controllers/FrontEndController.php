@@ -9,6 +9,7 @@ use App\Comment;
 use App\User;
 use App\Vote;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 
 
 class FrontEndController extends Controller
@@ -45,7 +46,7 @@ class FrontEndController extends Controller
         $third_agree = Vote::where('rule_id',$third_result->id)->where('vote','agree')->count();
         $third_disagree = Vote::where('rule_id',$third_result->id)->where('vote','disagree')->count();
         $rules = Rule::all();
-        $user = User::where('id',$user->id)->first();
+        $user = User::where('id',Auth::user()->id)->first();
 
         return view('index')->with('first_now_vote',$first_now_vote)
                             ->with('second_now_vote',$second_now_vote)
