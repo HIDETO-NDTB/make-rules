@@ -668,6 +668,10 @@ li {
     text-align: center;
 }
 
+.index-result-blue span {
+    text-align: center;
+}
+
 .index-result-red {
     background-color: red;
     margin-top: 10px;
@@ -681,6 +685,14 @@ li {
     text-align: center;
 }
 
+.index-result-red span {
+    text-align: center;
+}
+
+.index-result-content {
+    text-align: center;
+}
+
 .index-result-content li {
     padding: 15px 30px;
     height: 70px;
@@ -691,6 +703,10 @@ li {
 }
 
 .resultButton {
+    text-align: center;
+}
+
+.resultButton a {
     text-align: center;
 }
 
