@@ -690,6 +690,10 @@ li {
     text-align: center;
 }
 
+.resultButton {
+    text-align: center;
+}
+
 /* comment.blade.php */
 #commentform {
     background-color: white;
