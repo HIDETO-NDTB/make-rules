@@ -687,10 +687,6 @@ li {
     text-align: center;
 }
 
-.result-amount {
-    text-align: center;
-}
-
 .result-end-red {
     background-color: red;
     margin-top: 10px;
@@ -704,7 +700,7 @@ li {
     text-align: center;
 }
 
-#di .index-result-content {
+.result result-group {
     text-align: center;
 }
 
