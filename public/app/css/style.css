@@ -694,7 +694,11 @@ li {
     font-weight: bold;
 }
 
-.result-group li {
+.resultGroup {
+    text-align: center;
+}
+
+.resultGroup li {
     padding: 15px 30px;
     height: 70px;
     width: 80%;
