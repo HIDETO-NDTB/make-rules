@@ -653,13 +653,17 @@ li {
 
   }
 
-  #di h4 {
+#di h4 {
     font-weight: 700;
   }
 
-  #di .result {
+#di .result {
       text-align: center;
   }
+
+#di .result-end-red {
+    text-align: center;
+}
 
 
 
