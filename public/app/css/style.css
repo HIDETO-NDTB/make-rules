@@ -661,9 +661,7 @@ li {
     text-align: center;
   }
 
-.result-group index-result-content {
-    text-align: center;
-}
+
 
 
 
@@ -712,7 +710,7 @@ li {
     width: 80%;
     font-size: 24px;
     border: 1px solid gray;
-
+    text-align: center;
 }
 
 .resultButton {
