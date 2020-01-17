@@ -698,7 +698,7 @@ li {
 
 .resultGroup li {
     padding: 15px 30px;
-    margin-left: 38px;
+    margin: 0 auto;
     height: 70px;
     width: 80%;
     font-size: 24px;
