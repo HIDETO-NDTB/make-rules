@@ -574,7 +574,6 @@ li {
 
 .card {
     margin-top: 20px;
-    margin-left: 300px;
     border-top: 5px solid gray;
     border-bottom: 5px solid gray;
     margin-bottom: 10px;
@@ -900,4 +899,27 @@ select {
 
 #gender {
     margin-left: 20px;
+}
+
+/* profile.blade */
+
+.cards {
+    margin-top: 20px;
+    margin-left: 300px;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+    margin-bottom: 10px;
+}
+
+.cards h5 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cards p {
+    margin-top: 20px;
+}
+
+.cards a {
+    margin-top: 10px;
 }
