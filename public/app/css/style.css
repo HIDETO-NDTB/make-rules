@@ -661,10 +661,6 @@ li {
     text-align: center;
   }
 
-
-
-
-
 .result a {
     font-weight: bold;
 }
@@ -700,7 +696,9 @@ li {
     text-align: center;
 }
 
-
+.result-group h4 {
+    text-align: center;
+}
 
 .result-group li {
     padding: 15px 30px;
