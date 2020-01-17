@@ -72,80 +72,37 @@
                 <div class="card-header">{{ __('マイページ') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="">
+                    <form action="" method="post" enctype="multipart/form-data">
                         @csrf
-
-                        <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('氏名') }}</label>
-
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" name="name" value="{{ $user->name }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="age">年齢</label>
+                            <input type="number" name="age" value="{{ $user->age }}">
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">性別</label>
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
+                                <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">男
+                                <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">女
                             </div>
                         </div>
-
-                        <div class="form-group row">
-                            <label for="age" class="col-md-4 col-form-label text-md-right">{{ __('年齢') }}</label>
-                            <div class="col-md-6">
-                                <input id="age" type="number" name="age" value="int">
-                            </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" value="{{ $user->email }}">
                         </div>
-
-                        <div class="form-group row">
-                            <label for="gender" class="col-md-4 col-form-label text-md-right">{{ __('性別') }}</label>
-                            <div class="col-md-6">
-                                <input id="gender" type="radio" name="gender" value="male">男
-                                <input id="gender" type="radio" name="gender" value="female">女
-                            </div>
+                        <div class="form-group">
+                            <label for="password">新 Password</label>
+                            <input type="password" class="form-control" name="password">
                         </div>
-
-                        <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
+                        <div class="form-group">
+                            <label for="avatar">写真の追加</label>
+                            <input type="file" name="avatar">
                         </div>
-
-                        <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Password（確認用）') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                            </div>
-                        </div>
-
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-success" style="width: 200px">
-                                    {{ __('新規登録') }}
-                                </button>
-                            </div>
+                        <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-block">プロフィール更新</button>
                         </div>
                     </form>
                 </div>
@@ -153,4 +110,5 @@
         </div>
     </div>
 </div>
+
 @endsection
