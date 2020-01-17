@@ -646,6 +646,10 @@ li {
     padding-bottom: 40px;
 }
 
+.result {
+    text-align: center;
+}
+
 .result a {
     font-weight: bold;
     text-align: left;
