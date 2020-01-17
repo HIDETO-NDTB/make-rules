@@ -153,4 +153,9 @@ class FrontEndController extends Controller
 
         return view('contact')->with('categories',Category::all());
     }
+
+    public function profile(){
+
+        return view('profile')->with('users',User::all());
+    }
 }

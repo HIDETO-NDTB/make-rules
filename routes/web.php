@@ -47,6 +47,11 @@ Route::get('/contact',[
     'as' => 'contact'
 ]);
 
+Route::get('/profile',[
+    'uses' => 'FrontEndController@profile',
+    'as' => 'profile'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
