@@ -89,6 +89,7 @@ class FrontEndController extends Controller
         $total_rule  = Rule::where('category_id',$category->id)->count();
         $comment_rule = Rule::where('category_id',$category->id)->whereDate('vote_date','>',today())->count();
         $finish_vote = Rule::where('category_id',$category->id)->whereDate('finish_date','<',today())->count();
+        $users = User::all();
 
         return view('category')->with('category',$category)
                                 ->with('rules',$rules)
@@ -96,8 +97,8 @@ class FrontEndController extends Controller
                                ->with('just_vote',$just_vote)
                                ->with('total_rule',$total_rule)
                                ->with('comment_rule',$comment_rule)
-                               ->with('finish_vote',$finish_vote);
-
+                               ->with('finish_vote',$finish_vote)
+                               ->with('users',User::all());
 
 
     }
