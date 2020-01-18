@@ -72,6 +72,13 @@
                 <div class="card-header">{{ __('マイページ') }}</div>
 
                 <div class="card-body">
+                    @if($errors->any())
+                        <ul class="alert alert-danger">
+                            @foreach($errors as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    @endif
                     <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">

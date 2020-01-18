@@ -85,8 +85,8 @@ class ProfilesController extends Controller
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
             Storage::disk('public')->put($avatar_new_name,file_get_contents($avatar));
-            $user->profile->avatar = 'Storage/'.$avatar_new_name;
-            $user->profile->save();
+            $profile->avatar = 'Storage/'.$avatar_new_name;
+            $profile->save();
         }
 
         $user->name = $request->name;
@@ -95,7 +95,7 @@ class ProfilesController extends Controller
         $user->email = $request->email;
 
         $user->save();
-        $user->profile->save();
+        $profile->save();
 
         if($request->has('password')){
             $user->password = bcrypt($request->password);
