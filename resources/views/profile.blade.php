@@ -72,7 +72,7 @@
                 <div class="card-header">{{ __('マイページ') }}</div>
 
                 <div class="card-body">
-                    <form action="" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label for="username">氏名</label>
