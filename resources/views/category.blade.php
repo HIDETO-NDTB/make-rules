@@ -42,7 +42,11 @@
                     <ul>
                         <div class="row">
                             <div class="col-lg-1">
+                                @foreach ($users as $user)
+                                @if($comment->user_id == $user->id)
                                 <li><img src="{{ asset($user->profile->avatar) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
+                                @endif
+                                @endforeach
                             </div>
                             <div class="col-lg-2">
                                 <h5>{{ $rule->user->name }}</h5>
