@@ -90,7 +90,7 @@ class FrontEndController extends Controller
         $total_rule  = Rule::where('category_id',$category->id)->count();
         $comment_rule = Rule::where('category_id',$category->id)->whereDate('vote_date','>',today())->count();
         $finish_vote = Rule::where('category_id',$category->id)->whereDate('finish_date','<',today())->count();
-        $profile = Profile::all();
+        $profiles = Profile::all();
 
         return view('category')->with('category',$category)
                                 ->with('rules',$rules)
@@ -109,7 +109,7 @@ class FrontEndController extends Controller
         $rule = Rule::where('id',$id)->first();
         $comments = Comment::orderBy('comment_date','desc')->get();
         $users = User::all();
-        $profile = Profile::all();
+        $profiles = Profile::all();
 
         return view('rule-single')->with('rule',$rule)
                                   ->with('categories',Category::all())
