@@ -81,11 +81,10 @@ class ProfilesController extends Controller
             'name' => 'required',
             'email' => 'required',
 
-
         ]);
 
         //update data into database
-        $user = Auth::user();
+
         if($request->hasFile('avatar')){
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
