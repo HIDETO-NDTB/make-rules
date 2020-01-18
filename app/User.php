@@ -43,5 +43,9 @@ class User extends Authenticatable
             ->withPivot('opinion','comment','comment_date');
     }
 
+    public function profile(){
+        return $this->hasOne('App\Profile');
+    }
+
 
 }
