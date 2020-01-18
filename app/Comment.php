@@ -10,4 +10,9 @@ class Comment extends Model
 
     protected $table = 'rule_user';
 
+    public function user(){
+
+        return $this->belongsTo('App\User');
+    }
+
 }
