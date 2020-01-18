@@ -39,8 +39,7 @@ class User extends Authenticatable
 
     public function rules() {
 
-        return $this->belongsToMany('App\Rule')
-            ->withPivot('opinion','comment','comment_date');
+        return $this->belongsToMany('App\Rule');
     }
 
     public function comments() {
