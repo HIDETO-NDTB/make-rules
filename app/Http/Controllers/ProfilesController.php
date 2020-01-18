@@ -76,6 +76,7 @@ class ProfilesController extends Controller
         $this->validate($request,[
             'name' => 'required',
             'email' => 'required',
+            'avatar' => 'image',
 
         ]);
 
