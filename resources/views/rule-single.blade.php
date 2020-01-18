@@ -78,7 +78,7 @@
                     <ul>
                         <div class="row">
                             <div class="col-lg-1">
-                                <li><img src="{{ asset('app/img/pic3.jpg') }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                                <li><img src="{{ isset($user)? asset($user->profile->avatar) : Auth::user()->profile->avatar }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="{{ Auth::user()->name }}"></li>
                             </div>
                         <div class="col-lg-2">
                             @foreach ($users as $user)

@@ -109,11 +109,13 @@ class FrontEndController extends Controller
         $rule = Rule::where('id',$id)->first();
         $comments = Comment::orderBy('comment_date','desc')->get();
         $users = User::all();
+        $profile = Profile::all();
 
         return view('rule-single')->with('rule',$rule)
                                   ->with('categories',Category::all())
                                   ->with('comments',$comments)
-                                  ->with('users',User::all());
+                                  ->with('users',User::all())
+                                  ->with('profiles',Profile::all());
 
     }
 
