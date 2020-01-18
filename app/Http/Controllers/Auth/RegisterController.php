@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use App\Profile;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -73,6 +74,17 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+
+        $profile = Profile::create([
+            'user_id' => $user->id,
+            'avatar' => asset('uploads/avatar/sample.jpeg'),
+
+        ]);
+
+        $user->profile()->save($profile);
+
+        return $user;
+
     }
 
     public function showRegistrationForm (){
