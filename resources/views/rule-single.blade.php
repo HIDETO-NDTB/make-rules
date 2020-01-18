@@ -78,7 +78,7 @@
                     <ul>
                         <div class="row">
                             <div class="col-lg-1">
-                                <li><img src="{{ asset($comment->user->profile->avatar) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
+                                <li><img src="{{ asset($comment->user_id->profile->avatar) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
                             </div>
                         <div class="col-lg-2">
                             @foreach ($users as $user)
