@@ -47,11 +47,6 @@ Route::get('/contact',[
     'as' => 'contact'
 ]);
 
-Route::get('/profile/{id}',[
-    'uses' => 'FrontEndController@profile',
-    'as' => 'profile'
-]);
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -65,6 +60,11 @@ Route::resource('comments','CommentsController');
 Route::post('/votes',[
     'uses' => 'VotesController@store',
     'as' => 'votes.store'
+]);
+
+Route::get('/profile',[
+    'uses' => 'ProfilesController@index',
+    'as' => 'profile'
 ]);
 
 Route::post('/profile/update',[

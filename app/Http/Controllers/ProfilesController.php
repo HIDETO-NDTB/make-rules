@@ -17,7 +17,9 @@ class ProfilesController extends Controller
      */
     public function index()
     {
-        //
+        return view('profile')->with('user',Auth::user())
+                              ->with('categories',Category::all());
+
     }
 
     /**

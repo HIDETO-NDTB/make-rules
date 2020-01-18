@@ -157,11 +157,4 @@ class FrontEndController extends Controller
         return view('contact')->with('categories',Category::all());
     }
 
-    public function profile($id){
-
-        $user = User::where('id',$id)->first();
-
-        return view('profile')->with('categories',Category::all())
-                              ->with('user',$user);
-    }
 }
