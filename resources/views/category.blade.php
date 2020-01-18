@@ -42,7 +42,7 @@
                     <ul>
                         <div class="row">
                             <div class="col-lg-1">
-                                <li><img src="{{ isset($user)? asset($user->profile->avatar) : Auth::user()->profile->avatar }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="{{ Auth::user()->name }}"></li>
+                                <li><img src="{{ asset($user->profile->avatar) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
                             </div>
                             <div class="col-lg-2">
                                 <h5>{{ $rule->user->name }}</h5>
