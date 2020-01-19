@@ -88,22 +88,11 @@ class ProfilesController extends Controller
         $user = Auth::user();
         if ($request->hasFile('avatar')) {
 
-            //get filename with extension
-            $filenamewithextension = $request->file('avatar')->getClientOriginalName();
-
-            //get filename without extension
-            $filename = pathinfo($filenamewithextension, PATHINFO_FILENAME);
-
-            //get file extension
-            $extension = $request->file('avatar')->getClientOriginalExtension();
-
-            //filename to store
-            $filenametostore = $filename.'_'.time().'.'.$extension;
-
-            //Upload File to s3
-            Storage::disk('s3')->put($filenametostore, fopen($request->file('avatar'), 'r+'), 'public');
-
-            //Store $filenametostore in the database
+            $avatar = $request->avatar;
+            $uploadImg = $avatar->image = $request->file('image');
+            $path = Storage::disk('s3')->putFile('/', $uploadImg, 'public');
+            $avatar->image = Storage::disk('s3')->url($path);
+            $user->profile->save();
 
             if ($request->has('password')) {
                 $user->password = bcrypt($request->password);
