@@ -99,7 +99,7 @@
                             <input type="email" class="form-control" name="email" value="{{ $user->email }}">
                         </div>
                         <div class="form-group">
-                            <label for="password">新 Password</label>
+                            <label for="password">新 Password （ Passwordを変更しない場合は今までのPasswordを入力して下さい。）</label>
                             <input type="password" class="form-control" name="password">
                         </div>
                         <div class="form-group">
