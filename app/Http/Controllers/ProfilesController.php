@@ -90,7 +90,7 @@ class ProfilesController extends Controller
 
             $avatar = $request->avatar;
             // s3のuploadsファイルに追加
-            $path = Storage::disk('s3')->put('/avatar',$avatar,'public');
+            $path = Storage::disk('s3')->put('/makerules',$avatar,'public');
 
 
             // パスを、ユーザのicon_image_urlというカラムに保存
