@@ -17,15 +17,11 @@ Route::get('/', [
     'as' => 'index'
 ]);
 
-    Route::get('/category_single/{category}',[
-        'uses' => 'FrontEndController@category_single',
-        'as' => 'category.single'
-    ]);
+Route::get('/category_single/{category}',[
+    'uses' => 'FrontEndController@category_single',
+    'as' => 'category.single'
+]);
 
-    Route::get('/rule-single/{id}',[
-        'uses' => 'FrontEndController@rule_single',
-        'as' => 'rule.single'
-    ]);
 
     Route::get('/vote/{id}',[
         'uses' => 'FrontEndController@vote',
@@ -73,5 +69,10 @@ Route::get('/', [
     ]);
 
 Route::group(['middleware'=>'admin'],function(){
+
+    Route::get('/rule-single/{id}',[
+        'uses' => 'FrontEndController@rule_single',
+        'as' => 'rule.single'
+    ]);
 
 });
