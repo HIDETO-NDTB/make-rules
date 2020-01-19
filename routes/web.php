@@ -17,8 +17,6 @@ Route::get('/', [
     'as' => 'index'
 ]);
 
-Route::group(['middleware'=>'admin'],function(){
-
     Route::get('/category_single/{category}',[
         'uses' => 'FrontEndController@category_single',
         'as' => 'category.single'
@@ -73,5 +71,7 @@ Route::group(['middleware'=>'admin'],function(){
         'uses' => 'ProfilesController@update',
         'as' => 'profile.update'
     ]);
+
+Route::group(['middleware'=>'admin'],function(){
 
 });
