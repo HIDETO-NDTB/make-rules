@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Storage;
 
+
 class ProfilesController extends Controller
 {
     /**
@@ -93,12 +94,11 @@ class ProfilesController extends Controller
             // s3のuploadsファイルに追加
             $path = Storage::disk('s3')->putFile('/', $avatar, 'public');
 
+
             // パスを、ユーザのicon_image_urlというカラムに保存
             $user->profile->avatar = $path;
+
             $user->save();
-
-            $user->profile->avatar = asset('s3'.$avatar_new_name);
-
             $user->profile->save();
         }
 
