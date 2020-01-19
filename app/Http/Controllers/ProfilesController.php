@@ -88,11 +88,11 @@ class ProfilesController extends Controller
         if($request->hasFile('avatar')){
 
             $user = Auth::user();
-
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
-            Storage::disk('public')->put($avatar_new_name,file_get_contents($avatar));
-            $user->profile->avatar = 'Storage/'.$avatar_new_name;
+            $avatar->move('uploads/avatar',$avatar_new_name);
+            $user->profile->avatar = asset('uploads/avatar/'.$avatar_new_name);
+
             $user->profile->save();
         }
 
