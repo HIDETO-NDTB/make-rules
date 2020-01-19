@@ -78,7 +78,7 @@ class ProfilesController extends Controller
     public function update(Request $request)
     {
         //validation
-        $this->validate($request,[
+        $this->validate($request, [
             'name' => 'required',
             'email' => 'required',
             'avatar' => 'image',
@@ -86,35 +86,26 @@ class ProfilesController extends Controller
 
         //update data into database
         $user = Auth::user();
-        if($request->hasFile('avatar')){
+        if ($request->hasFile('avatar')) {
 
-            $path = Storage::disk('s3')->put('/',$file, 'public');
+            // s3のuploadsファイルに追加
+            $path = Storage::disk('s3')->put('/', $avatar, 'public');
 
             // パスを、ユーザのicon_image_urlというカラムに保存
-            $user=\Auth::user();
+
             $user->profile->avatar = $path;
 
             $user->profile->save();
+
+            if ($request->has('password')) {
+                $user->password = bcrypt($request->password);
+                $user->save();
+            }
+
+            //return redirect back
+            Session::flash('success', 'プロフィールを更新しました');
+            return redirect()->back();
         }
-
-        $user->name = $request->name;
-        $user->age = $request->age;
-        $user->gender = $request->gender;
-        $user->email = $request->email;
-
-        $user->save();
-        $user->profile->save();
-
-        if($request->has('password')){
-            $user->password = bcrypt($request->password);
-            $user->save();
-
-        }
-
-        //return redirect back
-        Session::flash('success','プロフィールを更新しました');
-        return redirect()->back();
-
     }
 
     /**
