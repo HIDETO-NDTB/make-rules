@@ -22,57 +22,56 @@ Route::get('/category_single/{category}',[
     'as' => 'category.single'
 ]);
 
+Route::get('/rule-single/{id}',[
+    'uses' => 'FrontEndController@rule_single',
+    'as' => 'rule.single'
+]);
 
-    Route::get('/vote/{id}',[
-        'uses' => 'FrontEndController@vote',
-        'as' => 'vote'
-    ]);
+Route::get('/vote/{id}',[
+    'uses' => 'FrontEndController@vote',
+    'as' => 'vote'
+]);
 
-    Route::get('/result/{id}',[
-        'uses' => 'FrontEndController@result',
-        'as' => 'result'
-    ]);
+Route::get('/result/{id}',[
+    'uses' => 'FrontEndController@result',
+    'as' => 'result'
+]);
 
-    Route::get('/initiative',[
-        'uses' => 'FrontEndController@initiative',
-        'as' => 'initiative'
-    ]);
+Route::get('/initiative',[
+    'uses' => 'FrontEndController@initiative',
+    'as' => 'initiative'
+]);
 
-    Route::get('/contact',[
-        'uses' => 'FrontEndController@contact',
-        'as' => 'contact'
-    ]);
+Route::get('/contact',[
+    'uses' => 'FrontEndController@contact',
+    'as' => 'contact'
+]);
 
-    Auth::routes();
+Auth::routes();
 
-    Route::get('/home', 'FrontEndController@index');
+Route::get('/home', 'FrontEndController@index');
 
-    Route::resource('rules','RulesController');
+Route::resource('rules','RulesController');
 
-    Route::resource('users','UsersController');
+Route::resource('users','UsersController');
 
-    Route::resource('comments','CommentsController');
+Route::resource('comments','CommentsController');
 
-    Route::post('/votes',[
-        'uses' => 'VotesController@store',
-        'as' => 'votes.store'
-    ]);
+Route::post('/votes',[
+    'uses' => 'VotesController@store',
+    'as' => 'votes.store'
+]);
 
-    Route::get('/profile',[
-        'uses' => 'ProfilesController@index',
-        'as' => 'profile'
-    ]);
+Route::get('/profile',[
+    'uses' => 'ProfilesController@index',
+    'as' => 'profile'
+]);
 
-    Route::post('/profile/update',[
-        'uses' => 'ProfilesController@update',
-        'as' => 'profile.update'
-    ]);
+Route::post('/profile/update',[
+    'uses' => 'ProfilesController@update',
+    'as' => 'profile.update'
+]);
 
 Route::group(['middleware'=>'admin'],function(){
-
-    Route::get('/rule-single/{id}',[
-        'uses' => 'FrontEndController@rule_single',
-        'as' => 'rule.single'
-    ]);
 
 });
