@@ -88,17 +88,12 @@ class ProfilesController extends Controller
         $user = Auth::user();
         if($request->hasFile('avatar')){
 
-            $user = Auth::user();
-            $avatar = $request->avatar();
-            $avatar_new_name = time().$avatar->getClientOriginalName();
-            // s3のuploadsファイルに追加
-            $path = Storage::disk('s3')->putFile('/', $avatar, 'public');
-
+            $path = Storage::disk('s3')->put('/',$file, 'public');
 
             // パスを、ユーザのicon_image_urlというカラムに保存
+            $user=\Auth::user();
             $user->profile->avatar = $path;
 
-            $user->save();
             $user->profile->save();
         }
 
