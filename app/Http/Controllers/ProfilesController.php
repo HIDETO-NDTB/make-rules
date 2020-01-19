@@ -90,8 +90,14 @@ class ProfilesController extends Controller
             $user = Auth::user();
             $avatar = $request->avatar;
             $avatar_new_name = time().$avatar->getClientOriginalName();
-            $avatar->move('uploads/avatar',$avatar_new_name);
-            $user->profile->avatar = asset('uploads/avatar/'.$avatar_new_name);
+            // s3のuploadsファイルに追加
+            $path = Storage::disk('s3')->put('/avatar',$avatar, 'public');
+
+            // パスを、ユーザのicon_image_urlというカラムに保存
+            $user->profile->avatar = $path;
+            $user->save();
+
+            $user->profile->avatar = asset('s3'.$avatar_new_name);
 
             $user->profile->save();
         }
