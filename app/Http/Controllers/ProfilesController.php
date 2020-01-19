@@ -89,7 +89,7 @@ class ProfilesController extends Controller
         if($request->hasFile('avatar')){
 
             $user = Auth::user();
-            $avatar = $request->avatar('avatar');
+            $avatar = $request->avatar();
             $avatar_new_name = time().$avatar->getClientOriginalName();
             // s3のuploadsファイルに追加
             $path = Storage::disk('s3')->putFile('/', $avatar, 'public');
