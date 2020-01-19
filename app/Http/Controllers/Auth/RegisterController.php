@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use App\Category;
+use Illuminate\Support\Facades\Storage;
 
 class RegisterController extends Controller
 {
@@ -77,7 +78,7 @@ class RegisterController extends Controller
 
         $profile = Profile::create([
             'user_id' => $user->id,
-            'avatar' => asset('uploads/avatar/sample.jpg'),
+            'avatar' => asset('Storage/sample.jpg'),
 
         ]);
 
