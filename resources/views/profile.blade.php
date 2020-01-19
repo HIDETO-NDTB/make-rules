@@ -79,7 +79,7 @@
                             @endforeach
                         </ul>
                     @endif
-                    <form action="{{ url('avatar') }}" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
                             <label for="username">氏名</label>
