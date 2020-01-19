@@ -88,8 +88,9 @@ class ProfilesController extends Controller
         $user = Auth::user();
         if ($request->hasFile('avatar')) {
 
+            $avatar = $request->avatar;
             // s3のuploadsファイルに追加
-            $path = Storage::disk('s3')->put('/', $avatar, 'public');
+            $path = Storage::disk('s3')->put('/',$avatar,'public');
 
             // パスを、ユーザのicon_image_urlというカラムに保存
 
