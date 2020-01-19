@@ -17,57 +17,61 @@ Route::get('/', [
     'as' => 'index'
 ]);
 
-Route::get('/category_single/{category}',[
-    'uses' => 'FrontEndController@category_single',
-    'as' => 'category.single'
-]);
+Route::group(['middleware'=>'admin'],function(){
 
-Route::get('/rule-single/{id}',[
-    'uses' => 'FrontEndController@rule_single',
-    'as' => 'rule.single'
-]);
+    Route::get('/category_single/{category}',[
+        'uses' => 'FrontEndController@category_single',
+        'as' => 'category.single'
+    ]);
 
-Route::get('/vote/{id}',[
-    'uses' => 'FrontEndController@vote',
-    'as' => 'vote'
-]);
+    Route::get('/rule-single/{id}',[
+        'uses' => 'FrontEndController@rule_single',
+        'as' => 'rule.single'
+    ]);
 
-Route::get('/result/{id}',[
-    'uses' => 'FrontEndController@result',
-    'as' => 'result'
-]);
+    Route::get('/vote/{id}',[
+        'uses' => 'FrontEndController@vote',
+        'as' => 'vote'
+    ]);
 
-Route::get('/initiative',[
-    'uses' => 'FrontEndController@initiative',
-    'as' => 'initiative'
-]);
+    Route::get('/result/{id}',[
+        'uses' => 'FrontEndController@result',
+        'as' => 'result'
+    ]);
 
-Route::get('/contact',[
-    'uses' => 'FrontEndController@contact',
-    'as' => 'contact'
-]);
+    Route::get('/initiative',[
+        'uses' => 'FrontEndController@initiative',
+        'as' => 'initiative'
+    ]);
 
-Auth::routes();
+    Route::get('/contact',[
+        'uses' => 'FrontEndController@contact',
+        'as' => 'contact'
+    ]);
 
-Route::get('/home', 'FrontEndController@index');
+    Auth::routes();
 
-Route::resource('rules','RulesController');
+    Route::get('/home', 'FrontEndController@index');
 
-Route::resource('users','UsersController');
+    Route::resource('rules','RulesController');
 
-Route::resource('comments','CommentsController');
+    Route::resource('users','UsersController');
 
-Route::post('/votes',[
-    'uses' => 'VotesController@store',
-    'as' => 'votes.store'
-]);
+    Route::resource('comments','CommentsController');
 
-Route::get('/profile',[
-    'uses' => 'ProfilesController@index',
-    'as' => 'profile'
-]);
+    Route::post('/votes',[
+        'uses' => 'VotesController@store',
+        'as' => 'votes.store'
+    ]);
 
-Route::post('/profile/update',[
-    'uses' => 'ProfilesController@update',
-    'as' => 'profile.update'
-]);
+    Route::get('/profile',[
+        'uses' => 'ProfilesController@index',
+        'as' => 'profile'
+    ]);
+
+    Route::post('/profile/update',[
+        'uses' => 'ProfilesController@update',
+        'as' => 'profile.update'
+    ]);
+
+});
