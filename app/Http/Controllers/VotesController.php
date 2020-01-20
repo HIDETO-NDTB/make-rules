@@ -47,9 +47,9 @@ class VotesController extends Controller
         ]);
 
         // 投票済かcheck
-        $user = $vote->user;
-        $rule = $vote->rule;
-        if(($user == Auth::user())&&($rule->id == $request->rule_id)&&($vote->vote_check == "0")){
+        $usercheck = Vote::wehre('vote_check',"1")->where('user_id',Auth::user()->id)->get();
+        $rulecheck = Vote::where('vote_check',"1")->where('rule_id',$request->rule_id)->get();
+        if(isset($usercheck) && isset($rulecheck)){
 
             Session::flash('error','投票は法案に対し１回のみです');
             return redirect()->back();
