@@ -86,19 +86,15 @@
                             <label for="username">氏名</label>
                             <input type="text" class="form-control" name="name" value="{{ $user->name }}">
                         </div>
-                        @empty($user->age)
                         <div class="form-group">
                             <label for="age">年齢</label><br>
-                            <input type="number" name="age">
+                            <input type="number" name="age" value="{{ $user->age }}">
                         </div>
-                        @endempty
-                        @empty($user->gender)
                         <div class="form-group">
                             <label for="gender">性別</label>
                             <input id="gender" type="radio" name="gender">男
                             <input id="gender" type="radio" name="gender">女
                         </div>
-                        @endempty
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" name="email" value="{{ $user->email }}">
