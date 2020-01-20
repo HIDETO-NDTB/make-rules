@@ -96,22 +96,22 @@ class ProfilesController extends Controller
             $user->profile->save();
         }
 
-            $user->name = $request->name;
-            $user->age = $request->age;
-            $user->gender = $request->gender;
-            $user->email = $request->email;
+        $user->name = $request->name;
+        $user->age = $request->age;
+        $user->gender = $request->gender;
+        $user->email = $request->email;
 
+        $user->save();
+
+
+        if ($request->has('password')) {
+            $user->password = bcrypt($request->password);
             $user->save();
+        }
 
-
-            if ($request->has('password')) {
-                $user->password = bcrypt($request->password);
-                $user->save();
-            }
-
-            //return redirect back
-            Session::flash('success', 'プロフィールを更新しました');
-            return redirect()->back();
+        //return redirect back
+        Session::flash('success', 'プロフィールを更新しました');
+        return redirect()->back();
 
     }
 
