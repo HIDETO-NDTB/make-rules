@@ -207,7 +207,7 @@
         <br>
         @isset($second_disagree_comment)
         <div class="commentsBox">
-            <div class="col-lg-8 col-lg-offset-4">
+            <div class="col-lg-8">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
                     @if($second_disagree_comment->rule_id == $rule->id)
