@@ -92,8 +92,8 @@
                         </div>
                         <div class="form-group">
                             <label for="gender">性別</label>
-                            <input id="gender" type="radio" name="gender">男
-                            <input id="gender" type="radio" name="gender">女
+                            <input id="gender" type="radio" name="gender" value="male">男
+                            <input id="gender" type="radio" name="gender" value="female">女
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
