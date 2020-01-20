@@ -89,9 +89,10 @@ class ProfilesController extends Controller
         if ($request->hasFile('avatar')) {
 
             $avatar = $request->avatar;
-            $uploadImg = $avatar->image = $request->file('image');
+
             $path = Storage::disk('s3')->putFile('/', $avatar, 'public');
-            $avatar->image = Storage::disk('s3')->url($path);
+
+
             $user->profile->save();
 
             if ($request->has('password')) {
