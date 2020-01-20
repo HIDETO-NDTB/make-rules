@@ -46,6 +46,15 @@ class VotesController extends Controller
             'vote_check' => 'required',
         ]);
 
+        // 投票済かcheck
+        $user = $vote->user;
+        $rule = $vote->rule;
+        if(($user == Auth::user())&&($rule->id == $request->rule_id)&&($vote->vote_check == "0")){
+
+            Session::flash('error','投票は法案に対し１回のみです');
+            return redirect()->back();
+        }
+
         // Mass Assignment
         $vote = Vote::create([
             'rule_id' => $request->rule_id,
@@ -54,8 +63,6 @@ class VotesController extends Controller
             'vote_check' => $request->vote_check,
             'voting_date' => date("Y-m-d"),
         ]);
-
-
 
         $vote->save();
 
