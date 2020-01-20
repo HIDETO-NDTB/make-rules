@@ -17,11 +17,6 @@ class Admin
      */
     public function handle($request, Closure $next)
     {
-        if(!Auth::user()->admin){
-            Session::flash('info','そのページへは行けません');
-            return redirect()->back();
-        }
 
-        return $next($request);
     }
 }
