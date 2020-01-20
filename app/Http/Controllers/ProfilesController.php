@@ -80,20 +80,29 @@ class ProfilesController extends Controller
         //validation
         $this->validate($request, [
             'name' => 'required',
-            'email' => 'required'
+            'email' => 'required',
+
         ]);
 
         //update data into database
         $user = Auth::user();
         if ($request->hasFile('avatar')) {
-
             $avatar = $request->avatar;
 
 
-            $path = Storage::disk('s3')->putFile('/avatar', $avatar, 'makerules');
+            $path = Storage::disk('s3')->putFile('/avatar', $avatar, 'public');
             $avatar->image = Storage::disk('s3')->url($path);
 
             $user->profile->save();
+        }
+
+            $user->name = $request->name;
+            $user->age = $request->age;
+            $user->gender = $request->gender;
+            $user->email = $request->email;
+
+            $user->save();
+
 
             if ($request->has('password')) {
                 $user->password = bcrypt($request->password);
@@ -103,7 +112,7 @@ class ProfilesController extends Controller
             //return redirect back
             Session::flash('success', 'プロフィールを更新しました');
             return redirect()->back();
-        }
+
     }
 
     /**

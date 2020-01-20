@@ -62,16 +62,16 @@ Route::post('/votes',[
     'as' => 'votes.store'
 ]);
 
-Route::get('/profile',[
-    'uses' => 'ProfilesController@index',
-    'as' => 'profile'
-]);
 
-Route::post('/profile/update',[
+//Route::resource('profile','ProfilesController');
+
+Route::get('/profile',[
+     'uses' => 'ProfilesController@index',
+     'as' => 'profile'
+ ]);
+
+Route::put('/profile/update',[
     'uses' => 'ProfilesController@update',
     'as' => 'profile.update'
 ]);
 
-Route::group(['middleware'=>'admin'],function(){
-
-});

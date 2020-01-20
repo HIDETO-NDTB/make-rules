@@ -81,6 +81,7 @@
                     @endif
                     <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
                         @csrf
+                        @method('PUT')
                         <div class="form-group">
                             <label for="username">氏名</label>
                             <input type="text" class="form-control" name="name" value="{{ $user->name }}">
