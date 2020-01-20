@@ -47,6 +47,7 @@ class VotesController extends Controller
         ]);
 
         // 投票済かcheck
+        /*
         $usercheck = Vote::where('vote_check',1)->where('user_id',Auth::user()->id)->count();
         $rulecheck = Vote::where('vote_check',1)->where('rule_id',$request->rule_id)->count();
         if(($usercheck >= 1) && ($rulecheck >= 1)){
@@ -54,6 +55,7 @@ class VotesController extends Controller
             Session::flash('error','投票は法案に対し１回のみです');
             return redirect()->back();
         }
+        */
 
         // Mass Assignment
         $vote = Vote::create([
