@@ -98,8 +98,14 @@ class ProfilesController extends Controller
         }
 
         $user->name = $request->name;
-        $user->age = $request->age;
-        $user->gender = $request->gender;
+
+        if ($request->has('age')) {
+            $user->age = $request->age;
+        }
+        if ($request->has('gender')) {
+            $user->gender = $request->gender;
+        }
+
         $user->email = $request->email;
 
         $user->save();
