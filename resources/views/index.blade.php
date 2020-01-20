@@ -170,7 +170,7 @@
         <br>
         @isset($first_disagree_comment)
         <div class="commentsBox">
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
                     @if($first_disagree_comment->rule_id == $rule->id)
@@ -182,7 +182,7 @@
                     @endforeach
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-2"></div>
             <div class="col-lg-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -207,7 +207,7 @@
         <br>
         @isset($second_disagree_comment)
         <div class="commentsBox">
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
                     @if($second_disagree_comment->rule_id == $rule->id)
@@ -219,7 +219,7 @@
                     @endforeach
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-2"></div>
             <div class="col-lg-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -244,7 +244,7 @@
         <br>
         @isset($third_disagree_comment)
         <div class="commentsBox">
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
                     @if($third_disagree_comment->rule_id == $rule->id)
@@ -256,7 +256,7 @@
                     @endforeach
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-2"></div>
             <div class="col-lg-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -281,7 +281,7 @@
         <br>
         @isset($fourth_disagree_comment)
         <div class="commentsBox">
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
                     @if($fourth_disagree_comment->rule_id == $rule->id)
@@ -293,7 +293,7 @@
                     @endforeach
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-2"></div>
             <div class="col-lg-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -318,7 +318,7 @@
         <br>
         @isset($fifth_disagree_comment)
         <div class="commentsBox">
-            <div class="col-lg-8">
+            <div class="col-lg-10">
                 <div class="ruleBox">
                     @foreach ($rules as $rule)
                     @if($fifth_disagree_comment->rule_id == $rule->id)
@@ -330,7 +330,7 @@
                     @endforeach
                 </div>
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-lg-2"></div>
             <div class="col-lg-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
