@@ -81,7 +81,7 @@ class ProfilesController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required',
-            'avatar' => 'image',
+            'avatar' => 'image'
         ]);
 
         //update data into database
@@ -91,7 +91,7 @@ class ProfilesController extends Controller
             $avatar = $request->avatar;
 
 
-            $path = Storage::disk('s3')->putFile('/avatar', $avatar, 'public');
+            $path = Storage::disk('s3')->putFile('/avatar', $avatar, 'makerules');
             $avatar->image = Storage::disk('s3')->url($path);
 
             $user->profile->save();
