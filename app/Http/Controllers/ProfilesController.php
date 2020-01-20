@@ -80,8 +80,7 @@ class ProfilesController extends Controller
         //validation
         $this->validate($request, [
             'name' => 'required',
-            'email' => 'required',
-            'avatar' => 'image'
+            'email' => 'required'
         ]);
 
         //update data into database
