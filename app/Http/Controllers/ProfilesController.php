@@ -90,8 +90,8 @@ class ProfilesController extends Controller
 
             $avatar = $request->avatar;
 
-            $uploadImg = $avatar->image = $request->file('image');
-            $path = Storage::disk('s3')->putFile('/avatar', $uploadImg, 'public');
+
+            $path = Storage::disk('s3')->putFile('/avatar', $avatar, 'public');
             $avatar->image = Storage::disk('s3')->url($path);
 
             $user->profile->save();
