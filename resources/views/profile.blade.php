@@ -86,15 +86,19 @@
                             <label for="username">氏名</label>
                             <input type="text" class="form-control" name="name" value="{{ $user->name }}">
                         </div>
+                        @empty($user->age)
                         <div class="form-group">
                             <label for="age">年齢</label><br>
-                            <input type="number" name="age" value="{{ $user->age }}">
+                            <input type="number" name="age">
                         </div>
+                        @endempty
+                        @empty($user->gender)
                         <div class="form-group">
                             <label for="gender">性別</label>
-                            <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">男
-                            <input id="gender" type="radio" name="gender" value="{{ $user->gender }}">女
+                            <input id="gender" type="radio" name="gender">男
+                            <input id="gender" type="radio" name="gender">女
                         </div>
+                        @endempty
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" name="email" value="{{ $user->email }}">
@@ -104,7 +108,7 @@
                             <input type="password" class="form-control" name="password">
                         </div>
                         <div class="form-group">
-                            <label for="avatar">写真の追加</label>
+                            <label for="avatar">写真の追加 (数分かかる場合があります）</label>
                             <input type="file" name="avatar">
                         </div>
                         <div class="form-group">
