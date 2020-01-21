@@ -64,7 +64,7 @@
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
                     <div class="vote">
-                        @if(Auth::check() && $votecheck == 0)
+                        @if(Auth::check())
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
