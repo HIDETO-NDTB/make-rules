@@ -49,6 +49,7 @@ class VotesController extends Controller
         // 投票済かcheck
 
         $usercheck = Vote::where('vote_check',1)->where('user_id',Auth::user()->id)->count();
+        return view('vote')->with('usercheck',$usercheck);
         /*
         $rulecheck = Vote::where('vote_check',1)->where('rule_id',$request->rule_id)->count();
         if(($usercheck >= 1) && ($rulecheck >= 1)){
