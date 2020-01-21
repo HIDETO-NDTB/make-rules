@@ -76,7 +76,7 @@ class VotesController extends Controller
         $vote->save();
 
         Session::flash('success','投票ありがとうございます');
-        return view('/')->with('categories',Category::all());;
+        return view('index')->with('categories',Category::all());;
     }
 
     /**

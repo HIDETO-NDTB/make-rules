@@ -24,6 +24,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('index')->with('categories',Category::all());
+        return view('/')->with('categories',Category::all());
     }
 }
