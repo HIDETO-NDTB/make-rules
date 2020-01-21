@@ -56,7 +56,7 @@ class VotesController extends Controller
             return redirect()->back();
         }
         */
-        $rule = Rule::where('rule_id',$id)->first();
+        $rule = Rule::where('rule_id',$request->id)->first();
         $votecheck = Vote::where('user_id',Auth::user()->id)->where('rule_id',$rule->id)->where('vote_check',"1")->count();
         if($votecheck > 0){
 
