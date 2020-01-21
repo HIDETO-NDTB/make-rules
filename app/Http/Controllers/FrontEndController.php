@@ -123,7 +123,7 @@ class FrontEndController extends Controller
         $rule = Rule::where('id',$id)->first();
         $comments = Comment::orderBy('comment_date','desc')->get();
         $users = User::all();
-        $votecheck = Vote::where('user_id',Auth::user()->id)->where('rule_id',$rule->id)->where('vote_check',"1")->count();
+        $votecheck = Vote::where('user_id',Auth::user()->id)->where('rule_id',$rule->id)->where('vote_check',"1")->get();
 
         return view('vote')->with('rule',$rule)
                            ->with('categories',Category::all())
