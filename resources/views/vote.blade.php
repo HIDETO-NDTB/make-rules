@@ -63,7 +63,6 @@
                     <div class="vote">
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
-                    <p>{{ $usercheck }}</p>
                     <div class="vote">
                         @if(Auth::check())
                         <div class="col-lg-6">
