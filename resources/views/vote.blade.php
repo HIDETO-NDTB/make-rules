@@ -65,7 +65,7 @@
                     </div>
                     <div class="vote">
                         @if(Auth::check())
-                        @empty($votecheck)
+
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
@@ -74,7 +74,7 @@
                         </div>
                         @else
                             <h5>投票はユーザー限定です。ログインの上で投票して下さい。</h5>
-                        @endempty
+
                         @endif
                     </div>
                 </form>
