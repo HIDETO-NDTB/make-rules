@@ -43,8 +43,8 @@
                         <textarea name="content" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                     </div>
                     <div class="form-group">
-                        @if($user = Auth::user())
-                        <input type="hidden" name="user_id" value={{ $user->id }}>
+                        @if(Auth::check())
+                        <input type="hidden" name="user_id" value={{ Auth::user() }}>
                         @endif
                     </div>
                     <div class="form-group">
