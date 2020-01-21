@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Rule;
 use App\user;
 use App\Vote;
+use App\Category;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
@@ -75,7 +76,7 @@ class VotesController extends Controller
         $vote->save();
 
         Session::flash('success','投票ありがとうございます');
-        return redirect()->back();
+        return view('/')->with('categories',Category::all());;
     }
 
     /**
