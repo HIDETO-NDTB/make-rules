@@ -43,7 +43,9 @@
                         <textarea name="content" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="hidden" name="user_id" value={{ Auth::user()->id }}>
+                        @if($user = Auth::user())
+                        <input type="hidden" name="user_id" value={{ $user->id }}>
+                        @endif
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-danger" style="width: 300px;">送信する</button>
