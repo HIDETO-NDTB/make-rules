@@ -43,6 +43,7 @@ class ContactsController extends Controller
             'name' => 'required',
             'email' => 'required',
             'content' => 'required|max:200',
+            'user_id' => 'required',
         ]);
 
         // Mass Assignment
@@ -51,7 +52,7 @@ class ContactsController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'content' => $request->content,
-            'user_id' => $request->id,
+            'user_id' => $request->user_id,
         ]);
 
         $contact->save();
