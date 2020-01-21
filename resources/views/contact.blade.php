@@ -44,7 +44,7 @@
                     </div>
                     <div class="form-group">
                         @if(Auth::check())
-                        <input type="hidden" name="user_id" value={{ Auth::user() }}>
+                        <input type="hidden" name="user_id" value={{ Auth::user()->id }}>
                         @endif
                     </div>
                     <div class="form-group">
