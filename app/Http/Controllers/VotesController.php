@@ -76,7 +76,7 @@ class VotesController extends Controller
         $vote->save();
 
         Session::flash('success','投票ありがとうございます');
-        header("Location:$redirect[$id]");
+        return redirect()->route('index');
     }
 
     /**
