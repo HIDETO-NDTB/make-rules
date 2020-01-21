@@ -100,9 +100,6 @@ class ProfilesController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
 
-        $user->save();
-
-
         if ($request->has('age')) {
             $user->age = $request->age;
         }
@@ -110,11 +107,11 @@ class ProfilesController extends Controller
             $user->gender = $request->gender;
         }
 
-
         if ($request->has('pass')) {
             $user->password = bcrypt($request->password);
-            $user->save();
         }
+
+        $user->save();
 
         //return redirect back
         Session::flash('success', 'プロフィールを更新しました');
