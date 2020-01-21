@@ -51,6 +51,7 @@ class ContactsController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'content' => $request->content,
+            'user_id' => $request->use_id,
         ]);
 
         $contact->save();
