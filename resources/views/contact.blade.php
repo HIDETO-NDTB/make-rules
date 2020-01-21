@@ -18,16 +18,16 @@
             <div class="col-lg-12">
                 <h4><span> お問い合わせフォーム </span></h4>
                 <p>Make Rulesをご利用頂き、誠にありがとうございます。<br>皆様より頂戴した貴重なご意見は今後の運営に活かして参ります。</p>
-                <form action="" method="POST">
+                <form action="{{ route('contacts.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
                         <label>カテゴリ</label><br>
                         <select name="category" style="width: 400px;">
-                            <option value="country">Make Rules に関するお問い合わせ</option>
-                            <option value="company">不具合報告</option>
-                            <option value="school">広告に関するお問い合わせ</option>
-                            <option value="family">ビジネスに関するお問い合わせ</option>
-                            <option value="love">その他のお問い合わせ</option>
+                            <option value="makerules">Make Rules に関するお問い合わせ</option>
+                            <option value="problem">不具合報告</option>
+                            <option value="add">広告に関するお問い合わせ</option>
+                            <option value="business">ビジネスに関するお問い合わせ</option>
+                            <option value="others">その他のお問い合わせ</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -39,8 +39,8 @@
                         <input type="email" name="email" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label>お問い合わせ内容（●文字以内）</label>
-                        <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
+                        <label>お問い合わせ内容（２００文字以内）</label>
+                        <textarea name="content" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-danger" style="width: 300px;">送信する</button>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Contact;
 
 class ContactsController extends Controller
 {
@@ -34,7 +35,27 @@ class ContactsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // validation
+        $this->validate($request,[
+            'category' => 'required',
+            'name' => 'required',
+            'email' => 'required',
+            'content' => 'required max:200',
+        ]);
+
+        // Mass Assignment
+        $contact = Contact::create([
+            'category' => $request->category,
+            'name' => $request->name,
+            'email' => $request->email,
+            'content' => $request->content,
+            'user_id' => Auth::user()->id,
+        ]);
+
+        $contact->save();
+
+        Session::flash('success','お問い合わせありがとうございます。');
+        return redirect()->route('contact');
     }
 
     /**
