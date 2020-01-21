@@ -63,9 +63,10 @@
                     <div class="vote">
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
+                    <p>{{ $votecheck }}</p>
                     <div class="vote">
                         @if(Auth::check())
-                        @isset($votes)
+
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
@@ -74,7 +75,7 @@
                         </div>
                         @else
                             <h5>投票はユーザー限定です。ログインの上で投票して下さい。</h5>
-                        @endisset
+
                         @endif
                     </div>
                 </form>
