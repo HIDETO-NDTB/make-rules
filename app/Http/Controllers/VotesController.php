@@ -56,12 +56,12 @@ class VotesController extends Controller
             return redirect()->back();
         }
         */
-        $votecheck = Vote::where('user_id',Auth::user())->where('rule_id',$request->rule_id)->where('vote_check',"1")->count();
+        /*$votecheck = Vote::where('user_id',Auth::user())->where('rule_id',$request->rule_id)->where('vote_check',"1")->count();
         if($votecheck > 0){
 
             Session::flash('error','投票は法案に対し１回のみです');
             return redirect()->back();
-        }
+        } */
 
         // Mass Assignment
         $vote = Vote::create([
