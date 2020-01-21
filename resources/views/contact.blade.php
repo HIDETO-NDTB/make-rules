@@ -44,10 +44,10 @@
                     </div>
                     <div class="form-group">
                         @if(Auth::check())
-                        <input type="hidden" name="user_id" value={{ Auth::user()->id }}>
+                        <input type="hidden" name="user_id" value="{{ $user->id }}">
                     </div>
                         @else
-                        <input type="hidden" name="user_id" value=0>
+                        <input type="hidden" name="user_id" value="0">
                     </div>
                         @endif
                     <div class="form-group">
