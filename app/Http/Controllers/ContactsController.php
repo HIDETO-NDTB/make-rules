@@ -51,12 +51,11 @@ class ContactsController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'content' => $request->content,
-            'user_id' => Auth::user()->id,
         ]);
 
         $contact->save();
 
-        Session::flash('success','お問い合わせ頂き、<br>ありがとうございます。');
+        Session::flash('success','お問い合わせ頂き、ありがとうございます。');
         return redirect()->route('contact');
     }
 
