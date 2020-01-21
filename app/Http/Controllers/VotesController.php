@@ -74,7 +74,7 @@ class VotesController extends Controller
 
         $vote->save();
 
-        Session::flash('success','投票されました');
+        Session::flash('success','投票ありがとうございます');
         return redirect()->back();
     }
 
