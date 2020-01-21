@@ -158,7 +158,10 @@ class FrontEndController extends Controller
 
     public function contact(){
 
-        return view('contact')->with('categories',Category::all());
+        $user = Auth::user();
+
+        return view('contact')->with('categories',Category::all())
+                              ->with('user',$user);
     }
 
 }
