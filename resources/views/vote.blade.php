@@ -63,10 +63,9 @@
                     <div class="vote">
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
-                    <p>{{ $votecheck }}</p>
                     <div class="vote">
                         @if(Auth::check())
-
+                        @if($votecheck == 0)
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
@@ -74,8 +73,10 @@
                             <button type="submit" name="vote" class="btn btn-danger" style="width: 300px; height: 100px;" value="disagree">反対</button>
                         </div>
                         @else
+                            <h5>投票は１つの法案につき１回のみです</h5>
+                        @else
                             <h5>投票はユーザー限定です。ログインの上で投票して下さい。</h5>
-
+                        @endif
                         @endif
                     </div>
                 </form>
