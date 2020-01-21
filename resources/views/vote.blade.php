@@ -59,7 +59,7 @@
                 <form action="{{ route('votes.store') }}" method="POST">
                     @csrf
                 @else
-                <h5>投票は１つの法案につき１回です</h5>
+                <h5 class="error">投票は１つの法案につき１回限りです</h5>
                 @endif
                     <div class="vote">
                         <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
