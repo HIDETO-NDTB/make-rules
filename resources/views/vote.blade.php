@@ -55,12 +55,8 @@
         　　　　　　　    </ul>
     　　　　　　　    </div>
 　　　　　　　    @endif
-                @if($votecheck == 0)
                 <form action="{{ route('votes.store') }}" method="POST">
                     @csrf
-                @else
-                <h5 class="error">当法案へは既に投票済みです</h5>
-                @endif
                     <div class="vote">
                         <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
                     </div>
@@ -68,8 +64,7 @@
                         <input type="hidden" name="vote_check"  value="1">
                     </div>
                     <div class="vote">
-                        @if(Auth::check())
-
+                        @if(Auth::check() && $votecheck == 0)
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
@@ -77,8 +72,7 @@
                             <button type="submit" name="vote" class="btn btn-danger" style="width: 300px; height: 100px;" value="disagree">反対</button>
                         </div>
                         @else
-                            <h5>投票はユーザー限定です。ログインの上で投票して下さい。</h5>
-
+                            <h5>投票はユーザー限定です。<br>投票は１つの法案につき１回限りです。</h5>
                         @endif
                     </div>
                 </form>
