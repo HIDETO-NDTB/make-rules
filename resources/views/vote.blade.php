@@ -72,7 +72,7 @@
                             <button type="submit" name="vote" class="btn btn-danger" style="width: 300px; height: 100px;" value="disagree">反対</button>
                         </div>
                         @else
-                            <h5>投票はユーザー限定です。<br>投票は１つの法案につき１回限りです。</h5>
+                            <h5>投票はユーザー限定です</h5>
                         @endif
                     </div>
                 </form>
