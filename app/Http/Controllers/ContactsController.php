@@ -56,7 +56,7 @@ class ContactsController extends Controller
 
         $contact->save();
 
-        Session::flash('success','お問い合わせありがとうございます。');
+        Session::flash('success','お問い合わせ頂き、<br>ありがとうございます。');
         return redirect()->route('contact');
     }
 
