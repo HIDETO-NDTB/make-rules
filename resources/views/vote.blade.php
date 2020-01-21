@@ -65,7 +65,7 @@
                     </div>
                     <div class="vote">
                         @if(Auth::check())
-                        @isset($vote)
+                        @isset($votes)
                         <div class="col-lg-6">
                             <button type="submit" name="vote" class="btn btn-primary" style="width: 300px; height: 100px;" value="agree">賛成</button>
                         </div>
