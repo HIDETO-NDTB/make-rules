@@ -40,7 +40,7 @@ class ContactsController extends Controller
             'category' => 'required',
             'name' => 'required',
             'email' => 'required',
-            'content' => 'required max:200',
+            'content' => 'required|max:200',
         ]);
 
         // Mass Assignment
