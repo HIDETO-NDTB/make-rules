@@ -98,6 +98,10 @@ class ProfilesController extends Controller
         }
 
         $user->name = $request->name;
+        $user->email = $request->email;
+
+        $user->save();
+
 
         if ($request->has('age')) {
             $user->age = $request->age;
@@ -106,12 +110,8 @@ class ProfilesController extends Controller
             $user->gender = $request->gender;
         }
 
-        $user->email = $request->email;
 
-        $user->save();
-
-
-        if ($request->has('password')) {
+        if ($request->has('pass')) {
             $user->password = bcrypt($request->password);
             $user->save();
         }

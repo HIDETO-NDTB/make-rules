@@ -101,7 +101,7 @@
                         </div>
                         <div class="form-group">
                             <label for="password">新 Password （ Passwordを変更しない場合は今までのPasswordを入力して下さい。）</label>
-                            <input type="password" class="form-control" name="password">
+                            <input type="password" class="form-control" name="pass">
                         </div>
                         <div class="form-group">
                             <label for="avatar">写真の追加 (数分かかる場合があります）</label>
