@@ -547,9 +547,9 @@ hr {
     border-color: #8D3043;
   }
 
-  .navbar-inverse .navbar-brand {
+  .navbar-inverse {
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 22px;
     letter-spacing: 1px;
 
