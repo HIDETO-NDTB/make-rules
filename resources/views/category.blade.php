@@ -31,7 +31,7 @@
 
 <div class="container w">
     <div class="row centered">
-        <div class="col-lg-12 col-lg-offset-0 col-xs-10 col-xs-offset-1">
+        <div class="col-lg-12 col-xs-12">
             @if($category->rules->count() > 0 )
             @foreach ($rules as $rule)
             @if($rule->finish_date > today())
