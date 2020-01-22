@@ -7,10 +7,10 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-8">
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">HOME</a></li>
@@ -21,7 +21,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
