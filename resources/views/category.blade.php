@@ -4,7 +4,7 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6 col-md-5">
+            <div class="col-lg-6 col-md-5 col-sm-5">
                 <!-- START PRICING TABLE -->
                 <div class="pricing-option">
                     <div class="pricing-top">
