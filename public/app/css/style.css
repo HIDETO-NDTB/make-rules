@@ -309,23 +309,10 @@ hr {
   color: white;
   text-align: center;
   font-weight: bold;
-  padding: 50px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-
-.pricing-option .pricing-top .special-label {
-  display: block;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #1abc9c;
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: bold;
-  padding: 3px 0;
 }
 
 .special .pricing-top {
