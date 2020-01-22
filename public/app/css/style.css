@@ -631,11 +631,7 @@ hr {
     border-right: 1px solid gray;
 }
 
-@media (max-width: 480px ) {
-    .z .row centered {
-        margin-top: 0px;
-    }
-}
+
 
 .ruleBox {
     padding: 15px;
