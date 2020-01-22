@@ -796,7 +796,7 @@ hr {
 }
 
 
-/* comment.blade.php */
+/* rule-single.blade.php */
 #commentform {
     background-color: white;
 }
@@ -824,6 +824,12 @@ select {
     border-bottom: 5px solid gray;
     margin-bottom: 10px;
 }
+
+@media (max-width: 1024px ) {
+    #commentwrap {
+        margin-top: 250px;
+    }
+  }
 
 /* vote.blade */
 
