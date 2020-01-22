@@ -565,7 +565,7 @@ hr {
       color: white;
   }
 
-  @media (max-width: 3000px ) {
+  @media (max-width: 768px ) {
       .title {
           font-size:26px;
           font-weight: normal;

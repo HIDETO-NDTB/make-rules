@@ -6,7 +6,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="title" href="{{ route('index') }}">Make Rules</a>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-9">
+                <a class="title" href="{{ route('index') }}">Make Rules</a>
+            </div>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
