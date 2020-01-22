@@ -829,6 +829,11 @@ select {
     #commentwrap {
         margin-top: 200px;
     }
+
+    .card2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 768px ) {
