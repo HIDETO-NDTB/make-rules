@@ -382,9 +382,10 @@ hr {
         height: 80%;
     }
 
-    .pricing-option .pricing-top {
-        height: 70%;
-    }
+    .pricing-option .pricing-edition {
+        font-size: 20px;
+        letter-spacing: 4px;
+      }
 }
 
 /* Contact Form */
