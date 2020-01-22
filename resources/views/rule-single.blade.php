@@ -81,7 +81,7 @@
                 <div class="card-body">
                     <ul>
                         <div class="row">
-                            <div class="col-lg-1 col-md-1">
+                            <div class="col-lg-1 col-md-2">
                                 @foreach ($users as $user)
                                 @if($comment->user_id == $user->id)
                                 <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
