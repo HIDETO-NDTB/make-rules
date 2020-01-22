@@ -586,7 +586,7 @@ hr {
 
   @media (max-width: 768px ) {
       .title {
-          font-size:26px;
+          font-size:20px;
           font-weight: normal;
           text-align: left;
           letter-spacing: 0px;
