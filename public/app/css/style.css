@@ -593,7 +593,14 @@ hr {
 
   @media (max-width: 768px ) {
     .title {
-        font-size:28px;
+        font-size:32px;
+        font-weight: bold;
+    }
+  }
+
+  @media (max-width: 480px ) {
+    .title {
+        font-size:22px;
         font-weight: normal;
     }
   }
