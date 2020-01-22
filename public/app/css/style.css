@@ -398,7 +398,7 @@ hr {
   background: #ff7878;
 }
 
-@media (max-width: 768px ) {
+@media (max-width: 1024px ) {
     .pricing-option {
         margin-bottom: 50px;
     }
