@@ -107,6 +107,7 @@
                     @endisset
                 </div>
             </div>
+            <br>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="result">
                     @isset($second_result)
@@ -130,6 +131,7 @@
                     @endisset
                 </div>
             </div>
+            <br>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="result">
                     @isset($third_result)
