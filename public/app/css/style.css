@@ -733,6 +733,17 @@ hr {
     }
 }
 
+@media (max-width: 600px ) {
+    .resultGroup li {
+        font-size: 22px;
+    }
+    .result {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-bottom: 3px solid gray;
+    }
+}
+
 @media (max-width: 420px ) {
     .resultGroup li {
         font-size: 24px;
