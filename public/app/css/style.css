@@ -136,7 +136,6 @@ hr {
 
     #initiativewrap {
         margin-top: 150px;
-        margin-bottom: 0px;
         background-size: 200%;
     }
 
@@ -630,6 +629,12 @@ hr {
 .z .col-lg-4 {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
+}
+
+@media (max-width: 480px ) {
+    .z {
+        margin-top: 0px;
+    }
 }
 
 .ruleBox {
