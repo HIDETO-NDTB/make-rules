@@ -123,12 +123,13 @@ hr {
 
     .initiative-option {
         text-align: center;
+        padding-top: 240px;
     }
 
   }
 
 .initiative-option {
-    padding-top: 200px;
+    padding-top: 400px;
   }
 
 .initiative-option btn-danger {
