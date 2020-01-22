@@ -42,7 +42,7 @@ class CommentsController extends Controller
         // validation
         $this->validate($request,[
             'opinion' => 'required',
-            'comment' => 'required',
+            'comment' => 'required|max:200',
             'rule_id' => 'required',
         ]);
 
