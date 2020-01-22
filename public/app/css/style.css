@@ -100,6 +100,11 @@ hr {
     box-sizing: border-box;
   }
 
+  #initiativewrap {
+    margin-top: 150px;
+    background-size: 280%;
+}
+
   .initiative-option a {
     font-size: 26px;
   }
@@ -111,7 +116,7 @@ hr {
     }
 
     #initiativewrap {
-        margin-top: 180px;
+        margin-top: 170px;
         background-size: 150%;
     }
   }
@@ -123,18 +128,13 @@ hr {
   }
 
   #initiativewrap {
-    margin-top: 240px;
+    margin-top: 220px;
     background-size: 200%;
 }
 }
 
 @media (max-width: 480px ) {
     #headerwrap {
-        margin-top: 150px;
-        background-size: 200%;
-    }
-
-    #initiativewrap {
         margin-top: 150px;
         background-size: 200%;
     }
