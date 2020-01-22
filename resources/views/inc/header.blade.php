@@ -10,7 +10,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-9">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-0">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">HOME</a></li>
