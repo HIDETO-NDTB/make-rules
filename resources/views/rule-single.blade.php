@@ -4,7 +4,7 @@
 <div id="commentwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="card2">
                     <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
                     <div class="card-body">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
