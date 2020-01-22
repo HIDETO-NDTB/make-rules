@@ -12,13 +12,11 @@
         </div>
         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="works.html">WORKS</a></li>
-                    <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+                @foreach ($categories as $category)
+                <ul class="nav navbar-nav">
+                    <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                 </ul>
+                @endforeach
             </div>
         </div>
         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
