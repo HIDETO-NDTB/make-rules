@@ -932,8 +932,16 @@ select {
 }
 
 @media (max-width: 768px ) {
+    .result-top-blue {
+        font-size: 58px;
+    }
+
+    .result-top-red {
+        font-size: 58px;
+    }
+
     .result-content li {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
