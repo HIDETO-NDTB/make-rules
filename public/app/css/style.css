@@ -847,6 +847,12 @@ select {
     }
 }
 
+@media (max-width: 768px ) {
+    #commentwrap {
+        margin-top: 200px;
+    }
+}
+
 /* vote.blade */
 
 #voteform {
