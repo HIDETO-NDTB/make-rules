@@ -835,6 +835,11 @@ select {
     #commentwrap {
         margin-top: 250px;
     }
+
+    .card2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 /* vote.blade */
