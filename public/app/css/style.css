@@ -91,6 +91,11 @@ hr {
         margin-top: 160px;
         background-size: 150%;
     }
+
+    #initiativewrap {
+        margin-top: 160px;
+        background-size: 150%;
+    }
   }
 
 @media (max-width: 768px ) {
@@ -98,10 +103,20 @@ hr {
       margin-top: 200px;
       background-size: 200%;
   }
+
+  #initiativewrap {
+    margin-top: 200px;
+    background-size: 200%;
+}
 }
 
 @media (max-width: 480px ) {
     #headerwrap {
+        margin-top: 150px;
+        background-size: 200%;
+    }
+
+    #initiativewrap {
         margin-top: 150px;
         background-size: 200%;
     }
