@@ -6,10 +6,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
-                <a class="title" href="{{ route('index') }}">Make Rules</a>
-            </div>
         </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+            <a class="title" href="{{ route('index') }}">Make Rules</a>
+        </div>
+
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.html">HOME</a></li>
