@@ -89,7 +89,7 @@ hr {
 @media (max-width: 1024px ) {
     #headerwrap {
         margin-top: 150px;
-        background-size: 200%;
+        background-size: 150%;
     }
 
     #headerwrap h1 {
