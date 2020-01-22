@@ -63,64 +63,6 @@ hr {
   padding: 0;
 }
 
-.navbar {
-  font-weight: 800;
-  font-size: 30px;
-
-}
-
-.navbar-inverse {
-  background: #8D3043;
-  border-color: #8D3043;
-}
-
-.title {
-  color: white;
-  font-weight: bold;
-  font-size: 46px;
-  letter-spacing: 3px;
-}
-
-.nav {
-    color: black;
-}
-
-.navbar a {
-    margin-left: 50px;
-}
-
-.nav-item a {
-    font-size: 20px;
-    margin: 10px 10px;
-}
-
-.nav-item btn {
-    font-size: 20px;
-    color: black;
-}
-
-.navbar-nav .btn-default {
-    color: black;
-}
-
-li {
-    list-style: none;
-}
-
-#navbarDropdown btn-primary {
-    font-size: 10px;
-    color: white;
-}
-
-@media (max-width: 768px ) {
-    .title {
-        font-size:26px;
-        font-weight: normal;
-        text-align: left;
-        letter-spacing: 0px;
-    }
-}
-
 /*TILT*/
 
 .tilt {
@@ -591,6 +533,65 @@ li {
 .card a {
     margin-top: 10px;
 }
+
+/* navbar.blade */
+.navbar {
+    font-weight: 800;
+    font-size: 30px;
+
+  }
+
+  .navbar-inverse {
+    background: #8D3043;
+    border-color: #8D3043;
+  }
+
+  .title {
+    color: white;
+    font-weight: bold;
+    font-size: 46px;
+    letter-spacing: 3px;
+  }
+
+  .nav {
+      color: black;
+  }
+
+  .navbar a {
+      margin-left: 50px;
+  }
+
+  .nav-item a {
+      font-size: 20px;
+      margin: 10px 10px;
+  }
+
+  .nav-item btn {
+      font-size: 20px;
+      color: black;
+  }
+
+  .navbar-nav .btn-default {
+      color: black;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  #navbarDropdown btn-primary {
+      font-size: 10px;
+      color: white;
+  }
+
+  @media (max-width: 768px ) {
+      .title {
+          font-size:26px;
+          font-weight: normal;
+          text-align: left;
+          letter-spacing: 0px;
+      }
+  }
 
 /* index.blade */
 .z h4 {
