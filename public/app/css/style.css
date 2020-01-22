@@ -398,6 +398,12 @@ hr {
   background: #ff7878;
 }
 
+@media (max-width: 768px ) {
+    .pricing-option {
+        margin-bottom: 50px;
+    }
+}
+
 /* Contact Form */
 
 .contact-form {
