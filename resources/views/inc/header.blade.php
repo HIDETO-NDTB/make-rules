@@ -10,7 +10,7 @@
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
+        <div class="col-lg-7 col-md-7 col-sm-9 col-xs-6">
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
