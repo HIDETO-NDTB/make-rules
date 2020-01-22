@@ -220,13 +220,13 @@
                 </div>
             </div>
             <div class="col-lg-2"></div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">{{ $second_disagree_comment->comment }}</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($second_agree_comment)
@@ -257,13 +257,13 @@
                 </div>
             </div>
             <div class="col-lg-2"></div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">{{ $third_disagree_comment->comment }}</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($third_agree_comment)
@@ -294,13 +294,13 @@
                 </div>
             </div>
             <div class="col-lg-2"></div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">{{ $fourth_disagree_comment->comment }}</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($fourth_agree_comment)
@@ -331,13 +331,13 @@
                 </div>
             </div>
             <div class="col-lg-2"></div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">{{ $fifth_disagree_comment->comment }}</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($fifth_agree_comment)
