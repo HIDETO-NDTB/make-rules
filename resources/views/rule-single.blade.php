@@ -10,17 +10,17 @@
                     <div class="card-body">
                         <ul>
                             <div class="row">
-                                <div class="col-lg-2 col-md-3">
+                                <div class="col-lg-2 col-md-3 col-sm-3">
                                     @foreach ($users as $user)
                                     @if($rule->user_id == $user->id)
                                         <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                     @endif
                                     @endforeach
                                 </div>
-                                <div class="col-lg-3 col-md-3">
+                                <div class="col-lg-3 col-md-3 col-sm-3">
                                     <h5>{{ $rule->user->name }}</h5>
                                 </div>
-                                <div class="col-lg-7 col-md-6"></div>
+                                <div class="col-lg-7 col-md-6 col-sm-6"></div>
                             </div>
                             <div class="row">
                                 <li><p>{{ $rule->content }}</p></li>
@@ -73,7 +73,7 @@
 
 <div class="container w">
     <div class="row centered">
-        <div class="col-lg-12 col-md-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
             @foreach ($comments as $comment)
             @if($comment->rule_id == $rule->id AND $comment->opinion != "")
             <div class="card">
@@ -81,21 +81,21 @@
                 <div class="card-body">
                     <ul>
                         <div class="row">
-                            <div class="col-lg-1 col-md-2">
+                            <div class="col-lg-1 col-md-2 col-sm-2">
                                 @foreach ($users as $user)
                                 @if($comment->user_id == $user->id)
                                 <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
                                 @endif
                                 @endforeach
                             </div>
-                        <div class="col-lg-2 col-md-2">
+                        <div class="col-lg-2 col-md-2 col-sm-2">
                             @foreach ($users as $user)
                             @if($comment->user_id == $user->id)
                             <h5>{{ $user->name }}</h5>
                             @endif
                             @endforeach
                         </div>
-                        <div class="col-lg-9 col-md-9"></div>
+                        <div class="col-lg-9 col-md-8 col-sm-8"></div>
                         </div>
                         <div class="row">
                             <li><p>{{ $comment->comment }}</p></li>
