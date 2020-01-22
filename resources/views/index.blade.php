@@ -183,13 +183,13 @@
                 </div>
             </div>
             <div class="col-lg-2"></div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
                     <p class="comment-text">{{ $first_disagree_comment->comment }}</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($first_agree_comment)
