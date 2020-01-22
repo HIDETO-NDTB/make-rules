@@ -404,8 +404,8 @@ hr {
 
 @media (max-width: 768px ) {
     .pricing-option {
-        padding-top: 10px;
-        width: 70%;
+        padding-top: 20px;
+        width: 80%;
         height: 70%;
     }
 
