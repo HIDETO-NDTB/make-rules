@@ -1,7 +1,7 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-4">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
             <div class="navbar-header">
                 <a class="title" href="{{ route('index') }}">Make Rules</a>
             </div>
