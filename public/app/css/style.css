@@ -653,7 +653,7 @@ hr {
 
 .commentsBox {
 
-    border-bottom: 5px solid gray;
+    border-top: 5px solid gray;
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -730,17 +730,6 @@ hr {
 @media (max-width: 768px ) {
     .resultGroup li {
         font-size: 18px;
-    }
-}
-
-@media (max-width: 600px ) {
-    .resultGroup li {
-        font-size: 22px;
-    }
-    .result {
-        padding-top: 10px;
-        padding-bottom: 30px;
-        border-bottom: 3px solid gray;
     }
 }
 
