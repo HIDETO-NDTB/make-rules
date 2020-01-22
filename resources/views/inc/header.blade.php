@@ -19,7 +19,7 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3">
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-3 col-xs-offset-9">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
