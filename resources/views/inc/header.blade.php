@@ -21,7 +21,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3">
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-1">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
