@@ -381,6 +381,10 @@ hr {
         width: 80%;
         height: 80%;
     }
+
+    .pricing-option .pricing-top {
+        height: 70%;
+    }
 }
 
 /* Contact Form */
