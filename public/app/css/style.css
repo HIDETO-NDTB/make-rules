@@ -86,9 +86,24 @@ hr {
   background-size: cover;
 }
 
+@media (max-width: 1024px ) {
+    #headerwrap {
+        margin-top: 150px;
+        background-size: 200%;
+    }
+
+    #headerwrap h1 {
+      font-size: 50px;
+    }
+
+    #headerwrap h2 {
+      font-size: 30px;
+    }
+  }
+
 @media (max-width: 768px ) {
   #headerwrap {
-      margin-top: 150px;
+      margin-top: 200px;
       background-size: 200%;
   }
 
