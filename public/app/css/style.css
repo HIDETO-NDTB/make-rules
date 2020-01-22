@@ -838,11 +838,11 @@ select {
 
 @media (max-width: 768px ) {
     #commentwrap {
-        margin-top: 300px;
+        margin-top: 400px;
     }
 
     .card2 {
-        margin-top: 100px;
+        margin-top: 20px;
         margin-bottom: 20px;
     }
 }
