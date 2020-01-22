@@ -165,9 +165,8 @@
 <!-- FEATURE SECTION -->
 <div class="container wb">
     <div class="row centered">
-        <br>
         <h4>傍聴席</h4>
-        <br>
+        <p>現在コメント受付中の法案です。皆の意見を参考にコメントしましょう。</p>
         @isset($first_disagree_comment)
         <div class="commentsBox">
             <div class="col-lg-10">
