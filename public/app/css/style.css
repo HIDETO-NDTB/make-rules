@@ -418,8 +418,15 @@ hr {
         font-size: 20px;
       }
 
+      .pricing-option .price sup {
+        position: absolute;
+        top: 20px;
+        left: -10px;
+        font-size: 20px;
+      }
+
       .pricing-option .price .price-amount {
-        font-size: 84px;
+        font-size: 66px;
         letter-spacing: -4px;
       }
 
