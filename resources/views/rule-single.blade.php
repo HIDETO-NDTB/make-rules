@@ -4,23 +4,23 @@
 <div id="commentwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card2">
                     <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
-                                <div class="col-lg-2 col-md-3 col-sm-4">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                                     @foreach ($users as $user)
                                     @if($rule->user_id == $user->id)
                                         <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                     @endif
                                     @endforeach
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-4">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
                                     <h5>{{ $rule->user->name }}</h5>
                                 </div>
-                                <div class="col-lg-7 col-md-6 col-sm-4"></div>
+                                <div class="col-lg-7 col-md-6 col-sm-4 col-xs-4"></div>
                             </div>
                             <div class="row">
                                 <li><p>{{ $rule->content }}</p></li>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <img src="{{ asset('app/img/comment-min.jpg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
@@ -45,7 +45,7 @@
 <div id="commentform">
     <div class="container">
         <div class="row centerd">
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <form action="{{ route('comments.store') }}" method="POST">
                     @csrf
                     <input type="hidden" name="rule_id"  value="{{ $rule->id }}">
@@ -73,7 +73,7 @@
 
 <div class="container w">
     <div class="row centered">
-        <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             @foreach ($comments as $comment)
             @if($comment->rule_id == $rule->id AND $comment->opinion != "")
             <div class="card">
@@ -81,21 +81,21 @@
                 <div class="card-body">
                     <ul>
                         <div class="row">
-                            <div class="col-lg-1 col-md-2 col-sm-2">
+                            <div class="col-lg-1 col-md-2 col-sm-2 col-xs-2">
                                 @foreach ($users as $user)
                                 @if($comment->user_id == $user->id)
                                 <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
                                 @endif
                                 @endforeach
                             </div>
-                        <div class="col-lg-2 col-md-2 col-sm-2">
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
                             @foreach ($users as $user)
                             @if($comment->user_id == $user->id)
                             <h5>{{ $user->name }}</h5>
                             @endif
                             @endforeach
                         </div>
-                        <div class="col-lg-9 col-md-8 col-sm-8"></div>
+                        <div class="col-lg-9 col-md-8 col-sm-8 col-xs-8"></div>
                         </div>
                         <div class="row">
                             <li><p>{{ $comment->comment }}</p></li>
