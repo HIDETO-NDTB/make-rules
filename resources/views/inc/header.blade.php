@@ -7,10 +7,10 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-6">
+        <div class="col-lg-2 col-md-4 col-sm-12 col-xs-6">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-        <div class="col-lg-7 col-md-8 col-sm-12 col-xs-6">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-6">
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
