@@ -37,7 +37,7 @@
 <body>
 
 
-  @include('inc/header')
+  @include('inc/navbar')
 
   <!-- container -->
 
