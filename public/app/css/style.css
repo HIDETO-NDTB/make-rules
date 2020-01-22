@@ -632,7 +632,7 @@ hr {
 }
 
 @media (max-width: 480px ) {
-    .z {
+    .z .row centered {
         margin-top: 0px;
     }
 }
