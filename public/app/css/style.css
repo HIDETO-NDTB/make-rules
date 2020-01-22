@@ -387,7 +387,7 @@ hr {
 
 @media (max-width: 1024px ) {
     .pricing-option {
-        margin-bottom: 50px;
+        padding-top: 20px;
     }
 }
 
