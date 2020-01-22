@@ -86,6 +86,24 @@ hr {
   background-size: cover;
 }
 
+.initiative-option {
+    padding-top: 400px;
+  }
+
+.initiative-option btn-danger {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    padding: 40px 20px 30px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .initiative-option a {
+    font-size: 26px;
+  }
+
 @media (max-width: 1024px ) {
     #headerwrap {
         margin-top: 160px;
@@ -128,23 +146,7 @@ hr {
 
   }
 
-.initiative-option {
-    padding-top: 400px;
-  }
 
-.initiative-option btn-danger {
-    position: relative;
-    text-align: center;
-    font-weight: bold;
-    padding: 40px 20px 30px 20px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  .initiative-option a {
-    font-size: 26px;
-  }
 
 
 /* Dark Grey Wrap */
