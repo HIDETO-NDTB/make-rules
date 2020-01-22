@@ -100,6 +100,13 @@ hr {
   }
 }
 
+@media (max-width: 480px ) {
+    #headerwrap {
+        margin-top: 100px;
+        background-size: 150%;
+    }
+  }
+
 .initiative-option {
     padding-top: 400px;
   }
