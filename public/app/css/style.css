@@ -386,6 +386,20 @@ hr {
         font-size: 20px;
         letter-spacing: 4px;
       }
+
+      .pricing-option .price sup {
+        font-size: 20px;
+      }
+
+      .pricing-option .price .price-amount {
+        font-size: 84px;
+        letter-spacing: -4px;
+      }
+
+      .pricing-option .price small {
+        font-size: 20px;
+      }
+
 }
 
 /* Contact Form */
