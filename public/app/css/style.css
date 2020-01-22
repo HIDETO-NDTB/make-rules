@@ -139,6 +139,11 @@ hr {
         background-size: 200%;
     }
 
+    #initiativewrap {
+        margin-top: 0px;
+        background-size: 280%;
+    }
+
     .initiative-option {
         text-align: center;
         padding-top: 200px;
