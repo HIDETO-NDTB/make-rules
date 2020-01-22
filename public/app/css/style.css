@@ -136,6 +136,7 @@ hr {
 
     #initiativewrap {
         margin-top: 150px;
+        margin-bottom: 0px;
         background-size: 200%;
     }
 
@@ -630,13 +631,6 @@ hr {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
-
-@media (max-width: 480px ) {
-    .z h4 {
-        padding-top: 0px;
-    }
-}
-
 
 .ruleBox {
     padding: 15px;
