@@ -14,18 +14,17 @@
 
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div class="navbar-header">
-
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="title" href="{{ route('index') }}">Make Rules</a>
-            </div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-6">
+            <a class="title" href="{{ route('index') }}">Make Rules</a>
+        </div>
+        <div class="col-lg-6 col-md-8 col-sm-12">
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
@@ -34,7 +33,7 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-3 col-xs-12">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-3">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
@@ -48,12 +47,12 @@
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ route('profile',['id' =>Auth::user()->id]) }}" style="font-size: 14px; color:black;">マイページ</a>
                             <a class="dropdown-item" href="{{ route('logout') }}" style="font-size: 14px; color:red;"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
                                 {{ __('Logout') }}
                             </a>
-
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
