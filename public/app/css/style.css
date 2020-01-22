@@ -633,7 +633,7 @@ hr {
 
 @media (max-width: 480px ) {
     .z {
-        text-align: center;
+        margin: 0 auto;
     }
 }
 
