@@ -593,12 +593,14 @@ hr {
 
   @media (max-width: 768px ) {
       .title {
-          font-size:26px;
+          font-size:40px;
           font-weight: normal;
           text-align: left;
           letter-spacing: 0px;
       }
   }
+
+
 
 /* index.blade */
 .z h4 {
@@ -721,6 +723,12 @@ hr {
     text-align: center;
     font-weight: normal;
 }
+
+@media (max-width: 768px ) {
+    .resultGroup li {
+        font-size: 18px;
+    }
+  }
 
 /* comment.blade.php */
 #commentform {
