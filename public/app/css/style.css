@@ -827,7 +827,7 @@ select {
 
 @media (max-width: 1024px ) {
     #commentwrap {
-        margin-top: 250px;
+        margin-top: 200px;
     }
 
     .card2 {
@@ -838,7 +838,7 @@ select {
 
 @media (max-width: 768px ) {
     #commentwrap {
-        margin-top: 250px;
+        margin-top: 300px;
     }
 
     .card2 {
