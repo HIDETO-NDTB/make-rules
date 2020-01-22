@@ -7,18 +7,19 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-9">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="services.html">SERVICES</a></li>
-                <li><a href="works.html">WORKS</a></li>
-                <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="works.html">WORKS</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+                </ul>
+            </div>
         </div>
       <!--/.nav-collapse -->
     </div>
