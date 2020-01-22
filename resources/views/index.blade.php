@@ -82,7 +82,7 @@
         <div class="row centered">
             <h4>開票速報</h4>
             <p>最近開票された法案です。（妄想の中で）遵守しましょう。</p>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <div class="result">
                     @isset($first_result)
                         <a href="{{ route('result',['id' =>$first_result->id]) }}">{{ $first_result->title }}</a>
@@ -107,7 +107,7 @@
                     @endisset
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <div class="result">
                     @isset($second_result)
                         <a href="{{ route('result',['id' =>$second_result->id]) }}">{{ $second_result->title }}</a>
@@ -130,7 +130,7 @@
                     @endisset
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
                 <div class="result">
                     @isset($third_result)
                         <a href="{{ route('result',['id' =>$third_result->id]) }}">{{ $third_result->title }}</a>
