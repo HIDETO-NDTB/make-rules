@@ -4,26 +4,25 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row centered">
-                <div class="col-lg-6">
-                    <!-- START PRICING TABLE -->
-                    <div class="pricing-option">
-                        <div class="pricing-top">
-                            <span class="pricing-edition">{{ $category->name }}<br>投票中</span>
-                            <span class="price">
-                                <span class="price-amount">{{ $just_vote }}</span>
-                                <small>案件</small>
-                            </span>
-                        </div>
-                        <ul>
-                            <li>総発議　<strong>{{ $total_rule }} 案件</strong></li>
-                            <li>コメント可能　<strong>{{ $comment_rule }} 案件</strong></li>
-                            <li>開票済　<strong>{{ $finish_vote }} 案件</strong></li>
-                        </ul>
+            <div class="col-lg-6">
+                <!-- START PRICING TABLE -->
+                <div class="pricing-option">
+                    <div class="pricing-top">
+                        <span class="pricing-edition">{{ $category->name }}<br>投票中</span>
+                        <span class="price">
+                            <span class="price-amount">{{ $just_vote }}</span>
+                            <small>案件</small>
+                        </span>
                     </div>
+                    <ul>
+                        <li>総発議　<strong>{{ $total_rule }} 案件</strong></li>
+                        <li>コメント可能　<strong>{{ $comment_rule }} 案件</strong></li>
+                        <li>開票済　<strong>{{ $finish_vote }} 案件</strong></li>
+                    </ul>
+                </div>
                     <!-- /pricing-option -->
                     <!-- END PRICING TABLE -->
-                </div>
-
+            </div>
         </div>
       <!-- row -->
     </div>

@@ -339,6 +339,10 @@ hr {
   letter-spacing: 8px;
 }
 
+.pricing-option {
+    margin-bottom: 20px;
+}
+
 .pricing-option .price {
   display: inline-block;
   position: relative;
