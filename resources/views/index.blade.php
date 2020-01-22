@@ -22,7 +22,7 @@
 <div class="container z">
     <div class="row centered">
         <br><br>
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-ofsset-1">
             <h4><i class="fas fa-search-location"></i> 投票 <span>中</span></h4>
             <br>
             @isset($first_now_vote)
@@ -38,7 +38,7 @@
             @endisset
         </div>
       <!-- col-lg-4 -->
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-ofsset-1">
             <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
             <br>
             @isset($first_vote)
@@ -55,7 +55,7 @@
         </div>
         <!-- col-lg-4 -->
 
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-10 col-xs-ofsset-1">
             <h4><i class="far fa-folder-open"></i><span>新</span>  発議</h4>
             <br>
             @isset($first_initiative)
