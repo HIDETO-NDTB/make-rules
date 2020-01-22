@@ -371,23 +371,13 @@ hr {
     font-size: 24px;
   }
 
-.pricing-option .pricing-signup {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px 10px;
-  color: white;
-  background: #1abc9c;
-}
-
 .pricing-option .pricing-signup:hover {
   background: #ff7878;
 }
 
 @media (max-width: 1024px ) {
     .pricing-option {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 }
 
