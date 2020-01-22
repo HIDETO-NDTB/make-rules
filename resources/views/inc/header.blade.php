@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-9">
+            <div class="col-lg-6 col-md-6 col-sm-9 col-xs-9">
                 <a class="title" href="{{ route('index') }}">Make Rules</a>
             </div>
         </div>
