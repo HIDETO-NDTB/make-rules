@@ -120,6 +120,11 @@ hr {
         margin-top: 150px;
         background-size: 200%;
     }
+
+    .initiative-option btn-danger {
+        margin: 10px auto;
+    }
+
   }
 
 .initiative-option {
