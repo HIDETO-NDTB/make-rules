@@ -74,7 +74,7 @@ hr {
   text-align: left;
   background-attachment: relative;
   background-position: top right;
-  min-height: 550px;
+
   width: 100%;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -629,12 +629,6 @@ hr {
 .z .col-lg-4 {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
-}
-
-@media (max-width: 480px ) {
-    .z {
-        margin: 0 auto;
-    }
 }
 
 .ruleBox {
