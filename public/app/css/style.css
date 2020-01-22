@@ -537,8 +537,9 @@ hr {
 /* navbar.blade */
 .navbar {
     font-weight: 400;
-    font-size: 24px;
-
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;font-size: 24px;
   }
 
   .navbar-inverse {
