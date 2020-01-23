@@ -10,7 +10,7 @@
         <div class="row centered">
             <div class="col-lg-6">
                 <div class="initiative-option">
-                    <div class="initiative-top">
+                    <div class="use-top">
                         <a class="btn btn-success" style="width: 300px;" href="">初めにお読み下さい</a>
                     </div>
                     <div class="initiative-top">
