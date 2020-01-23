@@ -242,18 +242,15 @@
         @endif
         @endforeach
         <br>
-        @isset($third_disagree_comment)
+        @foreach ($rules as $rule)
+        @if($third_disagree_comment->rule_id == $rule->id && $third_disagree_comment->vote_date > tody())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
-                    @foreach ($rules as $rule)
-                    @if($third_disagree_comment->rule_id == $rule->id)
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
                     <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                    @endif
-                    @endforeach
                 </div>
             </div>
             <div class="col-lg-2"></div>
@@ -277,20 +274,18 @@
                 <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
-        @endisset
+        @endif
+        @endforeach
         <br>
-        @isset($fourth_disagree_comment)
+        @foreach ($rules as $rule)
+        @if($fourth_disagree_comment->rule_id == $rule->id && $fourth_disagree_comment->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
-                    @foreach ($rules as $rule)
-                    @if($fourth_disagree_comment->rule_id == $rule->id)
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
                     <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                    @endif
-                    @endforeach
                 </div>
             </div>
             <div class="col-lg-2"></div>
@@ -314,20 +309,18 @@
                 <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$fourth_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
-        @endisset
+        @endif
+        @endforeach
         <br>
-        @isset($fifth_disagree_comment)
+        @foreach ($rules as $rule)
+        @if($fifth_disagree_comment->rule_id == $rule->id && $fifth_disagree_comment->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
-                    @foreach ($rules as $rule)
-                    @if($fifth_disagree_comment->rule_id == $rule->id)
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
                     <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                    @endif
-                    @endforeach
                 </div>
             </div>
             <div class="col-lg-2"></div>
@@ -351,7 +344,8 @@
                 <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$fifth_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
-        @endisset
+        @endif
+        @endforeach
     </div>
     <!-- row -->
 </div>
