@@ -239,14 +239,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                @foreach ($rules as $rule)
-                @if($second_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
                 <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
-                @endif
-                @if($second_disagree_comment->rule_id == $rule->id && $rule->vote_date < today())
-                <a class="btn btn-danger" style="width: 300px;" href="{{ route('vote',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
-                @endif
-                @endforeach
             </div>
         </div>
         @endisset
