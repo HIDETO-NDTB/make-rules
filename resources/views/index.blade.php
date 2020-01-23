@@ -153,11 +153,10 @@
                         <div class="resultButton">
                             <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$third_result->id]) }}">詳しく見る</a>
                         </div>
-                    @else
-                        <p>最近可決された法案はありません。</p>
                     @endisset
                 </div>
             </div>
+            <!-- 結果一覧ボタン -->
         </div>
     <!-- row -->
     </div>
