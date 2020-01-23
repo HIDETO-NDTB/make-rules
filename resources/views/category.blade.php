@@ -34,7 +34,7 @@
         <div class="col-lg-12 col-xs-12">
             @if($category->rules->count() > 0 )
             @foreach ($rules as $rule)
-            @if($rule->finish_date > today())
+            @if($rule->finish_date >= today())
             <div class="card">
                 <div class="card-header"><h4>{{ $rule->title }}</h4></div>
                 <div class="card-body">
@@ -65,7 +65,7 @@
 
                                 @if($rule->vote_date > today())
                                 <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
-                                @elseif($rule->vote_date < today())
+                                @elseif($rule->vote_date <= today())
                                 <a class="btn btn-danger" style="width: 300px;" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
                                 @endif
                         </div>
