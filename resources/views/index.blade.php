@@ -243,7 +243,7 @@
         @endforeach
         <br>
         @foreach ($rules as $rule)
-        @if($third_disagree_comment->rule_id == $rule->id && $third_disagree_comment->vote_date > tody())
+        @if($third_disagree_comment->rule_id == $rule->id && $third_disagree_comment->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
