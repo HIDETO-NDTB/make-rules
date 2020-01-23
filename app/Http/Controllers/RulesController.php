@@ -50,7 +50,6 @@ class RulesController extends Controller
         $rule = Rule::create([
             'title' => $request->title,
             'content' => $request->content,
-            'status' => "0",
             'initiative_date' => date("Y-m-d"),
             'vote_date' => date("Y-m-d",strtotime("+7 day")),
             'finish_date' => date("Y-m-d",strtotime("+14 day")),
