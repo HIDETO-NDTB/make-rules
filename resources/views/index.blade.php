@@ -171,7 +171,7 @@
         <h4>傍聴席</h4>
         <p>現在コメント受付中の法案です。皆の意見を参考にコメントしましょう。</p>
         @foreach ($rules as $rule)
-        @if($first_disagree_comment->rule_id == $rule->id && $rule->result_date < today())
+        @if($first_disagree_comment->rule_id == $rule->id && $rule->result_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
