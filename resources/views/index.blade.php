@@ -208,7 +208,7 @@
         @endforeach
         <br>
         @foreach ($rules as $rule)
-        @if($second_disagree_comment->rule_id == $rule->id && $second_disagree_comment->vote_date > today())
+        @if($second_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
@@ -243,7 +243,7 @@
         @endforeach
         <br>
         @foreach ($rules as $rule)
-        @if($third_disagree_comment->rule_id == $rule->id && $third_disagree_comment->vote_date > today())
+        @if($third_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
@@ -278,7 +278,7 @@
         @endforeach
         <br>
         @foreach ($rules as $rule)
-        @if($fourth_disagree_comment->rule_id == $rule->id && $fourth_disagree_comment->vote_date > today())
+        @if($fourth_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
@@ -313,7 +313,7 @@
         @endforeach
         <br>
         @foreach ($rules as $rule)
-        @if($fifth_disagree_comment->rule_id == $rule->id && $fifth_disagree_comment->vote_date > today())
+        @if($fifth_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
