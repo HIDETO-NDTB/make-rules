@@ -106,7 +106,7 @@ class FrontEndController extends Controller
     public function rule_single($id){
 
         $rule = Rule::where('id',$id)->first();
-        $comments = Comment::orderBy('comment_date','desc')->get();
+        $comments = Comment::orderBy('created_at','desc')->get();
         $users = User::all();
 
 
