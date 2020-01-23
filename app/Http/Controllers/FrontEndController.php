@@ -22,9 +22,9 @@ class FrontEndController extends Controller
         $first_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','>',today())->first();
         $second_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','>',today())->take(1)->skip(1)->get()->first();
         $third_vote = Rule::orderBy('vote_date','asc')->whereDate('vote_date','>',today())->take(1)->skip(2)->get()->first();
-        $first_initiative = Rule::orderBy('initiative_date','desc')->whereDate('vote_date','>',today())->first();
-        $second_initiative = Rule::orderBy('initiative_date','desc')->whereDate('vote_date','>',today())->take(1)->skip(1)->get()->first();
-        $third_initiative = Rule::orderBy('initiative_date','desc')->whereDate('vote_date','>',today())->take(1)->skip(2)->get()->first();
+        $first_initiative = Rule::orderBy('created_at','desc')->whereDate('vote_date','>',today())->first();
+        $second_initiative = Rule::orderBy('created_at','desc')->whereDate('vote_date','>',today())->take(1)->skip(1)->get()->first();
+        $third_initiative = Rule::orderBy('created_at','desc')->whereDate('vote_date','>',today())->take(1)->skip(2)->get()->first();
         $first_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->first();
         $second_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->take(1)->skip(1)->get()->first();
         $third_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->take(1)->skip(2)->get()->first();
