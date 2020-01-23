@@ -1078,3 +1078,9 @@ select {
 .howtouse {
     margin-top: 50px;
 }
+
+@media (max-width: 420px ) {
+    .howtouse {
+        margin-top: 150px;
+    }
+}
