@@ -1072,3 +1072,9 @@ select {
 .cards a {
     margin-top: 10px;
 }
+
+/* how_to_use.blade */
+
+.howtouse {
+    margin-top: 50px;
+}
