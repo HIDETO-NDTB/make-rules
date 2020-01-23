@@ -170,18 +170,17 @@
     <div class="row centered">
         <h4>傍聴席</h4>
         <p>現在コメント受付中の法案です。皆の意見を参考にコメントしましょう。</p>
-        @isset($first_disagree_comment)
+        @foreach ($rules as $rule)
+        @if($first_disagree_comment->rule_id == $rule->id && $rule->result_date < today())
         <div class="commentsBox">
             <div class="col-lg-10">
                 <div class="ruleBox">
-                    @foreach ($rules as $rule)
-                    @if($first_disagree_comment->rule_id == $rule->id )
+
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
                     <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                    @endif
-                    @endforeach
+
                 </div>
             </div>
             <div class="col-lg-2"></div>
@@ -205,7 +204,8 @@
                 <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
-        @endisset
+        @endif
+        @endforeach
         <br>
         @isset($second_disagree_comment)
         <div class="commentsBox">
