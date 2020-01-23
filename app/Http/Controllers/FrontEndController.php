@@ -84,7 +84,7 @@ class FrontEndController extends Controller
 
     public function category_single(Category $category){
 
-        $rules = Rule::where('category_id',$category->id)->orderBy('initiative_date');
+        $rules = Rule::orderBy('initiative_date')->where('category_id',$category->id)->get();
         $just_vote  = Rule::where('category_id',$category->id)->whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->count();
         $total_rule  = Rule::where('category_id',$category->id)->count();
         $comment_rule = Rule::where('category_id',$category->id)->whereDate('vote_date','>',today())->count();
