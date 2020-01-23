@@ -12,6 +12,8 @@
                 <div class="initiative-option">
                     <div class="initiative-top">
                         <a class="btn btn-success" style="width: 300px;" href="">初めにお読み下さい</a>
+                    </div>
+                    <div class="initiative-top">
                         <a class="btn btn-danger" style="width: 300px;" href="{{ route('initiative') }}">新法案を発議する</a>
                     </div>
                 </div>
