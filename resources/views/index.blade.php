@@ -180,7 +180,7 @@
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }}</li>
+                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                     @endif
                     @endforeach
                 </div>
@@ -217,7 +217,7 @@
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }}</li>
+                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                     @endif
                     @endforeach
                 </div>
@@ -254,7 +254,7 @@
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }}</li>
+                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                     @endif
                     @endforeach
                 </div>
@@ -291,7 +291,7 @@
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }}</li>
+                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                     @endif
                     @endforeach
                 </div>
@@ -328,7 +328,7 @@
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }}</li>
+                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                     @endif
                     @endforeach
                 </div>
