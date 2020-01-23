@@ -47,6 +47,11 @@ Route::get('/contact',[
     'as' => 'contact'
 ]);
 
+Route::get('/howtouse',[
+    'uses' => 'FrontEndController@howtouse',
+    'as' => 'how_to_use'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');

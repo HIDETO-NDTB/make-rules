@@ -164,4 +164,9 @@ class FrontEndController extends Controller
                               ->with('user',$user);
     }
 
+    public function howtouse(){
+
+        return view('how_to_use')->with('categories',Category::all());
+    }
+
 }
