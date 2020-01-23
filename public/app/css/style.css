@@ -86,6 +86,10 @@ hr {
   background-size: cover;
 }
 
+#headerwrap .use-top {
+    margin-bottom: 30px;
+}
+
 .initiative-option {
     padding-top: 400px;
   }
