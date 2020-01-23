@@ -1105,5 +1105,7 @@ select {
 @media (max-width: 420px ) {
     .howtouse {
         margin-top: 100px;
+        width: 150%;
+        height: 150%;
     }
 }
