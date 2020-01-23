@@ -46,7 +46,7 @@
 
 
 
-  @include('inc/footer')
+  <!-- include('inc/footer') -->
 
   <!-- MODAL FOR CONTACT -->
   <!-- Modal -->
