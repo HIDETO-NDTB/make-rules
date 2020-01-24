@@ -173,9 +173,9 @@ class FrontEndController extends Controller
 
         $rules = Rule::orderBy('created_at','desc')->whereDate('finish_date','<',today())->limit(30)->get();
         foreach ($rules as $rule) {
-            $total_vote = Vote::where('vote_date',$rule->id)->where('opinion',"")->count();
-            $total_agree = Vote::where('vote_date',$rule->id)->where('vote','agree')->count();
-            $total_disagree = Vote::where('vote_date',$rule->id)->where('vote','disagree')->count();      # code...
+            $total_vote = Vote::where('rule_id',$rule->id)->where('opinion',"")->count();
+            $total_agree = Vote::where('rule_id',$rule->id)->where('vote','agree')->count();
+            $total_disagree = Vote::where('rule_id',$rule->id)->where('vote','disagree')->count();      # code...
         }
         $comments = Comment::orderBy('created_at','desc')->get();
         $users = User::all();
