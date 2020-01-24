@@ -47,6 +47,7 @@
                 <div id="resultform">
                     <div class="container">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                @if($total_vote->id == $total_agree->id == $total_disagree == $rule->id)
                                 <div class="result-option">
                                     @if($total_agree > $total_disagree)
                                         <div class="result-top-blue">
@@ -63,6 +64,7 @@
                                         <li>反対　<strong>{{ $total_disagree }}票</strong></li>
                                     </div>
                                 </div>
+                                @endif
                             </div>
                         </div>
                     </div>
