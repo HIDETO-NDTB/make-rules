@@ -156,8 +156,10 @@
                     @endisset
                 </div>
             </div>
-            <div class="resultTotal">
-                <a class="btn btn-primary" style="width: 30%;" href="">開票速報一覧</a>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="resultTotal">
+                    <a class="btn btn-primary" style="width: 30%;" href="">開票速報一覧</a>
+                </div>
             </div>
         </div>
     <!-- row -->
