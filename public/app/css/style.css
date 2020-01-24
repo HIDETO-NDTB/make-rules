@@ -797,8 +797,6 @@ hr {
 .resultButton a {
     text-align: center;
     font-weight: normal;
-    width: 80%;
-    height: 70px;
 }
 
 @media (max-width: 768px ) {
