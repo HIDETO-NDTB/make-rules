@@ -793,10 +793,14 @@ hr {
     text-align: center;
 }
 
+.resultButton .btn-success .btn-primary {
+    margin-top: 20px;
+}
+
 .resultButton a {
     text-align: center;
     font-weight: normal;
-    margin-top: 20px;
+
 }
 
 @media (max-width: 768px ) {
