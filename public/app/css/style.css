@@ -798,7 +798,7 @@ hr {
     font-weight: normal;
 }
 
-.resultButton .btn-success {
+.resultButton btn-success {
     margin-top: 10px;
     margin-bottom: 30px;
 }
