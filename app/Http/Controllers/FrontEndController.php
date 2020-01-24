@@ -172,19 +172,18 @@ class FrontEndController extends Controller
     public function result_total(){
 
         $rules = Rule::orderBy('created_at','desc')->whereDate('finish_date','<',today())->limit(30)->get();
-
+        $votes = Vote::all();
         $total_vote = Vote::where('rule_id',$vote->id)->where('opinion',"")->count();
         $total_agree = Vote::where('rule_id',$vote->id)->where('vote','agree')->count();
-        $total_disagree = Vote::where('rule_id',$vote->id)->where('vote','disagree')->count();      # code...
-        $comments = Comment::orderBy('created_at','desc')->get();
+        $total_disagree = Vote::where('rule_id',$vote->id)->where('vote','disagree')->count();
         $users = User::all();
 
         return view('result_total')->with('categories',Category::all())
                                    ->with('rules',$rules)
+                                   ->with('votes',$votes)
                                    ->with('total_vote',$total_vote)
                                    ->with('total_agree',$total_agree)
                                    ->with('total_disagree',$total_disagree)
-                                   ->with('comments',$comments)
                                    ->with('users',$users);
     }
 
