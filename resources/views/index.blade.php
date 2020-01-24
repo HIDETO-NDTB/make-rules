@@ -156,7 +156,9 @@
                     @endisset
                 </div>
             </div>
-            <!-- 結果一覧ボタン -->
+            <div class="resultButton">
+                <a class="btn btn-primary" style="width: 20%;" href="">開票速報一覧</a>
+            </div>
         </div>
     <!-- row -->
     </div>
