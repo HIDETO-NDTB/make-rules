@@ -157,9 +157,9 @@
                 </div>
             </div>
         </div>
-        <div class="resultButton">
+
             <a class="btn btn-primary" style="width: 30%;" href="{{ route('result_total') }}">開票速報一覧</a>
-        </div>
+
     <!-- row -->
     </div>
     <!-- container -->
