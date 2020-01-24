@@ -747,6 +747,7 @@ hr {
 #di .resultButton a {
     margin-top: 20px;
     height: 50px;
+    padding: 15px 0;
 }
 
 #di .resulttotalButton {
