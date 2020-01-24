@@ -744,6 +744,11 @@ hr {
     text-align: center;
   }
 
+#di .resulttotalButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
 .result a {
     font-weight: bold;
 }
