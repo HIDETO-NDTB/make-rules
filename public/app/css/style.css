@@ -791,13 +791,15 @@ hr {
 
 .resultButton {
     text-align: center;
-
 }
 
 .resultButton a {
     text-align: center;
     font-weight: normal;
-    padding-top: 20px;
+}
+
+.resultTotal {
+    text-align: center;
 }
 
 @media (max-width: 768px ) {
