@@ -793,7 +793,7 @@ hr {
     text-align: center;
 }
 
-.resulttotalButton a {
+.resulttotalButton btn-primary {
     text-align: center;
     margin-top: 30px;
 }
