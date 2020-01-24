@@ -791,10 +791,7 @@ hr {
 
 .resultButton {
     text-align: center;
-}
-
-.resultButton .btn {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .resultButton a {
