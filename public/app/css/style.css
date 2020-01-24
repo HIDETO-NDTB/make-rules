@@ -793,7 +793,7 @@ hr {
     text-align: center;
 }
 
-.resultButton btn{
+.resultButton .btn {
     margin-top: 20px;
 }
 
