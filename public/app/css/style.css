@@ -793,8 +793,9 @@ hr {
     text-align: center;
 }
 
-.resultButton .btn-success .btn-primary {
-    margin-top: 20px;
+.resulttotalButton {
+    text-align: center;
+    margin-top: 30px;
 }
 
 .resultButton a {
