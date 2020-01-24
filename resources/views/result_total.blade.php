@@ -4,6 +4,7 @@
 <div id="commentwrap">
     <div class="container">
         <div class="row centered">
+            @foreach ($rules as $rule)
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card2">
                     <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
@@ -42,12 +43,9 @@
                         </div>
                     </div>
                 </div>
+
                 <div id="resultform">
                     <div class="container">
-                        <div class="row centered">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <img src="{{ asset('app/img/approved-min.jpg') }}"  style="width:80%; height:80%;">
-                            </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <div class="result-option">
                                     @if($total_agree > $total_disagree)
@@ -69,7 +67,49 @@
                         </div>
                     </div>
                 </div>
+                <div class="container x">
+                    <div class="row centered">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            @foreach ($comments as $comment)
+                            @if($comment->rule_id == $rule->id AND $comment->opinion != "")
+                            <div class="card">
+                                <div class="card-header"><h4>{{ $comment->opinion }}派意見</h4></div>
+                                <div class="card-body">
+                                    <ul>
+                                        <div class="row">
+                                            <div class="col-lg-1 col-md-2 col-sm-2 col-xs-4">
+                                                @foreach ($users as $user)
+                                                @if($comment->user_id == $user->id)
+                                                <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                                                @endif
+                                                @endforeach
+                                            </div>
+                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4">
+                                                @foreach ($users as $user)
+                                                @if($comment->user_id == $user->id)
+                                                    <h5>{{ $user->name }}</h5>
+                                                @endif
+                                                @endforeach
+                                            </div>
+                                            <div class="col-lg-9 col-md-8 col-sm-8 col-xs-4"></div>
+                                        </div>
+                                        <div class="row">
+                                            <li><p>{{ $comment->comment }}</p></li>
+                                        </div>
+                                        <div class="row">
+                                            <li>コメント日: {{ $comment->comment_date }}</li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br>
+                            @endif
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
             </div>
+            @endforeach
         </div>
     </div>
 </div>

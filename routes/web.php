@@ -52,6 +52,11 @@ Route::get('/howtouse',[
     'as' => 'how_to_use'
 ]);
 
+Route::get('/result_total',[
+    'uses' => 'FrontEndController@result_total',
+    'as' => 'result_total'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');
