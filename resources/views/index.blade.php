@@ -103,7 +103,7 @@
                             <li>反対　<strong>{{ $first_disagree }}票</strong></li>
                         </div>
                         <div class="resultButton">
-                            <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$first_result->id]) }}">詳しく見る</a>
+                            <a class="btn btn-success" href="{{ route('result',['id' =>$first_result->id]) }}">詳しく見る</a>
                         </div>
                     @else
                         <p>最近可決された法案はありません。</p>
@@ -128,7 +128,7 @@
                             <li>反対　<strong>{{ $second_disagree }}票</strong></li>
                         </div>
                         <div class="resultButton">
-                            <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$second_result->id]) }}">詳しく見る</a>
+                            <a class="btn btn-success" href="{{ route('result',['id' =>$second_result->id]) }}">詳しく見る</a>
                         </div>
                     @endisset
                 </div>
@@ -151,7 +151,7 @@
                             <li>反対　<strong>{{ $third_disagree }}票</strong></li>
                         </div>
                         <div class="resultButton">
-                            <a class="btn btn-success" style="width: 80%;" href="{{ route('result',['id' =>$third_result->id]) }}">詳しく見る</a>
+                            <a class="btn btn-success" href="{{ route('result',['id' =>$third_result->id]) }}">詳しく見る</a>
                         </div>
                     @endisset
                 </div>
