@@ -173,9 +173,9 @@ class FrontEndController extends Controller
 
         $rules = Rule::orderBy('created_at','desc')->whereDate('finish_date','<',today())->limit(30)->get();
 
-        $total_vote = Vote::where('opinion',"")->count();
-        $total_agree = Vote::where('vote','agree')->count();
-        $total_disagree = Vote::where('vote','disagree')->count();
+        $total_vote = Vote::where('opinion',"")->get();
+        $total_agree = Vote::where('vote','agree')->get();
+        $total_disagree = Vote::where('vote','disagree')->get();
         $users = User::all();
 
         return view('result_total')->with('categories',Category::all())

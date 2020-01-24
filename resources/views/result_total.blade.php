@@ -58,9 +58,9 @@
                                     </div>
                                 @endif
                                 <div class="result-content">
-                                    <li>総投票数　<strong>{{ $rule->total_vote }}票</strong></li>
-                                    <li>賛成　<strong>{{ $rule->total_agree }}票</strong></li>
-                                    <li>反対　<strong>{{ $rule->total_disagree }}票</strong></li>
+                                    <li>総投票数　<strong>{{ count($rule->total_vote) }}票</strong></li>
+                                    <li>賛成　<strong>{{ count($rule->total_agree) }}票</strong></li>
+                                    <li>反対　<strong>{{ count($rule->total_disagree) }}票</strong></li>
                                 </div>
                             </div>
                         </div>
