@@ -791,13 +791,16 @@ hr {
 
 .resultButton {
     text-align: center;
-    margin: 10px 0;
 }
 
 .resultButton a {
     text-align: center;
     font-weight: normal;
-    margin: 10px 0;
+}
+
+.resultButton .btn-success {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 768px ) {
