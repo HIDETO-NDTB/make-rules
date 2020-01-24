@@ -3,8 +3,8 @@
 
 <div id="commentwrap">
     <div class="container">
+        @foreach ($rules as $rule)
         <div class="row centered">
-            @foreach ($rules as $rule)
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <div class="card2">
                     <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
@@ -109,8 +109,8 @@
                     </div>
                 </div>
             </div>
-            @endforeach
         </div>
+        @endforeach
     </div>
 </div>
 @endsection
