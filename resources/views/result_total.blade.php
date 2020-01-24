@@ -46,25 +46,23 @@
 
                 <div id="resultform">
                     <div class="container">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <div class="result-option">
-                                    @if($rule->total_agree > $rule->total_disagree)
-                                        <div class="result-top-blue">
-                                            <span class="result-amount">可　決</span>
-                                        </div>
-                                    @else
-                                        <div class="result-top-red">
-                                            <span class="result-amount">否　決</span>
-                                        </div>
-                                    @endif
-                                    <div class="result-content">
-                                        <li>総投票数　<strong>{{ $rule->total_vote }}票</strong></li>
-                                        <li>賛成　<strong>{{ $rule->total_agree }}票</strong></li>
-                                        <li>反対　<strong>{{ $rule->total_disagree }}票</strong></li>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="result-option">
+                                @if($rule->total_agree > $rule->total_disagree)
+                                    <div class="result-top-blue">
+                                        <span class="result-amount">可　決</span>
                                     </div>
+                                @else
+                                    <div class="result-top-red">
+                                        <span class="result-amount">否　決</span>
+                                    </div>
+                                @endif
+                                <div class="result-content">
+                                    <li>総投票数　<strong>{{ $rule->total_vote }}票</strong></li>
+                                    <li>賛成　<strong>{{ $rule->total_agree }}票</strong></li>
+                                    <li>反対　<strong>{{ $rule->total_disagree }}票</strong></li>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
