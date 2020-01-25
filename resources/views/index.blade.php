@@ -39,7 +39,9 @@
             @isset($third_now_vote)
             <li><a href="{{ route('vote',['id' =>$third_now_vote->id]) }}">{{ $third_now_vote->title }}<br>({{ $third_now_vote->finish_date }} 投票終了)</a></li><br>
             @endisset
-            <a class="btn btn-success" style="width: 80%;" href="">投票中一覧</a>
+            <div class="resultButton">
+                <a class="btn btn-success" style="width: 80%;" href="">投票中一覧</a>
+            </div>
         </div>
       <!-- col-lg-4 -->
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
@@ -56,6 +58,9 @@
             @isset($third_vote)
             <li><a href="{{ route('rule.single',['id' =>$third_vote->id]) }}">{{ $third_vote->title }}<br>({{ $third_vote->vote_date }} 投票開始)</a></li><br>
             @endisset
+            <div class="resultButton">
+                <a class="btn btn-success" style="width: 80%;" href="">コメント可能一覧</a>
+            </div>
         </div>
         <!-- col-lg-4 -->
 
@@ -73,6 +78,9 @@
             @isset($third_initiative)
             <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->title }}<br>( {{ $third_initiative->initiative_date }} 発議 )</a></li><br>
             @endisset
+            <div class="resultButton">
+                <a class="btn btn-success" style="width: 80%;" href="">コメント可能一覧</a>
+            </div>
         </div>
       <!-- col-lg-4 -->
     </div>
