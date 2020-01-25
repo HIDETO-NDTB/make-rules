@@ -19,7 +19,7 @@
             @foreach ($rules as $rule)
                 <div class="card">
                     <div class="card-header"><h4>{{ $rule->title }}</h4></div>
-                    <div class="category"><h5>{{ $rule->category->name }}</h5></div>
+                    <div class="category"><h4>{{ $rule->category->name }}</h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
