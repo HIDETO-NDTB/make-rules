@@ -33,7 +33,7 @@
                             <a class="btn btn-danger" href="{{ route('logout') }}" style="font-size: 14px; color:white; width:100px;"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
-                                {{ __('Logout') }}
+                                {{ __('ログアウト') }}
                             </a>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
