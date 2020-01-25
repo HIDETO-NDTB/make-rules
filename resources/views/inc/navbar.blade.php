@@ -18,11 +18,7 @@
                     <li><a class="btn btn-default" style="width:120px; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                 </ul>
                 @endforeach
-            </div>
-        </div>
-        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-3">
-            <!-- Right Side Of Navbar -->
-            @guest
+                @guest
                 <li class="nav-item">
                     <a class="btn btn-primary" style="width: 100px; color:white;" href="{{ route('login') }}">{{ __('Login') }}</a>
                 </li>
@@ -44,6 +40,7 @@
                     </div>
                 </li>
             @endguest
+            </div>
         </div>
     </div>
         <!--/.nav-collapse -->
