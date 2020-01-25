@@ -684,7 +684,9 @@ hr {
         font-size:20px;
         font-weight: bold;
     }
-
+    .navbar-collapse li {
+        width: 90%;
+    }
   }
 
   @media (max-width: 480px ) {
