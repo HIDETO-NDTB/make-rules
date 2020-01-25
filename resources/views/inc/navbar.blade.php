@@ -9,11 +9,11 @@
             </button>
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-        <div class="col-lg-6 col-lg-offset-1 col-md-8 col-md-offset-0 col-sm-12">
+        <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12">
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
-                    <li><a class="btn btn-default" style="width:100px; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
+                    <li><a class="btn btn-default" style="width:110px; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                 </ul>
                 @endforeach
             </div>
