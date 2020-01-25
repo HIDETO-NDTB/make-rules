@@ -18,13 +18,13 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-3 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-8 col-xs-6 col-xs-offset-0">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-0 col-sm-2 col-sm-offset-8 col-xs-6 col-xs-offset-0">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-collapse collapse">
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
-                        <a class="btn btn-primary" style="width: 100px; color:white;" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a class="btn btn-primary" style="width: 100px; color:white;" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                     </li>
                 @else
                     <li class="nav-item">
