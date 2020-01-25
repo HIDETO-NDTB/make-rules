@@ -676,7 +676,7 @@ hr {
 
   @media (max-width: 480px ) {
     .title {
-        font-size:18px;
+        font-size:22px;
         font-weight: bold;
         text-align: left;
     }
