@@ -1127,6 +1127,6 @@ select {
 }
 
 /* result_total.blade */
-.w .category h4 {
+.w .category {
     background-color: blanchedalmond;
 }
