@@ -72,6 +72,7 @@ hr {
   background: url('../../app/img/themis-min.jpg') no-repeat center top;
   padding-top: 20px;
   text-align: left;
+  min-height: auto;
   background-attachment: relative;
   background-position: top right;
 
