@@ -20,7 +20,7 @@
         </div>
         <div class="col-lg-3 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-8 col-xs-2 col-xs-offset-7">
             <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-collapse collapse">
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
