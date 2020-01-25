@@ -366,8 +366,8 @@
         <div class="row centered">
             <h4>管理者より</h4>
             <div class="col-lg-6 col-lg-offset-2">
-                <p>2020.1.23 Make Rulesリリース</p><br><br>
-                <p>2020.1.25 コメント中、投票中、開票済み一覧を追加</p><br><br>
+                <p>2020.1.23 Make Rulesリリース</p>
+                <p>2020.1.25 コメント中、投票中、開票済み一覧を追加</p>
             </div>
             <div class="col-lg-4">
                 <div class="contact">
