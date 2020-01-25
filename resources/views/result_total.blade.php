@@ -18,7 +18,8 @@
 
             @foreach ($rules as $rule)
                 <div class="card">
-                    <div class="card-header"><h4>{{ $rule->title }}<span>カテゴリ: {{ $rule->category->name }}</span></h4></div>
+                    <div class="card-header"><h4>{{ $rule->title }}</h4></div>
+                    <div class="card-header"><h4>カテゴリ: {{ $rule->category->name }}</h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
