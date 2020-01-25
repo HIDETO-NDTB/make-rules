@@ -1,16 +1,16 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
-
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-6">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-
         <div class="col-lg-6 col-md-8 col-sm-12">
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
@@ -20,9 +20,9 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-6 col-xs-offset-6">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-3">
             <!-- Right Side Of Navbar -->
-            <ul class="navbar-collapse collapse">
+            <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
