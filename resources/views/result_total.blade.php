@@ -52,7 +52,7 @@
                             @foreach ($total_disagrees as $total_disagree)
                             @if($total_vote->rule_id == $rule->id && $total_agree->rule_id == $rule->id && $total_disagree->rule_id == $rule->id)
                             <div class="result-option">
-                                @if(count($total_agree->id) > count($total_disagree->id))
+                                @if(count($total_agrees->id) > count($total_disagrees->id))
                                     <div class="result-top-blue">
                                         <span class="result-amount">可　決</span>
                                     </div>
@@ -62,9 +62,9 @@
                                     </div>
                                 @endif
                                 <div class="result-content">
-                                    <li>総投票数　<strong>{{ count($total_vote->id) }}票</strong></li>
-                                    <li>賛成　<strong>{{ count($total_agree->id) }}票</strong></li>
-                                    <li>反対　<strong>{{ count($total_disagree->id) }}票</strong></li>
+                                    <li>総投票数　<strong>{{ count($total_votes->id) }}票</strong></li>
+                                    <li>賛成　<strong>{{ count($total_agrees->id) }}票</strong></li>
+                                    <li>反対　<strong>{{ count($total_disagrees->id) }}票</strong></li>
                                 </div>
                             </div>
                             @endif

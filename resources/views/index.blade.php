@@ -156,9 +156,9 @@
                     @endisset
                 </div>
             </div>
-            <!-- <div class="resulttotalButton">
+            <div class="resulttotalButton">
                 <a class="btn btn-primary" style="width: 40%;" href="{{ route('result_total') }}">開票速報一覧</a>
-            </div> -->
+            </div>
         </div>
     <!-- row -->
     </div>
