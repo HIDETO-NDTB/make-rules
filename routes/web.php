@@ -62,6 +62,11 @@ Route::get('/vote_total',[
     'as' => 'vote_total'
 ]);
 
+Route::get('/comment_total',[
+    'uses' => 'FrontEndController@comment_total',
+    'as' => 'comment_total'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');

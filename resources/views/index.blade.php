@@ -59,7 +59,7 @@
             <li><a href="{{ route('rule.single',['id' =>$third_vote->id]) }}">{{ $third_vote->title }}<br>({{ $third_vote->vote_date }} 投票開始)</a></li><br>
             @endisset
             <div class="resultButton">
-                <a class="btn btn-success" style="width: 80%;" href="">コメント可能一覧</a>
+                <a class="btn btn-success" style="width: 80%;" href="{{ route('comment_total') }}">コメント可能一覧</a>
             </div>
         </div>
         <!-- col-lg-4 -->
@@ -79,7 +79,7 @@
             <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->title }}<br>( {{ $third_initiative->initiative_date }} 発議 )</a></li><br>
             @endisset
             <div class="resultButton">
-                <a class="btn btn-success" style="width: 80%;" href="">コメント可能一覧</a>
+                <a class="btn btn-success" style="width: 80%;" href="{{ route('comment_total') }}">コメント可能一覧</a>
             </div>
         </div>
       <!-- col-lg-4 -->

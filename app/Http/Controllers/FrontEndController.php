@@ -191,4 +191,16 @@ class FrontEndController extends Controller
                                  ->with('vote_total',$vote_total);
     }
 
+    public function comment_total(){
+
+        $rules = Rule::orderBy('created_at','desc')->whereDate('vote_date','>',today())->get();
+        $users = User::all();
+        $comment_total = Rule::whereDate('vote_date','>',today())->count();
+
+        return view('vote_total')->with('categories',Category::all())
+                                 ->with('rules',$rules)
+                                 ->with('users',$users)
+                                 ->with('comment_total',$comment_total);
+    }
+
 }
