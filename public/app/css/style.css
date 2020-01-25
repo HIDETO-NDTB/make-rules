@@ -1144,7 +1144,7 @@ select {
 /* vote_total.blade */
 
 .pricings-option {
-    padding-top: 100px;
+    padding-top: 200px;
   }
 
   .pricings-option .pricings-top {
@@ -1153,7 +1153,7 @@ select {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 10px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -1166,7 +1166,7 @@ select {
   .pricings-option .pricings-edition {
     text-transform: uppercase;
     display: block;
-    font-size: 25px;
+    font-size: 30px;
     letter-spacing: 8px;
   }
 
