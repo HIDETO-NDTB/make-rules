@@ -1162,12 +1162,12 @@ select {
       margin-bottom: 20px;
   }
 
-  .pricing-options .prices {
+  .pricings-option .prices {
     display: inline-block;
     position: relative;
   }
 
-  .pricing-options .prices sup {
+  .pricings-option .prices sup {
     position: absolute;
     top: 50px;
     left: -10px;
