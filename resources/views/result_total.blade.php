@@ -4,12 +4,25 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6">
-                <div class="initiative-option">
+            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+                <!-- START PRICING TABLE -->
+                <div class="pricings-option">
+                    <div class="pricings-top">
+                        <span class="pricings-edition">開票済み一覧</span>
+                        <span class="prices">
+                            <span class="prices-amount">{{ $result_total }}</span>
+                            <small>案件</small>
+                        </span>
+                        <p>直近開票済み３０案件まで表示されます</p>
+                    </div>
                 </div>
+                    <!-- /pricing-option -->
+                    <!-- END PRICING TABLE -->
             </div>
         </div>
+      <!-- row -->
     </div>
+    <!-- container -->
 </div>
 
 <div class="container w">
