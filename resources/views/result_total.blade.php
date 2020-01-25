@@ -15,7 +15,7 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12 col-xs-12">
-            @if($rules->count() > 0 )
+
             @foreach ($rules as $rule)
                 <div class="card">
                     <div class="card-header"><h4>{{ $rule->title }} {{ $rule->category->name }}</h4></div>
@@ -49,7 +49,7 @@
                         </ul>
                     </div>
                 </div>
-            @endif
+
             @endforeach
         </div>
     </div>
