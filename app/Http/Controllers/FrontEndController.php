@@ -179,4 +179,14 @@ class FrontEndController extends Controller
                                    ->with('users',$users);
     }
 
+    public function vote_total(){
+
+        $rules = Rule::orderBy('created_at','desc')->whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->get();
+        $users = User::all();
+
+        return view('vote_total')->with('categories',Category::all())
+                                 ->with('rules',$rules)
+                                 ->with('users',$users);
+    }
+
 }

@@ -40,7 +40,7 @@
             <li><a href="{{ route('vote',['id' =>$third_now_vote->id]) }}">{{ $third_now_vote->title }}<br>({{ $third_now_vote->finish_date }} 投票終了)</a></li><br>
             @endisset
             <div class="resultButton">
-                <a class="btn btn-success" style="width: 80%;" href="">投票中一覧</a>
+                <a class="btn btn-success" style="width: 80%;" href="{{ route('vote_total') }}">投票中一覧</a>
             </div>
         </div>
       <!-- col-lg-4 -->
