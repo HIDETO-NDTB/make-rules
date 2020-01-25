@@ -1125,3 +1125,25 @@ select {
         margin-top: 100px;
     }
 }
+
+/* result_total.blade */
+
+.r h4 {
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .r i {
+    color: #ff7878;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  .r span {
+      background-color: red;
+      color: white;
+  }
+
+  .r li {
+      text-align: left;
+  }
