@@ -6,11 +6,11 @@
         <div class="row centered">
             <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
                 <!-- START PRICING TABLE -->
-                <div class="pricing-option">
-                    <div class="pricing-top">
-                        <span class="pricing-edition">投票中一覧</span>
-                        <span class="price">
-                            <span class="price-amount">5</span>
+                <div class="pricings-option">
+                    <div class="pricings-top">
+                        <span class="pricings-edition">投票中一覧</span>
+                        <span class="prices">
+                            <span class="prices-amount">5</span>
                             <small>案件</small>
                         </span>
                     </div>
@@ -53,7 +53,6 @@
                             <div class="row">
                                 <li>発議日: {{ $rule->initiative_date }}</li>
                                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                                <li>開票日: {{ $rule->result_date }}</li>
                             </div>
                             <div class="row">
                                 <div class="col-lg-8"></div>
