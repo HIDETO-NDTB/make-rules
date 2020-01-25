@@ -1129,6 +1129,9 @@ select {
 /* result_total.blade */
 .w .category {
     width: 100px;
-    text-align: center;
     background-color: blanchedalmond;
+}
+
+.category h4 {
+    text-align: center;
 }
