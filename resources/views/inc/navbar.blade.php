@@ -8,10 +8,10 @@
                 <span class="icon-bar"></span>
             </button>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-6">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-4">
             <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
-        <div class="col-lg-6 col-md-8 col-sm-12">
+        <div class="col-lg-6 col-md-8 col-sm-6">
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
@@ -20,7 +20,7 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-3">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-2">
             <!-- Right Side Of Navbar -->
             @guest
                 <li class="nav-item">
