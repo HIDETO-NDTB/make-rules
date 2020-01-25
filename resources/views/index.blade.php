@@ -358,6 +358,7 @@
             <h4>管理者より</h4>
             <div class="col-lg-6 col-lg-offset-2">
                 <a href="">2020.1.23 Make Rulesリリースのお知らせ</a><br>
+                <a href="">2020.1.25 開票済み一覧を追加</a><br>
             </div>
             <div class="col-lg-4">
                 <div class="contact">
