@@ -24,7 +24,7 @@
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
-                        <a class="btn btn-primary" style="width: 100px; color:white;" href="{{ route('login') }}">{{ __('ログイン') }}</a>
+                        <a class="btn btn-primary" style="font-size: 14px; width: 100px; color:white;" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                     </li>
                 @else
                     <li class="nav-item">
