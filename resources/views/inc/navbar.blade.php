@@ -22,7 +22,7 @@
         </div>
         <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-3">
             <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-collapse collapse">
                 <!-- Authentication Links -->
                 @guest
                     <li class="nav-item">
