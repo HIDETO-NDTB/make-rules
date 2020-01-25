@@ -1221,6 +1221,7 @@ select {
 
   @media (max-width: 768px ) {
       .pricings-option {
+          padding-top: 300px;
           width: 90%;
           height: 70%;
       }
