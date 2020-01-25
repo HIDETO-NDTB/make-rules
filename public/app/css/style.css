@@ -1163,6 +1163,11 @@ select {
       margin-bottom: 20px;
   }
 
+  .pricings-option .pricings-edition {
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+
   .pricings-option .prices {
     display: inline-block;
     position: relative;
