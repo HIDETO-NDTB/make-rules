@@ -20,7 +20,7 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-3">
+        <div class="col-lg-3 col-lg-offset-0 col-md-3 col-md-offset-9 col-sm-3 col-sm-offset-9 col-xs-6 col-xs-offset-6">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-collapse collapse">
                 <!-- Authentication Links -->
