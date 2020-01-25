@@ -47,6 +47,9 @@
                 <div id="resultform">
                     <div class="container">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            @foreach ($total_votes as $total_vote)
+                            @foreach ($total_agrees as $total_agree)
+                            @foreach ($total_disagrees as $total_disagree)
                             @if($total_vote->rule_id == $rule->id && $total_agree->rule_id == $rule->id && $total_disagree->rule_id == $rule->id)
                             <div class="result-option">
                                 @if(count($total_agree->id) > count($total_disagree->id))
@@ -65,6 +68,9 @@
                                 </div>
                             </div>
                             @endif
+                            @endforeach
+                            @endforeach
+                            @endforeach
                         </div>
                     </div>
                 </div>
