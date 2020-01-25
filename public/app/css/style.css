@@ -850,6 +850,10 @@ hr {
         padding-bottom: 30px;
         border-bottom: 3px solid gray;
     }
+
+    .z .btn-success {
+        margin-bottom: 20px;
+    }
 }
 
 
