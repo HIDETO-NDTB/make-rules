@@ -47,8 +47,9 @@
                 <div id="resultform">
                     <div class="container">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            @if($total_vote->rule_id == $rule->id && $total_agree->rule_id == $rule->id && $total_disagree->rule_id == $rule->id)
                             <div class="result-option">
-                                @if($total_agree > $total_disagree)
+                                @if(count($total_agree->id) > count($total_disagree->id))
                                     <div class="result-top-blue">
                                         <span class="result-amount">可　決</span>
                                     </div>
@@ -58,11 +59,12 @@
                                     </div>
                                 @endif
                                 <div class="result-content">
-                                    <li>総投票数　<strong>{{ $total_vote }}票</strong></li>
-                                    <li>賛成　<strong>{{ $total_agree }}票</strong></li>
-                                    <li>反対　<strong>{{ $total_disagree }}票</strong></li>
+                                    <li>総投票数　<strong>{{ count($total_vote->id) }}票</strong></li>
+                                    <li>賛成　<strong>{{ count($total_agree->id) }}票</strong></li>
+                                    <li>反対　<strong>{{ count($total_disagree->id) }}票</strong></li>
                                 </div>
                             </div>
+                            @endif
                         </div>
                     </div>
                 </div>
