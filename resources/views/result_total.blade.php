@@ -1,27 +1,38 @@
 @extends('layouts/front')
 @section('page')
 
-<div id="commentwrap">
+<div id="headerwrap">
     <div class="container">
-        @foreach ($rules as $rule)
         <div class="row centered">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="card2">
-                    <div class="card-header"><h4><b>{{ $rule->title }}</b></h4></div>
+            <div class="col-lg-6">
+                <div class="initiative-option">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container w">
+    <div class="row centered">
+        <div class="col-lg-12 col-xs-12">
+            @if($rules->count() > 0 )
+            @foreach ($rules as $rule)
+                <div class="card">
+                    <div class="card-header"><h4>{{ $rule->title }} {{ $rule->category->name }}</h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
+                                <div class="col-lg-1">
                                     @foreach ($users as $user)
                                     @if($rule->user_id == $user->id)
-                                    <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                                        <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avatar"></li>
                                     @endif
                                     @endforeach
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
+                                <div class="col-lg-2">
                                     <h5>{{ $rule->user->name }}</h5>
                                 </div>
-                                <div class="col-lg-7 col-md-6 col-sm-4 col-xs-4"></div>
+                                <div class="col-lg-9"></div>
                             </div>
                             <div class="row">
                                 <li><p>{{ $rule->content }}</p></li>
@@ -30,53 +41,17 @@
                                 <li>発議日: {{ $rule->initiative_date }}</li>
                                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                             </div>
+                            <div class="row">
+                                <div class="col-lg-8"></div>
+                                <div class="col-lg-4">
+                                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.result',['id' =>$rule->id]) }}">開票結果を見る</a>
+                            </div>
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <div class="resulttitle">
-                    <div class="container">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h4>開票結果</h4>
-                            <p>開票日　{{ $rule->result_date }}</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="resultform">
-                    <div class="container">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            @foreach ($total_votes as $total_vote)
-                            @foreach ($total_agrees as $total_agree)
-                            @foreach ($total_disagrees as $total_disagree)
-                            @if($total_vote->rule_id == $rule->id && $total_agree->rule_id == $rule->id && $total_disagree->rule_id == $rule->id)
-                            <div class="result-option">
-                                @if(count($total_agrees) > count($total_disagrees))
-                                    <div class="result-top-blue">
-                                        <span class="result-amount">可　決</span>
-                                    </div>
-                                @else
-                                    <div class="result-top-red">
-                                        <span class="result-amount">否　決</span>
-                                    </div>
-                                @endif
-                                <div class="result-content">
-                                    <li>総投票数　<strong>{{ count($total_votes) }}票</strong></li>
-                                    <li>賛成　<strong>{{ count($total_agrees) }}票</strong></li>
-                                    <li>反対　<strong>{{ count($total_disagrees) }}票</strong></li>
-                                </div>
-                            </div>
-                            @endif
-                            @endforeach
-                            @endforeach
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endif
+            @endforeach
         </div>
-        @endforeach
     </div>
 </div>
 @endsection
