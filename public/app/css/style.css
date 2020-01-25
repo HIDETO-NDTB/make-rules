@@ -1195,7 +1195,6 @@ select {
 
   @media (max-width: 1024px ) {
       .pricings-option {
-
           width: 80%;
           height: 80%;
       }
@@ -1222,7 +1221,6 @@ select {
 
   @media (max-width: 768px ) {
       .pricings-option {
-          padding-top: 20px;
           width: 90%;
           height: 70%;
       }
