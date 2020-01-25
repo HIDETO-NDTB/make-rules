@@ -1164,8 +1164,10 @@ select {
   }
 
   .pricings-option .pricings-edition {
-    font-size: 20px;
-    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    font-size: 25px;
+    letter-spacing: 8px;
   }
 
   .pricings-option .prices {
