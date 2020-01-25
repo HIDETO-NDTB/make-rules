@@ -8,7 +8,7 @@
                 <!-- START PRICING TABLE -->
                 <div class="pricings-option">
                     <div class="pricings-top">
-                        <span class="pricings-edition">投票中一覧</span>
+                        <span class="pricings-edition">コメント受付中一覧</span>
                         <span class="prices">
                             <span class="prices-amount">{{ $comment_total }}</span>
                             <small>案件</small>
