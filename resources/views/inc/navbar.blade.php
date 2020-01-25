@@ -29,7 +29,7 @@
                 @else
                     <li class="nav-item">
                         <div class="userButton">
-                            <a class="btn btn-prymary" href="{{ route('profile',['id' =>Auth::user()->id]) }}" style="font-size: 14px; color:black;">マイページ</a><br>
+                            <a class="btn btn-primary" href="{{ route('profile',['id' =>Auth::user()->id]) }}" style="font-size: 14px; color:black;">マイページ</a>
                             <a class="btn btn-danger" href="{{ route('logout') }}" style="font-size: 14px; color:white;"
                                onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
