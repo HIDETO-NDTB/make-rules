@@ -201,6 +201,10 @@ hr {
   font-weight: 700;
 }
 
+#ig a {
+    margin-bottom: 10px;
+}
+
 .contact a {
     margin-top: 100px;
     color: black;
