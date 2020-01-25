@@ -13,7 +13,7 @@
             <div class="navbar-collapse collapse">
                 @foreach ($categories as $category)
                 <ul class="nav navbar-nav">
-                    <li><a class="btn btn-default" style="width:15%; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
+                    <li><a class="btn btn-default" style="width:40%; margin: 10px 2px;" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                 </ul>
                 @endforeach
             </div>
