@@ -680,8 +680,8 @@ hr {
         font-weight: bold;
     }
     .navbar-collapse li {
-        width: 100px;
-        margin: 10px 2px;
+        width: 90px;
+        margin: 0 2px;
     }
   }
 
