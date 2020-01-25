@@ -18,7 +18,7 @@
 
             @foreach ($rules as $rule)
                 <div class="card">
-                    <div class="card-header"><h4>{{ $rule->title }} {{ $rule->category->name }}</h4></div>
+                    <div class="card-header"><h4>{{ $rule->title }}<span>{{ カテゴリ: $rule->category->name }}</span></h4></div>
                     <div class="card-body">
                         <ul>
                             <div class="row">
@@ -40,6 +40,7 @@
                             <div class="row">
                                 <li>発議日: {{ $rule->initiative_date }}</li>
                                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
+                                <li>開票日: {{ $rule->result_date }}</li>
                             </div>
                             <div class="row">
                                 <div class="col-lg-8"></div>
