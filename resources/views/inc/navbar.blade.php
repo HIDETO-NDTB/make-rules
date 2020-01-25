@@ -18,7 +18,7 @@
                 @endforeach
             </div>
         </div>
-        <div class="col-lg-3 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-8 col-xs-3 col-xs-offset-0">
+        <div class="col-lg-3 col-lg-offset-0 col-md-2 col-md-offset-0 col-sm-2 col-sm-offset-8 col-xs-6 col-xs-offset-0">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-collapse collapse">
                 <!-- Authentication Links -->
