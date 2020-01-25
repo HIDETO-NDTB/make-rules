@@ -10,7 +10,7 @@
                     <div class="pricings-top">
                         <span class="pricings-edition">投票中一覧</span>
                         <span class="prices">
-                            <span class="prices-amount">5</span>
+                            <span class="prices-amount">{{ $vote_total }}</span>
                             <small>案件</small>
                         </span>
                     </div>

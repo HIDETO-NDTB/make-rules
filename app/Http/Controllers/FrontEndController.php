@@ -183,10 +183,12 @@ class FrontEndController extends Controller
 
         $rules = Rule::orderBy('created_at','desc')->whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->get();
         $users = User::all();
+        $vote_total = Rule::whereDate('vote_date','<=',today())->whereDate('finish_date','>=',today())->count();
 
         return view('vote_total')->with('categories',Category::all())
                                  ->with('rules',$rules)
-                                 ->with('users',$users);
+                                 ->with('users',$users)
+                                 ->with('vote_total',$vote_total);
     }
 
 }
