@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="title" href="{{ route('index') }}">Make Ruless</a>
+            <a class="title" href="{{ route('index') }}">Make Rules</a>
         </div>
         <div class="col-lg-6 col-lg-offset-1 col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-0 col-xs-6 col-xs-offset-0">
             <div class="navbar-collapse collapse">
