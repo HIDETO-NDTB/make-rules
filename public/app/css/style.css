@@ -630,9 +630,8 @@ hr {
   }
 
   .navbar-inverse {
-    background: #8D3043;
+    background: red;
     border-color: #8D3043;
-    min-height: 200px;
   }
 
   .title {
