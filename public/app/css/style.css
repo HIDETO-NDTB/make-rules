@@ -625,13 +625,14 @@ hr {
 .navbar {
     font-weight: 400;
     font-size: 14px;
-    padding-top: 0;
+    padding-top: 15px;
     padding-bottom: 15px;
   }
 
   .navbar-inverse {
     background: #8D3043;
     border-color: #8D3043;
+    margin-top: 0;
   }
 
   .title {
