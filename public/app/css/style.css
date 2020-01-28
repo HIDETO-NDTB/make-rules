@@ -70,7 +70,7 @@ hr {
 
 #headerwrap {
   background: url('../../app/img/themis-min.jpg') no-repeat center top;
-  padding-top: 20px;
+  padding-top: 0;
   text-align: left;
   min-height: 520px;
   background-attachment: relative;
