@@ -34,10 +34,12 @@
   ======================================================= -->
 </head>
 
+@include('inc/navbar')
+
 <body>
 
 
-  @include('inc/navbar')
+
 
   <!-- container -->
 
