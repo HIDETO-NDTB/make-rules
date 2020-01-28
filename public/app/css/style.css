@@ -70,7 +70,7 @@ hr {
 
 #headerwrap {
   background: url('../../app/img/themis-min.jpg') no-repeat center top;
-  padding-top: 0;
+  padding-top: 20px;
   text-align: left;
   min-height: 520px;
   background-attachment: relative;
@@ -627,6 +627,7 @@ hr {
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 15px;
+    min-height: 200px;
   }
 
   .navbar-inverse {
