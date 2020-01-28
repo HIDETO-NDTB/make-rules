@@ -635,7 +635,7 @@ hr {
   }
 
   .title {
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 38px;
     letter-spacing: 3px;
@@ -708,7 +708,7 @@ hr {
   }
 
 .z span {
-      background-color: red;
+      background-color: blue;
       color: white;
   }
 
