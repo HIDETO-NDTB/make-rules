@@ -77,7 +77,7 @@ class RegisterController extends Controller
 
         $profile = Profile::create([
             'user_id' => $user->id,
-            'avatar' => secure_asset('sample.jpg'),
+            'avatar' => asset('sample.jpg'),
 
         ]);
 
