@@ -6,13 +6,7 @@ use Closure;
 
 class Https
 {
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
-     * @return mixed
-     */
+    
     public function handle($request, Closure $next)
     {
         if (!$request->secure()&&env('APP_ENV') === 'production') {
