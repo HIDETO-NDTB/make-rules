@@ -34,7 +34,7 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label>内容（200文字以内）</label>
+                        <label>内容（300文字以内）</label>
                         <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
                     </div>
                     @if(Auth::check())

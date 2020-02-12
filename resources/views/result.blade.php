@@ -54,10 +54,7 @@
 <div id="resultform">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <img src="{{ asset('app/img/approved-min.jpg') }}"  style="width:80%; height:80%;">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-9 col-lg-offset-3 col-md-9 col-md-offset-3 col-sm-10 col-sm-offset-2 col-xs-12">
                 <div class="result-option">
                     @if($total_agree > $total_disagree)
                     <div class="result-top-blue">

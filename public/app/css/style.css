@@ -880,7 +880,7 @@ select {
 }
 
 .card2 {
-    margin-top: 60px;
+    margin-top: 100px;
     border-top: 5px solid gray;
     border-bottom: 5px solid gray;
     margin-bottom: 10px;
@@ -910,7 +910,12 @@ select {
 
 @media (max-width: 420px ) {
     #commentwrap {
-        margin-top: 200px;
+        margin-top: 100px;
+    }
+
+    .card2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 }
 
@@ -990,6 +995,11 @@ select {
     font-size: 30px;
     border: 1px solid gray;
     text-align: center;
+}
+
+.result-option {
+    width: 420px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 768px ) {
