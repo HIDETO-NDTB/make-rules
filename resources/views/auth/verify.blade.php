@@ -1,5 +1,4 @@
 @extends('layouts.front')
-
 @section('page')
 
 <div class="navbar navbar-inverse navbar-fixed-top">
