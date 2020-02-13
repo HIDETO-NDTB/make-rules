@@ -21,7 +21,7 @@
                     @csrf
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
-                        <input type="text" name="title" class="input_sample" placeholder="タイトルを入力下さい">
+                        <input type="text" name="title" class="input_sample form-control" placeholder="タイトルを入力下さい" value="">
                         <p class="input_result"></p>
                     </div>
                     <script>
