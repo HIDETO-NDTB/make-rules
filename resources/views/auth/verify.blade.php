@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.front')
 
-@section('content')
+@section('page')
 
 <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
