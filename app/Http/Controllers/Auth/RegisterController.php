@@ -78,7 +78,7 @@ class RegisterController extends Controller
 
         $profile = Profile::create([
             'user_id' => $user->id,
-            'avatar' => Storage::disk('s3')->get('sample.jpg'),
+            'avatar' => url('https://makerules.s3.us-east-2.amazonaws.com/sample.jpg'),
 
         ]);
 
