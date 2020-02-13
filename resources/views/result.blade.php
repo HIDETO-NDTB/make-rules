@@ -13,7 +13,7 @@
                                 <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4">
                                     @foreach ($users as $user)
                                     @if($rule->user_id == $user->id)
-                                    <li><img src="{{ asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
+                                    <li><img src="{{ secure_asset(url($user->profile->avatar)) }}" class="img-responsive img-circle" style="width:60px; height:60px;" alt="avator"></li>
                                     @endif
                                     @endforeach
                                 </div>
