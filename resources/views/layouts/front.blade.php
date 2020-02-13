@@ -25,7 +25,7 @@
   <!-- Main Stylesheet File -->
   <link href="{{ secure_asset('app/css/style.css') }}" rel="stylesheet">
 
-  <script src="jquery-3.4.1.min.js"></script>
+  <script src="{{ secure_asset('jquery-3.4.1.min.js' }}"></script>
 
   <!-- =======================================================
     Template Name: Spot
