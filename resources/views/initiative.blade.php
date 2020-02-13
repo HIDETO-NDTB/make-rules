@@ -21,8 +21,18 @@
                     @csrf
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
-                        <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい">
+                        <input type="text" name="title" class="input_sample form-control" placeholder="タイトルを入力下さい">
+                        <p class="input_result"></p>
                     </div>
+                    <script>
+                        ction(){
+                            $('.input_sample').on('input', function(){
+                                var input_text = $(this).val();
+                                $('.input_result').text(input_text.length + '文字入力');
+                            });
+                        });
+                    </script>
+                    
                     <div class="form-group">
                         <label>カテゴリ</label><br>
                         <select name="category_id" style="width: 200px;">
