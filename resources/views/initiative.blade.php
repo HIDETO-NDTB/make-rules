@@ -26,7 +26,7 @@
                     </div>
                     <script>
                         $(function(){
-                            $('name').on('input', function(){
+                            $('title').on('input', function(){
                                 var input_text = $(this).val();
                                 $('.input_result').text(input_text.length + '文字入力');
                             });
