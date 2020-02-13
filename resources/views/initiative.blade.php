@@ -21,12 +21,12 @@
                     @csrf
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
-                        <input type="text" name="title" class="input_sample form-control" placeholder="タイトルを入力下さい" value="">
+                        <input type="text" name="title" class="form-control" placeholder="タイトルを入力下さい" value="">
                         <p class="input_result"></p>
                     </div>
                     <script>
                         $(function(){
-                            $('.input_sample').on('input', function(){
+                            $('name').on('input', function(){
                                 var input_text = $(this).val();
                                 $('.input_result').text(input_text.length + '文字入力');
                             });
