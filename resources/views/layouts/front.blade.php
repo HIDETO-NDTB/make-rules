@@ -18,7 +18,7 @@
   <meta property="og:description" content="法案を発議・協議・投票する。考える大切さに気づかされるWebサービス" />
   <meta property="og:image" content="https://makerules.s3.us-east-2.amazonaws.com/themis-min(short).jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta property="fb:app_id" content="2573851732870558">
+  <meta property="fb:app_id" content="536521323652012">
 
   <meta charset="utf-8">
   <title>Make Rules</title>
