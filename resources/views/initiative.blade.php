@@ -22,15 +22,13 @@
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
                         <input type="text" name="title" class="form-control" id="nput_sample" placeholder="タイトルを入力下さい" value="">
-                        <p id="input_result"></p>
+                        <div class="count">入力文字数: <span class="showCnt">0</span></div>
                     </div>
                     <script>
-                    $(function(){
-                        $('#input_sample').on('input', function(){
-                            var input_text = $(this).val();
-                            $('#input_result').text(input_text.length + '文字入力');
+                        $('#textBox').keyup(function() {
+                        let cnt = $(this).val().length;
+                        $('.showCnt').text(cnt);
                         });
-                    });
                     </script>
                     
                     <div class="form-group">
