@@ -1096,7 +1096,9 @@ select {
 }
 
 #count span {
-    border: 0px solid;
+    border: 0;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 /* login.blade */
