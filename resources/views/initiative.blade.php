@@ -22,7 +22,7 @@
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
                         <input type="text" name="title" class="form-control" id="textBox" placeholder="タイトルを入力下さい" value="">
-                        <div style="display:none;">入力文字数: <span class="showCnt">0</span></div>
+                        <div>入力文字数: <span class="showCnt">0</span></div>
                     </div>
                     <script>
                         $('#textBox').keyup(function() {
