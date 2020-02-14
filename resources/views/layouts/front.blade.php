@@ -67,7 +67,7 @@
   <script src="{{ secure_asset('app/js/main.js') }}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="js/textCount.js"></script>
+  <script src="{{ secure_asset('js/textCount.js') }}"></script>
 
   <script>
     @if (Session::has('success'))
