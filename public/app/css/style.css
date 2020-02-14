@@ -1095,7 +1095,7 @@ select {
     font-size: 20px;
 }
 
-#contactform span.showCnt {
+.count span.showCnt {
     border-top: none;  
     border-bottom: none;
     color: red; 
