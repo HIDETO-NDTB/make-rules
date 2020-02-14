@@ -22,7 +22,7 @@
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
                         <input type="text" name="title" class="form-control" id="nput_sample" placeholder="タイトルを入力下さい" value="">
-                        <div class="count">入力文字数: <span id="input_result">0</span></div>
+                        <p id="input_result"></p>
                     </div>
                     <script>
                     $(function(){
