@@ -1095,7 +1095,7 @@ select {
     font-size: 20px;
 }
 
-.showCnt {
+span.showCnt {
     border: none;  
 }
 
