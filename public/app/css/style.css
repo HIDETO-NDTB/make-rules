@@ -1095,7 +1095,7 @@ select {
     font-size: 20px;
 }
 
-.count span {
+#count span {
     border: 0px solid;
 }
 
