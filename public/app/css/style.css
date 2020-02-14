@@ -1096,7 +1096,9 @@ select {
 }
 
 span.showCnt {
-    border: none;  
+    border-top: none;  
+    border-bottom: none;
+    color: red; 
 }
 
 /* login.blade */
