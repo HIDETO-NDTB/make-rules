@@ -43,8 +43,15 @@
                     </div>
                     <div class="form-group">
                         <label>内容（300文字以内）</label>
-                        <textarea name="content" id="" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
+                        <textarea name="content" id="textBox" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
+                        <div id="count">入力文字数: <span class="showCnt">0</span></div>
                     </div>
+                    <script>
+                        $('#textBox').keyup(function() {
+                        let cnt = $(this).val().length;
+                        $('.showCnt').text(cnt);
+                        });
+                    </script>
                     @if(Auth::check())
                         <div class="form-group">
                             <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
