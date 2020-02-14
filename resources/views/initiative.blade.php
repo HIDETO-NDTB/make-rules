@@ -21,14 +21,16 @@
                     @csrf
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
-                        <input type="text" name="title" class="form-control" id="textBox" placeholder="タイトルを入力下さい" value="">
-                        <div class="count">入力文字数: <span class="showCnt">0</span></div>
+                        <input type="text" name="title" class="form-control" id="nput_sample" placeholder="タイトルを入力下さい" value="">
+                        <div class="count">入力文字数: <span id="input_result">0</span></div>
                     </div>
                     <script>
-                        $('#textBox').keyup(function() {
-                        let cnt = $(this).val().length;
-                        $('.showCnt').text(cnt);
+                    $(function(){
+                        $('#input_sample').on('input', function(){
+                            var input_text = $(this).val();
+                            $('#input_result').text(input_text.length + '文字入力');
                         });
+                    });
                     </script>
                     
                     <div class="form-group">
