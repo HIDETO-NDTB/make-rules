@@ -1095,10 +1095,13 @@ select {
     font-size: 20px;
 }
 
+#count {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
 #count span {
     border: 0;
-    margin-top: 5px;
-    margin-left: 5px;
 }
 
 /* login.blade */
