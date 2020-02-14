@@ -21,7 +21,7 @@
                     @csrf
                     <div class="form-group">
                         <label>タイトル（20文字以内）</label>
-                        <input type="text" name="title" class="input_sample form-control" placeholder="タイトルを入力下さい" value="">
+                        <input type="text" name="title" class="form-control" id="textBox" placeholder="タイトルを入力下さい" value="">
                         <div>入力文字数: <span class="showCnt">0</span></div>
                         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
                         <script src="js/textCount.js"></script>
