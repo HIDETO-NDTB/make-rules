@@ -639,7 +639,7 @@ a.title {
   letter-spacing: 3px;
 }
 
-a.navbtn {
+.navbar-inverse .navbar-nav>li>a  {
   color: white;
 }
 
