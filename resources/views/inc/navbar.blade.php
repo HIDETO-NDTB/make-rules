@@ -11,16 +11,16 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
             @foreach ($categories as $category)
-                <li><a class="btn" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
+                <li><a class="navbtn" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
             @endforeach
             @guest
                 <li class="nav-item">
-                    <a class="btn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
+                    <a class="navbtn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                 </li>
             @else
                 <li class="nav-item">
-                    <a class="btn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
-                    <a class="btn" href="{{ route('logout') }}"
+                    <a class="navbtn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
+                    <a class="navbtn" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
                         {{ __('ログアウト') }}
