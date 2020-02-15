@@ -639,6 +639,10 @@ a.title {
   letter-spacing: 3px;
 }
 
+a.btn {
+  color: white;
+}
+
 /* index.blade */
 .z h4 {
     font-weight: 700;
