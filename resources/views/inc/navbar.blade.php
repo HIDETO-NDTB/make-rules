@@ -13,13 +13,7 @@
             @foreach ($categories as $category)
                 <li><a class="btn" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
             @endforeach
-            </ul>
-        </div>
-
-        <div class="navbar-login">
-            <ul class="navbar-collapse collapse">
-                <!-- Authentication Links -->
-                @guest
+            @guest
                     <li class="nav-item">
                         <a class="btn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
                     </li>
@@ -41,6 +35,5 @@
             </ul>
         </div>
     </div>
-        <!--/.nav-collapse -->
 </div>
 
