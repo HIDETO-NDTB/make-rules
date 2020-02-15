@@ -20,7 +20,7 @@
             @else
                 <li class="nav-item">
                     <a class="btn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
-                    <a class="btn-logout" href="{{ route('logout') }}"
+                    <a class="btn" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
                         {{ __('ログアウト') }}
