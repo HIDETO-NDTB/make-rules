@@ -1,6 +1,6 @@
 <!-- Fixed navbar -->
 <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
+    <div class="container">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -20,6 +20,8 @@
             @else
                 <li class="nav-item">
                     <a class="navbtn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
+                </li>
+                <li class="nav-item">
                     <a class="navbtn" href="{{ route('logout') }}"
                         onclick="event.preventDefault();
                                         document.getElementById('logout-form').submit();">
