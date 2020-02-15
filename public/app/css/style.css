@@ -621,79 +621,7 @@ hr {
     margin-top: 10px;
 }
 
-/* navbar.blade */
-.navbar {
-    font-weight: 400;
-    font-size: 14px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
 
-  .navbar-inverse {
-    background: #8D3043;
-    border-color: #8D3043;
-  }
-
-  .title {
-    color: white;
-    font-weight: bold;
-    font-size: 38px;
-    letter-spacing: 3px;
-  }
-
-  .nav {
-      color: black;
-  }
-
-  .navbar a {
-      margin-left: 10px;
-  }
-
-  .nav-item a {
-      font-size: 20px;
-      margin: 10px 10px;
-  }
-
-  .nav-item btn {
-      font-size: 20px;
-      color: black;
-  }
-
-  .navbar-nav .btn-default {
-      color: black;
-  }
-
-  li {
-      list-style: none;
-  }
-
-  #navbarDropdown btn-primary {
-      font-size: 10px;
-      color: white;
-  }
-
-  @media (max-width:1024px ) {
-    .title {
-        font-size:32px;
-        font-weight: bold;
-    }
-  }
-
-  @media (max-width: 768px ) {
-    .title {
-        font-size:28px;
-        font-weight: bold;
-    }
-
-  }
-
-  @media (max-width: 480px ) {
-    .title {
-        font-size:20px;
-        font-weight: bold;
-        text-align: left;
-    }
-  }
 
 /* index.blade */
 .z h4 {
