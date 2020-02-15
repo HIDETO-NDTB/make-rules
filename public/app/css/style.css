@@ -639,11 +639,14 @@ a.title {
   letter-spacing: 3px;
 }
 
-.navbar-inverse .navbar-nav>li>a  {
-  color: white;
+.navbar-inverse .navbar-nav>li {
   width: 100px;
   padding: 15px;
   border: 2pc solid white;
+}
+
+.navbar-inverse .navbar-nav>li>a  {
+  color: white;
 
 }
 
