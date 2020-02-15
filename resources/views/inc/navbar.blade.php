@@ -14,24 +14,22 @@
                 <li><a class="btn" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
             @endforeach
             @guest
-                    <li class="nav-item">
-                        <a class="btn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
-                    </li>
-                @else
-                    <li class="nav-item">
-                        <div class="userButton">
-                            <a class="btn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
-                            <a class="btn" href="{{ route('logout') }}"
-                               onclick="event.preventDefault();
-                                             document.getElementById('logout-form').submit();">
-                                {{ __('ログアウト') }}
-                            </a>
-                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                @csrf
-                            </form>
-                        </div>
-                    </li>
-                @endguest
+                <li class="nav-item">
+                    <a class="btn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
+                </li>
+            @else
+                <li class="nav-item">
+                    <a class="btn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
+                    <a class="btn" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">
+                        {{ __('ログアウト') }}
+                    </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                </li>
+            @endguest
             </ul>
         </div>
     </div>
