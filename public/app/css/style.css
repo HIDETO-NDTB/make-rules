@@ -632,6 +632,7 @@ div.navbar-collapse.collapse {
 }
 
 a.title {
+  float: left;
   color: white;
   font-weight: bold;
   font-size: 38px;
