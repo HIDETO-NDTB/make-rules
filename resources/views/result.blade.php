@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                <img src="{{ secure_asset('app/img/image01.jpeg') }}"  style="width:100%; height:100%;">
+                <img src="{{ secure_asset('app/img/result-min.jpg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
       <!-- row -->
