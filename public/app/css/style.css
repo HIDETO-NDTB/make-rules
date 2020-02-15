@@ -643,7 +643,7 @@ a.btn {
   color: white;
 }
 
-#logout {
+a#logout.btn {
   float: left;
 }
 
