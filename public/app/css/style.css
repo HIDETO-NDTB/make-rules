@@ -621,7 +621,15 @@ hr {
     margin-top: 10px;
 }
 
+/* navbar.blade */
+.navbar-inverse {
+  background: #8D3043;
+  border-color: #8D3043;
+}
 
+ul.nav.navbar-nav {
+  float: left;
+}
 
 /* index.blade */
 .z h4 {
