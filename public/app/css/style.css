@@ -631,16 +631,16 @@ div.navbar-collapse.collapse {
   float: left;
 }
 
+ul.nav.navbar-nav {
+  margin-left: 10px;
+}
+
 a.title {
   float: left;
   color: white;
   font-weight: bold;
   font-size: 38px;
   letter-spacing: 3px;
-}
-
-a.navbtn {
-  margin-left: 10px;
 }
 
 .navbar-inverse .navbar-nav>li {
