@@ -20,7 +20,11 @@
             @else
                 <li class="nav-item">
                     <a class="btn" href="{{ route('profile',['id' =>Auth::user()->id]) }}">マイページ</a>
-                    <a class="btn" href="{{ route('logout') }}">{{ __('ログアウト') }}</a>
+                    <a class="btn" id="logout" href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                        document.getElementById('logout-form').submit();">
+                        {{ __('ログアウト') }}
+                    </a>
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                         @csrf
                     </form>

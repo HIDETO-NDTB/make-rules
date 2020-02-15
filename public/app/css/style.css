@@ -643,6 +643,10 @@ a.btn {
   color: white;
 }
 
+#logout {
+  float: left;
+}
+
 /* index.blade */
 .z h4 {
     font-weight: 700;
