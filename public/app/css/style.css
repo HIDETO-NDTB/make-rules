@@ -639,6 +639,10 @@ a.title {
   letter-spacing: 3px;
 }
 
+a.navbtn {
+  margin-left: 10px;
+}
+
 .navbar-inverse .navbar-nav>li {
   width: 120px;
   border: 1px solid white;
@@ -650,8 +654,6 @@ a.title {
 
 .navbar-nav>li>a {
   padding: 5px;
-  margin-left: 30px;
-  border-radius: 50%;
   text-align: center;
 }
 
