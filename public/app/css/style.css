@@ -756,6 +756,10 @@ a.threebtn {
   margin-left: 10px;
 }
 
+.z a {
+  font-size: 14px;
+}
+
 .ruleBox {
     padding: 15px;
     margin-bottom: 20px;
