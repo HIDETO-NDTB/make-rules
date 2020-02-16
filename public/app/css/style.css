@@ -764,11 +764,12 @@ a.threebtn {
 .z .resultButton {
   background-color: #8D3043;
   width: 60%;
-  height: 30px;
+  height: 40px;
 }
 
 div.resultButton {
   margin-left: 50px;
+  margin-top: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
