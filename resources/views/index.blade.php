@@ -37,10 +37,10 @@
             <p>投票中の法案はありません。</p>
             @endisset
             @isset($second_now_vote)
-            <li><a href="{{ route('vote',['id' =>$second_now_vote->id]) }}">{{ $second_now_vote->title }}<br>({{ $second_now_vote->finish_date }} 投票終了)</a></li><br>
+            <li><a href="{{ route('vote',['id' =>$second_now_vote->id]) }}">{{ $second_now_vote->finish_date }} 投票終了: {{ $second_now_vote->title }}</a></li><br>
             @endisset
             @isset($third_now_vote)
-            <li><a href="{{ route('vote',['id' =>$third_now_vote->id]) }}">{{ $third_now_vote->title }}<br>({{ $third_now_vote->finish_date }} 投票終了)</a></li><br>
+            <li><a href="{{ route('vote',['id' =>$third_now_vote->id]) }}">{{ $third_now_vote->finish_date }} 投票終了: {{ $third_now_vote->title }}</a></li><br>
             @endisset
             <div class="resultButton">
                 <a class="btn btn-success" style="width: 80%;" href="{{ route('vote_total') }}">投票中一覧</a>
@@ -51,15 +51,15 @@
             <h4><img src="{{ secure_asset('app/img/commenticon.png') }}"></i><span>近</span>  投票</h4>
             <br>
             @isset($first_vote)
-            <li><a href="{{ route('rule.single',['id' =>$first_vote->id]) }}">{{ $first_vote->title }}<br>({{ $first_vote->vote_date }} 投票開始)</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$first_vote->id]) }}">{{ $first_vote->vote_date }} 投票開始: {{ $first_vote->title }}</a></li><br>
             @else
             <p>未投票の法案はありません。</p>
             @endisset
             @isset($second_vote)
-            <li><a href="{{ route('rule.single',['id' =>$second_vote->id]) }}">{{ $second_vote->title }}<br>({{ $second_vote->vote_date }} 投票開始)</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$second_vote->id]) }}">{{ $second_vote->vote_date }} 投票開始: {{ $second_vote->title }}</a></li><br>
             @endisset
             @isset($third_vote)
-            <li><a href="{{ route('rule.single',['id' =>$third_vote->id]) }}">{{ $third_vote->title }}<br>({{ $third_vote->vote_date }} 投票開始)</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$third_vote->id]) }}">{{ $third_vote->vote_date }} 投票開始: {{ $third_vote->title }}</a></li><br>
             @endisset
             <div class="resultButton">
                 <a class="btn btn-success" style="width: 80%;" href="{{ route('comment_total') }}">コメント可能一覧</a>
@@ -71,15 +71,15 @@
             <h4><img src="{{ secure_asset('app/img/voteicon.png') }}"></i><span>新</span>  発議</h4>
             <br>
             @isset($first_initiative)
-            <li><a href="{{ route('rule.single',['id' =>$first_initiative->id]) }}">{{ $first_initiative->title }}<br>( {{ $first_initiative->initiative_date }} 発議 )</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$first_initiative->id]) }}">{{ $first_initiative->initiative_date }} 発議: {{ $first_initiative->title }}</a></li><br>
             @else
             <p>最近発議された法案はありません。</p>
             @endisset
             @isset($second_initiative)
-            <li><a href="{{ route('rule.single',['id' =>$second_initiative->id]) }}">{{ $second_initiative->title }}<br>( {{ $second_initiative->initiative_date }} 発議 )</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$second_initiative->id]) }}">{{ $second_initiative->initiative_date }} 発議: {{ $second_initiative->title }}</a></li><br>
             @endisset
             @isset($third_initiative)
-            <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->title }}<br>( {{ $third_initiative->initiative_date }} 発議 )</a></li><br>
+            <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->initiative_date }} 発議: {{ $third_initiative->title }}</a></li><br>
             @endisset
             <div class="resultButton">
                 <a class="btn btn-success" style="width: 80%;" href="{{ route('comment_total') }}">コメント可能一覧</a>
