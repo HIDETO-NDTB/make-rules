@@ -704,10 +704,26 @@ div.initiativeButton {
   border-radius: 100%;
 }
 
+div.commentsButton {
+  display: inline-block;
+  background-color: #8D3043;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+div.voteButton {
+  display: inline-block;
+  background-color: #8D3043;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
 a.threebtn {
   font-size: 18px;
   color: white;
-  text-align: center;
+  padding: 50px;
 }
 
 
