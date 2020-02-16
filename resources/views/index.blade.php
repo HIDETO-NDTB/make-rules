@@ -32,7 +32,7 @@
             <h4><img src="{{ secure_asset('app/img/newicon.png') }}"></i> 投票 <span>中</span></h4>
             <br>
             @isset($first_now_vote)
-            <li><a href="{{ route('vote',['id' =>$first_now_vote->id]) }}">{{ \Carbon\Carbon::$first_now_vote->finish_date->format("m月d日") }} 投票終了: {{ $first_now_vote->title }}</a></li>
+            <li><a href="{{ route('vote',['id' =>$first_now_vote->id]) }}">{{ $first_now_vote->finish_date->format('m月d日') }} 投票終了: {{ $first_now_vote->title }}</a></li>
             @else
             <p>投票中の法案はありません。</p>
             @endisset
