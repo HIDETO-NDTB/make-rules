@@ -9,10 +9,12 @@
         <a class="title" href="{{ route('index') }}">Make Rules</a>
     
         <div class="navbar-collapse collapse">
+            <div class="dropdown-toggle">カテゴリ一覧
             <ul class="nav navbar-nav">
             @foreach ($categories as $category)
                 <li><a class="navbtn" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
             @endforeach
+            </div>
             @guest
                 <li class="nav-item">
                     <a class="navbtn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
