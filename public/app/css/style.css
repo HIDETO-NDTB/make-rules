@@ -663,7 +663,7 @@ li.nav-item {
 button.btn.dropdown-toggle {
   color: white;
   border: 1px solid white;
-  
+  background-color: #8D3043;
 }
 
 /* index.blade */
