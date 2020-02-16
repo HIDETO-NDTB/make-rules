@@ -631,7 +631,7 @@ a.title {
   font-weight: bold;
   font-size: 38px;
   letter-spacing: 3px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .navbar-inverse .navbar-nav>li {
@@ -683,7 +683,11 @@ button.btn.dropdown-toggle {
     font-weight: normal;
     font-size: 20px;
     letter-spacing: 0;
-    margin-top: 12px;
+    margin-top: 20px;
+  }
+
+  button.btn.dropdown-toggle {
+    margin-top: 10px;
   }
 }
 
