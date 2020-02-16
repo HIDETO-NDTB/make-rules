@@ -10,9 +10,13 @@
         <div class="row centered">
             <div class="col-lg-6">
                 <div class="initiative-option">
+                    <div class="use-top">
+                        <a class="btn btn-warning" style="width: 300px;" href="{{ route('how_to_use') }}">初めにお読み下さい</a>
+                    </div>
                     <div class="initiative-top">
                         <a class="btn btn-danger" style="width: 300px;" href="{{ route('initiative') }}">新法案を発議する</a>
-                        <a class="btn btn-danger" style="width: 300px;" href="{{ route('initiative') }}">新法案を発議する</a>
+                    </div>
+                    <div class="initiative-top">
                         <a class="btn btn-danger" style="width: 300px;" href="{{ route('initiative') }}">新法案を発議する</a>
                     </div>
                 </div>
