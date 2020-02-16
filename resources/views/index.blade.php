@@ -48,7 +48,7 @@
         </div>
       <!-- col-lg-4 -->
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-            <h4><i class="fas fa-hammer"></i><span>近</span>  投票</h4>
+            <h4><img src="{{ secure_asset('app/img/commenticon.png') }}"></i><span>近</span>  投票</h4>
             <br>
             @isset($first_vote)
             <li><a href="{{ route('rule.single',['id' =>$first_vote->id]) }}">{{ $first_vote->title }}<br>({{ $first_vote->vote_date }} 投票開始)</a></li><br>
@@ -68,7 +68,7 @@
         <!-- col-lg-4 -->
 
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-            <h4><i class="far fa-folder-open"></i><span>新</span>  発議</h4>
+            <h4><img src="{{ secure_asset('app/img/voteicon.png') }}"></i><span>新</span>  発議</h4>
             <br>
             @isset($first_initiative)
             <li><a href="{{ route('rule.single',['id' =>$first_initiative->id]) }}">{{ $first_initiative->title }}<br>( {{ $first_initiative->initiative_date }} 発議 )</a></li><br>
