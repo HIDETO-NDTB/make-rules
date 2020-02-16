@@ -675,6 +675,8 @@ button.btn.dropdown-toggle {
 
 ul.dropdown-menu {
   position: relative;
+  top: 10px;
+  left: 0;
 }
 
 /* index.blade */
