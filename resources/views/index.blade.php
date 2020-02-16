@@ -13,7 +13,7 @@
                     <div class="initiativeBUtton">
                         <a class="btn" href="">発議する</a>
                     </div>
-                    <div class="commentButton">
+                    <div class="commentsButton">
                         <a class="btn" href="">コメント</a>
                     </div>
                     <div class="voteButton">
