@@ -748,9 +748,13 @@ a.threebtn {
   }
 
 .z span {
-      background-color: #8D3043;
+      background-color: #e65f5b;
       color: white;
   }
+
+.z li {
+  margin-left: 15px;
+}
 
 .ruleBox {
     padding: 15px;
