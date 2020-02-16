@@ -71,7 +71,6 @@ hr {
 #headerwrap {
   background: url('../../app/img/themis-min.jpg') no-repeat;
   padding-top: 0;
-  max-height: 400px;
   background-position: top right;
   width: 100%;
   background-size: cover;
@@ -612,6 +611,11 @@ hr {
 }
 
 /* navbar.blade */
+.navbar {
+  position: relative;
+  min-height: 70px;
+}
+
 .navbar-inverse {
   background: #8D3043;
   border-color: #8D3043;
@@ -628,12 +632,13 @@ a.title {
   font-weight: bold;
   font-size: 38px;
   letter-spacing: 3px;
+  margin-top: 30px;
 }
 
 .navbar-inverse .navbar-nav>li {
   width: 100px;
   border: 1px solid white;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 15px;
 }
 
@@ -660,7 +665,7 @@ button.btn.dropdown-toggle {
   padding: 5px;
   text-align: center;
   width: 100px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 100px;
 }
 
