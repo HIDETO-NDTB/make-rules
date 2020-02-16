@@ -761,6 +761,10 @@ a.threebtn {
   font-size: 16px;
 }
 
+.z .resultButton {
+  border: 1px solid #8D3043;
+}
+
 .ruleBox {
     padding: 15px;
     margin-bottom: 20px;
