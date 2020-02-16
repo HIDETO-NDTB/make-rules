@@ -831,8 +831,13 @@ a.btnwhite {
 #di h3:before {
   left: 7px;
 }
+
 #di h3:after {
   right: 7px;
+}
+
+#di a {
+  text-align: center;
 }
 
 .ruleBox {
@@ -891,11 +896,11 @@ a.btnwhite {
     font-weight: bold;
 }
 
-.resultGroup {
+ul.resultGroup {
     text-align: center;
 }
 
-.resultGroup li {
+ul.resultGroup li {
     padding: 15px 30px;
     margin: 0 auto;
     height: 70px;
