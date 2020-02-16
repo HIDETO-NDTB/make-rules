@@ -687,7 +687,7 @@ button.btn.dropdown-toggle {
 @media (max-width: 420px ) {
   a.title {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 0;
     margin-top: 15px;
   }
