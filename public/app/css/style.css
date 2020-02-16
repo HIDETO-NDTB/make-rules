@@ -674,7 +674,7 @@ button.btn.dropdown-toggle {
   margin-left: 15px;
 }
 
-ul.dropdown-menu {
+.dropdown-menu {
   position: absolute;
   top: 100%;
 }
