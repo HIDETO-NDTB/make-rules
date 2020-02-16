@@ -701,8 +701,8 @@ div.initiativeButton {
   display: inline-block;
   position: relative;
   background-color: white;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
 }
 
@@ -710,20 +710,20 @@ div.commentsButton {
   display: inline-block;
   position: relative;
   background-color: white;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 div.voteButton {
   display: inline-block;
   position: relative;
   background-color: white;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 a.threebtn {
