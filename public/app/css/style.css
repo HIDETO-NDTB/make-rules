@@ -660,6 +660,10 @@ li.nav-item {
   float: left;
 }
 
+div.dropdown-menu {
+  display: block;
+}
+
 /* index.blade */
 .z h4 {
     font-weight: 700;
