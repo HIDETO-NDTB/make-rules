@@ -27,7 +27,7 @@
 
 <div class="container z">
     <div class="row centered">
-        <br><br>
+    <h3>最新ニュース</h3>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
             <h4><img src="{{ secure_asset('app/img/voteicon.png') }}">投票 <span>中</span></h4>
             <br>

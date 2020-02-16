@@ -735,6 +735,30 @@ a.threebtn {
   left: 17px;
 }
 
+.z h3 {
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 2px #8D3043;
+  border-bottom: solid 2px #8D3043;
+  width: 140px;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+.z h3:before, h3:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: #8D3043;
+}
+.z h3:before {
+  left: 7px;
+}
+.z h3:after {
+  right: 7px;
+}
 
 .z h4 {
     font-weight: 700;
