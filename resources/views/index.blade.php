@@ -168,7 +168,7 @@
                 </div>
             </div>
             <div class="resulttotalButton">
-                <a class="btn btn-primary" style="width: 40%;" href="{{ route('result_total') }}">開票済み一覧</a>
+                <a class="btnblack" href="{{ route('result_total') }}">開票済み一覧</a>
             </div>
         </div>
     <!-- row -->

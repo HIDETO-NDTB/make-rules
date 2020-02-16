@@ -792,7 +792,7 @@ a.threebtn {
 }
 
 div.resultButton {
-  margin-left: 50px;
+  margin-left: 70px;
   margin-top: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -885,13 +885,16 @@ a.btnwhite {
 
 #di .resulttotalButton {
     text-align: center;
+    border: 1px solid #8D3043;
+    width: 460px;
 }
 
 #di .resulttotalButton a {
     margin-top: 30px;
     height: 50px;
     padding: 12px 0;
-    font-size: 16px;
+    font-size: 18px;
+    color: #8D3043;
 }
 
 .result a {
