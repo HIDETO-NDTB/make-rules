@@ -926,12 +926,12 @@ div .resulttotalButton {
     border: 1px solid #8D3043;
     text-align: center;
     margin-top: 40px;
+    font-size: 18px;
+    color: #8D3043;
 }
 
 a .btnblack {
-    font-size: 18px;
-    text-align: center;
-    color: #8D3043;
+    
 }
 
 @media (max-width: 768px ) {
