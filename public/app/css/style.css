@@ -696,9 +696,11 @@ button.btn.dropdown-toggle {
 }
 
 /* index.blade */
-.initiativeBUtton .commentsButton .voteButton {
+#headerwrap.initiativeButton #headerwrap.commentsButton #headerwrap.voteButton {
   display: inline-block;
   background-color: #8D3043;
+  width: 100px;
+  height: 100px;
   color: white;
   margin-left: 15px;
   border-radius: 100%;

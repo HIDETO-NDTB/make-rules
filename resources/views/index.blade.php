@@ -10,7 +10,7 @@
         <div class="row centered">
             <div class="col-lg-6">
                 <div class="initiative-option">
-                    <div class="initiativeBUtton">
+                    <div class="initiativeButton">
                         <a class="btn" href="">発議する</a>
                     </div>
                     <div class="commentsButton">
