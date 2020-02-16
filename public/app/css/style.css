@@ -754,7 +754,7 @@ a.threebtn {
 
 .z li {
   margin-left: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .z a {
@@ -763,7 +763,7 @@ a.threebtn {
 
 .z .resultButton {
   border: 1px solid #8D3043;
-  width: 80%;
+  width: 60%;
   height: 30px;
   text-align: center;
 }
