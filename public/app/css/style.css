@@ -673,6 +673,10 @@ button.btn.dropdown-toggle {
   margin-left: 15px;
 }
 
+ul.dropdown-menu {
+  position: relative;
+}
+
 /* index.blade */
 .z h4 {
     font-weight: 700;
