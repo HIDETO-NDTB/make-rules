@@ -752,15 +752,6 @@ a.threebtn {
       color: white;
   }
 
-.z li {
-      text-align: center;
-  }
-
-.z .col-lg-4 {
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
-}
-
 .ruleBox {
     padding: 15px;
     margin-bottom: 20px;
