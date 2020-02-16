@@ -696,7 +696,7 @@ button.btn.dropdown-toggle {
 }
 
 /* index.blade */
-div.initiativeButton div.commentsButton div.voteButton {
+div.initiativeButton {
   display: inline-block;
   background-color: #8D3043;
   width: 100px;
