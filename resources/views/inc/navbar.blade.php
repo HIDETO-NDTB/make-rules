@@ -12,11 +12,11 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item dropdown">
                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">カテゴリ一覧</button>
-                    <div class="dropdown-menu">
                     @foreach ($categories as $category)
+                    <div class="dropdown-menu">
                         <a class="dropdown-item" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a>
-                    @endforeach
                     </div>
+                    @endforeach
                 </li>
 
                     @guest
