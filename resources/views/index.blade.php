@@ -11,13 +11,13 @@
             <div class="col-lg-6">
                 <div class="initiative-option">
                     <div class="initiativeButton">
-                        <a class="threebtn" href="">発議する</a>
+                        <a class="threebtn" href="{{ route('initiative') }}">発議する</a>
                     </div>
                     <div class="commentsButton">
-                        <a class="threebtn" href="">コメント</a>
+                        <a class="threebtn" href="{{ route('comment_total') }}">コメント</a>
                     </div>
                     <div class="voteButton">
-                        <a class="threebtn" href="">投票する</a>
+                        <a class="threebtn" href="{{ route('vote_total') }}">投票する</a>
                     </div>
                 </div>
             </div>
