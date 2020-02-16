@@ -803,6 +803,12 @@ a.btnwhite {
   color: white;
 }
 
+#di .resultButton {
+  background-color: #8D3043;
+  width: 60%;
+  height: 40px;
+}
+
 #di h3 {
   position: relative;
   padding: 0.25em 1em;
