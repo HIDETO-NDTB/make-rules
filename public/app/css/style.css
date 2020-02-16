@@ -662,7 +662,7 @@ li.nav-item {
 }
 
 button.btn.dropdown-toggle {
-  display: inline-block;
+  float: left;
   color: #8D3043;
   border: 1px solid white;
   background-color: white;
