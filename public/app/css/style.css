@@ -661,6 +661,7 @@ li.nav-item {
 }
 
 button.btn.dropdown-toggle {
+  float: left;
   color: white;
   border: 1px solid white;
   background-color: #8D3043;
