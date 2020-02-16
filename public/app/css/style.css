@@ -869,31 +869,6 @@ a.btnwhite {
 
   }
 
-#di h4 {
-    font-weight: 700;
-  }
-
-div.resulttotalButton {
-    text-align: center;
-    border: 1px solid #8D3043;
-    width: 460px;
-}
-
-div.resulttotalButton a {
-    padding: 12px 0;
-    font-size: 18px;
-    color: #8D3043;
-}
-
-.result a {
-    font-weight: bold;
-}
-
-.result p {
-    font-weight: bold;
-    color: red;
-}
-
 .result-end-blue {
     background-color: #428bca;
     margin: 10px auto;
