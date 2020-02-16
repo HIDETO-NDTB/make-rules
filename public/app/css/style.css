@@ -900,24 +900,12 @@ a.btnwhite {
     text-align: center;
 }
 
-ul.resultGroup li {
-    padding: 15px 30px;
-    margin: 0 auto;
-    height: 70px;
-    width: 80%;
-    font-size: 24px;
-    border: 1px solid gray;
-    text-align: center;
+div.agree {
+  display: inline-block;
 }
 
-.resultButton {
-    text-align: center;
-
-}
-
-.resultButton a {
-    text-align: center;
-    font-weight: normal;
+div.disagree {
+  display: inline-block;
 }
 
 div .resulttotalButton {
