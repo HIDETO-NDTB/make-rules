@@ -95,7 +95,7 @@
 <div id="di">
     <div class="container">
         <div class="row centered">
-            <h1>開票速報</h1>
+            <h4>開票速報</h4>
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="result">
                     @isset($first_result)
