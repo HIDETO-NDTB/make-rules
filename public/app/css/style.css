@@ -677,7 +677,7 @@ button.btn.dropdown-toggle {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 100%;
+  left: auto;
 }
 
 .dropdown-menu>li>a {
