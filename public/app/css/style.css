@@ -763,6 +763,8 @@ a.threebtn {
 
 .z .resultButton {
   border: 1px solid #8D3043;
+  width: 80%;
+  height: 60px;
 }
 
 .ruleBox {

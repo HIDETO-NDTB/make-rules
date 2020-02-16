@@ -43,7 +43,7 @@
             <li><a href="{{ route('vote',['id' =>$third_now_vote->id]) }}">{{ $third_now_vote->finish_date }} 投票終了 : {{ $third_now_vote->title }}</a></li><br>
             @endisset
             <div class="resultButton">
-                <a class="btnwhite" style="width: 80%;" href="{{ route('vote_total') }}">投票中一覧</a>
+                <a class="btnwhite" href="{{ route('vote_total') }}">投票中一覧</a>
             </div>
         </div>
       <!-- col-lg-4 -->
@@ -62,7 +62,7 @@
             <li><a href="{{ route('rule.single',['id' =>$third_vote->id]) }}">{{ $third_vote->vote_date }} 投票開始 : {{ $third_vote->title }}</a></li><br>
             @endisset
             <div class="resultButton">
-                <a class="btnwhite" style="width: 80%;" href="{{ route('comment_total') }}">コメント可能一覧</a>
+                <a class="btnwhite" href="{{ route('comment_total') }}">コメント可能一覧</a>
             </div>
         </div>
         <!-- col-lg-4 -->
@@ -82,7 +82,7 @@
             <li><a href="{{ route('rule.single',['id' =>$third_initiative->id]) }}">{{ $third_initiative->initiative_date }} 発議 : {{ $third_initiative->title }}</a></li><br>
             @endisset
             <div class="resultButton">
-                <a class="btnwhite" style="width: 80%;" href="{{ route('comment_total') }}">コメント可能一覧</a>
+                <a class="btnwhite" href="{{ route('comment_total') }}">コメント可能一覧</a>
             </div>
         </div>
       <!-- col-lg-4 -->
