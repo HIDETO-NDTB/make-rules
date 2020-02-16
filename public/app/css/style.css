@@ -31,6 +31,10 @@ p {
   margin-bottom: 25px;
 }
 
+li {
+  list-style: none;
+}
+
 .centered {
   text-align: left;
   margin-left: 5px;
