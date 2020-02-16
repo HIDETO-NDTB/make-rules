@@ -662,6 +662,7 @@ li.nav-item {
 
 button.btn.dropdown-toggle {
   float: left;
+  margin-left: 30px;
   color: white;
   border: 1px solid white;
   background-color: #8D3043;
@@ -675,8 +676,6 @@ button.btn.dropdown-toggle {
 
 ul.dropdown-menu {
   position: relative;
-  top: 10px;
-  left: 0;
 }
 
 /* index.blade */
