@@ -754,10 +754,11 @@ a.threebtn {
 
 .z li {
   margin-left: 10px;
+  margin-bottom: 15px;
 }
 
 .z a {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .ruleBox {
