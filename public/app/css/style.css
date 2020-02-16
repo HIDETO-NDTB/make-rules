@@ -762,15 +762,18 @@ a.threebtn {
 }
 
 .z .resultButton {
-  border: 1px solid #8D3043;
+  background-color: #8D3043;
   width: 60%;
   height: 30px;
+}
+
+div.resultButton {
   text-align: center;
 }
 
 a.btnwhite {
   font-size: 18px;
-  color: #8D3043;
+  color: white;
   margin-top: 10px;
 }
 
