@@ -920,6 +920,20 @@ ul.resultGroup li {
     font-weight: normal;
 }
 
+div .resulttotalButton {
+    width: 460px;
+    height: 40px;
+    border: #8D3043;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a .btnblack {
+    font-size: 18px;
+    text-align: center;
+    color: #8D3043;
+}
+
 @media (max-width: 768px ) {
     .resultGroup li {
         font-size: 18px;
