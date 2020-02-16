@@ -924,7 +924,7 @@ div .resulttotalButton {
     width: 460px;
     height: 40px;
     border: 1px solid #8D3043;
-    text-align: center;
+    margin-left: 200px;
     margin-top: 40px;
 }
 
@@ -932,6 +932,7 @@ a.btnblack {
   font-size: 18px;
   color: #8D3043;
   text-align: center;
+  padding-top: 5px;
 }
 
 @media (max-width: 768px ) {
