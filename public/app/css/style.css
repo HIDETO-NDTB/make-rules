@@ -676,6 +676,9 @@ button.btn.dropdown-toggle {
 
 ul.dropdown-menu {
   position: relative;
+}
+
+a.dropdown-menu {
   color: #8D3043;
 }
 
