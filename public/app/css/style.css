@@ -660,7 +660,11 @@ li.nav-item {
   float: left;
 }
 
-
+button.btn.dropdown-toggle {
+  color: white;
+  border: 1px solid white;
+  
+}
 
 /* index.blade */
 .z h4 {
