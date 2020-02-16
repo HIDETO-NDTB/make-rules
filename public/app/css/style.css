@@ -678,7 +678,7 @@ ul.dropdown-menu {
   position: relative;
 }
 
-a.dropdown-item {
+.dropdown-menu>li>a {
   color: #8D3043;
 }
 
