@@ -11,13 +11,14 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle text-white" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">カテゴリ一覧</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">カテゴリ一覧</button>
+                    <div class="dropdown-menu">
                     @foreach ($categories as $category)
                         <li><a class="dropdown-item" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
                     @endforeach
                     </div>
                 </li>
+
                     @guest
                         <li class="nav-item">
                             <a class="navbtn" href="{{ route('login') }}">{{ __('ログイン') }}</a>
