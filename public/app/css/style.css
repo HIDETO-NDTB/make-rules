@@ -905,14 +905,12 @@ a.btnwhite {
 
 div.agree {
   display: inline-block;
-  
   font-size: 16px;
   border: 1px solid black;
 }
 
 div.disagree {
   display: inline-block;
-  
   font-size: 16px;
   border: 1px solid black;
 }
