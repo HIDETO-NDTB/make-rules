@@ -629,6 +629,7 @@ hr {
 
 div.navbar-collapse.collapse {
   float: left;
+  margin-left: 30px;
 }
 
 a.title {
@@ -662,7 +663,6 @@ li.nav-item {
 
 button.btn.dropdown-toggle {
   float: left;
-  margin-left: 30px;
   color: white;
   border: 1px solid white;
   background-color: #8D3043;
