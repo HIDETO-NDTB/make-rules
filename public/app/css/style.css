@@ -873,25 +873,13 @@ a.btnwhite {
     font-weight: 700;
   }
 
-#di .result {
-    text-align: center;
-  }
-
-#di .resultButton a {
-    margin-top: 20px;
-    height: 50px;
-    padding: 12px 0;
-}
-
-#di .resulttotalButton {
+div.resulttotalButton {
     text-align: center;
     border: 1px solid #8D3043;
     width: 460px;
 }
 
-#di .resulttotalButton a {
-    margin-top: 30px;
-    height: 50px;
+div.resulttotalButton a {
     padding: 12px 0;
     font-size: 18px;
     color: #8D3043;
