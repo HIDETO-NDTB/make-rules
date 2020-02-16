@@ -740,9 +740,9 @@ a.threebtn {
   padding: 0.25em 1em;
   border-top: solid 2px #8D3043;
   border-bottom: solid 2px #8D3043;
-  width: 200px;
+  width: 180px;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .z h3:before, h3:after {
   content: '';
@@ -808,9 +808,9 @@ a.btnwhite {
   padding: 0.25em 1em;
   border-top: solid 2px #8D3043;
   border-bottom: solid 2px #8D3043;
-  width: 140px;
+  width: 120px;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 20px;
 }
 #di h3:before, h3:after {
   content: '';
@@ -821,6 +821,7 @@ a.btnwhite {
   height: calc(100% + 14px);
   background-color: #8D3043;
 }
+
 #di h3:before {
   left: 7px;
 }
