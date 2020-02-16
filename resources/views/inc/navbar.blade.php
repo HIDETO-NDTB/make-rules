@@ -39,7 +39,7 @@
             </ul>
             <ul class="nav navbar-nav">
             <li class="nav-item">
-                <a class="navbtn" href="{{ route('how_to_use') }}">説明書</a>
+                <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
             </li> 
         </div>
     </div>

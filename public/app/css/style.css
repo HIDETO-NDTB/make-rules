@@ -70,20 +70,13 @@ hr {
 
 #headerwrap {
   background: url('../../app/img/themis-min.jpg') no-repeat center top;
-  padding-top: 20px;
+  background-size: 74%;
+  padding-top: 0;
   text-align: left;
-  min-height: 520px;
+  max-height: 400px;
   background-attachment: relative;
   background-position: top right;
-
   width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
