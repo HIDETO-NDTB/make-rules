@@ -612,7 +612,6 @@ hr {
 
 /* navbar.blade */
 .navbar {
-  position: relative;
   min-height: 70px;
 }
 
