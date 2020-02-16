@@ -764,7 +764,14 @@ a.threebtn {
 .z .resultButton {
   border: 1px solid #8D3043;
   width: 80%;
-  height: 60px;
+  height: 30px;
+  text-align: center;
+}
+
+.a btnwhite {
+  font-size: 18px;
+  color: #8D3043;
+  margin-top: 10px;
 }
 
 .ruleBox {
