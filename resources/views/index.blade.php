@@ -109,10 +109,12 @@
                                 <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <ul class="resultGroup">
+                        <div class="resultGroup">
+                            <ul>
                             <li>賛成　<strong>{{ $first_agree }}票</strong></li>
                             <li>反対　<strong>{{ $first_disagree }}票</strong></li>
-                        </ul>
+                            </ul>
+                        </div>
                         <div class="resultButton">
                             <a class="btnwhite" href="{{ route('result',['id' =>$first_result->id]) }}">詳しく見る</a>
                         </div>
@@ -134,10 +136,12 @@
                                 <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <ul class="resultGroup">
+                        <div class="resultGroup">
+                            <ul>
                             <li>賛成　<strong>{{ $second_agree }}票</strong></li>
                             <li>反対　<strong>{{ $second_disagree }}票</strong></li>
-                        </ul>
+                            </ul>
+                        </div>
                         <div class="resultButton">
                             <a class="btnwhite" href="{{ route('result',['id' =>$second_result->id]) }}">詳しく見る</a>
                         </div>
@@ -157,20 +161,22 @@
                                 <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <ul class="resultGroup">
+                        <div class="resultGroup">
+                            <ul>
                             <li>賛成　<strong>{{ $third_agree }}票</strong></li>
                             <li>反対　<strong>{{ $third_disagree }}票</strong></li>
-                        </ul>
+                            </ul>
+                        </div>
                         <div class="resultButton">
                             <a class="btnwhite" href="{{ route('result',['id' =>$third_result->id]) }}">詳しく見る</a>
                         </div>
                     @endisset
                 </div>
             </div>
-            <div class="resulttotalButton">
-                <a class="btnblack" href="{{ route('result_total') }}">開票済み一覧</a>
-            </div>
         </div>
+        <div class="resulttotalButton">
+            <a class="btnblack" href="{{ route('result_total') }}">開票済み一覧</a>
+        </div>  
     <!-- row -->
     </div>
     <!-- container -->
