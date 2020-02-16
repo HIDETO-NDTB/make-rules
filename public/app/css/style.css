@@ -684,6 +684,14 @@ button.btn.dropdown-toggle {
   color: #8D3043;
 }
 
+@media (max-width: 420px ) {
+  a.title {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0;
+  }
+}
+
 /* index.blade */
 .z h4 {
     font-weight: 700;
