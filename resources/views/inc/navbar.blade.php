@@ -36,6 +36,10 @@
                 </li>
             @endguest
             </ul>
+            <ul class="nav navbar-nav">
+            <li class="nav-item">
+                <a class="navbtn" href="{{ route('how_to_use') }}">説明書</a>
+            </li> 
         </div>
     </div>
 </div>
