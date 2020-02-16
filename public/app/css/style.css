@@ -700,18 +700,18 @@ button.btn.dropdown-toggle {
 div.initiativeButton {
   display: inline-block;
   position: relative;
-  background-color: #8D3043;
-  width: 100px;
-  height: 100px;
+  background-color: white;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
 }
 
 div.commentsButton {
   display: inline-block;
   position: relative;
-  background-color: #8D3043;
-  width: 100px;
-  height: 100px;
+  background-color: white;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   margin-left: 50px;
 }
@@ -719,16 +719,16 @@ div.commentsButton {
 div.voteButton {
   display: inline-block;
   position: relative;
-  background-color: #8D3043;
-  width: 100px;
-  height: 100px;
+  background-color: white;
+  width: 150px;
+  height: 150px;
   border-radius: 100%;
   margin-left: 50px;
 }
 
 a.threebtn {
-  font-size: 18px;
-  color: white;
+  font-size: 22px;
+  color: #8D3043;
   position: absolute;
   top: 35px;
   left: 15px;
