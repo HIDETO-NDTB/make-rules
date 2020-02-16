@@ -768,13 +768,13 @@ a.threebtn {
 }
 
 div.resultButton {
-  text-align: center;
+  margin-left: 30px;
 }
 
 a.btnwhite {
   font-size: 18px;
   color: white;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .ruleBox {
