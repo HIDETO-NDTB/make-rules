@@ -8,11 +8,11 @@
         </button>
         <a class="title" href="{{ route('index') }}">Make Rules</a>
         <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">カテゴリ一覧</a>
-        <ul class="dropdown-menu">
+        <div class="dropdown-menu">
         @foreach ($categories as $category)
-            <li><a class="dropdown-item" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a></li>
+            <a class="dropdown-item" href="{{ route('category.single',['id' =>$category->id]) }}">{{ $category->name }}</a>
         @endforeach
-        </ul>
+        </div>
         
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
