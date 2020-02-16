@@ -741,14 +741,13 @@ a.threebtn {
     text-align: center;
   }
 
-.z i {
-    color: #ff7878;
+.z img {
     font-size: 30px;
     margin-right: 10px;
   }
 
 .z span {
-      background-color: red;
+      background-color: #8D3043;
       color: white;
   }
 
