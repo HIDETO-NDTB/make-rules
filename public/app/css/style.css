@@ -1361,6 +1361,9 @@ select {
   }
 
   @media (max-width: 420px ) {
+      * {
+        float: none;
+      }
       a.title {
         font-size: 20px;
       }
