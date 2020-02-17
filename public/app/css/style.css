@@ -963,6 +963,12 @@ a.btnblack {
   right: 7px;
 }
 
+.commentsBox {
+  border-top: 5px solid gray;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
 div .commentButton {
   float: right;
   margin-top: 30px;
