@@ -876,8 +876,8 @@ a.btnwhite {
   }
 
 .result-end-blue {
-    background-color: blue;
-    border: 3px solid blue;
+    background-color: #428bca;
+    border: 3px solid #428bca;
     margin: 30px auto 0 auto;
     padding: 25px 30px;
     width: 80%;
@@ -888,8 +888,8 @@ a.btnwhite {
 }
 
 .result-end-red {
-    background-color: red;
-    border: 3px solid red;
+    background-color: #d9534f;
+    border: 3px solid #d9534f;
     margin: 30px auto 0 auto;
     padding: 25px 30px;
     width: 80%;
