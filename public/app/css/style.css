@@ -941,7 +941,33 @@ a.btnblack {
   font-size: 18px;
   color: #8D3043;
   text-align: center;
-  
+}
+
+.wb h3 {
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 2px #8D3043;
+  border-bottom: solid 2px #8D3043;
+  width: 120px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.wb h3:before, h3:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: #8D3043;
+}
+
+.wb h3:before {
+  left: 7px;
+}
+
+.wb h3:after {
+  right: 7px;
 }
 
 @media (max-width: 768px ) {

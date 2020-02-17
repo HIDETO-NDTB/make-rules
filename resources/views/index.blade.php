@@ -180,7 +180,7 @@
 <!-- FEATURE SECTION -->
 <div class="container wb">
     <div class="row centered">
-        <h4>傍聴席</h4>
+        <h3>傍聴席</h3>
         <p>現在コメント受付中の法案です。皆の意見を参考にコメントしましょう。</p>
         @foreach ($rules as $rule)
         @if($first_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
