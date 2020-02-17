@@ -210,9 +210,10 @@
                     @endisset
                 </div>
             </div>
-            </div>
+        </div>
         @endif
         @endforeach
+
         @foreach ($rules as $rule)
         @if($second_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
@@ -244,6 +245,7 @@
         </div>
         @endif
         @endforeach
+        
         @foreach ($rules as $rule)
         @if($third_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
