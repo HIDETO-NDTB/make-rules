@@ -981,8 +981,10 @@ div .commentButton a.btncmt {
 
 div .contact {
   background-color: white;
-  width: 60%;
+  width: 80%;
   height: 40px;
+  text-align: right;
+  padding: 7px 0;
 }
 
 @media (max-width: 768px ) {
