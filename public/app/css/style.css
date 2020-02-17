@@ -849,14 +849,14 @@ a.btnwhite {
 .comment-a {
     border: 2px solid #428bca;
     background-color: white;
-    max-height: 182px;
+    max-height: 154px;
     padding: 15px;
     margin-bottom: 20px;
 }
 .comment-d {
     border: 2px solid #d9534f;
     background-color: white;
-    max-height: 182px;
+    max-height: 154px;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -972,7 +972,7 @@ a.btnblack {
 .commentsBox {
   border-top: 5px solid gray;
   padding-top: 10px;
-  padding-bottom: 200px;
+  padding-bottom: 170px;
 }
 
 div .commentButton {
