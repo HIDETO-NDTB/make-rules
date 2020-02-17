@@ -29,13 +29,13 @@ class FrontEndController extends Controller
         $second_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->take(1)->skip(1)->get()->first();
         $third_result = Rule::orderBy('vote_date','desc')->whereDate('finish_date','<',today())->take(1)->skip(2)->get()->first();
         $categories = Category::all();
-        $first_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->first();
-        $second_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->take(1)->skip(1)->get()->first();
+        $first_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->first()->mb_strimwidth(100);
+        $second_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->take(1)->skip(1)->get()->first()->mb_strimwidth(100);
         $third_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->take(1)->skip(2)->get()->first();
         $fourth_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->take(1)->skip(3)->get()->first();
         $fifth_disagree_comment = Comment::orderBy('created_at','desc')->where('opinion','反対')->take(1)->skip(4)->get()->first();
-        $first_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$first_disagree_comment->rule_id)->where('opinion','賛成')->first();
-        $second_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$second_disagree_comment->rule_id)->where('opinion','賛成')->first();
+        $first_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$first_disagree_comment->rule_id)->where('opinion','賛成')->first()->mb_strimwidth(100);
+        $second_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$second_disagree_comment->rule_id)->where('opinion','賛成')->first()->mb_strimwidth(100);
         $third_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$third_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $fourth_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$fourth_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $fifth_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$fifth_disagree_comment->rule_id)->where('opinion','賛成')->first();
