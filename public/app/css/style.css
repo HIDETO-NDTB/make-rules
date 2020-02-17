@@ -847,12 +847,12 @@ a.btnwhite {
 }
 
 .comment-a {
-    background-color: #F2FCFC;
+    border: 2px solid #428bca;
     padding: 15px;
     margin-bottom: 20px;
 }
 .comment-d {
-    background-color: #FCF2F7;
+    border: 2px solid #d9534f;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -974,7 +974,7 @@ div .commentButton {
 div .commentButton a.btncmt {
   background-color: #8D3043;
   color: white;
-  padding: 12px 60px;
+  padding: 10px 62px;
   font-size: 18px;
 }
 
