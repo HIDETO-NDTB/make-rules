@@ -182,9 +182,9 @@
     <div class="row centered">
         <h3>傍聴席</h3>
         <p>現在コメント受付中の法案です。皆の意見を参考にコメントしましょう。</p>
-        <div class="commentsBox">
         @foreach ($rules as $rule)
         @if($first_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
+        <div class="commentsBox">
             <div class="commentButton">
                 <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
@@ -210,12 +210,12 @@
                     @endisset
                 </div>
             </div>
+            </div>
         @endif
         @endforeach
-        </div>
-        <div class="commentsBox">
         @foreach ($rules as $rule)
         @if($second_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
+        <div class="commentsBox">
             <div class="commentButton">
                 <a class="btncmt" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
@@ -241,12 +241,12 @@
                     @endisset
                 </div>
             </div>
+        </div>
         @endif
         @endforeach
-        </div>
-        <div class="commentsBox">
         @foreach ($rules as $rule)
         @if($third_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
+        <div class="commentsBox">
             <div class="commentButton">
                 <a class="btncmt" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
@@ -272,9 +272,9 @@
                     @endisset
                 </div>
             </div>
+        </div>
         @endif
         @endforeach
-        </div>
     </div>
     <!-- row -->
 </div>
