@@ -979,6 +979,12 @@ div .commentButton a.btncmt {
   font-size: 18px;
 }
 
+div .contact {
+  background-color: white;
+  width: 60%;
+  height: 40px;
+}
+
 @media (max-width: 768px ) {
     .resultGroup li {
         font-size: 18px;
