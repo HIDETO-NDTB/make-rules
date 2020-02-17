@@ -1365,7 +1365,6 @@ select {
         float: none;
       }
       .centered {
-        text-align: center;
         margin-left: 0;
       }
       .row {
