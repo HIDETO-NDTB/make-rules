@@ -860,8 +860,7 @@ a.btnwhite {
 }
 
 .commentsBox {
-
-    border-top: 5px solid gray;
+    
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -971,6 +970,7 @@ a.btnblack {
 div .commentButton {
   float: right;
   margin-top: 30px;
+  border-top: 5px solid gray;
 }
 
 div .commentButton a.btncmt {
