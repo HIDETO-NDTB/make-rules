@@ -1360,4 +1360,14 @@ select {
 
   }
 
-  
+  @media (max-width: 420px ) {
+      a.title {
+        font-size: 20px;
+      }
+      button.btn.dropdown-toggle {
+        font-size: 16px;
+      }
+      #headerwrap {
+        height: 200px;
+      }
+  }
