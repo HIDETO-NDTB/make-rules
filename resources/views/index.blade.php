@@ -356,7 +356,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="contact">
-                    <a class="btn btn-info" style="width: 300px;" href="{{ route ('contact') }}">各種お問い合わせはこちらから</a>
+                    <a class="btnblack" href="{{ route ('contact') }}">各種お問い合わせはこちらから</a>
                 </div>
             </div>
          <!-- row -->
