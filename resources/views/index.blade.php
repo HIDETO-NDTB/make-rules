@@ -110,8 +110,8 @@
                             </div>
                         @endif
                         <div class="resultGroup">
-                            <div class="agreeGroup">賛成　<strong>{{ $first_agree }}票</strong></div>
-                            <div class="disagreeGroup">反対　<strong>{{ $first_disagree }}票</strong></div>
+                            <div class="agreeGroup">賛成<br><strong>{{ $first_agree }}票</strong></div>
+                            <div class="disagreeGroup">反対<br><strong>{{ $first_disagree }}票</strong></div>
                         </div>
                         <div class="resultButton">
                             <a class="btnwhite" href="{{ route('result',['id' =>$first_result->id]) }}">詳しく見る</a>
