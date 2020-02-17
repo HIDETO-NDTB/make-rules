@@ -903,13 +903,13 @@ a.btnwhite {
 
 .resultButton a
 
-div.agree {
+div.agreeGroup {
   display: inline-block;
   font-size: 16px;
   border: 1px solid black;
 }
 
-div.disagree {
+div.disagreeGroup {
   display: inline-block;
   font-size: 16px;
   border: 1px solid black;
