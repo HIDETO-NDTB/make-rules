@@ -212,8 +212,8 @@
                     @endisset
                 </div>
             </div>
-            <div class="resultButton">
-                <a class="btnwhite" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
+            <div class="commentButton">
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
@@ -247,8 +247,8 @@
                     @endisset
                 </div>
             </div>
-            <div class="resultButton">
-                <a class="btnwhite" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
+            <div class="commentButton">
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
@@ -282,8 +282,8 @@
                     @endisset
                 </div>
             </div>
-            <div class="resultButton">
-                <a class="btnwhite" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
+            <div class="commentButton">
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
@@ -317,8 +317,8 @@
                     @endisset
                 </div>
             </div>
-            <div class="resultButton">
-                <a class="btnwhite" href="{{ route('rule.single',['id' =>$fourth_disagree_comment->rule_id]) }}">詳しく見る</a>
+            <div class="commentButton">
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$fourth_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
@@ -352,8 +352,8 @@
                     @endisset
                 </div>
             </div>
-            <div class="resultButton">
-                <a class="btnwhite" href="{{ route('rule.single',['id' =>$fifth_disagree_comment->rule_id]) }}">詳しく見る</a>
+            <div class="commentButton">
+                <a class="btn btn-success" style="width: 300px;" href="{{ route('rule.single',['id' =>$fifth_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
