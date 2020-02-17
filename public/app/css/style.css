@@ -1370,7 +1370,7 @@ select {
       }
       #headerwrap {
         height: 200px;
-        margin-top: 0;
+        margin-top: 30px;
       }
       div.initiativeButton {
         display: none;
