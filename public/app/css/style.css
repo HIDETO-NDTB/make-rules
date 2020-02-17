@@ -1005,25 +1005,20 @@ div .contact {
         padding-bottom: 30px;
         border-bottom: 3px solid gray;
     }
-
     .z .btn-success {
         margin-bottom: 50px;
     }
-
     div.initiativeButton {
       display: none;
     }
-
     div.commentsButton {
       display: none;
     }
-
     div.voteButton {
       display: none;
     }
-
     #headerwrap {
-      display: none;
+      height: 200px;
     }
 }
 
