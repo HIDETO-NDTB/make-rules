@@ -906,21 +906,22 @@ a.btnwhite {
 div.resultGroups {
     text-align: center;
     border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
 }
 
 div.agreeGroup {
   display: inline-block;
   font-size: 18px;
-  
   width: 40%;
   height: 80px;
   padding-top: 15px;
+  border-right: 1px solid black;
 }
 
 div.disagreeGroup {
   display: inline-block;
   font-size: 18px;
-  
   width: 40%;
   height: 80px;
   padding-top: 15px;
