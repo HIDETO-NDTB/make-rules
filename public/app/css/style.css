@@ -904,7 +904,6 @@ a.btnwhite {
 }
 
 div.resultGroups {
-    text-align: center;
     border: 1px solid black;
     width: 80%;
     margin: 0 auto;
@@ -913,10 +912,11 @@ div.resultGroups {
 div.agreeGroup {
   display: inline-block;
   font-size: 18px;
-  width: 40%;
+  width: 50%;
   height: 80px;
   padding-top: 15px;
   border-right: 1px solid black;
+  text-align: center;
 }
 
 div.disagreeGroup {
@@ -925,6 +925,7 @@ div.disagreeGroup {
   width: 40%;
   height: 80px;
   padding-top: 15px;
+  text-align: center;
 }
 
 div .resulttotalButton {
