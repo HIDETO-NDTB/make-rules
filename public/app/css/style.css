@@ -1367,7 +1367,11 @@ select {
       .centered {
         text-align: center;
         margin-left: 0;
-    }
+      }
+      .row {
+        margin-right: 0;
+        margin-left: 0;
+      }
       a.title {
         font-size: 20px;
       }
