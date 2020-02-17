@@ -109,7 +109,7 @@
                                 <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <div class="resultGroup">
+                        <div class="resultGroups">
                             <div class="agreeGroup">賛成<br><strong>{{ $first_agree }}票</strong></div>
                             <div class="disagreeGroup">反対<br><strong>{{ $first_disagree }}票</strong></div>
                         </div>

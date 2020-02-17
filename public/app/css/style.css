@@ -903,10 +903,15 @@ a.btnwhite {
     text-align: center;
 }
 
+div.resultGroups {
+    text-align: center;
+    border: 1px solid black;
+}
+
 div.agreeGroup {
   display: inline-block;
   font-size: 18px;
-  border: 1px solid black;
+  
   width: 40%;
   height: 80px;
   padding-top: 15px;
@@ -915,7 +920,7 @@ div.agreeGroup {
 div.disagreeGroup {
   display: inline-block;
   font-size: 18px;
-  border: 1px solid black;
+  
   width: 40%;
   height: 80px;
   padding-top: 15px;
