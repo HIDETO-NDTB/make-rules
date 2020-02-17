@@ -10,6 +10,7 @@ use App\User;
 use App\Vote;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 
 class FrontEndController extends Controller
@@ -39,6 +40,8 @@ class FrontEndController extends Controller
         $third_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$third_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $fourth_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$fourth_disagree_comment->rule_id)->where('opinion','賛成')->first();
         $fifth_agree_comment = Comment::orderBy('created_at','desc')->where('rule_id',$fifth_disagree_comment->rule_id)->where('opinion','賛成')->first();
+        $third_disagree_comment_str = Str::limit($third_disagree_comment,80);
+        $third_agree_comment_str = Str::limit($third_agree_comment,80);
         $first_agree = Vote::where('rule_id',$first_result->id)->where('vote','agree')->count();
         $first_disagree = Vote::where('rule_id',$first_result->id)->where('vote','disagree')->count();
         $second_agree = Vote::where('rule_id',$second_result->id)->where('vote','agree')->count();
@@ -71,6 +74,8 @@ class FrontEndController extends Controller
                             ->with('third_agree_comment',$third_agree_comment)
                             ->with('fourth_agree_comment',$fourth_agree_comment)
                             ->with('fifth_agree_comment',$fifth_agree_comment)
+                            ->with('third_disagree_comment_str',$third_disagree_comment_str)
+                            ->with('third_agree_comment_str',$third_agree_comment_str)
                             ->with('first_agree',$first_agree)
                             ->with('first_disagree',$first_disagree)
                             ->with('second_agree',$second_agree)
