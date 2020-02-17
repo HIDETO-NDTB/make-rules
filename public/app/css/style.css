@@ -969,6 +969,8 @@ a.btnblack {
 div .commentButton a.btn {
   background-color: #8D3043;
   color: white;
+  width: 210px;
+  height: 40px;
 }
 
 @media (max-width: 768px ) {
