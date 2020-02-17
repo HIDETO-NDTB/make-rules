@@ -966,6 +966,11 @@ a.btnblack {
   right: 7px;
 }
 
+div .commentButton a.btn {
+  background-color: #8D3043;
+  color: white;
+}
+
 @media (max-width: 768px ) {
     .resultGroup li {
         font-size: 18px;
