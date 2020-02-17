@@ -1386,4 +1386,7 @@ select {
         padding: 7px 45px;
         margin-left: 88px;
       }
+      div .initiative-option {
+        display: none;
+      }
   }
