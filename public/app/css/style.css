@@ -966,10 +966,10 @@ a.btnblack {
   right: 7px;
 }
 
-div .commentButton a.btn {
+div .commentButton a.btncmt {
   background-color: #8D3043;
   color: white;
-  width: 210px;
+  width: 180px;
   height: 40px;
 }
 

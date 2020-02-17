@@ -213,7 +213,7 @@
                 </div>
             </div>
             <div class="commentButton">
-                <a class="btn" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
+                <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
