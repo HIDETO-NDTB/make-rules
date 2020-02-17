@@ -966,11 +966,15 @@ a.btnblack {
   right: 7px;
 }
 
+div .commentButton {
+  float: right;
+  width: 180px;
+  height: 40px;
+}
+
 div .commentButton a.btncmt {
   background-color: #8D3043;
   color: white;
-  width: 180px;
-  height: 40px;
 }
 
 @media (max-width: 768px ) {
