@@ -1009,6 +1009,18 @@ div .contact {
     .z .btn-success {
         margin-bottom: 50px;
     }
+
+    div.initiativeButton {
+      display: none;
+    }
+
+    div.commentsButton {
+      display: none;
+    }
+
+    div.voteButton {
+      display: none;
+    }
 }
 
 
