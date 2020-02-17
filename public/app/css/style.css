@@ -1387,6 +1387,6 @@ select {
         margin-left: 88px;
       }
       div .initiative-option {
-        display: none;
+        margin-top: 0;
       }
   }
