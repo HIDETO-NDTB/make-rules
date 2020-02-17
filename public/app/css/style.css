@@ -877,6 +877,7 @@ a.btnwhite {
 
 .result-end-blue {
     background-color: #428bca;
+    border: 1px solid blue;
     margin: 0 auto;
     padding: 25px 30px;
     width: 80%;
@@ -888,6 +889,7 @@ a.btnwhite {
 
 .result-end-red {
     background-color: #d9534f;
+    border: 1px solid red;
     margin: 0 auto;
     padding: 25px 30px;
     width: 80%;
@@ -905,7 +907,7 @@ div.agreeGroup {
   display: inline-block;
   font-size: 18px;
   border: 1px solid black;
-  width: 39%;
+  width: 40%;
   height: 80px;
   padding-top: 15px;
 }
@@ -914,7 +916,7 @@ div.disagreeGroup {
   display: inline-block;
   font-size: 18px;
   border: 1px solid black;
-  width: 39%;
+  width: 40%;
   height: 80px;
   padding-top: 15px;
 }
