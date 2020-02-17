@@ -1366,8 +1366,11 @@ select {
       }
       button.btn.dropdown-toggle {
         font-size: 16px;
+        width: 50%;
       }
       #headerwrap {
         height: 200px;
+        position: absolute;
+        top: 0;
       }
   }
