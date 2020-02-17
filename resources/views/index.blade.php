@@ -188,6 +188,9 @@
             <div class="col-lg-10">
                 <div class="ruleBox">
 
+                    <div class="commentButton">
+                        <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
+                    </div>
                     <h4 class="comment-title">{{ $rule->title }}</h4>
                     <p class="comment-text">{{ $rule->content }}</p>
                     <li>発議日: {{ $rule->initiative_date }}</li>
@@ -211,9 +214,6 @@
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
                 </div>
-            </div>
-            <div class="commentButton">
-                <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
         </div>
         @endif
