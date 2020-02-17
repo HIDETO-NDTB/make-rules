@@ -884,7 +884,6 @@ a.btnwhite {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    position: relative;
 }
 
 .result-end-red {
@@ -896,7 +895,6 @@ a.btnwhite {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    position: relative;
 }
 
 .resultGroup {
@@ -910,8 +908,6 @@ div.agreeGroup {
   width: 40%;
   height: 50px;
   margin-top: 0;
-  position: absolute;
-  top:0;
 }
 
 div.disagreeGroup {
@@ -921,8 +917,6 @@ div.disagreeGroup {
   width: 40%;
   height: 50px;
   margin-top: 0;
-  position: absolute;
-  top:0;
 }
 
 div .resulttotalButton {
