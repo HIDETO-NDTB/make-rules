@@ -184,21 +184,16 @@
         <p>現在コメント受付中の法案です。皆の意見を参考にコメントしましょう。</p>
         @foreach ($rules as $rule)
         @if($first_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
-        <div class="commentButton">
-            <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
-        </div>
         <div class="commentsBox">
-            <div class="col-lg-10">
-                <div class="ruleBox">
-
-                    <h4 class="comment-title">{{ $rule->title }}</h4>
-                    <p class="comment-text">{{ $rule->content }}</p>
-                    <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-
-                </div>
+            <div class="commentButton">
+                <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="ruleBox">
+                <h4 class="comment-title">{{ $rule->title }}</h4>
+                <p class="comment-text">{{ $rule->content }}</p>
+                <li>発議日: {{ $rule->initiative_date }}</li>
+                <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -218,22 +213,18 @@
         </div>
         @endif
         @endforeach
-        <br>
         @foreach ($rules as $rule)
         @if($second_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
-        <div class="commentButton">
-            <a class="btncmt" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
-        </div>
         <div class="commentsBox">
-            <div class="col-lg-10">
-                <div class="ruleBox">
-                    <h4 class="comment-title">{{ $rule->title }}</h4>
-                    <p class="comment-text">{{ $rule->content }}</p>
-                    <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                </div>
+            <div class="commentButton">
+                <a class="btncmt" href="{{ route('rule.single',['id' =>$second_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="ruleBox">
+                <h4 class="comment-title">{{ $rule->title }}</h4>
+                <p class="comment-text">{{ $rule->content }}</p>
+                <li>発議日: {{ $rule->initiative_date }}</li>
+                <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -253,22 +244,18 @@
         </div>
         @endif
         @endforeach
-        <br>
         @foreach ($rules as $rule)
         @if($third_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
-        <div class="commentButton">
-            <a class="btncmt" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
-        </div>
         <div class="commentsBox">
-            <div class="col-lg-10">
-                <div class="ruleBox">
-                    <h4 class="comment-title">{{ $rule->title }}</h4>
-                    <p class="comment-text">{{ $rule->content }}</p>
-                    <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                </div>
+            <div class="commentButton">
+                <a class="btncmt" href="{{ route('rule.single',['id' =>$third_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
-            <div class="col-lg-2"></div>
+            <div class="ruleBox">
+                <h4 class="comment-title">{{ $rule->title }}</h4>
+                <p class="comment-text">{{ $rule->content }}</p>
+                <li>発議日: {{ $rule->initiative_date }}</li>
+                <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
+            </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
@@ -280,76 +267,6 @@
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($third_agree_comment)
                     <p class="comment-text">{{ $third_agree_comment->comment }}</p>
-                    @else
-                    <p>当法案に対する賛成意見はありません。</p>
-                    @endisset
-                </div>
-            </div>
-        </div>
-        @endif
-        @endforeach
-        <br>
-        @foreach ($rules as $rule)
-        @if($fourth_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
-        <div class="commentButton">
-            <a class="btncmt" href="{{ route('rule.single',['id' =>$fourth_disagree_comment->rule_id]) }}">詳しく見る</a>
-        </div>
-        <div class="commentsBox">
-            <div class="col-lg-10">
-                <div class="ruleBox">
-                    <h4 class="comment-title">{{ $rule->title }}</h4>
-                    <p class="comment-text">{{ $rule->content }}</p>
-                    <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                </div>
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="comment-d">
-                    <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ $fourth_disagree_comment->comment }}</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="comment-a">
-                    <h4 class="comment-title">賛成派意見</h4>
-                    @isset($fourth_agree_comment)
-                    <p class="comment-text">{{ $fourth_agree_comment->comment }}</p>
-                    @else
-                    <p>当法案に対する賛成意見はありません。</p>
-                    @endisset
-                </div>
-            </div>
-        </div>
-        @endif
-        @endforeach
-        <br>
-        @foreach ($rules as $rule)
-        @if($fifth_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
-        <div class="commentButton">
-            <a class="btncmt" href="{{ route('rule.single',['id' =>$fifth_disagree_comment->rule_id]) }}">詳しく見る</a>
-        </div>
-        <div class="commentsBox">
-            <div class="col-lg-10">
-                <div class="ruleBox">
-                    <h4 class="comment-title">{{ $rule->title }}</h4>
-                    <p class="comment-text">{{ $rule->content }}</p>
-                    <li>発議日: {{ $rule->initiative_date }}</li>
-                    <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
-                </div>
-            </div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="comment-d">
-                    <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ $fifth_disagree_comment->comment }}</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6">
-                <div class="comment-a">
-                    <h4 class="comment-title">賛成派意見</h4>
-                    @isset($fifth_agree_comment)
-                    <p class="comment-text">{{ $fifth_agree_comment->comment }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
