@@ -1381,4 +1381,7 @@ select {
       div.voteButton {
         display: none;
       }
+      div .resulttotalButton {
+        width: 60%;
+      }
   }
