@@ -1021,6 +1021,10 @@ div .contact {
     div.voteButton {
       display: none;
     }
+
+    #headerwrap {
+      display: none;
+    }
 }
 
 
