@@ -185,6 +185,7 @@
         @foreach ($rules as $rule)
         @if($first_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
+            <div class="col-lg-12">
             <div class="commentButton">
                 <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
@@ -193,6 +194,7 @@
                 <p class="comment-text">{{ $rule->content }}</p>
                 <li>発議日: {{ $rule->initiative_date }}</li>
                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
+            </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
