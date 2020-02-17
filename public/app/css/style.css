@@ -1383,5 +1383,7 @@ select {
       }
       div .resulttotalButton {
         width: 60%;
+        padding: 7px auto;
+        margin-left: 20px;
       }
   }
