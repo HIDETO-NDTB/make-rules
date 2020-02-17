@@ -1371,6 +1371,7 @@ select {
       #headerwrap {
         height: 200px;
         margin-top: 100px;
+        margin-bottom: 0px;
       }
       div.initiativeButton {
         display: none;
