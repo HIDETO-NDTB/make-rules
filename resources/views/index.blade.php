@@ -268,7 +268,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
-                    @isset($third_agree_comment_str)
+                    @isset($third_agree_comment)
                     <p class="comment-text">{{ $third_agree_comment_str }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
