@@ -134,11 +134,9 @@
                                 <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <div class="resultGroup">
-                            <ul>
-                            <li>賛成　<strong>{{ $second_agree }}票</strong></li>
-                            <li>反対　<strong>{{ $second_disagree }}票</strong></li>
-                            </ul>
+                        <div class="resultGroups">
+                            <div class="agreeGroup">賛成<br><strong>{{ $second_agree }}票</strong></div>
+                            <div class="disagreeGroup">反対<br><strong>{{ $second_disagree }}票</strong></div>
                         </div>
                         <div class="resultButton">
                             <a class="btnwhite" href="{{ route('result',['id' =>$second_result->id]) }}">詳しく見る</a>
@@ -159,11 +157,9 @@
                                 <h4 class="result-end-red">否　決</h4>
                             </div>
                         @endif
-                        <div class="resultGroup">
-                            <ul>
-                            <li>賛成　<strong>{{ $third_agree }}票</strong></li>
-                            <li>反対　<strong>{{ $third_disagree }}票</strong></li>
-                            </ul>
+                        <div class="resultGroups">
+                            <div class="agreeGroup">賛成<br><strong>{{ $third_agree }}票</strong></div>
+                            <div class="disagreeGroup">反対<br><strong>{{ $third_disagree }}票</strong></div>
                         </div>
                         <div class="resultButton">
                             <a class="btnwhite" href="{{ route('result',['id' =>$third_result->id]) }}">詳しく見る</a>
