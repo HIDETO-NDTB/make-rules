@@ -1454,6 +1454,11 @@ select {
       }
   }
 
+  div.bottom-fixed {
+    position: fixed;
+    bottom: 0;
+  }
+  
   div.bottom-menu {
     float: left;
     width: 33%;
