@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="{{ secure_asset('app/img/comment-min(half).jpg') }}"  style="width:100%; height:100%;">
+                <img class="cmtimg" src="{{ secure_asset('app/img/comment-min(half).jpg') }}"  style="width:100%; height:100%;">
             </div>
         </div>
       <!-- row -->
