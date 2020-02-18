@@ -1399,9 +1399,9 @@ select {
         display: none;
       }
       div .resulttotalButton {
-        width: 210px;
-        padding: 7px 45px;
-        margin-left: 88px;
+        width: 60%;
+        padding: 7px 55px;
+        margin: 0 auto;
       }
       div .initiative-option {
         padding-top: 0;
