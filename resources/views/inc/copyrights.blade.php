@@ -19,6 +19,10 @@
 
 <div class="bottom-menu">
     <a class="bottombtn" href="{{ route('initiative') }}">発議する</a></li>
+</div>
+<div class="bottom-menu">
     <a class="bottombtn" href="{{ route('comment_total') }}">コメント</a></li>
+</div>
+<div class="bottom-menu">
     <a class="bottombtn" href="{{ route('vote_total') }}">投票する</a></li>
 </div>
