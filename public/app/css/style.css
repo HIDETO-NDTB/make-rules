@@ -1455,11 +1455,9 @@ select {
   }
 
   div.bottom-menu {
-    position: fixed;
-    bottom: 0;
     float: left;
     width: 33%;
-    height: 60px;
+    height: 50px;
     text-align: center;
     background-color: white;
     padding: 18px;
@@ -1468,11 +1466,9 @@ select {
   }
 
   div.bottom-menuCenter {
-    position: fixed;
-    bottom: 0;
     float: left;
     width: 33%;
-    height: 60px;
+    height: 50px;
     text-align: center;
     background-color: white;
     padding: 18px;
@@ -1480,8 +1476,6 @@ select {
   }
 
   a.bottombtn {
-    position: fixed;
-    bottom: 0;
     font-size: 18px;
   }
 
