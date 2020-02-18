@@ -1454,31 +1454,34 @@ select {
       }
   }
 
-  div.bottom-fixed {
+  div.bottom-menu {
     position: fixed;
     bottom: 0;
-  }
-  
-  div.bottom-menu {
     float: left;
     width: 33%;
     height: 60px;
     text-align: center;
+    background-color: white;
     padding: 18px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
   }
 
   div.bottom-menuCenter {
+    position: fixed;
+    bottom: 0;
     float: left;
     width: 33%;
     height: 60px;
     text-align: center;
+    background-color: white;
     padding: 18px;
     border: 1px solid black;
   }
 
   a.bottombtn {
+    position: fixed;
+    bottom: 0;
     font-size: 18px;
   }
 
