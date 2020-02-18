@@ -92,7 +92,7 @@
             @endforeach
             @else
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h3>現在、当カテゴリの法案はありません</h3>
+                    <h5>現在、当カテゴリの法案はありません</h5>
                 </div>
             @endif
         </div>
