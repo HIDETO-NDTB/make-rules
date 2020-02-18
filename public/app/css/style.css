@@ -1552,6 +1552,9 @@ img.imgitt {
       img.imgitt {
         display: none;
       }
+      .howtouse {
+        margin-top: 50px;
+      }
   }
 
   div.bottom-menu {
@@ -1593,7 +1596,4 @@ img.imgitt {
     div.mobile-option {
       display: none;
     }
-    .howtouse {
-      margin-top: 50px;
-  }
   }
