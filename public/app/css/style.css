@@ -1547,6 +1547,9 @@ img.imgitt {
         margin-bottom: 20px;
       }
       #initiativewrap {
+        margin-top: 50px;
+      }
+      img.imgitt {
         display: none;
       }
   }
