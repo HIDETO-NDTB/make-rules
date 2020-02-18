@@ -994,9 +994,16 @@ div.mobile-top {
   height: 50px;
   text-align: center;
   background-color: gray;
+  padding: 8px;
+  margin: 0 auto;
 }
 
-div.mobile-option h4 {
+div.mobile-top h4 {
+  font-size: 18px;
+  color: white;
+}
+
+div.mobile-detale h4 {
   font-size: 18px;
   color: black;
 }
@@ -1007,6 +1014,8 @@ div.mobile-detale {
   text-align: center;
   background-color: white;
   border: 1px solid black;
+  padding: 8px;
+  margin: 0 auto;
 }
 
 /* rule-single.blade.php */
