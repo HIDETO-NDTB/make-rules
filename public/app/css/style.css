@@ -812,14 +812,14 @@ a.btnwhite {
     background-color: white;
     padding: 15px;
     margin-bottom: 20px;
-    max-height: 126px;
+    height: 126px;
 }
 .comment-d {
     border: 2px solid #d9534f;
     background-color: white;
     padding: 15px;
     margin-bottom: 20px;
-    max-height: 126px;
+    height: 126px;
 }
 
 #di {
