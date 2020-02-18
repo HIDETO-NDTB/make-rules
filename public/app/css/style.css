@@ -1454,9 +1454,11 @@ select {
       }
   }
 
-  a.bottombtn {
-    float: left;
+  div.bottom-menu {
     width: 33%;
     height: 60px;
+  }
+
+  a.bottombtn {
     font-size: 16px;
   }
