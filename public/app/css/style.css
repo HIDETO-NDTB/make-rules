@@ -1508,6 +1508,9 @@ button.btncmt {
       ul {
         padding-inline-start: 0;
       }
+      img.imgvote {
+        display: none;
+      }
   }
 
   div.bottom-menu {
