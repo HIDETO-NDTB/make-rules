@@ -1456,4 +1456,7 @@ select {
 
   a.bottombtn {
     float: left;
+    width: 33%;
+    height: 60px;
+    font-size: 16px;
   }
