@@ -1470,6 +1470,13 @@ select {
       .pricing-option .pricing-top {
         padding: 10px;
       }
+      .pricing-option ul li {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+      .pricing-option ul li strong {
+        font-size: 18px;
+    }
   }
 
   div.bottom-menu {
