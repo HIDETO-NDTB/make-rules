@@ -1511,6 +1511,10 @@ button.btncmt {
       img.imgvote {
         display: none;
       }
+      .vote button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
   }
 
   div.bottom-menu {
