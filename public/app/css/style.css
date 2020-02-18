@@ -1531,4 +1531,7 @@ select {
     a.bottombtn {
       display: none;
     }
+    div.mobile-option {
+      display: none;
+    }
   }
