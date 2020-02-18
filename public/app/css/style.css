@@ -1457,6 +1457,7 @@ select {
       }
       .pricing-option {
         padding-top: 210px;
+        margin-bottom: 240px;
       }
       .pricing-option .pricing-edition {
         font-size: 16px;
@@ -1477,9 +1478,7 @@ select {
       .pricing-option ul li strong {
         font-size: 18px;
       }
-      .card {
-        margin-top: 240px;
-      }
+      
     }
 
   div.bottom-menu {
