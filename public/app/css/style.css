@@ -1422,4 +1422,7 @@ select {
       .commentsBox {
         padding-bottom: 30px;
       }
+      div .contact {
+        margin: 0 auto;
+      }
   }
