@@ -198,14 +198,14 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ $first_disagree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($first_disagree_comment->comment, 180) }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($first_agree_comment)
-                    <p class="comment-text">{{ $first_agree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($first_agree_comment->comment, 180) }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
@@ -230,14 +230,14 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ $second_disagree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($second_disagree_comment->comment, 180) }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($second_agree_comment)
-                    <p class="comment-text">{{ $second_agree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($second_agree_comment->comment, 180) }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
@@ -294,14 +294,14 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ $fourth_disagree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($fourth_disagree_comment->comment, 180) }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($fourth_agree_comment)
-                    <p class="comment-text">{{ $fourth_agree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($fourth_agree_comment->comment, 180) }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
@@ -326,14 +326,14 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ $fifth_disagree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($fifth_disagree_comment->comment, 180) }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-a">
                     <h4 class="comment-title">賛成派意見</h4>
                     @isset($fifth_agree_comment)
-                    <p class="comment-text">{{ $fifth_agree_comment->comment }}</p>
+                    <p class="comment-text">{{ str_limit($fifth_agree_comment->comment, 180) }}</p>
                     @else
                     <p>当法案に対する賛成意見はありません。</p>
                     @endisset
