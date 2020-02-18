@@ -1519,6 +1519,9 @@ img.imgitt {
         margin-top: 20px;
         margin-bottom: 20px;
       }
+      #initiativewrap {
+        display: none;
+      }
   }
 
   div.bottom-menu {
