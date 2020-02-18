@@ -64,9 +64,9 @@
                             <div class="col-lg-4">
 
                                 @if($rule->vote_date > today())
-                                <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                <a class="btnwhite" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
                                 @elseif($rule->vote_date <= today())
-                                <a class="btn btn-danger" style="width: 300px;" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
+                                <a class="btnwhite" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
                                 @endif
                         </div>
                     </ul>
