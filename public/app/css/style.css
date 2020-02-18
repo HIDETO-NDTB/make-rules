@@ -984,6 +984,22 @@ div .contact {
     }
 }
 
+/* category */
+div.mobile-option {
+  margin: 20px auto;
+}
+
+div.mobile-top {
+  width: 70%;
+  height: 50px;
+  text-align: center;
+}
+
+div.mobile-top h4 {
+  font-size: 18px;
+  color: black;
+}
+
 /* rule-single.blade.php */
 #commentform {
     background-color: white;
@@ -1457,25 +1473,6 @@ select {
       }
       div .pricing-option {
         display: none;
-      }
-      .pricing-option .pricing-edition {
-        font-size: 16px;
-      }
-      .pricing-option .price .price-amount {
-        font-size: 22px;
-      }
-      .pricing-option .price small {
-        font-size: 16px;
-      }
-      .pricing-option .pricing-top {
-        padding: 10px;
-      }
-      .pricing-option ul li {
-        padding-top: 10px;
-        padding-bottom: 10px;
-      }
-      .pricing-option ul li strong {
-        font-size: 18px;
       }
       
     }

@@ -27,6 +27,15 @@
     </div>
 </div>
 
+<div class="mobile-option">
+    <div class="mobile-top">
+        <h4>投票中 : {{ $category->name }} 案件</h4>
+    </div>
+    <div class="mobile-top">
+        <h4>コメント可能 : {{ $comment_rule }} 案件</h4>
+    </div>
+</div>
+
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12 col-xs-12">
