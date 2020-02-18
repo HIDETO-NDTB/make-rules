@@ -46,9 +46,9 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12 col-xs-12">
-            @if($rule->result_date > today())
+            @if($rules->count() > 0 )
             @foreach ($rules as $rule)
-            
+            @if($rule->result_date > today())
             <div class="card">
                 <div class="card-header"><h4>{{ $rule->title }}</h4></div>
                 <div class="card-body">
@@ -88,12 +88,12 @@
                     </ul>
                 </div>
             </div>
-            
-            @endforeach
             @else
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h5>現在、当カテゴリの法案はありません</h5>
                 </div>
+            @endforeach
+                
             @endif
         </div>
     </div>
