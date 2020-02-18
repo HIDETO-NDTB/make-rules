@@ -1458,6 +1458,18 @@ select {
       .pricing-option {
         padding-top: 210px;
       }
+      .pricing-option .pricing-edition {
+        font-size: 16px;
+      }
+      .pricing-option .price .price-amount {
+        font-size: 22px;
+      }
+      .pricing-option .price small {
+        font-size: 16px;
+      }
+      .pricing-option .pricing-top {
+        padding: 10px;
+      }
   }
 
   div.bottom-menu {
