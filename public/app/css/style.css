@@ -1455,6 +1455,9 @@ select {
       div .contact {
         margin: 0 auto;
       }
+      .pricing-option {
+        padding-top: 210px;
+      }
   }
 
   div.bottom-menu {
