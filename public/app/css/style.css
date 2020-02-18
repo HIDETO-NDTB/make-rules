@@ -1319,7 +1319,7 @@ img.imgitt {
 /* how_to_use.blade */
 
 .howtouse {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 @media (max-width: 1024px ) {
@@ -1552,6 +1552,9 @@ img.imgitt {
       img.imgitt {
         display: none;
       }
+      .howtouse {
+        margin-top: 0;
+    }
   }
 
   div.bottom-menu {
