@@ -46,7 +46,7 @@
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12 col-xs-12">
-            
+            @isset($rules->result_date > today())
             @foreach ($rules as $rule)
             @if($rule->result_date > today())
             <div class="card">
@@ -88,14 +88,12 @@
                     </ul>
                 </div>
             </div>
-            
-            
-            @elseif
+            @endif
+            @endforeach
+            @endisset
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h5>現在、当カテゴリの法案はありません</h5>
                 </div>
-            @endif
-            @endforeach
         </div>
     </div>
 </div>
