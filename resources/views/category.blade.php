@@ -62,12 +62,14 @@
                         <div class="row">
                             <div class="col-lg-8"></div>
                             <div class="col-lg-4">
-
+                                <div class="commentButton">
                                 @if($rule->vote_date > today())
-                                <a class="btnwhite" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                <a class="btncmt" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
                                 @elseif($rule->vote_date <= today())
-                                <a class="btnwhite" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
+                                <a class="btncmt" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
                                 @endif
+                                </div>
+                            </div>
                         </div>
                     </ul>
                 </div>
