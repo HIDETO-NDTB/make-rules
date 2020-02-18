@@ -262,7 +262,7 @@
             <div class="col-lg-6 col-md-6 col-sm-6">
                 <div class="comment-d">
                     <h4 class="comment-title">反対派意見</h4>
-                    <p class="comment-text">{{ str_limit($third_disagree_comment->comment, 100) }}</p>
+                    <p class="comment-text">{{ str_limit($third_disagree_comment->comment, 180) }}</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6">
