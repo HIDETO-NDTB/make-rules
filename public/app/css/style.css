@@ -1496,6 +1496,12 @@ button.btncmt {
       div .pricing-option {
         display: none;
       }
+      img.cmtimg {
+        display: none;
+      }
+      #commentwrap {
+        margin-top: 150px;
+    }
       
     }
 
