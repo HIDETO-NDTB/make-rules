@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
-                <h4><span> 新法案の発議 </span></h4>
+                <h3>新法案の発議</h3>
                 <form action="{{ route('rules.store') }}" method="POST">
                     @csrf
                     <div class="form-group">
