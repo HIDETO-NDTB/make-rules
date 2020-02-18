@@ -1182,6 +1182,10 @@ button.btncmt {
 
 /* initiative.blade */
 
+img.imgitt {
+  margin-top: 0;
+}
+
 #commentform label {
     font-size: 20px;
     font-weight: normal;
