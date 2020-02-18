@@ -1407,6 +1407,7 @@ select {
         padding-top: 0;
       }
       div.resultButton {
+        margin-left: 60px;
         margin-bottom: 40px;
       }
   }
