@@ -16,7 +16,7 @@
 </div>
 
 <!-- bottom navigation -->
-<div class="bottom-menu">
+<div class="fixed-bottom">
     <a class="bottombtn" href="{{ route('initiative') }}">発議する</a></li>
 </div>
 <div class="bottom-menuCenter">
