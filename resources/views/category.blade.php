@@ -29,9 +29,12 @@
 
 <div class="mobile-option">
     <div class="mobile-top">
-        <h4>投票中 : {{ $category->name }} 案件</h4>
+        <h4>カテゴリ : {{ $category->name }}</h4>
     </div>
-    <div class="mobile-top">
+    <div class="mobile-detale">
+        <h4>投票中 : {{ $just_vote }}</h4>
+    </div>
+    <div class="mobile-detale">
         <h4>コメント可能 : {{ $comment_rule }} 案件</h4>
     </div>
 </div>

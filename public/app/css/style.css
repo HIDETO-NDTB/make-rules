@@ -993,11 +993,20 @@ div.mobile-top {
   width: 70%;
   height: 50px;
   text-align: center;
+  background-color: gray;
 }
 
-div.mobile-top h4 {
+div.mobile-option h4 {
   font-size: 18px;
   color: black;
+}
+
+div.mobile-detale {
+  width: 70%;
+  height: 50px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
 }
 
 /* rule-single.blade.php */
