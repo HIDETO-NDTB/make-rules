@@ -1455,10 +1455,13 @@ select {
   }
 
   div.bottom-menu {
+    float: left;
     width: 33%;
     height: 60px;
   }
 
   a.bottombtn {
     font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
   }
