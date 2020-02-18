@@ -22,13 +22,9 @@
                         </ul>
                     </div>
                 </div>
-                    <!-- /pricing-option -->
-                    <!-- END PRICING TABLE -->
             </div>
         </div>
-      <!-- row -->
     </div>
-    <!-- container -->
 </div>
 
 <div class="container w">
