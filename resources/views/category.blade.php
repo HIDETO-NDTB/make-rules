@@ -28,25 +28,25 @@
 </div>
 
 <div class="container">
-<div class="row centered">
-<div class="mobile-option">
-    <div class="mobile-top">
-        <h4>カテゴリ : {{ $category->name }}</h4>
+    <div class="row centered">
+        <div class="mobile-option">
+            <div class="mobile-top">
+                <h4>カテゴリ : {{ $category->name }}</h4>
+            </div>
+            <div class="mobile-detale">
+                <h4>投票中 : {{ $just_vote }} 案件</h4>
+            </div>
+            <div class="mobile-detale">
+                <h4>コメント可能 : {{ $comment_rule }} 案件</h4>
+            </div>
+        </div>
     </div>
-    <div class="mobile-detale">
-        <h4>投票中 : {{ $just_vote }} 案件</h4>
-    </div>
-    <div class="mobile-detale">
-        <h4>コメント可能 : {{ $comment_rule }} 案件</h4>
-    </div>
-</div>
-</div>
 </div>
 
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12 col-xs-12">
-            @if($rules->count() > 0 )
+            
             @foreach ($rules as $rule)
             @if($rule->result_date > today())
             <div class="card">
@@ -88,13 +88,14 @@
                     </ul>
                 </div>
             </div>
-            @endif
-            @endforeach
+            
+            
             @else
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h5>現在、当カテゴリの法案はありません</h5>
                 </div>
             @endif
+            @endforeach
         </div>
     </div>
 </div>
