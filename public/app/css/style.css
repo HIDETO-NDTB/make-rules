@@ -1501,9 +1501,11 @@ button.btncmt {
       }
       #commentwrap {
         margin-top: 130px;
-    }
-      
-    }
+      }
+      button.btncmt {
+        width: 40%;
+      }
+  }
 
   div.bottom-menu {
     float: left;
