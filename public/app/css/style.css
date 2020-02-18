@@ -1391,6 +1391,9 @@ select {
       * {
         float: none;
       }
+      body {
+        padding-bottom: 50px;
+      }
       .centered {
         margin-left: 0;
       }
@@ -1461,8 +1464,8 @@ select {
     text-align: center;
     background-color: white;
     padding: 12px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid #8D3043;
+    border-bottom: 1px solid #8D3043;
   }
 
   div.bottom-menuCenter {
@@ -1472,11 +1475,12 @@ select {
     text-align: center;
     background-color: white;
     padding: 12px;
-    border: 1px solid black;
+    border: 1px solid #8D3043;
   }
 
   a.bottombtn {
     font-size: 18px;
+    color: #8D3043;
   }
 
   @media (min-width: 421px ) {
