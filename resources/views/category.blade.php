@@ -27,6 +27,8 @@
     </div>
 </div>
 
+<div class="container">
+<div class="row centered">
 <div class="mobile-option">
     <div class="mobile-top">
         <h4>カテゴリ : {{ $category->name }}</h4>
@@ -37,6 +39,8 @@
     <div class="mobile-detale">
         <h4>コメント可能 : {{ $comment_rule }} 案件</h4>
     </div>
+</div>
+</div>
 </div>
 
 <div class="container w">
