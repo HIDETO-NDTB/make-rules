@@ -54,7 +54,7 @@
                     </script>
                     @if(Auth::check())
                         <div class="form-group">
-                            <button type="submit" class="btn btn-danger" style="width: 300px;">発議する</button>
+                            <button type="submit" class="btncmt">発議する</button>
                         </div>
                     @else
                         <h5>法案発議はユーザー限定です。ログインの上で発議下さい。</h5>
