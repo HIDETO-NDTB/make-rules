@@ -1505,6 +1505,9 @@ button.btncmt {
       button.btncmt {
         width: 40%;
       }
+      ul {
+        padding-inline-start: 0;
+      }
   }
 
   div.bottom-menu {

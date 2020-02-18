@@ -79,6 +79,7 @@
             <div class="card">
                 <div class="card-header"><h4>{{ $comment->opinion }}派意見</h4></div>
                 <div class="card-body">
+                    <ul>
                         <div class="row">
                             <div class="col-lg-1">
                                 @foreach ($users as $user)
@@ -102,6 +103,7 @@
                         <div class="row">
                             <li>コメント日　{{ $comment->comment_date }}</li>
                         </div>
+                    </ul>
                 </div>
             </div>
             <br>
