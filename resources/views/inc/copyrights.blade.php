@@ -16,7 +16,7 @@
 </div>
 
 <!-- bottom navigation -->
-
+<div class="bottom-fixed">
 <div class="bottom-menu">
     <a class="bottombtn" href="{{ route('initiative') }}">発議する</a></li>
 </div>
@@ -25,4 +25,5 @@
 </div>
 <div class="bottom-menu">
     <a class="bottombtn" href="{{ route('vote_total') }}">投票する</a></li>
+</div>
 </div>
