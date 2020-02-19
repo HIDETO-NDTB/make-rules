@@ -1338,8 +1338,8 @@ img.imgitt {
 div.resultButton a.btncmtttl {
   background-color: #8D3043;
   color: white;
-  width: 30%;
-  height: 50px;
+  padding: 10px 50px;
+  margin-left: 700px;
 }
 
 /* result_total.blade */
