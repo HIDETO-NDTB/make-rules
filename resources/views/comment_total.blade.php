@@ -24,6 +24,19 @@
     <!-- container -->
 </div>
 
+<div class="container">
+    <div class="row centered">
+        <div class="mobile-option">
+            <div class="mobile-top">
+                <h4>コメント受付中一覧</h4>
+            </div>
+            <div class="mobile-detale">
+                <h4>{{ $comment_total }} 案件</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
