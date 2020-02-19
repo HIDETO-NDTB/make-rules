@@ -69,7 +69,7 @@
                             </div>
                             
                                 <div class="resultButton">
-                                    <a class="btnwhite" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                    <a class="btncmtttl" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
                                 </div>
                             
                         </ul>
