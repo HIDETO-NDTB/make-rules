@@ -1162,7 +1162,7 @@ button.btncmt {
 .result-top-blue {
     background-color: #428bca;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -1173,7 +1173,7 @@ button.btncmt {
 .result-top-red {
     background-color: #d9534f;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -1683,7 +1683,24 @@ div.resultButton a.btncmtttl {
       .result-option {
         width: 60%;
         margin: 0 auto 30px auto;
-    }
+      }
+      .result-top-blue {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        font-weight: bold;
+        height: 70px;
+        padding: 15px 50px;
+      }
+    
+    .result-top-red {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        font-weight: bold;
+        height: 70px;
+        padding: 15px 50px;
+      }
   }
 
   div.bottom-menu {
