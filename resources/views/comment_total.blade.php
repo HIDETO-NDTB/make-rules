@@ -55,9 +55,9 @@
                                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                             </div>
                             <div class="row">
-                                <div class="col-lg-8"></div>
-                                <div class="col-lg-4">
-                                <a class="btncmt" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                <div class="commentButton">
+                                    <a class="btncmt" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                </div>
                             </div>
                         </ul>
                     </div>
