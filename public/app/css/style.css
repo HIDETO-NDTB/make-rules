@@ -1370,6 +1370,14 @@ div.cards h3:after {
     margin-top: 10px;
 }
 
+button.btncmt2 {
+  width: 30%;
+  height: 40px;
+  background-color: #8D3043;
+  color: white;
+  font-size: 18px;
+}
+
 /* how_to_use.blade */
 
 .howtouse {

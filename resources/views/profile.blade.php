@@ -54,7 +54,7 @@
                             <input type="file" name="avatar">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btncmt">プロフィール更新</button>
+                            <button type="submit" class="btncmt2">プロフィール更新</button>
                         </div>
                     </form>
                 </div>
