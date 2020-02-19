@@ -1568,6 +1568,11 @@ div .commenttotalButton a.btncmt {
       div.pricings-option {
         display: none;
       }
+      div .commenttotalButton a.btncmt {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-left: 200px;
+      }
   }
 
   div.bottom-menu {
