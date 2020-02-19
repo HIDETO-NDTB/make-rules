@@ -16,7 +16,7 @@
     <div class="container">
         <div class="row centerd">
             <div class="col-lg-12">
-                <h3><span> お問い合わせフォーム </span></h3>
+                <h3>お問い合わせフォーム</h3>
                 <p>Make Rulesをご利用頂き、誠にありがとうございます。<br>皆様より頂戴した貴重なご意見は今後の運営に活かして参ります。</p>
                 <form action="{{ route('contacts.store') }}" method="POST">
                     @csrf
