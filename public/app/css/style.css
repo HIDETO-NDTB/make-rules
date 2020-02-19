@@ -1322,6 +1322,33 @@ img.imgitt {
 
 /* profile.blade */
 
+h3.card-header {
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 2px #8D3043;
+  border-bottom: solid 2px #8D3043;
+  width: 240px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+h3.card-header:before, h3.card-header:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: #8D3043;
+}
+
+h3.card-header:before {
+  left: 7px;
+}
+
+h3.card-header h3:after {
+  right: 7px;
+}
+
 .cards {
     margin-top: 20px;
     margin-left: 30px;
