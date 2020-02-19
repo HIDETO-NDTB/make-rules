@@ -1335,13 +1335,7 @@ img.imgitt {
 }
 
 /* comment_total.blade */
-div .commenttotalButton a.btncmt2 {
-  background-color: #8D3043;
-  color: white;
-  padding: 10px 55px;
-  font-size: 18px;
-  margin-left: 800px;
-}
+
 
 /* result_total.blade */
 .w .category {
@@ -1568,12 +1562,7 @@ div .commenttotalButton a.btncmt2 {
       div.pricings-option {
         display: none;
       }
-      div .commenttotalButton a.btncmt2 {
-        padding: 10px 30px;
-        font-size: 16px;
-        margin-left: 200px;
-        
-      }
+      
   }
 
   div.bottom-menu {
