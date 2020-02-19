@@ -1567,7 +1567,9 @@ div.resultButton a.btncmtttl {
       div.pricings-option {
         display: none;
       }
-      
+      div.resultButton a.btncmtttl {
+        margin-left: 150px;
+    }
   }
 
   div.bottom-menu {
