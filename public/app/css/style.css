@@ -1565,6 +1565,9 @@ div .commenttotalButton a.btncmt {
       .howtouse {
         margin-top: 50px;
       }
+      div.pricings-option {
+        display: none;
+      }
   }
 
   div.bottom-menu {
