@@ -1322,7 +1322,7 @@ img.imgitt {
 
 /* profile.blade */
 
-.cards h3 {
+div.cards h3 {
   position: relative;
   padding: 0.25em 1em;
   border-top: solid 2px #8D3043;
@@ -1331,7 +1331,7 @@ img.imgitt {
   margin-bottom: 30px;
   font-size: 20px;
 }
-.cards h3:before, .cards h3:after {
+div.cards h3:before, div.cards h3:after {
   content: '';
   position: absolute;
   top: -7px;
@@ -1341,11 +1341,11 @@ img.imgitt {
   background-color: #8D3043;
 }
 
-.cards h3:before {
+div.cards h3:before {
   left: 7px;
 }
 
-.cards h3 .cards h3:after {
+div.cards h3:after {
   right: 7px;
 }
 
