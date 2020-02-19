@@ -1637,7 +1637,11 @@ div.resultButton a.btncmtttl {
       }
       .cards {
         margin-left: 0;
-    }
+      }
+      button.btncmt2 {
+        width: 45%;
+        font-size: 16px;
+      }
   }
 
   div.bottom-menu {
