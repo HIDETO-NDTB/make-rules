@@ -1113,6 +1113,33 @@ button.btncmt {
 
 /* result.blade */
 
+.resulttitle h3 {
+  position: relative;
+  padding: 0.25em 1em;
+  border-top: solid 2px #8D3043;
+  border-bottom: solid 2px #8D3043;
+  width: 100px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.resulttitle h3:before, h3:after {
+  content: '';
+  position: absolute;
+  top: -7px;
+  width: 2px;
+  height: -webkit-calc(100% + 14px);
+  height: calc(100% + 14px);
+  background-color: #8D3043;
+}
+
+.resulttitle h3:before {
+  left: 7px;
+}
+
+.resulttitle h3:after {
+  right: 7px;
+}
+
 .resulttitle {
     background-color: white;
     text-align: left;
