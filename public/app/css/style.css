@@ -1166,7 +1166,8 @@ button.btncmt {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    height: 70px;
+    padding: 15px 160px;
 }
 
 .result-top-red {
@@ -1176,11 +1177,12 @@ button.btncmt {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    height: 70px;
+    padding: 15px 160px;
 }
 
 .result-content li {
-    padding: 15px 100px;
+    padding: 20px 120px;
     height: 70px;
     width: 100%;
     font-size: 20px;
