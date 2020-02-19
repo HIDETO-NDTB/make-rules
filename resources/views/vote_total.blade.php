@@ -4,7 +4,7 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+            <div class="col-lg-6">
                 <!-- START PRICING TABLE -->
                 <div class="pricings-option">
                     <div class="pricings-top">
@@ -26,7 +26,7 @@
 
 <div class="container w">
     <div class="row centered">
-        <div class="col-lg-12 col-xs-12">
+        <div class="col-lg-12">
 
             @foreach ($rules as $rule)
                 <div class="card">
@@ -54,10 +54,8 @@
                                 <li>発議日: {{ $rule->initiative_date }}</li>
                                 <li>投票日: {{ $rule->vote_date }} 〜 {{ $rule->finish_date }}</li>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-8"></div>
-                                <div class="col-lg-4">
-                                <a class="btn btn-danger" style="width: 300px;" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
+                            <div class="resultButton">
+                                <a class="btncmtttl" href="{{ route('vote',['id' =>$rule->id]) }}">投票に行く</a>
                             </div>
                         </ul>
                     </div>
