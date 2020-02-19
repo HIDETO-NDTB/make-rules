@@ -4,7 +4,7 @@
 <div id="headerwrap">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-12">
+            <div class="col-lg-6">
                 <!-- START PRICING TABLE -->
                 <div class="pricings-option">
                     <div class="pricings-top">
@@ -26,7 +26,7 @@
 
 <div class="container w">
     <div class="row centered">
-        <div class="col-lg-12 col-xs-12">
+        <div class="col-lg-12">
 
             @foreach ($rules as $rule)
                 <div class="card">
@@ -57,7 +57,7 @@
                             <div class="row">
                                 <div class="col-lg-8"></div>
                                 <div class="col-lg-4">
-                                <a class="btn btn-primary" style="width: 300px;" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
+                                <a class="btncmt" href="{{ route('rule.single',['id' =>$rule->id]) }}">コメントする</a>
                             </div>
                         </ul>
                     </div>
