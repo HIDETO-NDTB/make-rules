@@ -51,7 +51,7 @@
                     </div>
                         @endif
                     <div class="form-group">
-                        <button type="submit" class="btn btn-danger" style="width: 300px;">送信する</button>
+                        <button type="submit" class="btncmt">送信する</button>
                     </div>
                 </form>
             </div>
