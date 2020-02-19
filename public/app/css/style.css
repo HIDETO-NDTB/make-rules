@@ -1322,16 +1322,16 @@ img.imgitt {
 
 /* profile.blade */
 
-h3.card-header {
+.cards h3 {
   position: relative;
   padding: 0.25em 1em;
   border-top: solid 2px #8D3043;
   border-bottom: solid 2px #8D3043;
-  width: 240px;
+  width: 140px;
   margin-bottom: 30px;
   font-size: 20px;
 }
-h3.card-header:before, h3.card-header:after {
+.cards h3:before, .cards h3:after {
   content: '';
   position: absolute;
   top: -7px;
@@ -1341,11 +1341,11 @@ h3.card-header:before, h3.card-header:after {
   background-color: #8D3043;
 }
 
-h3.card-header:before {
+.cards h3:before {
   left: 7px;
 }
 
-h3.card-header h3.card-header:after {
+.cards h3 .cards h3:after {
   right: 7px;
 }
 

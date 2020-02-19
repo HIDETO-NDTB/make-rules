@@ -15,7 +15,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="cards">
-                <h3 class="card-header">マイページ</h3>
+                <h3>マイページ</h3>
 
                 <div class="card-body">
                     @if($errors->any())
