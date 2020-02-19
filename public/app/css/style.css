@@ -1331,7 +1331,7 @@ h3.card-header {
   margin-bottom: 30px;
   font-size: 20px;
 }
-h3.card-header:before, h3:after {
+h3.card-header:before, h3.card-header:after {
   content: '';
   position: absolute;
   top: -7px;
@@ -1345,7 +1345,7 @@ h3.card-header:before {
   left: 7px;
 }
 
-h3.card-header h3:after {
+h3.card-header h3.card-header:after {
   right: 7px;
 }
 
