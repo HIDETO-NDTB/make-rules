@@ -857,25 +857,23 @@ a.btnwhite {
   }
 
 .result-end-blue {
-    background-color: #428bca;
     border: 3px solid #428bca;
     margin: 30px auto 0 auto;
     padding: 25px 30px;
     width: 80%;
     height: 70px;
-    color: white;
+    color: #428bca;
     font-size: 20px;
     font-weight: bold;
 }
 
 .result-end-red {
-    background-color: #d9534f;
     border: 3px solid #d9534f;
     margin: 30px auto 0 auto;
     padding: 25px 30px;
     width: 80%;
     height: 70px;
-    color: white;
+    color: #d9534f;
     font-size: 20px;
     font-weight: bold;
 }
