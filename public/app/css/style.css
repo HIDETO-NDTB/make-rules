@@ -1653,7 +1653,7 @@ div.resultButton a.btncmtttl {
       }
       .result-option {
         width: 60%;
-        margin-bottom: 30px;
+        margin: 0 auto;
     }
   }
 
