@@ -15,7 +15,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="cards">
-                <div class="card-header">{{ __('マイページ') }}</div>
+                <h3 class="card-header">マイページ</h3>
 
                 <div class="card-body">
                     @if($errors->any())
@@ -54,7 +54,7 @@
                             <input type="file" name="avatar">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success" style="width: 300px;">プロフィール更新</button>
+                            <button type="submit" class="btncmt">プロフィール更新</button>
                         </div>
                     </form>
                 </div>
