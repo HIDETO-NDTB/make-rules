@@ -1158,10 +1158,11 @@ button.btncmt {
 }
 
 .result-top-blue {
-    background-color: #428bca;
+    background-color: white;
+    border: 3px solid #428bca;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: white;
+    color: #428bca;
     font-size: 30px;
     font-weight: bold;
     height: 70px;
@@ -1169,10 +1170,11 @@ button.btncmt {
 }
 
 .result-top-red {
-    background-color: #d9534f;
+    background-color: white;
+    border: 3px solid #d9534f;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: white;
+    color: #d9534f;
     font-size: 30px;
     font-weight: bold;
     height: 70px;
