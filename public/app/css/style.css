@@ -1008,6 +1008,11 @@ div.mobile-detale h4 {
   color: black;
 }
 
+div.mobile-detale p {
+  font-size: 14px;
+  color: black;
+}
+
 div.mobile-detale {
   width: 70%;
   height: 50px;
