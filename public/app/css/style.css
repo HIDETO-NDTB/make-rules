@@ -1596,7 +1596,10 @@ div.resultButton a.btncmtttl {
       }
       div.resultButton a.btncmtttl {
         margin-left: 150px;
-    }
+      }
+      #contactform p {
+        font-size: 14px;
+      }
   }
 
   div.bottom-menu {
