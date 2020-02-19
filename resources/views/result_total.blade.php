@@ -34,9 +34,7 @@
             <div class="mobile-detale">
                 <h4>{{ $result_total }} 案件</h4>
             </div>
-            <div class="mobile-detale">
-                <p>直近３０案件まで表示されます</p>
-            </div>
+            <p>直近３０案件まで表示されます</p>
         </div>
     </div>
 </div>
