@@ -25,6 +25,22 @@
     <!-- container -->
 </div>
 
+<div class="container">
+    <div class="row centered">
+        <div class="mobile-option">
+            <div class="mobile-top">
+                <h4>開票済み一覧</h4>
+            </div>
+            <div class="mobile-detale">
+                <h4>{{ $result_total }} 案件</h4>
+            </div>
+            <div class="mobile-detale">
+                <p>直近開票済み３０案件まで表示されます</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container w">
     <div class="row centered">
         <div class="col-lg-12">
