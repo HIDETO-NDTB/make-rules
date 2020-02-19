@@ -1635,6 +1635,9 @@ div.resultButton a.btncmtttl {
       #contactform p {
         font-size: 14px;
       }
+      .cards {
+        margin-left: 0;
+    }
   }
 
   div.bottom-menu {
