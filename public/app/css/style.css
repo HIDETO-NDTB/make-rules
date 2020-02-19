@@ -1335,7 +1335,12 @@ img.imgitt {
 }
 
 /* comment_total.blade */
-
+div .commenttotalButton a.btncmt {
+  background-color: #8D3043;
+  color: white;
+  padding: 10px 55px;
+  font-size: 18px;
+}
 
 /* result_total.blade */
 .w .category {
