@@ -1651,6 +1651,10 @@ div.resultButton a.btncmtttl {
       img.imgresult {
         display: none;
       }
+      .result-option {
+        width: 60%;
+        margin-bottom: 30px;
+    }
   }
 
   div.bottom-menu {
