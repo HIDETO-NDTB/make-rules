@@ -54,7 +54,6 @@
 <div id="resultform">
     <div class="container">
         <div class="row centered">
-            <div class="col-lg-9 col-lg-offset-3">
                 <div class="result-option">
                     @if($total_agree > $total_disagree)
                     <div class="result-top-blue">
@@ -71,8 +70,6 @@
                         <li>反対　<strong>{{ $total_disagree }}票</strong></li>
                     </div>
                 </div>
-            </div>
-
         </div>
         <!-- row -->
     </div>
