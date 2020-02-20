@@ -1070,7 +1070,7 @@ button.btncmt {
 
 .result-option {
     width: 420px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
 }
 
 /* initiative.blade */
@@ -1530,7 +1530,6 @@ div.resultButton a.btncmtttl {
       }
       .result-option {
         width: 60%;
-        margin: 0 auto 30px auto;
       }
       .result-top-blue {
         margin-top: 10px;
