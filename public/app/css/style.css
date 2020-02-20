@@ -1416,6 +1416,9 @@ div.resultButton a.btncmtttl {
       .z .resultButton {
         width: 80%;
       }
+      img.imgitt {
+        margin-top: 50px;
+      }
   }
 
   @media (max-width: 420px ) {
