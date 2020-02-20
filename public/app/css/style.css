@@ -865,8 +865,7 @@ div .resulttotalButton {
     height: 40px;
     border: 2px solid #8D3043;
     padding: 7px 170px;
-    margin-left: 350px;
-    margin-top: 40px;
+    margin: 20px auto 20px auto;
 }
 
 a.btnblack {
@@ -1521,7 +1520,6 @@ div.resultButton a.btncmtttl {
       div .resulttotalButton {
         width: 60%;
         padding: 7px 55px;
-        margin: 0 auto;
       }
       div .initiative-option {
         padding-top: 0;
