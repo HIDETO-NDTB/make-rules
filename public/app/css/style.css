@@ -1363,7 +1363,7 @@ div.resultButton a.btncmtttl {
         padding-left: 0;
       }
       div .initiative-option {
-        padding-top: 250px;
+        padding-top: 400px;
       }
       .comment-d {
         height: 154px;
@@ -1455,6 +1455,9 @@ div.resultButton a.btncmtttl {
       #headerwrap {
         height: 200px;
         margin-top: 100px;
+      }
+      div .initiative-option {
+        padding-top: 420px;
       }
       div.initiativeButton {
         display: none;
