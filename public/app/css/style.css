@@ -1499,6 +1499,10 @@ div.resultButton a.btncmtttl {
       div.resultButton a.btncmtttl {
         margin-left: 600px;
       }
+      .vote button {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
   }
   
 
