@@ -1419,6 +1419,18 @@ div.resultButton a.btncmtttl {
       img.imgitt {
         margin: 50px 35px 0 35px;
       }
+      div.pricings-option .pricings-top {
+        margin-top: 240px;
+      }
+      .pricings-option .pricings-edition {
+        font-size: 22px;
+      }
+      .pricings-option .prices small {
+        font-size: 22px;
+      }
+      .pricings-option .prices .prices-amount {
+        font-size: 30px;
+      }
   }
 
   @media (max-width: 420px ) {
