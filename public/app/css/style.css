@@ -110,12 +110,6 @@ hr {
     font-size: 26px;
   }
 
-@media (max-width: 768px ) {
-  #headerwrap {
-      margin-top: 170px;
-      background-size: 200%;
-  }
-
   #initiativewrap {
     margin-top: 220px;
     background-size: 200%;
@@ -128,7 +122,6 @@ hr {
   .initiative-option a {
     font-size: 18px;
   }
-}
 
 /* Dark Grey Wrap */
 
@@ -362,40 +355,6 @@ hr {
 
 .pricing-option .pricing-signup:hover {
   background: #ff7878;
-}
-
-@media (max-width: 768px ) {
-    .pricing-option {
-        padding-top: 20px;
-        width: 90%;
-        height: 70%;
-    }
-
-    .pricing-option .pricing-edition {
-        font-size: 20px;
-        letter-spacing: 4px;
-      }
-
-      .pricing-option .price sup {
-        font-size: 20px;
-      }
-
-      .pricing-option .price sup {
-        position: absolute;
-        top: 20px;
-        left: -10px;
-        font-size: 20px;
-      }
-
-      .pricing-option .price .price-amount {
-        font-size: 66px;
-        letter-spacing: -4px;
-      }
-
-      .pricing-option .price small {
-        font-size: 20px;
-      }
-
 }
 
 /* Contact Form */
@@ -928,12 +887,6 @@ div .contact {
   padding: 7px 0;
 }
 
-@media (max-width: 768px ) {
-    .resultGroup li {
-        font-size: 18px;
-    }
-}
-
 /* category */
 div.mobile-option {
   margin: 20px auto;
@@ -1009,17 +962,6 @@ button.btncmt {
     background-color: #8D3043;
     color: white;
     font-size: 18px;
-}
-
-@media (max-width: 768px ) {
-    #commentwrap {
-        margin-top: 250px;
-    }
-
-    .card2 {
-        margin-top: 0px;
-        margin-bottom: 20px;
-    }
 }
 
 /* vote.blade */
@@ -1134,26 +1076,6 @@ button.btncmt {
 .result-option {
     width: 420px;
     margin-bottom: 30px;
-}
-
-@media (max-width: 768px ) {
-    .result-top-blue {
-        font-size: 58px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .result-top-red {
-        font-size: 58px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .result-content li {
-        font-size: 16px;
-        padding: 10px 50px;
-        height: 80%;
-    }
 }
 
 /* initiative.blade */
@@ -1360,12 +1282,6 @@ button.btncmt2 {
     margin-top: 30px;
 }
 
-@media (max-width: 768px ) {
-    .howtouse {
-        margin-top: 180px;
-    }
-}
-
 /* comment_total.blade */
 div.resultButton a.btncmtttl {
   background-color: #8D3043;
@@ -1435,39 +1351,6 @@ div.resultButton a.btncmtttl {
     position: relative;
     left: 10px;
     font-size: 24px;
-  }
-
-  @media (max-width: 768px ) {
-      .pricings-option {
-          padding-top: 330px;
-          width: 90%;
-          height: 70%;
-      }
-
-      .pricings-option .pricings-edition {
-          font-size: 20px;
-          letter-spacing: 4px;
-        }
-
-        .pricings-option .prices sup {
-          font-size: 20px;
-        }
-
-        .pricings-option .prices sup {
-          position: absolute;
-          top: 20px;
-          left: -10px;
-          font-size: 20px;
-        }
-
-        .pricings-option .prices .prices-amount {
-          font-size: 66px;
-          letter-spacing: -4px;
-        }
-
-        .pricings-option .prices small {
-          font-size: 20px;
-        }
   }
 
   @media (max-width: 1024px ) {
