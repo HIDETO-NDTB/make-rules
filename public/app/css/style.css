@@ -1491,6 +1491,7 @@ div.resultButton a.btncmtttl {
       }
       div .contact {
         margin: 0 auto;
+        width: 80%;
       }
       div .pricing-option {
         display: none;
@@ -1516,9 +1517,6 @@ div.resultButton a.btncmtttl {
       }
       img.imgitt {
         display: none;
-      }
-      .howtouse {
-        margin-top: 50px;
       }
       div.pricings-option {
         display: none;
