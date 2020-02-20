@@ -858,7 +858,7 @@ a.btnwhite {
 
 .result-end-blue {
     border: 3px solid #428bca;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 10px auto;
     padding: 25px 30px;
     width: 80%;
     height: 70px;
@@ -869,7 +869,7 @@ a.btnwhite {
 
 .result-end-red {
     border: 3px solid #d9534f;
-    margin: 30px auto 0 auto;
+    margin: 30px auto 10PX auto;
     padding: 25px 30px;
     width: 80%;
     height: 70px;
