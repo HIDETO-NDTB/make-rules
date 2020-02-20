@@ -1503,6 +1503,9 @@ div.resultButton a.btncmtttl {
         margin-top: 50px;
         margin-bottom: 50px;
       }
+      button.btncmt2 {
+        font-size: 16px;
+      }
   }
   
 
