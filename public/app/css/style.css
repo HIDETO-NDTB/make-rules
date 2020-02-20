@@ -1489,6 +1489,12 @@ div.resultButton a.btncmtttl {
         width: 40%;
         height: 40%;
       }
+      .pricings-option .pricings-edition {
+        font-size: 18px;
+      }
+      .pricings-option .prices .prices-amount {
+        font-size: 26px;
+      }
   }
   
 
