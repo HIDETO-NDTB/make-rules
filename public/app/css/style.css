@@ -1547,13 +1547,15 @@ div.resultButton a.btncmtttl {
         font-weight: bold;
         padding: 20px 77px;
       }
-    
-    .result-top-red {
+      .result-top-red {
         margin-top: 10px;
         margin-bottom: 10px;
         font-size: 22px;
         font-weight: bold;
         padding: 20px 77px;
+      }
+      .result-content li {
+        padding: 20px 0;
       }
   }
 
