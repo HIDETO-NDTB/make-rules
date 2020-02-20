@@ -68,11 +68,11 @@
                                     {{ __('ログイン') }}
                                 </button>
 
-                                
+                                @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.update') }}">
                                         {{ __('パスワードを忘れた方はコチラ') }}
                                     </a>
-                                
+                                @endif
 
                                 <a class="btn btn-success" href="{{ route('register') }}" style="width: 200px">
                                     {{ __('新規登録はコチラ') }}
