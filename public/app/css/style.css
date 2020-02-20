@@ -1481,6 +1481,10 @@ div.resultButton a.btncmtttl {
       .commentsBox {
         padding-bottom: 170px;
       }
+      .pricing-option .pricing-top {
+        width: 50%;
+        height: 50%;
+      }
   }
   
 
