@@ -110,25 +110,6 @@ hr {
     font-size: 26px;
   }
 
-@media (max-width: 1024px ) {
-    #headerwrap {
-        margin-top: 100px;
-        background-size: 140%;
-    }
-
-    #initiativewrap {
-        margin-top: 170px;
-        background-size: 150%;
-    }
-  }
-
-  @media (max-width: 1024px ) {
-
-    .initiative-option {
-      padding-top: 300px;
-  }
-  }
-
 @media (max-width: 768px ) {
   #headerwrap {
       margin-top: 170px;
@@ -381,33 +362,6 @@ hr {
 
 .pricing-option .pricing-signup:hover {
   background: #ff7878;
-}
-
-@media (max-width: 1024px ) {
-    .pricing-option {
-        padding-top: 10px;
-        width: 80%;
-        height: 80%;
-    }
-
-    .pricing-option .pricing-edition {
-        font-size: 20px;
-        letter-spacing: 4px;
-      }
-
-      .pricing-option .price sup {
-        font-size: 20px;
-      }
-
-      .pricing-option .price .price-amount {
-        font-size: 84px;
-        letter-spacing: -4px;
-      }
-
-      .pricing-option .price small {
-        font-size: 20px;
-      }
-
 }
 
 @media (max-width: 768px ) {
@@ -1059,17 +1013,6 @@ button.btncmt {
     font-size: 18px;
 }
 
-@media (max-width: 1024px ) {
-    #commentwrap {
-        margin-top: 200px;
-    }
-
-    .card2 {
-        margin-top: 0px;
-        margin-bottom: 20px;
-    }
-}
-
 @media (max-width: 768px ) {
     #commentwrap {
         margin-top: 250px;
@@ -1419,12 +1362,6 @@ button.btncmt2 {
     margin-top: 30px;
 }
 
-@media (max-width: 1024px ) {
-    .howtouse {
-        margin-top: 100px;
-    }
-}
-
 @media (max-width: 768px ) {
     .howtouse {
         margin-top: 180px;
@@ -1502,32 +1439,6 @@ div.resultButton a.btncmtttl {
     font-size: 24px;
   }
 
-  @media (max-width: 1024px ) {
-      .pricings-option {
-          width: 80%;
-          height: 80%;
-      }
-
-      .pricings-option .pricings-edition {
-          font-size: 20px;
-          letter-spacing: 4px;
-        }
-
-        .pricings-option .prices sup {
-          font-size: 20px;
-        }
-
-        .pricings-option .prices .prices-amount {
-          font-size: 84px;
-          letter-spacing: -4px;
-        }
-
-        .pricings-option .prices small {
-          font-size: 20px;
-        }
-
-  }
-
   @media (max-width: 768px ) {
       .pricings-option {
           padding-top: 330px;
@@ -1561,6 +1472,11 @@ div.resultButton a.btncmtttl {
         }
 
   }
+
+  @media (max-width: 1024px ) {
+    
+  }
+  
 
   @media (max-width: 420px ) {
       * {
