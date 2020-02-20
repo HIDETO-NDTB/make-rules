@@ -1395,6 +1395,11 @@ div.resultButton a.btncmtttl {
       }
   }
   
+  @media (max-width: 768px ) {
+      div .contact {
+        margin-left: 400px;
+      }
+  }
 
   @media (max-width: 420px ) {
       * {
