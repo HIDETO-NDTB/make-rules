@@ -38,6 +38,7 @@ class ResetPasswordController extends Controller
     }
 
     public function showResetForm(){
-        return view('auth.passwords.email')->with('categories',Category::all());
+
+        return view('passwords.email')->with('categories',Category::all());
     }
 }
