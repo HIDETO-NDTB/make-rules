@@ -33,6 +33,6 @@ class ForgotPasswordController extends Controller
 
     public function showLinkRequestForm(){
 
-        return view('auth.passwords.verify')->with('categories',Category::all());
+        return view('auth.verify')->with('categories',Category::all());
     }
 }
