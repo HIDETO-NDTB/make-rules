@@ -1496,6 +1496,9 @@ div.resultButton a.btncmtttl {
       .pricings-option .prices .prices-amount {
         font-size: 54px;
       }
+      div.resultButton a.btncmtttl {
+        margin-left: 60px;
+      }
   }
   
 
