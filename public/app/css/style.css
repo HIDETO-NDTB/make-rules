@@ -1437,6 +1437,9 @@ div.resultButton a.btncmtttl {
       #commentwrap {
         margin-top: 130px;
       }
+      button.btncmt {
+        width: 40%;
+      }
   }
 
   @media (max-width: 420px ) {
@@ -1483,9 +1486,6 @@ div.resultButton a.btncmtttl {
       }
       img.cmtimg {
         display: none;
-      }
-      #commentwrap {
-        margin-top: 130px;
       }
       button.btncmt {
         width: 40%;
