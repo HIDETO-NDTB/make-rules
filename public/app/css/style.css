@@ -1442,6 +1442,9 @@ div.resultButton a.btncmtttl {
       button.btncmt {
         width: 40%;
       }
+      #initiativewrap {
+        margin-top: 130px;
+      }
   }
 
   @media (max-width: 420px ) {
