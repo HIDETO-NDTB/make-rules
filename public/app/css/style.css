@@ -1421,7 +1421,8 @@ div.resultButton a.btncmtttl {
         margin: 50px 35px 0 35px;
       }
       div.pricings-option .pricings-top {
-        margin-top: 240px;
+        margin-top: 180px;
+        width: 50%;
       }
       .pricings-option .pricings-edition {
         font-size: 22px;
