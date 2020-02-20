@@ -622,9 +622,11 @@ a.threebtn {
   height: calc(100% + 14px);
   background-color: #8D3043;
 }
+
 .z h3:before {
   left: 7px;
 }
+
 .z h3:after {
   right: 7px;
 }
