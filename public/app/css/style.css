@@ -1434,6 +1434,9 @@ div.resultButton a.btncmtttl {
       div.resultButton a.btncmtttl {
         margin-left: 400px;
       }
+      #commentwrap {
+        margin-top: 130px;
+      }
   }
 
   @media (max-width: 420px ) {
