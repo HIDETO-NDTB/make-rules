@@ -37,8 +37,8 @@ class ResetPasswordController extends Controller
         $this->middleware('guest');
     }
 
-    public function showResetForm(){
+    public function reset(){
 
-        return view('passwords.email')->with('categories',Category::all());
+        return view('auth.passwords.email')->with('categories',Category::all());
     }
 }
