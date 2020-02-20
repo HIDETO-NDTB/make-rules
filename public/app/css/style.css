@@ -707,8 +707,7 @@ a.threebtn {
 }
 
 div.resultButton {
-  margin-left: 70px;
-  margin-top: 30px;
+  margin: 20px auto 10px auto;
   padding-top: 7px;
   padding-bottom: 5px;
   text-align: center;
@@ -1526,9 +1525,6 @@ div.resultButton a.btncmtttl {
       }
       div .initiative-option {
         padding-top: 0;
-      }
-      div.resultButton {
-        margin: 20px auto 40px auto;
       }
       div .commentButton a.btncmt {
         padding: 5px 15px;
