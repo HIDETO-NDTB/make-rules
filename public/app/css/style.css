@@ -1468,7 +1468,6 @@ div.resultButton a.btncmtttl {
         .pricings-option .prices small {
           font-size: 20px;
         }
-
   }
 
   @media (max-width: 1024px ) {
@@ -1481,9 +1480,9 @@ div.resultButton a.btncmtttl {
       .commentsBox {
         padding-bottom: 170px;
       }
-      .pricing-option .pricing-top {
-        width: 50%;
-        height: 50%;
+      div.pricing-option {
+        width: 40%;
+        height: 40%;
       }
   }
   
