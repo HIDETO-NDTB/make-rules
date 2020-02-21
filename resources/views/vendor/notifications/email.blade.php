@@ -51,8 +51,8 @@
 @isset($actionText)
 @slot('subcopy')
 @lang(
-    "もし、「{{ $actionText }}ボタン」がうまく機能しない場合、以下のURLをコピー＆ペーストして直接ブラウザからアクセスしてください。".
-    'into your web browser: [:actionURL](:actionURL)',
+    "もし上記のボタンがうまく機能しない場合、以下のURLをコピー＆ペーストして直接ブラウザからアクセスしてください。".
+    ': [:actionURL](:actionURL)',
     [
         'actionText' => $actionText,
         'actionURL' => $actionUrl,
