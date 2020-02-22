@@ -561,7 +561,7 @@ button.btn.dropdown-toggle {
   color: #8D3043;
 }
 
-li.nav-item-introduce {
+.navbar-inverse .navbar-nav>li.nav-item-introduce {
   background-color: white;
   width: 150px;
 }
