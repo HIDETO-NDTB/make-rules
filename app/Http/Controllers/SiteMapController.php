@@ -21,7 +21,7 @@ class SiteMapController extends Controller
         $rules = Rule::orderBy('created_at','desc')->get();
         foreach ($rules as $rule)
         {
-            $sitemap->add(URL::to('/rules/' . $rule->id), $rukle->created_at, '0.8', 'yearly');
+            $sitemap->add(URL::to('/rules/' . $rule->id), $rule->created_at, '0.8', 'yearly');
         }
         
 
