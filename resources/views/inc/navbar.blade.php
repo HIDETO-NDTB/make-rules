@@ -44,6 +44,7 @@
             <li class="nav-item-introduce">
                 <a class="navbtn2" href="">単独利用</a>
             </li>
+            </ul>
         </div>
     </div>
 </div>
