@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\URL;
 use Carbon\Carbon;
 use App\Rule;
+use App\Category;
 
 class SiteMapController extends Controller
 {
@@ -22,6 +23,12 @@ class SiteMapController extends Controller
         foreach ($rules as $rule)
         {
             $sitemap->add(URL::to('/rules/' . $rule->id), $rule->created_at, '0.8', 'yearly');
+        }
+
+        $categories = Category::orderBy('created_at','desc')->get();
+        foreach ($categories as $category)
+        {
+            $sitemap->add(URL::to('/categories/' . $category->id), $category->created_at, '0.8', 'yearly');
         }
         
 
