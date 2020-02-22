@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\URL;
 use Carbon\Carbon;
 use App\Rule;
 use App\Category;
+use App\Comment;
 
 class SiteMapController extends Controller
 {
@@ -29,6 +30,12 @@ class SiteMapController extends Controller
         foreach ($categories as $category)
         {
             $sitemap->add(URL::to('/categories/' . $category->id), $category->created_at, '0.8', 'yearly');
+        }
+
+        $comments = Coment::orderBy('created_at','desc')->get();
+        foreach ($comments as $comment)
+        {
+            $sitemap->add(URL::to('/comments/' . $comment->id), $comment->created_at, '0.8', 'yearly');
         }
         
 
