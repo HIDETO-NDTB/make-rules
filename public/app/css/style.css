@@ -561,6 +561,11 @@ button.btn.dropdown-toggle {
   color: #8D3043;
 }
 
+li.nav-item-introduce {
+  background-color: white;
+  color: #8D3043;
+  width: 150px;
+}
 
 /* index.blade */
 div.initiativeButton {
