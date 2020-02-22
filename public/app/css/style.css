@@ -563,11 +563,11 @@ button.btn.dropdown-toggle {
 
 li.nav-item-introduce {
   background-color: white;
+  width: 150px;
 }
 
-a.navbtn2 {
+a.navbtnjob {
   color: #8D3043;
-  width: 150px;
 }
 
 /* index.blade */

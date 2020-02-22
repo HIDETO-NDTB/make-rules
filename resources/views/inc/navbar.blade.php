@@ -38,12 +38,12 @@
             @endguest
             </ul>
             <ul class="nav navbar-nav">
-            <li class="nav-item">
-                <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
-            </li> 
-            <li class="nav-item-introduce">
-                <a class="navbtn2" href="">単独利用</a>
-            </li>
+                <li class="nav-item">
+                    <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
+                </li> 
+                <li class="nav-item-introduce">
+                    <a class="navbtnjob" href="">単独利用</a>
+                </li>
             </ul>
         </div>
     </div>
