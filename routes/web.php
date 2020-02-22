@@ -97,5 +97,8 @@ Route::put('/profile/update',[
     'as' => 'profile.update'
 ]);
 
-Route::get('/sitemap', 'SiteMapController@sitemap'); 
+// HTML画面表示用
+Route::get('sitemap', 'SiteMapController@html')->name('sitemap');
+// sitemap.xml用
+Route::get('sitemap.xml', 'SiteMapController@xml')->name('sitemap.xml');
 
