@@ -8,6 +8,12 @@ use Carbon\Carbon;
 
 class SiteMapController extends Controller
 {
+    // 画面表示
+    public function html()
+    {
+        return view('sitemap');
+    }
+
     // sitemap.xmlの生成と表示
     public function xml()
     {
@@ -18,4 +24,7 @@ class SiteMapController extends Controller
 
         return $sitemap->render('xml');
     }
+
+    
+    
 }
