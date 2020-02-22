@@ -40,8 +40,15 @@
                     </div>
                     <div class="form-group">
                         <label>お問い合わせ内容（２００文字以内）</label>
-                        <textarea name="content" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
+                        <textarea name="content" id="contact" cols="30" rows="10" class="form-control" placeholder="内容を入力下さい"></textarea>
+                        <div id="count">入力文字数: <span class="showCnt4">0</span></div>
                     </div>
+                    <script>
+                        $('#contact').keyup(function() {
+                        let cnt = $(this).val().length;
+                        $('.showCnt4').text(cnt);
+                        });
+                    </script>
                     <div class="form-group">
                         @if(Auth::check())
                         <input type="hidden" name="user_id" value="{{ $user->id }}">
