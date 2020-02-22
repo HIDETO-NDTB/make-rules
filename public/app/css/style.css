@@ -566,7 +566,7 @@ li.nav-item-introduce {
   width: 150px;
 }
 
-a.navbtnjob {
+.navbar-inverse .navbar-nav>li>a.navbtnjob {
   color: #8D3043;
 }
 
