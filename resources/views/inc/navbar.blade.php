@@ -41,6 +41,9 @@
             <li class="nav-item">
                 <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
             </li> 
+            <li class="nav-item-introduce">
+                <a class="navbtn" href="">単独利用</a>
+            </li>
         </div>
     </div>
 </div>
