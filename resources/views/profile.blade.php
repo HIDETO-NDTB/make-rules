@@ -43,6 +43,9 @@
                         <div class="form-group">
                             <input type="hidden" name="pass" value="{{ $user->password }}">
                         </div>
+                        <a class="btn btn-link" href="{{ route('password.request') }}">
+                            {{ __('パスワード変更はコチラ') }}
+                        </a>
                         <div class="form-group">
                             <label for="avatar">写真の追加 (数分かかる場合があります）</label>
                             <input type="file" name="avatar">
