@@ -54,7 +54,7 @@
                             <option value="賛成">賛成</option>
                             <option value="反対">反対</option>
                         </select>
-                        <p>あくまで現時点での意見で、投票にはカウントされません。</p>
+                        <p id="opiniontext">あくまで現時点での意見で、投票にはカウントされません。</p>
                     </div>
                     <div class="form-group">
                         <textarea name="comment" id="comment" cols="30" rows="10" class=form-control placeholder="300文字以内でコメントを入力下さい"></textarea>
