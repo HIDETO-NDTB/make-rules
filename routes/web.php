@@ -97,3 +97,5 @@ Route::put('/profile/update',[
     'as' => 'profile.update'
 ]);
 
+Route::get('/sitemap', 'SiteMapController@sitemap'); 
+
