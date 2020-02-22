@@ -103,13 +103,6 @@ class ProfilesController extends Controller
         if ($request->has('age')) {
             $user->age = $request->age;
         }
-        if ($request->has('gender')) {
-            $user->gender = $request->gender;
-        }
-
-        if ($request->has('pass')) {
-            $user->password = bcrypt($request->password);
-        }
 
         $user->save();
 

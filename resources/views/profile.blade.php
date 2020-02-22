@@ -37,17 +37,11 @@
                             <input type="number" name="age" value="{{ $user->age }}">
                         </div>
                         <div class="form-group">
-                            <label for="gender">性別</label>
-                            <input id="gender" type="radio" name="gender" value="male">男
-                            <input id="gender" type="radio" name="gender" value="female">女
-                        </div>
-                        <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" class="form-control" name="email" value="{{ $user->email }}">
                         </div>
                         <div class="form-group">
-                            <label for="password">新 Password （ Passwordを変更しない場合は今までのPasswordを入力して下さい。）</label>
-                            <input type="password" class="form-control" name="pass">
+                            <input type="hidden" name="pass" value="{{ $user->password }}">
                         </div>
                         <div class="form-group">
                             <label for="avatar">写真の追加 (数分かかる場合があります）</label>
