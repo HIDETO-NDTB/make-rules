@@ -22,13 +22,13 @@ class SiteMapController extends Controller
         $rules = Rule::orderBy('created_at','desc')->get();
         foreach ($rules as $rule)
         {
-            $sitemap->add(URL::to('/rule-single/' . $rule->id), $rule->created_at, '0.8', 'yearly');
+            $sitemap->add(URL::to('/rule_single/' . $rule->id), $rule->created_at, '0.8', 'yearly');
         }
 
         $categories = Category::orderBy('created_at','desc')->get();
         foreach ($categories as $category)
         {
-            $sitemap->add(URL::to('/categorie-single/' . $category->id), $category->created_at, '0.8', 'yearly');
+            $sitemap->add(URL::to('/category_single/' . $category->id), $category->created_at, '0.8', 'yearly');
         }
         
 
