@@ -957,7 +957,7 @@ button.btncmt {
     font-size: 18px;
 }
 
-#opiniontext {
+p#opiniontext {
   float: left;
   margin-left: 20px;
 }
