@@ -36,6 +36,12 @@ class SiteMapController extends Controller
         {
             $sitemap->add(URL::to('/vote/' . $rule->id), $rule->created_at, '0.8', 'yearly');
         }
+
+        $rules = Rule::orderBy('created_at','desc')->get();
+        foreach ($rules as $rule)
+        {
+            $sitemap->add(URL::to('/result/' . $rule->id), $rule->created_at, '0.8', 'yearly');
+        }
         
 
         return $sitemap->render('xml');
