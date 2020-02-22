@@ -57,7 +57,14 @@
                     </div>
                     <div class="form-group">
                         <textarea name="comment" id="comment" cols="30" rows="10" class=form-control placeholder="コメントを入力下さい"></textarea>
+                        <div id="count">入力文字数: <span class="showCnt3">0</span></div>
                     </div>
+                    <script>
+                        $('#comment').keyup(function() {
+                        let cnt = $(this).val().length;
+                        $('.showCnt3').text(cnt);
+                        });
+                    </script>
                     @if(Auth::check())
                     <div class="form-group">
                         <button type="submit" class="btncmt">コメントする</button>
