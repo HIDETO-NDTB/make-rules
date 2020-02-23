@@ -1406,6 +1406,12 @@ div.resultButton a.btncmtttl {
 
   #contentsintroduce {
     background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  img.school {
+    margin-bottom: 20px;
   }
 
   div.contentdetale {
@@ -1413,7 +1419,7 @@ div.resultButton a.btncmtttl {
     margin-bottom: 20px;
     padding: 10px 10px;
     border: 1px solid gray;
-    width: 40%;
+    width: 80%;
     height: 60px;
     border-radius: 3%;
   }
@@ -1428,7 +1434,7 @@ div.resultButton a.btncmtttl {
     margin-bottom: 20px;
     padding: 0 10px;
     border: 1px solid gray;
-    width: 40%;
+    width: 80%;
     height: 60px;
     border-radius: 3%;
   }

@@ -16,8 +16,8 @@
 <div id="contentsintroduce">
     <div class="container">
         <div class="col-lg-6">
-            <img src="{{ secure_asset('app/img/school-min.jpg') }}" style="width: 100%;">
-            <img src="{{ secure_asset('app/img/office-min.jpg') }}" style="width: 100%;">
+            <img class="school" src="{{ secure_asset('app/img/school-min.jpg') }}" style="width: 100%;">
+            <img class="office" src="{{ secure_asset('app/img/office-min.jpg') }}" style="width: 100%;">
         </div>
         <div class="col-lg-6">
             <h3>単独利用契約のメリット</h3>
