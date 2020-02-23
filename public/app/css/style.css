@@ -1368,6 +1368,10 @@ div.resultButton a.btncmtttl {
     margin-top: 300px;
   }
 
+  h5.introduce {
+    font-size: 22px;
+  }
+
   #contentsintroduce {
     background-color: white;
   }
