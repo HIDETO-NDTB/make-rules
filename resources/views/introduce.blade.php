@@ -27,12 +27,12 @@
         <div class="contentdetale">
             <h4>4. 日々の生活に問題意識が芽生える</h4>
         </div>
-        <div class="contentdetale">
+        <div class="contentdetale2">
             <h4>5. 月29,700円〜。最短３ヶ月契約OK</h4>
             <p>※ プランによって異なります</p>
         </div>
-        <div class="contentdetale">
-            <h4>6. カテゴリや期間などカスタマイズも相談可</h4>
+        <div class="contentdetale2">
+            <h4>6. カテゴリや投票s期間などカスタマイズも相談可</h4>
             <p>※ 内容によっては別料金となります</p>
         </div>
         <div class="contentdetale">

@@ -1373,7 +1373,7 @@ div.resultButton a.btncmtttl {
     padding: 0.25em 1em;
     border-top: solid 2px #8D3043;
     border-bottom: solid 2px #8D3043;
-    width: 280px;
+    width: 260px;
     margin-bottom: 30px;
     font-size: 20px;
   }
@@ -1411,7 +1411,7 @@ div.resultButton a.btncmtttl {
   div.contentdetale {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 20px 10px;
     border: 1px solid gray;
     width: 40%;
     height: 60px;
@@ -1420,11 +1420,27 @@ div.resultButton a.btncmtttl {
 
   div.contentdetale h4 {
     font-size: 18px;
+    margin-bottom: 0;
   }
 
-  div.contentdetale p {
+  div.contentdetale2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    width: 40%;
+    height: 60px;
+    border-radius: 3%;
+  }
+
+  div.contentdetale2 h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  div.contentdetale2 p {
     font-size: 14px;
-    margin-top: 0;
+    padding-left: 20px;
     color: #8D3043;
   }
 
