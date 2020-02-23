@@ -1732,6 +1732,28 @@ div.resultButton a.btncmtttl {
       .result-content li {
         padding: 20px 0;
       }
+      img.school {
+        display: none;
+      }
+      img.office {
+        display: none;
+      }
+      div.contentdetale {
+        margin: 15px auto;
+        padding: 10px 10px;
+        width: 100%;
+      }
+      div.contentdetale h4 {
+        font-size: 16px;
+      }
+      div.contentdetale2 {
+        margin: 15px auto;
+        padding: 0 10px;
+        width: 100%;
+      }
+      div.contentdetale2 h4 {
+        font-size: 16px;
+      }
   }
 
   div.bottom-menu {
