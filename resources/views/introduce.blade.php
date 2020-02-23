@@ -12,13 +12,14 @@
         </div>
     </div>
 </div>
-<div class="col-lg-6">
-    <img src="{{ secure_asset('app/img/school-min.jpg') }}">
-    <img src="{{ secure_asset('app/img/office-min.jpg') }}">
-</div>
-<div class="col-lg-6">
-    <div id="contentsintroduce">
-        <div class="container">
+
+<div id="contentsintroduce">
+    <div class="container">
+        <div class="col-lg-6">
+            <img src="{{ secure_asset('app/img/school-min.jpg') }}">
+            <img src="{{ secure_asset('app/img/office-min.jpg') }}">
+        </div>
+        <div class="col-lg-6">
             <h3>単独利用契約のメリット</h3>
             <div class="contentdetale">
                 <h4>1. 学校や職場の仲間だけで使える</h4>
