@@ -206,4 +206,10 @@ class FrontEndController extends Controller
                                     ->with('comment_total',$comment_total);
     }
 
+    public function introduce(){
+
+        return view('introduce')->with('categories',Category::all());
+        
+    }
+
 }

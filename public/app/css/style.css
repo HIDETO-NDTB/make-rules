@@ -1359,6 +1359,30 @@ div.resultButton a.btncmtttl {
     font-size: 24px;
   }
 
+  /* introduce.blade */
+  div.introduce-option {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    border: 1px solid #8D3043;
+    margin-top: 300px;
+  }
+
+  #contentsintroduce {
+    background-color: white;
+  }
+
+  div.contentdetale {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  div.contentdetale h4 {
+    font-size: 18px;
+    padding: 10px;
+    border: apx solid gray;
+  }
+
   @media (max-width: 1024px ) {
       * {
         float: none;

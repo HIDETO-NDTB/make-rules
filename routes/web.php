@@ -67,6 +67,11 @@ Route::get('/comment_total',[
     'as' => 'comment_total'
 ]);
 
+Route::get('/introduce',[
+    'uses' => 'FrontEndController@introduce',
+    'as' => 'introduce'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');
