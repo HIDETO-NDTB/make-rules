@@ -1522,7 +1522,7 @@ div.resultButton a.btncmtttl {
   }
   
   div.mobile-top2 {
-    width: 80%;
+    width: 100%;
     height: 50px;
     text-align: center;
     background-color:#8D3043;
@@ -1775,6 +1775,24 @@ div.resultButton a.btncmtttl {
       div.contentdetale2 h4 {
         font-size: 16px;
       }
+      #contentsintroduce h3 {
+        margin: 20px auto 20px auto;
+        width: 240px;
+        font-size: 18px;
+      }
+      table.contentsfee {
+        width: 100%;
+      }
+      table.contentsfee th {
+        font-size: 16px;
+      }
+      table.contentsfee td {
+        font-size: 16px;
+      }
+      #priceintroduce P {
+        margin: 5px 10px;
+        font-size: 14px;
+    }
   }
 
   div.bottom-menu {
