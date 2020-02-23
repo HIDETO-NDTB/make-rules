@@ -1482,7 +1482,6 @@ div.resultButton a.btncmtttl {
 
   table.contentsfee {
     width: 80%;
-    margin-bottom: 50px;
   }
 
   table.contentsfee th {
@@ -1508,12 +1507,14 @@ div.resultButton a.btncmtttl {
     margin: 20px auto;
     background-color: #8D3043;
     width: 30%;
+    height: 50px;
+    text-align: center;
+    padding: 12px;
   }
 
   div.contactintroduce a.btnintroduce {
     color: white;
     font-size: 18px;
-    text-align: center;
   }
 
   @media (max-width: 1024px ) {
