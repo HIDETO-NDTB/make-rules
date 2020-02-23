@@ -51,9 +51,31 @@
 <div id="priceintroduce">
     <div class="container">
         <h3>商品のご紹介</h3>
-        <table class="contentfee" border="1" cellpadding="5" cellspacing="5" width="100%">
-            <h4>プラン1. 30人未満プラン</h4>
-            
+        <table class="contentsfee" border="1" cellpadding="5" cellspacing="5" width="100%">
+            <tr>
+                <th>プラン名</th>
+                <th>ご利用人数</th>
+                <th>初回制作料</th>
+                <th>月使用料</th>   
+            </tr>
+            <tr>
+                <td>プランA</td>
+                <td>〜30名</td>
+                <td>50,000円</td>
+                <td>29,700円</td>
+            </tr>
+            <tr>
+                <td>プランB</td>
+                <td>〜60名</td>
+                <td>50,000円</td>
+                <td>39,700円</td>
+            </tr> 
+            <tr>
+                <td>プランB</td>
+                <td>〜100名</td>
+                <td>50,000円</td>
+                <td>49,700円</td>
+            </tr>  
         </div>
     </div>
 </div>
