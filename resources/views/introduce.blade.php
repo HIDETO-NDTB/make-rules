@@ -51,7 +51,7 @@
 <div id="priceintroduce">
     <div class="container">
         <h3>商品のご紹介</h3>
-        <table class="contentsfee" border="1" cellpadding="5" cellspacing="5" width="80%">
+        <table class="contentsfee" width="80%">
             <tr>
                 <th>プラン名</th>
                 <th>ご利用人数</th>
@@ -60,19 +60,19 @@
             </tr>
             <tr>
                 <td>プランA</td>
-                <td>〜30名</td>
+                <td>〜50名</td>
                 <td>50,000円</td>
                 <td>29,700円</td>
             </tr>
             <tr>
                 <td>プランB</td>
-                <td>〜60名</td>
+                <td>〜100名</td>
                 <td>50,000円</td>
                 <td>39,700円</td>
             </tr> 
             <tr>
                 <td>プランC</td>
-                <td>〜100名</td>
+                <td>〜200名</td>
                 <td>50,000円</td>
                 <td>49,700円</td>
             </tr>  
