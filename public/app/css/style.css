@@ -1364,16 +1364,25 @@ div.resultButton a.btncmtttl {
     text-align: center;
     font-size: 22px;
     padding: 20px;
-    border: 1px solid #8D3043;
-    margin-top: 300px;
+    background-color: #8D3043;
+    margin-top: 350px;
   }
 
   h5.introduce {
     font-size: 22px;
+    color: white;
+  }
+
+  span.introduce {
+    font-weight: bold;
   }
 
   #contentsintroduce {
     background-color: white;
+  }
+
+  #contentsintroduce h2 {
+    font-size: 22px;
   }
 
   div.contentdetale {
@@ -1384,7 +1393,7 @@ div.resultButton a.btncmtttl {
   div.contentdetale h4 {
     font-size: 18px;
     padding: 10px;
-    border: apx solid gray;
+    border: 1px solid gray;
   }
 
   @media (max-width: 1024px ) {

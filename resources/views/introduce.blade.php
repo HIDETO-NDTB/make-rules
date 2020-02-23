@@ -6,7 +6,7 @@
         <div class="row centered">
             <div class="col-lg-6">
                 <div class="introduce-option">
-                    <h5 class="introduce">Make Rulesを学校や職場などで使いませんか？</h5>
+                    <h5 class="introduce"><span>Make Rules</span>を学校や職場などで使いませんか？</h5>
                 </div>
             </div>
         </div>
