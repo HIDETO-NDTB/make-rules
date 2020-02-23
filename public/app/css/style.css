@@ -1459,6 +1459,8 @@ div.resultButton a.btncmtttl {
     border-bottom: solid 2px #8D3043;
     width: 170px;
     font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   #priceintroduce h3:before, #priceintroduce h3:after {
     content: '';

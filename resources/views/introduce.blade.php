@@ -51,7 +51,7 @@
 <div id="priceintroduce">
     <div class="container">
         <h3>商品のご紹介</h3>
-        <table class="contentsfee" border="1" cellpadding="5" cellspacing="5" width="100%">
+        <table class="contentsfee" border="1" cellpadding="5" cellspacing="5" width="80%">
             <tr>
                 <th>プラン名</th>
                 <th>ご利用人数</th>
