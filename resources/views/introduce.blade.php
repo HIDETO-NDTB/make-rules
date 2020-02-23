@@ -45,9 +45,9 @@
                 <h4>7. 規則の大切さに気づく</h4>
             </div>
         </div>
-</div>
+    </div>
     <div class="container">
-        <h2>商品のご紹介</h2>
+        <h3>商品のご紹介</h3>
         <table class="contentfee" border="1" cellpadding="5" cellspacing="5" width="100%">
             <h4>プラン1. 30人未満プラン</h4>
             
