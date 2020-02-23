@@ -1500,6 +1500,22 @@ div.resultButton a.btncmtttl {
     text-align: center;
   }
 
+  #priceintroduce P {
+    margin: 10px 20px;
+  }
+
+  div.contactintroduce {
+    margin: 20px auto;
+    background-color: #8D3043;
+    width: 30%;
+  }
+
+  div.contactintroduce a.btnintroduce {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+
   @media (max-width: 1024px ) {
       * {
         float: none;

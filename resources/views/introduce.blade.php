@@ -80,8 +80,8 @@
         <p>※ カテゴリや投票期間などをカスタマイズした場合は別途制作料がかかります</p>
         <p>※ サーバー使用料などは別途実費が必要となります</p>
         <p>※ 200名以上での利用をご希望の場合は別途お見積もりさせて頂きます。</p>
-        <div class="contact">
-            <a class="btnblack" href="{{ route ('contact') }}">お問い合わせはこちらから</a>
+        <div class="contactintroduce">
+            <a class="btnintroduce" href="{{ route ('contact') }}">お問い合わせはこちらから</a>
         </div>
     </div>
 </div>
