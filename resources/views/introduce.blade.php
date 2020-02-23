@@ -71,12 +71,12 @@
                 <td>39,700円</td>
             </tr> 
             <tr>
-                <td>プランB</td>
+                <td>プランC</td>
                 <td>〜100名</td>
                 <td>50,000円</td>
                 <td>49,700円</td>
             </tr>  
-        </div>
+        </table>
     </div>
 </div>
 
