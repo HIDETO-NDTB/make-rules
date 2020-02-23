@@ -14,7 +14,7 @@
 </div>
 <div id="contentsintroduce">
     <div class="container">
-        <h2>Make Rules 単独利用契約のメリット</h2>
+        <h3>Make Rules 単独利用契約のメリット</h3>
         <div class="contentdetale">
             <h4>1. 学校や職場の仲間だけで使える</h4>
             <h4>2. 思考力、説得力、理解力の育成に繋がる</h4>

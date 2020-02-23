@@ -1368,6 +1368,33 @@ div.resultButton a.btncmtttl {
     margin-top: 350px;
   }
 
+  #contentsintroduce h3 {
+    position: relative;
+    padding: 0.25em 1em;
+    border-top: solid 2px #8D3043;
+    border-bottom: solid 2px #8D3043;
+    width: 400px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  #contentsintroduce h3:before, #contentsintroduce h3:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: -webkit-calc(100% + 14px);
+    height: calc(100% + 14px);
+    background-color: #8D3043;
+  }
+  
+  #contentsintroduce h3:before {
+    left: 7px;
+  }
+  
+  #contentsintroduce h3:after {
+    right: 7px;
+  }
+
   h5.introduce {
     font-size: 22px;
     color: white;
