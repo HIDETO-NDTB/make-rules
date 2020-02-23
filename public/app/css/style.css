@@ -1798,7 +1798,10 @@ div.resultButton a.btncmtttl {
       }
       div.contactintroduce a.btnintroduce {
         font-size: 16px;
-    }
+      }
+      li.nav-item-introduce {
+        display: none;
+      }
   }
 
   div.bottom-menu {
