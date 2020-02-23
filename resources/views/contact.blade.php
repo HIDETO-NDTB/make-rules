@@ -25,7 +25,7 @@
                         <select name="category" style="width: 400px;">
                             <option value="makerules">Make Rules に関するお問い合わせ</option>
                             <option value="problem">不具合報告</option>
-                            <option value="add">単独利用契約に関するお問い合わせ</option>
+                            <option value="add" style="color:#8D3043;">単独利用契約に関するお問い合わせ</option>
                             <option value="business">ビジネスに関するお問い合わせ</option>
                             <option value="others">その他のお問い合わせ</option>
                         </select>
