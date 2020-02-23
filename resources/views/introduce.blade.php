@@ -34,7 +34,7 @@
                 <h4>4. 日々の生活に問題意識が芽生える</h4>
             </div>
             <div class="contentdetale2">
-                <h4>5. 月●●●●●円〜。最短３ヶ月契約OK</h4>
+                <h4>5. 月29,700円〜。最短３ヶ月契約OK</h4>
                 <p>※ プランによって異なります</p>
             </div>
             <div class="contentdetale2">
