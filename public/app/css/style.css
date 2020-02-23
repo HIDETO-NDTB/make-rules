@@ -1517,6 +1517,24 @@ div.resultButton a.btncmtttl {
     font-size: 18px;
   }
 
+  div.mobile-option2 {
+    margin: 20px auto;
+  }
+  
+  div.mobile-top2 {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    background-color:#8D3043;
+    padding: 8px;
+    margin: 0 auto;
+  }
+  
+  div.mobile-top2 h4 {
+    font-size: 16px;
+    color: white;
+  }
+
   @media (max-width: 1024px ) {
       * {
         float: none;
@@ -1732,6 +1750,9 @@ div.resultButton a.btncmtttl {
       .result-content li {
         padding: 20px 0;
       }
+      div.introduce-option{
+        display: none;
+      }
       img.school {
         display: none;
       }
@@ -1793,6 +1814,9 @@ div.resultButton a.btncmtttl {
       display: none;
     }
     div.mobile-option {
+      display: none;
+    }
+    div.mobile-option2 {
       display: none;
     }
   }

@@ -13,6 +13,16 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row centered">
+        <div class="mobile-option2">
+            <div class="mobile-top2">
+                <h4>Make Rulesを学校や職場などで使いませんか？</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="contentsintroduce">
     <div class="container">
         <div class="col-lg-6">
