@@ -46,6 +46,9 @@
             </div>
         </div>
     </div>
+</div>
+
+<div id="priceintroduce">
     <div class="container">
         <h3>商品のご紹介</h3>
         <table class="contentfee" border="1" cellpadding="5" cellspacing="5" width="100%">
@@ -54,6 +57,7 @@
         </div>
     </div>
 </div>
+
 
 
 @endsection
