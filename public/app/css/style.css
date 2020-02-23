@@ -1480,6 +1480,26 @@ div.resultButton a.btncmtttl {
     right: 7px;
   }
 
+  table.contentsfee {
+    width: 80%;
+    margin-bottom: 50px;
+  }
+
+  table.contentsfee th {
+    border: 1px solid black;
+    height: 40px;
+    background-color: burlywood;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  table.contentsfee td {
+    border: 1px solid black;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
   @media (max-width: 1024px ) {
       * {
         float: none;
