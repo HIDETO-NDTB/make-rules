@@ -889,6 +889,11 @@ div .contact {
 }
 
 div.mobile-top3 {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color:#8D3043;
+  margin: 0 auto;
   padding: 15px 8px;
 }
 
