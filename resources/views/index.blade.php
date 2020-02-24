@@ -25,6 +25,16 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="row centered">
+        <div class="mobile-option2">
+            <div class="mobile-top2">
+                <a class="navbtnjob" href="{{ route('introduce') }}">Make Rulesを学校や職場などで使いませんか？</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container z">
     <div class="row centered">
     <h3>ニュース</h3>
