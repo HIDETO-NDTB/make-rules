@@ -888,6 +888,14 @@ div .contact {
   padding: 7px 0;
 }
 
+div.mobile-top3 {
+  padding: 15px 8px;
+}
+
+div.mobile-top3 a.navbtnjob {
+  color: white;
+}
+
 /* category */
 div.mobile-option {
   margin: 20px auto;
