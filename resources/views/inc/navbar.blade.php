@@ -42,7 +42,7 @@
                     <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
                 </li> 
                 <li class="nav-item-introduce">
-                    <a class="navbtnjob" href="{{ route('introduce') }}">商品：単独利用</a>
+                    <a class="navbtnjob" href="{{ route('introduce') }}">単独利用契約</a>
                 </li>
             </ul>
         </div>
