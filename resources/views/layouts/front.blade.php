@@ -23,7 +23,7 @@
   <title>Make Rules</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-  <meta name="keywords"　content="rule,規則,法案,発議,コメント,投票,開票,開票速報,Webサービス" />>
+  <meta name="keywords"　content="rule,規則,法案,発議,コメント,投票,開票,開票速報,Webサービス" />
   <meta name="description" content="あればイイなという規則や廃止したい規則を発議後、1週間皆で賛成・反対を協議。そして更に1週間の投票の結果、新しい規則ができる。新しい規則ができても世の中は全く変わらないが、自分が1mmだけ成長したことに気づくWebサービス。" />
 
   <!-- Favicons -->
