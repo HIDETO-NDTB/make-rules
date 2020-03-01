@@ -952,6 +952,11 @@ div.mobile-detale {
     background-color: white;
 }
 
+img.cmtimg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .form-group {
     margin-top: 30px;
 }
@@ -1019,6 +1024,11 @@ p#opiniontext {
 .error {
     font-size: 22px;
     color: red;
+}
+
+img.imgvote {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* result.blade */
@@ -1105,6 +1115,11 @@ p#opiniontext {
 .result-option {
     width: 420px;
     margin: 0 auto 30px auto;
+}
+
+img.imgresult {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /* initiative.blade */
