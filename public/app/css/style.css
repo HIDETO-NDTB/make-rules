@@ -571,6 +571,10 @@ button.btn.dropdown-toggle {
   color: #8D3043;
 }
 
+div.navbar-collapse collapse {
+  float: left;
+}
+
 /* index.blade */
 div.initiativeButton {
   display: inline-block;
