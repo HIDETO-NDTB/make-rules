@@ -1569,6 +1569,9 @@ div.resultButton a.btncmtttl {
         padding-right: 0px;
         padding-left: 0;
       }
+      button.btn.dropdown-toggle {
+        width: 110px;
+      }
       div .initiative-option {
         padding-top: 400px;
       }
