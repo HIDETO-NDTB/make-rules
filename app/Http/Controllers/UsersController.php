@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
 
 class UsersController extends Controller
 {
@@ -34,7 +35,26 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($reqest,[
+            'name' => ['required', 'string', 'max:255'],
+            'age' => ['integer'],
+            'gender' => ['string'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
+
+        $user = User::create([
+            'name' => $request->name,
+            'age' => $request->age,
+            'gender' => $request->gender,
+            'email' => $request->email,
+            'password' => Hash::make($data['password']),
+        ]);
+
+        $user->save();
+
+        Session::flash('success','新規ユーザーを追加しました');
+        return redirect()->route('admin_register');
     }
 
     /**
