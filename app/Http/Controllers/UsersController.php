@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use App\User;
+use App\Category;
+use Illuminate\Support\Facades\Session;
 
 class UsersController extends Controller
 {
