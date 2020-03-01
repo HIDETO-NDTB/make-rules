@@ -1550,9 +1550,6 @@ div.resultButton a.btncmtttl {
   }
 
   @media (max-width: 1024px ) {
-      * {
-        float: none;
-      }
       body {
         padding-bottom: 50px;
       }
@@ -1568,6 +1565,10 @@ div.resultButton a.btncmtttl {
         min-height: 1px;
         padding-right: 0px;
         padding-left: 0;
+      }
+      .navbar-nav {
+        float: left;
+        margin: 0;
       }
       button.btn.dropdown-toggle {
         width: 110px;
