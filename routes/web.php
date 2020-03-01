@@ -72,6 +72,11 @@ Route::get('/introduce',[
     'as' => 'introduce'
 ]);
 
+Route::get('/register',[
+    'uses' => 'FrontEndController@manage',
+    'as' => 'manage'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');

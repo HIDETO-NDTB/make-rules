@@ -212,4 +212,10 @@ class FrontEndController extends Controller
         
     }
 
+    public function manage(){
+
+        return view('register')->with('categories',Category::all());
+        
+    }
+
 }
