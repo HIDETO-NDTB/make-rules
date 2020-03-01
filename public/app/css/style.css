@@ -601,9 +601,27 @@ div.voteButton {
   margin-left: 30px;
 }
 
+div.manageButton {
+  display: inline-block;
+  position: relative;
+  background-color: #8D3043;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
 a.threebtn {
   font-size: 22px;
   color: #8D3043;
+  position: absolute;
+  top: 43px;
+  left: 17px;
+}
+
+a.fourbtn {
+  font-size: 22px;
+  color: white;
   position: absolute;
   top: 43px;
   left: 17px;
