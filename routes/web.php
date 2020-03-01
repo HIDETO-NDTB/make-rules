@@ -72,7 +72,7 @@ Route::get('/introduce',[
     'as' => 'introduce'
 ]);
 
-Route::get('/register',[
+Route::get('/register-admin',[
     'uses' => 'FrontEndController@manage',
     'as' => 'manage'
 ]);
