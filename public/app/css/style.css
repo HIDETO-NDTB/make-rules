@@ -571,6 +571,11 @@ button.btn.dropdown-toggle {
   color: #8D3043;
 }
 
+a.btn.btn-success {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 /* index.blade */
 div.initiativeButton {
   display: inline-block;
