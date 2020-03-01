@@ -951,6 +951,11 @@ div.mobile-detale {
     background-color: white;
 }
 
+img.cmtimg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .form-group {
     margin-top: 30px;
 }
