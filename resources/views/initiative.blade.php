@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row centered">
             <div class="col-lg-12">
-                <img class="imgitt" src="{{ secure_asset('app/img/initiative-min.jpg') }}">
+                <img class="imgitt" src="{{ asset('app/img/initiative-min.jpg') }}">
             </div>
         </div>
     </div>
