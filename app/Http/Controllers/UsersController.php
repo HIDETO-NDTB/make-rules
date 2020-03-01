@@ -51,7 +51,7 @@ class UsersController extends Controller
             'age' => $request->age,
             'gender' => $request->gender,
             'email' => $request->email,
-            'password' => Hash::make($data['password']),
+            'password' => Hash::make($request->password),
         ]);
 
         $user->save();
