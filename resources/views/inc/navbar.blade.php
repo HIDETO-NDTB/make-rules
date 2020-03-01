@@ -40,7 +40,14 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item">
                     <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
-                </li> 
+                </li>
+                @if(Auth::check() && Auth::user()->admin == 1)
+                <li class="nav-item">
+                <a class="btn btn-success" href="{{ route('register') }}" style="width: 120px">
+                    {{ __('管理者') }}
+                </a>
+                </li>
+                @endif
             </ul>
         </div>
     </div>
