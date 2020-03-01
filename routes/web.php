@@ -72,9 +72,9 @@ Route::get('/introduce',[
     'as' => 'introduce'
 ]);
 
-Route::get('/register-admin',[
-    'uses' => 'FrontEndController@manage',
-    'as' => 'manage'
+Route::get('/admin-register',[
+    'uses' => 'FrontEndController@adminregister',
+    'as' => 'admin_register'
 ]);
 
 Auth::routes();

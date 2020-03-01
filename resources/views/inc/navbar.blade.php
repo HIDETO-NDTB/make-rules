@@ -42,7 +42,7 @@
                     <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
                 </li>
                 @if(Auth::check() && Auth::user()->admin == 1)
-                <a class="btn btn-success" href="{{ route('manage') }}" style="width: 140px">管理者メニュー</a>
+                <a class="btn btn-success" href="{{ route('admin_register') }}" style="width: 140px">管理者メニュー</a>
                 @endif
             </ul>
         </div>

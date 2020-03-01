@@ -212,9 +212,9 @@ class FrontEndController extends Controller
         
     }
 
-    public function manage(){
+    public function adminregister(){
 
-        return view('auth.register')->with('categories',Category::all());
+        return view('adminregister')->with('categories',Category::all());
         
     }
 
