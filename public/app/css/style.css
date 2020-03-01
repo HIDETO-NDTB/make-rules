@@ -1566,9 +1566,8 @@ div.resultButton a.btncmtttl {
         padding-right: 0px;
         padding-left: 0;
       }
-      .navbar-nav {
-        float: left;
-        margin: 0;
+      .navbar-inverse .navbar-nav>li.nav-item-introduce {
+        width: 120px;
       }
       button.btn.dropdown-toggle {
         width: 110px;
