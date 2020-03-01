@@ -1025,6 +1025,11 @@ p#opiniontext {
     color: red;
 }
 
+img.imgvote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 /* result.blade */
 
 .resulttitle h3 {
