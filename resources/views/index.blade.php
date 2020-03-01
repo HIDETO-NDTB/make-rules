@@ -19,11 +19,6 @@
                     <div class="voteButton">
                         <a class="threebtn" href="{{ route('vote_total') }}">投票する</a>
                     </div>
-                    @if(Auth::check() && Auth::user()->admin = "1")
-                    <div class="manageButton">
-                        <a class="fourbtn" href="{{ route('register') }}">管理者ページ</a>
-                    </div>
-                    @endif
                 </div>
             </div>
         </div>
