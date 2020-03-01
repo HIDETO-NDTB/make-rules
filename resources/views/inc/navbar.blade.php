@@ -43,8 +43,8 @@
                 </li>
                 @if(Auth::check() && Auth::user()->admin == 1)
                 <li class="nav-item">
-                <a class="btn btn-success" href="{{ route('register') }}" style="width: 120px">
-                    {{ __('管理者') }}
+                <a class="btn btn-success" href="{{ route('register') }}" style="width: 200px">
+                    {{ __('新規登録はコチラ') }}
                 </a>
                 </li>
                 @endif
