@@ -35,7 +35,7 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($reqest,[
+        $this->validate($request,[
             'name' => ['required', 'string', 'max:255'],
             'age' => ['integer'],
             'gender' => ['string'],
