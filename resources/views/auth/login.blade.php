@@ -74,7 +74,7 @@
                                     </a>
                                 @endif
 
-                                @if(Auth::user()>admin == 1)
+                                @if(Auth::user()->admin == "1")
                                 <a class="btn btn-success" href="{{ route('register') }}" style="width: 200px">
                                     {{ __('新規登録はコチラ') }}
                                 </a>
