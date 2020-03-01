@@ -27,14 +27,14 @@
   <meta name="description" content="あればイイなという規則や廃止したい規則を発議後、1週間皆で賛成・反対を協議。そして更に1週間の投票の結果、新しい規則ができる。新しい規則ができても世の中は全く変わらないが、自分が1mmだけ成長したことに気づくWebサービス。" />
 
   <!-- Favicons -->
-  <link href="{{ secure_asset('app/img/favicon.png') }}" rel="icon">
-  <link href="{{ secure_asset('app/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  <link href="{{ asset('app/img/favicon.png') }}" rel="icon">
+  <link href="{{ asset('app/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="{{ secure_asset('app/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('app/lib/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
 
@@ -42,10 +42,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
   <!-- Main Stylesheet File -->
-  <link href="{{ secure_asset('app/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('app/css/style.css') }}" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="{{ secure_asset('js/textCount.js') }}"></script>
+  <script src="{{ asset('js/textCount.js') }}"></script>
 
   
 
@@ -80,13 +80,13 @@
   @include('inc/copyrights')
 
   <!-- JavaScript Libraries -->
-  <script src="{{ secure_asset('app/lib/jquery/jquery.min.js') }}"></script>
-  <script src="{{ secure_asset('app/lib/bootstrap/js/bootstrap.min.js') }}"></script>
-  <script src="{{ secure_asset('app/lib/php-mail-form/validate.js') }}"></script>
-  <script src="{{ secure_asset('app/lib/chart/chart.js') }}"></script>
+  <script src="{{ asset('app/lib/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('app/lib/bootstrap/js/bootstrap.min.js') }}"></script>
+  <script src="{{ asset('app/lib/php-mail-form/validate.js') }}"></script>
+  <script src="{{ asset('app/lib/chart/chart.js') }}"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="{{ secure_asset('app/js/main.js') }}"></script>
+  <script src="{{ asset('app/js/main.js') }}"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
   <script>

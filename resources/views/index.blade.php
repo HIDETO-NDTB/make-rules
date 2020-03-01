@@ -39,7 +39,7 @@
     <div class="row centered">
     <h3>ニュース</h3>
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-            <h4><img src="{{ secure_asset('app/img/voteicon.png') }}">投票 <span>中</span></h4>
+            <h4><img src="{{ asset('app/img/voteicon.png') }}">投票 <span>中</span></h4>
             <br>
             @isset($first_now_vote)
             <li><a href="{{ route('vote',['id' =>$first_now_vote->id]) }}">{{ $first_now_vote->finish_date }} 投票終了 : {{ $first_now_vote->title }}</a></li>
@@ -58,7 +58,7 @@
         </div>
       <!-- col-lg-4 -->
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-            <h4><img src="{{ secure_asset('app/img/commenticon.png') }}"><span>近</span>  投票</h4>
+            <h4><img src="{{ asset('app/img/commenticon.png') }}"><span>近</span>  投票</h4>
             <br>
             @isset($first_vote)
             <li><a href="{{ route('rule.single',['id' =>$first_vote->id]) }}">{{ $first_vote->vote_date }} 投票開始 : {{ $first_vote->title }}</a></li>
@@ -78,7 +78,7 @@
         <!-- col-lg-4 -->
 
         <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1">
-            <h4><img src="{{ secure_asset('app/img/newicon.png') }}"><span>新</span>  発議</h4>
+            <h4><img src="{{ asset('app/img/newicon.png') }}"><span>新</span>  発議</h4>
             <br>
             @isset($first_initiative)
             <li><a href="{{ route('rule.single',['id' =>$first_initiative->id]) }}">{{ $first_initiative->initiative_date }} 発議 : {{ $first_initiative->title }}</a></li>
