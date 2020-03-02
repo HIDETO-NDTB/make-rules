@@ -6,31 +6,29 @@
         <table class="table">
             <tr class="user-table">
                 <th>ID</th>
-                <th>Title</th>
-                <th>内容</th>
-                <th>カテゴリ</th>
+                <th>意見</th>
+                <th>コメント</th>
                 <th>ユーザー名</th>
-                <th>発議日</th>
+                <th>ルールID</th>
+                <th>コメント日</th>
                 <th>管理者操作</th>
             </tr>
-            @foreach ($rules as $rule)
-            <form action="{{ route('rules.destroy',['id' =>$rule->id]) }}" method="post">
-            @csrf
-            @method('DELETE')
+            @foreach ($comments as $comment)
+            
               <tr class="user-table">
-                <td>{{ $rule->id }}</td>
-                <td  class="left">{{ $rule->title }}</td>
-                <td  class="left">{{ $rule->content }}</td>
-                <td>{{ $rule->category->name }}</td>
-                <td>{{ $rule->user->name }}</td>
-                <td>{{ $rule->initiative_date }}</td>
+                <td>{{ $comment->id }}</td>
+                <td>{{ $comment->opinion }}</td>
+                <td  class="left">{{ $comment->comment }}</td>
+                <td>{{ $comment->user->name }}</td>
+                <td>{{ $comment->rule_id }}</td>
+                <td>{{ $comment->comment_date }}</td>
                 <td><button type="submit" class="btn btn-danger" style="width: 80px;">削除</button></td>
               </tr>
             </form>
             @endforeach
         </table>
     </div>
-    <p>※ 削除ボタンを押すとルールが削除されます。元に戻すことはできません</p>
+    <p>※ 削除ボタンを押すとコメントが削除されます。元に戻すことはできません</p>
 </div>
 
 @endsection
