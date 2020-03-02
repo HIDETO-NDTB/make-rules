@@ -18,8 +18,8 @@
         <td>{{ $user->age }}</td>
         <td>{{ $user->gender }}</td>
         <td>{{ $user->email }}</td>
-        <td><button class="btn btn-danger" style="width: 100px;">削除</button></td>
-        <td><button class="btn btn-primary" style="width: 100px;">変更</button></td>
+        <td><a class="btn btn-danger" href="{{ route('users.show') }}" style="width: 100px;">削除</a></td>
+        <td><a class="btn btn-primary" href="" style="width: 100px;">変更</a></td>
       </tr>
     @endforeach
 </table>

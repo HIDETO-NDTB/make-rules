@@ -68,7 +68,8 @@ class UsersController extends Controller
      */
     public function show($id)
     {
-        //
+        return view('usershow')->with('categories',Category::all())
+                               ->with('users',User::all());
     }
 
     /**
