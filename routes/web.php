@@ -87,6 +87,11 @@ Route::get('/rule-show',[
     'as' => 'rule_show'
 ]);
 
+Route::get('/comment-show',[
+    'uses' => 'FrontEndController@commentshow',
+    'as' => 'comment_show'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');

@@ -233,4 +233,13 @@ class FrontEndController extends Controller
         
     }
 
+    public function commentshow(){
+
+        return view('commentshow')->with('categories',Category::all())
+                                ->with('rules',Rule::all())
+                                ->with('users',User::all())
+                                ->with('comments',Comment::all());
+        
+    }
+
 }

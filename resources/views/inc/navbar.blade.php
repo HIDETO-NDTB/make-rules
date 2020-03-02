@@ -47,6 +47,7 @@
                     <li><a href="{{ route('admin_register') }}">ユーザー登録</a></li>
                     <li><a href="{{ route('admin_show') }}">ユーザー一覧</a></li>
                     <li><a href="{{ route('rule_show') }}">ルール一覧</a></li>
+                    <li><a href="{{ route('comment_show') }}">コメント一覧</a></li>
                 </ul>
                 @endif
             </ul>
