@@ -12,7 +12,7 @@
         <th colspan="2">管理者操作</th>
     </tr>
     @foreach ($users as $user)
-      <tr>
+      <tr class="user-table">
         <td>{{ $user->id }}</td>
         <td>{{ $user->name }}</td>
         <td>{{ $user->age }}</td>
