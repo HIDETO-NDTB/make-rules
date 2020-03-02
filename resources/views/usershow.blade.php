@@ -25,7 +25,7 @@
                             @endforeach
                         </ul>
                     @endif
-                    <form action="{{ route('users.destroy') }}" method="post">
+                    <form action="{{ route('users.destroy',['id' =>$user->id]) }}" method="post">
                         @csrf
                         @method('DELETE')
                         <div class="form-group">
