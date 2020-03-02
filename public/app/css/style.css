@@ -1584,9 +1584,10 @@ div.resultButton a.btncmtttl {
 
   /* adminshow.blade */
 
-  table.user-table {
-    width: 100%;
-    
+  table.table.user-table {
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   @media (max-width: 1024px ) {
