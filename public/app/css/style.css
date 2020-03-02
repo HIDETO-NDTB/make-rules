@@ -1586,7 +1586,8 @@ div.resultButton a.btncmtttl {
 
   div.user-table {
     border: 1px solid black;
-    margin: 120px 50px 50px 50px;
+    margin-top: 120px;
+    margin-bottom: 50px;
   }
 
   tr.user-table th {
