@@ -2,7 +2,7 @@
 @section('page')
 
 <div class="user-table">
-<table>
+<table class="table">
     <tr>
         <th>ID</th>
         <th>名前</th>
