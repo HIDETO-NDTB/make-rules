@@ -44,7 +44,7 @@
                             <input type="hidden" name="pass" value="{{ $user->password }}">
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btncmt2">上記ユーザー削除</button>
+                            <button type="submit" class="btncmt2">上記ユーザーの削除</button>
                         </div>
                     </form>
                 </div>

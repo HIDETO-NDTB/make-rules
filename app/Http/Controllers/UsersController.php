@@ -106,6 +106,6 @@ class UsersController extends Controller
         $user->delete();
 
         Session::flash('success','ユーザーを削除しました');
-        return redirect()->route('adminshow');
+        return redirect()->route('admin_show');
     }
 }
