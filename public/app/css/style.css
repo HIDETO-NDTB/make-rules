@@ -1584,7 +1584,7 @@ div.resultButton a.btncmtttl {
 
   /* adminshow.blade */
 
-  table.table.user-table {
+  div.user-table {
     border: 1px solid black;
     margin-top: 50px;
     margin-bottom: 50px;
