@@ -42,7 +42,11 @@
                     <a class="navbtn" href="{{ route('how_to_use') }}">利用方法</a>
                 </li>
                 @if(Auth::check() && Auth::user()->admin == 1)
-                <a class="btn btn-success" href="{{ route('admin_register') }}" style="width: 140px">管理者メニュー</a>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">>管理者メニュー</button>
+                <ul class="dropdown-menu">
+                    <li><a href="{{ route('admin_register') }}"></a>新規登録</li>
+                    <li><a href=""></a>ユーザー一覧</li>
+                </ul>
                 @endif
             </ul>
         </div>
