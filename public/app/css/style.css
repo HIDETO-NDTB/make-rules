@@ -1582,6 +1582,13 @@ div.resultButton a.btncmtttl {
     color: white;
   }
 
+  /* adminshow.blade */
+
+  table.user-table {
+    width: 100%;
+    
+  }
+
   @media (max-width: 1024px ) {
       * {
         float: none;

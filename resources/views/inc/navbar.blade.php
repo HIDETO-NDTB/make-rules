@@ -45,7 +45,7 @@
                 <button type="button" class="btn dropdown-toggle2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">管理者メニュー</button>
                 <ul class="dropdown-menu">
                     <li><a href="{{ route('admin_register') }}">新規登録</a></li>
-                    <li><a href="">ユーザー一覧</a></li>
+                    <li><a href="{{ route('admin_show') }}">ユーザー一覧</a></li>
                 </ul>
                 @endif
             </ul>

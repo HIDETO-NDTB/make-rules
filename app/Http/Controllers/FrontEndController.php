@@ -218,4 +218,11 @@ class FrontEndController extends Controller
         
     }
 
+    public function adminshow(){
+
+        return view('adminshow')->with('categories',Category::all())
+                                ->with('users',User::all());
+        
+    }
+
 }

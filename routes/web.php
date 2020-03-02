@@ -77,6 +77,11 @@ Route::get('/admin-register',[
     'as' => 'admin_register'
 ]);
 
+Route::get('/admin-show',[
+    'uses' => 'FrontEndController@adminshow',
+    'as' => 'admin_show'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');
