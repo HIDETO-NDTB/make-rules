@@ -24,6 +24,7 @@
       </tr>
     @endforeach
 </table>
+<p>削除ボタンを押すとルールが削除されます。元に戻すことはできません</p>
 </div>
 
 @endsection
