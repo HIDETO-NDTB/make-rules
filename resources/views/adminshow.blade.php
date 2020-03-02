@@ -1,7 +1,7 @@
 @extends('layouts.front')
 @section('page')
 
-<table class="user-table">
+<table class="table user-table">
     <tr>
         <th>ID</th>
         <th>名前</th>
