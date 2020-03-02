@@ -82,6 +82,11 @@ Route::get('/admin-show',[
     'as' => 'admin_show'
 ]);
 
+Route::get('/rule-show',[
+    'uses' => 'FrontEndController@ruleshow',
+    'as' => 'rule_show'
+]);
+
 Auth::routes();
 
 Route::get('/home', 'FrontEndController@index');
