@@ -9,15 +9,15 @@
         <th>性別</th>
         <th>Eメール</th>
     </tr>
-    <tr>
-      @foreach ($users as $user)
+    @foreach ($users as $user)
+      <tr>
         <td>{{ $user->id }}</td>
         <td>{{ $user->name }}</td>
         <td>{{ $user->age }}</td>
         <td>{{ $user->gender }}</td>
         <td>{{ $user->email }}</td>
-      @endforeach
-    </tr>
+      </tr>
+    @endforeach
 </table>
 
 
