@@ -45,6 +45,7 @@
                         </div>
                         <div class="form-group">
                             <button type="submit" class="btncmt2">上記ユーザーの削除</button>
+                            <p>削除すると元には戻せません</p>
                         </div>
                     </form>
                 </div>
