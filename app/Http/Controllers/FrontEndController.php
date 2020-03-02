@@ -228,7 +228,8 @@ class FrontEndController extends Controller
     public function ruleshow(){
 
         return view('ruleshow')->with('categories',Category::all())
-                                ->with('rules',Rule::all());
+                                ->with('rules',Rule::all())
+                                ->with('users',User::all());
         
     }
 
