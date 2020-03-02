@@ -14,7 +14,9 @@
                 <th>管理者操作</th>
             </tr>
             @foreach ($comments as $comment)
-            
+            <form action="{{ route('comments.destroy',['id' =>$comment->id]) }}" method="post">
+            @csrf
+            @method('DELETE')
               <tr class="user-table">
                 <td>{{ $comment->id }}</td>
                 <td>{{ $comment->opinion }}</td>

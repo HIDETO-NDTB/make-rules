@@ -101,8 +101,11 @@ class CommentsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Comment $comment)
     {
-        //
+        $comment->delete();
+
+        Session::flash('success','コメントを削除しました');
+        return redirect()->route('comment_show');
     }
 }
