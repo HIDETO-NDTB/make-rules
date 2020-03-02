@@ -1597,6 +1597,12 @@ div.resultButton a.btncmtttl {
     text-align: center;
   }
 
+  /* ruleshow.blade */
+
+  tr.user-table td.left {
+    text-align: left;
+  }
+
   @media (max-width: 1024px ) {
       * {
         float: none;
