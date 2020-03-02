@@ -3,7 +3,7 @@
 
 <div class="user-table">
 <table class="table">
-    <tr>
+    <tr class="user-table">
         <th>ID</th>
         <th>名前</th>
         <th>年齢</th>
