@@ -15,7 +15,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="cards">
-                <h3>マイページ</h3>
+                <h3>削除ページ</h3>
 
                 <div class="card-body">
                     @if($errors->any())
@@ -25,9 +25,9 @@
                             @endforeach
                         </ul>
                     @endif
-                    <form action="{{ route('profile.update') }}" method="post" enctype="multipart/form-data">
+                    <form action="{{ route('users.destroy') }}" method="post">
                         @csrf
-                        @method('PUT')
+                        @method('DELETE')
                         <div class="form-group">
                             <label for="username">氏名</label>
                             <input type="text" class="form-control" name="name" value="{{ $user->name }}">
@@ -44,11 +44,7 @@
                             <input type="hidden" name="pass" value="{{ $user->password }}">
                         </div>
                         <div class="form-group">
-                            <label for="avatar">写真の追加 (数分かかる場合があります）</label>
-                            <input type="file" name="avatar">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btncmt2">プロフィール更新</button>
+                            <button type="submit" class="btncmt2">上記ユーザー削除</button>
                         </div>
                     </form>
                 </div>
