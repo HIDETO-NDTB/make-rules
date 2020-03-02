@@ -106,8 +106,11 @@ class RulesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Rule $rule)
     {
-        //
+        $rule->delete();
+
+        Session::flash('success','ルールを削除しました');
+        return redirect()->route('rule_show');
     }
 }
