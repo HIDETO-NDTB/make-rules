@@ -42,7 +42,7 @@ class RulesController extends Controller
     {
         // validation
         $this->validate($request,[
-            'title' => 'required|unique:rules|max:20',
+            'title' => 'required|max:20',
             'content' => 'required|max:300',
         ]);
 
