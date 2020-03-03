@@ -14,6 +14,7 @@
                 <th>管理者操作</th>
             </tr>
             @foreach ($comments as $comment)
+            @isset($comment->comment)
             <form action="{{ route('comments.destroy',['id' =>$comment->id]) }}" method="post">
             @csrf
             @method('DELETE')
@@ -27,6 +28,7 @@
                 <td><button type="submit" class="btn btn-danger" style="width: 80px;">削除</button></td>
               </tr>
             </form>
+            @endisset
             @endforeach
         </table>
     </div>
