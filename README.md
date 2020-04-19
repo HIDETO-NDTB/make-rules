@@ -19,4 +19,4 @@
 ##### 4.After 1 week you can see the result 
 ##### 5.If your rule is accepted by this world, but this world doesn't any change. You just get a logical thinking.
 #### Author: HIDETO-NDTB
-#### License
+#### License: This software is released under the MIT License, see LICENSE.
