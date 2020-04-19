@@ -13,10 +13,10 @@
 #### Features: Website that cultivates thinking through initiative, comment and voting
 #### Requirement: PHP Laravel MySQL 
 #### Usage: 
-1.Initiative new rule that you want to make 
-2.Other people give a comment 
-3.After 1 week user can vote whether agree or disagree with your rule 
-4.After 1 week you can see the result 
-5.If your rule is accepted by this world, but this world doesn't any change. You just get a logical thinking.
+##### 1.Initiative new rule that you want to make 
+##### 2.Other people give a comment 
+##### 3.After 1 week user can vote whether agree or disagree with your rule 
+##### 4.After 1 week you can see the result 
+##### 5.If your rule is accepted by this world, but this world doesn't any change. You just get a logical thinking.
 #### Author: HIDETO-NDTB
 #### License
