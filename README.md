@@ -11,7 +11,7 @@
 <img width="919" alt="resultpage" src="https://user-images.githubusercontent.com/57483907/79681312-484b9c80-8254-11ea-90e2-13192bb0e7f8.png">
 
 #### Features: Website that cultivates thinking through initiative, comment and voting
-#### Requirement: PHP7.3.13 Laravel5.8 MySQL5.7.28 
+#### Requirement: PHP7.3.13  Laravel5.8  MySQL5.7.28  AWS-EC2 AWS-S3
 #### Usage: 
 ##### 1.Initiative new rule that you want to make 
 ##### 2.Other people give a comment 
