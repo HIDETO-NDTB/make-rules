@@ -25,15 +25,15 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="row centered">
-        <div class="mobile-option2">
-            <div class="mobile-top3">
-                <a class="navbtnjob" href="{{ route('introduce') }}">Make Rulesを学校や職場などで使いませんか？</a>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div class="container">--}}
+{{--    <div class="row centered">--}}
+{{--        <div class="mobile-option2">--}}
+{{--            <div class="mobile-top3">--}}
+{{--                <a class="navbtnjob" href="{{ route('introduce') }}">Make Rulesを学校や職場などで使いませんか？</a>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 <div class="container z">
     <div class="row centered">
@@ -180,7 +180,7 @@
         </div>
         <div class="resulttotalButton">
             <a class="btnblack" href="{{ route('result_total') }}">開票済み一覧</a>
-        </div>  
+        </div>
     <!-- row -->
     </div>
     <!-- container -->
@@ -195,7 +195,7 @@
         @foreach ($rules as $rule)
         @if($first_disagree_comment->rule_id == $rule->id && $rule->vote_date > today())
         <div class="commentsBox">
-            
+
             <div class="commentButton">
                 <a class="btncmt" href="{{ route('rule.single',['id' =>$first_disagree_comment->rule_id]) }}">詳しく見る</a>
             </div>
